@@ -5,8 +5,8 @@ COPY package*.json ./
 RUN npm ci
 COPY src ./src
 COPY server.mjs core.mjs ./
-RUN npx remotion browser ensure && mkdir -p /data && chown -R node:node /app /data
-ENV NODE_ENV=production DATA_DIR=/data PORT=8080
+RUN npx remotion bundle src/index.tsx bundle && npx remotion browser ensure && mkdir -p /data && chown -R node:node /app /data
+ENV NODE_ENV=production DATA_DIR=/data PORT=8080 REMOTION_BUNDLE_DIR=/app/bundle
 COPY docker-entrypoint.sh /usr/local/bin/nafhamha-entrypoint
 RUN chmod 755 /usr/local/bin/nafhamha-entrypoint
 ENTRYPOINT ["/usr/local/bin/nafhamha-entrypoint"]
