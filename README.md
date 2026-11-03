@@ -39,3 +39,6 @@ https://ai.google.dev/gemini-api/docs/speech-generation
 https://developers.google.com/youtube/v3/guides/authentication
 https://developers.google.com/youtube/v3/docs/videos/insert
 https://www.remotion.dev/docs/renderer/render-media
+
+## إعداد Google من لوحة الموبايل
+بدل إدخال GOOGLE_CLIENT_ID وGOOGLE_CLIENT_SECRET في Railway، يمكنك إدخالهما في قسم الربط داخل الاستوديو بعد تشغيل الخدمة. احفظ الإعداد، ثم اربط حساب يوتيوب. يحفظ الخادم بيانات العميل مشفرة في /data/google-client.enc بنفس مفتاح التشفير الثابت. لا يُرجعها API ولا يسجلها. العميل من نوع Web application، وعنوان إعادة التوجيه هو PUBLIC_URL متبوعًا بـ /oauth/google/callback.
