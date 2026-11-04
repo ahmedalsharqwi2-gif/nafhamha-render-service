@@ -1,4 +1,5 @@
 import http from 'node:http';
+import {storeMedia,serveMedia} from './media.mjs';
 import {generateVoice} from './voice.mjs';
 import {mkdir,writeFile,readFile,rm,stat} from 'node:fs/promises';
 import {createReadStream} from 'node:fs';
@@ -31,6 +32,7 @@ const server=http.createServer(async(req,res)=>{const url=new URL(req.url,PUBLIC
  if(origin===ORIGIN){res.setHeader('Access-Control-Allow-Origin',ORIGIN);res.setHeader('Vary','Origin');res.setHeader('Access-Control-Allow-Headers','Authorization,Content-Type');res.setHeader('Access-Control-Allow-Methods','GET,POST,OPTIONS')}
  if(req.method==='OPTIONS'){res.writeHead(origin===ORIGIN?204:403);res.end();return}
  try{
+ if(await serveMedia(req,res,url.pathname,DATA))return;
  if(url.pathname==='/health'){json(res,200,{ok:true});return}
  if(url.pathname.startsWith('/internal/audio/')){const [, , ,id,nonce]=url.pathname.split('/');const j=jobs.get(id);if(!j||nonce!==j.audioNonce||req.socket.remoteAddress!=='127.0.0.1'&&req.socket.remoteAddress!=='::ffff:127.0.0.1'&&req.socket.remoteAddress!=='::1'){json(res,404,{error:'غير موجود'});return}res.setHeader('Content-Type','application/octet-stream');createReadStream(j.audio).pipe(res);return}
  if(url.pathname==='/oauth/google/callback'){const config=await oauthConfig();
@@ -42,6 +44,7 @@ const server=http.createServer(async(req,res)=>{const url=new URL(req.url,PUBLIC
  if(origin&&origin!==ORIGIN){json(res,403,{error:'مصدر الطلب غير مسموح.'});return}
  if(!authorized(req.headers.authorization,SECRET)){json(res,401,{error:'مفتاح خدمة التصدير غير صحيح.'});return}
  if(req.method==='GET'&&url.pathname==='/api/status'){json(res,200,{ok:true,geminiConfigured:Boolean(process.env.GEMINI_API_KEY),voice:'Charon',youtubeConfigured:await oauthReady(),channel:await channel(),redirectUri:PUBLIC+'/oauth/google/callback'});return}
+ if(req.method==='POST'&&url.pathname==='/api/media'){const bytes=await body(req);json(res,201,await storeMedia(bytes,DATA,PUBLIC));return}
  if(req.method==='POST'&&url.pathname==='/api/voice'){
  if(voiceBusy){json(res,429,{error:'توليد صوت آخر جارٍ الآن. انتظر قليلًا.'});return}
  const input=JSON.parse((await body(req,20000)).toString());voiceBusy=true;
