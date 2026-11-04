@@ -1,4 +1,5 @@
 import http from 'node:http';
+import {generateVoice} from './voice.mjs';
 import {mkdir,writeFile,readFile,rm,stat} from 'node:fs/promises';
 import {createReadStream} from 'node:fs';
 import {randomUUID,randomBytes,createHash} from 'node:crypto';
@@ -16,7 +17,7 @@ const ORIGIN=process.env.DASHBOARD_ORIGIN||'',PUBLIC=process.env.PUBLIC_URL||'';
 if(!ORIGIN.startsWith('https://')||!PUBLIC.startsWith('https://'))throw Error('DASHBOARD_ORIGIN and PUBLIC_URL must be HTTPS origins.');
 async function oauthConfig(){try{return decrypt(await readFile(path.join(DATA,'google-client.enc'),'utf8'),ENC)}catch{return {clientId:process.env.GOOGLE_CLIENT_ID||'',clientSecret:process.env.GOOGLE_CLIENT_SECRET||''}}}
 async function oauthReady(){const c=await oauthConfig();return Boolean(c.clientId&&c.clientSecret)}
-const jobs=new Map(),states=new Map();let running=false,bundlePromise;
+const jobs=new Map(),states=new Map();let running=false,bundlePromise,voiceBusy=false;
 await mkdir(DATA,{recursive:true});await mkdir(path.join(DATA,'jobs'),{recursive:true});
 function json(res,status,value){res.writeHead(status,{'Content-Type':'application/json','Cache-Control':'no-store'});res.end(JSON.stringify(value))}
 async function body(req,limit=24*1024*1024){let n=0;const parts=[];for await(const c of req){n+=c.length;if(n>limit)throw Error('حجم الطلب أكبر من المسموح.');parts.push(c)}return Buffer.concat(parts)}
@@ -40,7 +41,12 @@ const server=http.createServer(async(req,res)=>{const url=new URL(req.url,PUBLIC
  }
  if(origin&&origin!==ORIGIN){json(res,403,{error:'مصدر الطلب غير مسموح.'});return}
  if(!authorized(req.headers.authorization,SECRET)){json(res,401,{error:'مفتاح خدمة التصدير غير صحيح.'});return}
- if(req.method==='GET'&&url.pathname==='/api/status'){json(res,200,{ok:true,youtubeConfigured:await oauthReady(),channel:await channel(),redirectUri:PUBLIC+'/oauth/google/callback'});return}
+ if(req.method==='GET'&&url.pathname==='/api/status'){json(res,200,{ok:true,geminiConfigured:Boolean(process.env.GEMINI_API_KEY),voice:'Charon',youtubeConfigured:await oauthReady(),channel:await channel(),redirectUri:PUBLIC+'/oauth/google/callback'});return}
+ if(req.method==='POST'&&url.pathname==='/api/voice'){
+ if(voiceBusy){json(res,429,{error:'توليد صوت آخر جارٍ الآن. انتظر قليلًا.'});return}
+ const input=JSON.parse((await body(req,20000)).toString());voiceBusy=true;
+ try{const wav=await generateVoice(input,process.env.GEMINI_API_KEY);res.writeHead(200,{'Content-Type':'audio/wav','Content-Length':wav.length,'Cache-Control':'no-store'});res.end(wav)}finally{voiceBusy=false}return
+ }
  if(req.method==='POST'&&url.pathname==='/api/youtube/connect'){
  const config=await oauthConfig();if(!await oauthReady())throw Error('أكمل إعداد تطبيق Google في قسم الربط أولًا.');
  const state=randomBytes(24).toString('hex'),verifier=randomBytes(32).toString('base64url');states.set(state,{verifier,expires:Date.now()+600000});
