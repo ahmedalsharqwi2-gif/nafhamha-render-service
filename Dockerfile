@@ -4,7 +4,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm ci
 COPY src ./src
-COPY server.mjs core.mjs ./
+COPY server.mjs core.mjs voice.mjs ./
 RUN npx remotion bundle src/index.tsx --out-dir=bundle && npx remotion browser ensure && mkdir -p /data && chown -R node:node /app /data
 ENV NODE_ENV=production DATA_DIR=/data PORT=8080 REMOTION_BUNDLE_DIR=/app/bundle
 COPY docker-entrypoint.sh /usr/local/bin/nafhamha-entrypoint
