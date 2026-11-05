@@ -1,0 +1,66 @@
+[
+  {
+    "scene": 0,
+    "script_words": 42,
+    "matched_anchors": 41,
+    "match_ratio": 0.976,
+    "caption_count": 9,
+    "method": "Whisper small word timestamps; exact normalized token anchors; interpolated unmatched tokens"
+  },
+  {
+    "scene": 1,
+    "script_words": 41,
+    "matched_anchors": 39,
+    "match_ratio": 0.951,
+    "caption_count": 8,
+    "method": "Whisper small word timestamps; exact normalized token anchors; interpolated unmatched tokens"
+  },
+  {
+    "scene": 2,
+    "script_words": 42,
+    "matched_anchors": 40,
+    "match_ratio": 0.952,
+    "caption_count": 9,
+    "method": "Whisper small word timestamps; exact normalized token anchors; interpolated unmatched tokens"
+  },
+  {
+    "scene": 3,
+    "script_words": 41,
+    "matched_anchors": 39,
+    "match_ratio": 0.951,
+    "caption_count": 8,
+    "method": "Whisper small word timestamps; exact normalized token anchors; interpolated unmatched tokens"
+  },
+  {
+    "scene": 4,
+    "script_words": 40,
+    "matched_anchors": 40,
+    "match_ratio": 1.0,
+    "caption_count": 7,
+    "method": "Whisper small word timestamps; exact normalized token anchors; interpolated unmatched tokens"
+  },
+  {
+    "scene": 5,
+    "script_words": 42,
+    "matched_anchors": 41,
+    "match_ratio": 0.976,
+    "caption_count": 8,
+    "method": "Whisper small word timestamps; exact normalized token anchors; interpolated unmatched tokens"
+  },
+  {
+    "scene": 6,
+    "script_words": 44,
+    "matched_anchors": 27,
+    "match_ratio": 0.614,
+    "caption_count": 8,
+    "method": "Whisper small word timestamps; exact normalized token anchors; interpolated unmatched tokens"
+  },
+  {
+    "scene": 7,
+    "script_words": 42,
+    "matched_anchors": 41,
+    "match_ratio": 0.976,
+    "caption_count": 9,
+    "method": "Whisper small word timestamps; exact normalized token anchors; interpolated unmatched tokens"
+  }
+]

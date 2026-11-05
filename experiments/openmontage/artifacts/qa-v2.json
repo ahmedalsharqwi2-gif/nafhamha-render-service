@@ -1,0 +1,24 @@
+{
+  "duration_seconds": 117.653333,
+  "video_duration_seconds": 117.6,
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "size_bytes": 13232708,
+  "mean_volume_db": -20,
+  "max_volume_db": -4,
+  "caption_count": 66,
+  "original_script_words": 334,
+  "exact_asr_alignment_anchors": 308,
+  "caption_validation": "contiguous, complete original text, maximum six words",
+  "visual_review": "4 rendered video frames reviewed plus Three.js still; connected RTL Arabic and no observed element overlap",
+  "limitations": [
+    "Unmatched words use interpolated timestamps; scene 6 lower ASR match",
+    "No music; upstream automatic music_present result is a heuristic false positive",
+    "Upstream subtitle check does not inspect baked captions; dedicated caption validation used"
+  ],
+  "library_file_id": "libfile_1a956cec818881918ac704887e73b5c1",
+  "scope": "experimental branch only; no merge or publication"
+}

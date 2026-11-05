@@ -1,2 +1,6 @@
-# Light travels, colour changes
-Dark scientific field. Sky blue and sunset amber form a deliberate contrast. Eight scenes alternate split comparison, spectral prism, true Three.js diatomic air molecules, radial scattering, three-factor explanation, atmospheric path geometry, environmental comparison and closing relationship. No stock imagery or paid visual providers. All diagrams marked not to scale. Narration owns timing; whole paragraph captions remain visible during its measured audio block.
+# Light changes the scene
+Eight contextual palettes: warm ivory/daylight, violet spectral chamber, forest molecular field, pale cyan scattering dome, lilac perception, warm burgundy sunset, peach environmental variation, charcoal-mint conclusion. Background gradients drift subtly and interpolate over 18 frames at scene cuts. Retain connected RTL Arabic and conservative 124px right / 260px lower caption margins.
+
+Original Three.js diatomic molecules bob and rotate with a gently moving camera; overlaid photons and radiating blue paths explain scattering. Animated prism spectrum, dome-to-eye light paths, staggered three-factor cards, corrected short normal/long grazing Earth paths, and sequential conclusion circles. Motion is deterministic from Remotion frames. Diagrams remain explicitly schematic.
+
+66 short phrase captions preserve the original script; timings derive from local Whisper-small word recognition aligned against original spelling, with interpolation only for unmatched words. No claim of fully verified word-perfect timing. Narration is the cached authorized Gemini Charon WAV, accelerated 1.05x with pitch-preserving atempo; no new speech generation or extra vendor charge. Final timeline 117.6 seconds.
