@@ -1,0 +1,2 @@
+# Light travels, colour changes
+Dark scientific field. Sky blue and sunset amber form a deliberate contrast. Eight scenes alternate split comparison, spectral prism, true Three.js diatomic air molecules, radial scattering, three-factor explanation, atmospheric path geometry, environmental comparison and closing relationship. No stock imagery or paid visual providers. All diagrams marked not to scale. Narration owns timing; whole paragraph captions remain visible during its measured audio block.
