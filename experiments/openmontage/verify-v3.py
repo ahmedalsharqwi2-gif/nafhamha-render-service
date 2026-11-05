@@ -15,5 +15,5 @@ for i,s in enumerate(v['scenes']):
  assert abs(d-s['duration']/30)<1/30
  report['scenes'].append({'index':i,'audio_seconds':d,'frames':s['duration'],'captions':len(s['captions'])})
 assert end==v['durationInFrames'];assert 90<end/30<=120
-report.update(duration_seconds=end/30,caption_count=count,script_words=sum(len(s['words']) for s in v['scenes']),safe_caption_region={'left':52,'right':124,'top':948,'maximum_expected_bottom':1080},status='pass')
+report.update(duration_seconds=end/30,caption_count=count,script_words=sum(len(s['words']) for s in v['scenes']),safe_caption_region={'left':124,'right':124,'top':704,'maximum_expected_bottom':830},status='pass')
 (p/'artifacts/validation-v3.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False))

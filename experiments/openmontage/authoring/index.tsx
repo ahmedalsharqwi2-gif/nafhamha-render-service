@@ -20,8 +20,8 @@ const svgText=(x:number,y:number,t:string,fill='#fff0d0',size=25,weight=600)=><t
 function Sky({f,sunset=0,clouds=0}:any){const t=ease(sunset);return <>
  <defs><linearGradient id="skyFull" x2="0" y2="1"><stop stopColor={interpolateColors(t,[0,1],['#acd0d6','#3e3d5b'])}/><stop offset=".5" stopColor={interpolateColors(t,[0,1],['#e4eee2','#cc8b86'])}/><stop offset=".78" stopColor={interpolateColors(t,[0,1],['#ffedc9','#f5b974'])}/><stop offset="1" stopColor="#5a6a58"/></linearGradient></defs>
  <rect width="720" height="1280" fill="url(#skyFull)"/>
- <circle cx={480-t*70} cy={400+t*345} r={72-t*10} fill="#fff0bc"/>
- <circle cx={480-t*70} cy={400+t*345} r={126+Math.sin(f/60)*5} fill="url(#solarGlow)" opacity=".65"/>
+ <circle cx={480-t*70} cy={400+t*240} r={72-t*10} fill="#fff0bc"/>
+ <circle cx={480-t*70} cy={400+t*240} r={126+Math.sin(f/60)*5} fill="url(#solarGlow)" opacity=".65"/>
  {range(8).map(k=><path key={k} d={`M${-150+k*140} ${360+(k%3)*75}q45 -30 85 0t110 0`} fill="none" stroke={t>.5?'#efd9b2':'#f2f0dc'} strokeWidth={20+clouds*16} opacity={.10+clouds*.16} strokeLinecap="round" transform={`translate(${Math.sin(f/140+k)*25},0)`}/>)}
  <path d="M0 855 Q150 760 320 842 T720 820V1280H0Z" fill={t>.5?'#5c4650':'#6c897b'}/>
  <path d="M0 925 Q240 805 450 922 T720 885V1280H0Z" fill={t>.5?'#343f41':'#476b62'}/>
@@ -48,7 +48,7 @@ function Molecular({f,duration}:any){const p=ease(f/duration);const travel=mix(f
  {[1,-1].map(k=><mesh key={'s'+k} position={[scatter*2,scatter*k*2,1.8]}><sphereGeometry args={[.08,12,12]}/><meshBasicMaterial color="#7dd7f4"/></mesh>)}
  </ThreeCanvas>}
 function World({i,f,s,hideText=false}:any){const txt=(...args:Parameters<typeof svgText>)=><g opacity={hideText?0:(i===0?1:mix(f,24,38))}>{svgText(...args)}</g>;const [a,b,ink,accent]=palette[i];const p=f/s.duration;const e=ease(mix(f,0,40));const wave=(cy:number,amp:number,period:number,from=80,to=610)=>{let d='';for(let x=from;x<=to;x+=4)d+=(x===from?'M':'L')+x+' '+(cy+Math.sin(x/period-f*.055)*amp);return d};
- return <AbsoluteFill style={{overflow:'hidden'}}>{i===2&&<Molecular f={f} duration={s.duration}/>}<svg width="720" height="1280" viewBox="0 0 720 1280" style={{position:'absolute',inset:0}}><defs>
+ return <AbsoluteFill style={{overflow:'hidden',transform:i===0||i===6?'none':'scale(0.65)',transformOrigin:'360px 210px'}}>{i===2&&<Molecular f={f} duration={s.duration}/>}<svg width="720" height="1280" viewBox="0 0 720 1280" style={{position:'absolute',inset:0}}><defs>
  <radialGradient id="solarGlow"><stop stopColor="#ffe7aa" stopOpacity=".65"/><stop offset="1" stopColor="#ffc779" stopOpacity="0"/></radialGradient>
  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stopColor="#fff6d8" stopOpacity=".30"/><stop offset=".35" stopColor="#e7e8ef" stopOpacity=".03"/><stop offset=".7" stopColor="#cbdddc" stopOpacity=".2"/><stop offset="1" stopColor="#fff" stopOpacity=".45"/></linearGradient>
  <radialGradient id="lens"><stop stopColor="#d8c2ca" stopOpacity=".25"/><stop offset=".8" stopColor="#6d486b" stopOpacity=".15"/><stop offset="1" stopColor="#fff4e6" stopOpacity=".7"/></radialGradient>
@@ -56,7 +56,7 @@ function World({i,f,s,hideText=false}:any){const txt=(...args:Parameters<typeof 
  </defs>
  {i===0&&<g transform={`translate(${mix(f,330,s.duration,0,-90)},${mix(f,330,s.duration,0,30)}) scale(${mix(f,330,s.duration,1,1.22)})`}>
  <Sky f={f} sunset={mix(f,45,110)} />
- <g opacity={mix(f,0,30)*mix(f,270,320,1,0)}>{txt(340,600,f<65?'نفس السما…':'نفس الشمس…',f<65?'#345c5a':'#fff0cc',46,800)}{txt(340,668,f<65?'ليه لونها بيتغيّر؟':'لونين مختلفين',f<65?'#345c5a':'#fff0cc',35,700)}</g>
+ <g opacity={mix(f,0,30)*mix(f,270,320,1,0)}>{txt(340,240,f<65?'نفس السما…':'نفس الشمس…',f<65?'#345c5a':'#fff0cc',46,800)}{txt(340,300,f<65?'ليه لونها بيتغيّر؟':'لونين مختلفين',f<65?'#345c5a':'#fff0cc',35,700)}</g>
  <path d={`M410 740Q350 610 ${300+mix(f,274,440,0,90)} ${400-mix(f,274,440,0,100)}`} stroke="#ffe8a2" strokeWidth="3" fill="none" strokeDasharray="8 10" strokeDashoffset={-f} opacity={mix(f,274,310)}/><circle cx={410-mix(f,274,440,0,30)} cy={740-mix(f,274,440,0,400)} r="9" fill="#fff0bb" opacity={mix(f,274,310)}/>
  </g>}
  {i===1&&<g transform={`translate(${Math.sin(f/200)*5},0)`}>
@@ -73,8 +73,8 @@ function World({i,f,s,hideText=false}:any){const txt=(...args:Parameters<typeof 
  <g opacity={mix(f,360,400)}>{txt(350,800,'جزيئات الهواء',ink,26)}{txt(350,842,'نموذج مبسّط؛ مش بالحجم الحقيقي',ink,20)}</g>
  </g>}
  {i===3&&<g>
- <path d="M-30 920Q260 790 750 930V1280H-30Z" fill="#a19f73" opacity=".32"/>
- <path d="M-30 990Q310 840 750 980V1280H-30Z" fill="#7c896d" opacity=".35"/>
+ <ellipse cx="345" cy="870" rx="295" ry="75" fill="#a19f73" opacity=".20"/>
+ <ellipse cx="345" cy="900" rx="260" ry="35" fill="#7c896d" opacity=".18"/>
  <path d="M55 720Q340 190 635 720" fill="none" stroke="#4f999c" strokeWidth="3" strokeDasharray="6 9"/>
  {range(7).map(k=>{const a=Math.PI+k*Math.PI/6;const x=345+278*Math.cos(a),y=705+310*Math.sin(a);const q=((f+k*13)%100)/100;return <g key={k} opacity={mix(f,20+k*4,45+k*4)}><circle cx={x} cy={y} r="10" fill="#529ba7"/><path d={`M${x} ${y}Q${(x+340)/2} ${(y+790)/2-30} 340 790`} stroke="#62a4ae" strokeWidth="2" fill="none" opacity=".5"/><circle cx={x+(340-x)*q} cy={y+(790-y)*q} r="4" fill="#2b829d"/></g>})}
  <path d="M255 790Q340 700 425 790Q340 880 255 790Z" fill="#faf0d2" stroke="#39747a" strokeWidth="3"/><circle cx="340" cy="790" r="32" fill="#588f8d"/><circle cx="340" cy="790" r="14" fill="#2a4246"/><circle cx="332" cy="781" r="5" fill="#fff6d3"/>
@@ -116,16 +116,16 @@ function World({i,f,s,hideText=false}:any){const txt=(...args:Parameters<typeof 
  <g opacity={mix(f,470,500)}>{txt(340,855,'نفهمها',ink,57,900)}{txt(340,904,'كل معلومة تستاهل شرح حلو',ink,21)}</g>
  </g>}
  </svg></AbsoluteFill>}
-function Caption({s,f,ink}:any){const c=s.captions.find((c:any)=>f>=c.start&&f<c.end);if(!c)return null;return <div style={{position:'absolute',top:948,left:52,right:124,minHeight:92,padding:'15px 20px',boxSizing:'border-box',borderRadius:18,background:'#132b2bed',border:'1px solid #c7dfc52a',boxShadow:'0 10px 28px #10222220',color:'#fff5df',fontWeight:650,fontSize:c.text.length>43?28:31,lineHeight:1.55,textAlign:'center',direction:'rtl'}}><span>{c.words.map((w:any,k:number)=><React.Fragment key={k}><span style={{color:f>=w.start&&f<w.end?'#c6ebcb':'#fff5df',fontWeight:f>=w.start&&f<w.end?800:650}}>{w.text}</span>{' '}</React.Fragment>)}</span></div>}
+function Caption({s,f,ink}:any){const c=s.captions.find((c:any)=>f>=c.start&&f<c.end);if(!c)return null;return <div style={{position:'absolute',top:704,left:124,right:124,minHeight:92,padding:'12px 16px',boxSizing:'border-box',borderRadius:18,background:'#132b2bed',border:'1px solid #c7dfc52a',boxShadow:'0 10px 28px #10222220',color:'#fff5df',fontWeight:650,fontSize:c.text.length>40?28:30,lineHeight:1.55,textAlign:'center',direction:'rtl'}}><span>{c.words.map((w:any,k:number)=><React.Fragment key={k}><span style={{color:f>=w.start&&f<w.end?'#c6ebcb':'#fff5df',fontWeight:f>=w.start&&f<w.end?800:650}}>{w.text}</span>{' '}</React.Fragment>)}</span></div>}
 function Film(p:any){const f=useCurrentFrame();let i=p.scenes.findIndex((s:any)=>f>=s.from&&f<s.from+s.duration);if(i<0)i=p.scenes.length-1;const s=p.scenes[i];const lf=f-s.from;const blend=i?ease(lf/24):1;const [a,b,ink,accent]=palette[i];const pa=palette[Math.max(0,i-1)];return <AbsoluteFill style={{direction:'rtl',fontFamily:'Cairo, sans-serif',background:`radial-gradient(ellipse at 35% 30%,${interpolateColors(blend,[0,1],[pa[0],a])},${interpolateColors(blend,[0,1],[pa[1],b])})`,color:ink,overflow:'hidden'}}>
  {i>0&&lf<24&&<div style={{position:'absolute',inset:0,opacity:1-blend,transform:`scale(${1+blend*.1})`,filter:`blur(${blend*3}px)`}}><World i={i-1} f={p.scenes[i-1].duration-24+lf} s={p.scenes[i-1]} hideText/></div>}
  <div style={{position:'absolute',inset:0,opacity:blend,transform:`translateY(${(1-blend)*18}px) scale(${1.015-blend*.015})`}}><World i={i} f={lf} s={s}/></div>
  {/* Shared trace is a visual continuity device, not a physical scale model. */}
  <svg width="720" height="1280" style={{position:'absolute',inset:0,pointerEvents:'none'}}><path d="M50 1140Q340 1110 596 1140" stroke={ink} strokeWidth="1" opacity=".14" fill="none"/><circle cx={50+546*f/p.durationInFrames} cy={1140-30*Math.sin(Math.PI*f/p.durationInFrames)} r="3" fill={accent}/></svg>
  <div style={{position:'absolute',top:80,left:52,right:124,display:'flex',justifyContent:'space-between',alignItems:'center',fontSize:21,fontWeight:800,color:i===0&&lf<100?'#294c4a':i===0||i===6?'#fff4d8':ink,textShadow:i===0||i===6?'0 1px 5px #19363866':'none'}}><span>نفهمها ✦</span><span style={{fontSize:16,fontWeight:600,opacity:.8}}>رحلة الضوء · {i+1}/8</span></div>
- {i!==0&&<div style={{position:'absolute',top:144,left:52,right:124,opacity:mix(lf,0,16)*mix(lf,105,140,1,0),transform:`translateY(${mix(lf,0,24,14,0)}px)`,fontSize:41,fontWeight:850,lineHeight:1.55,color:i===6?'#fff3d6':ink}}>{s.title}</div>}
+ {i!==0&&<div style={{position:'absolute',top:156,left:52,right:124,opacity:mix(lf,0,16)*mix(lf,105,140,1,0),transform:`translateY(${mix(lf,0,24,14,0)}px)`,fontSize:41,fontWeight:850,lineHeight:1.55,color:i===6?'#fff3d6':ink}}>{s.title}</div>}
  <Caption s={s} f={lf} ink={ink}/>
- <div style={{position:'absolute',top:1098,left:52,right:124,fontSize:15,textAlign:'center',opacity:.7,color:i===0||i===6?'#f1ead4':ink}}>رسوم توضيحية مبسّطة · الأحجام والمسافات غير مقيّسة</div>
+ <div style={{position:'absolute',top:120,left:124,right:124,fontSize:14,lineHeight:'20px',textAlign:'center',opacity:.7,color:i===0||i===6?'#f1ead4':ink}}>رسوم مبسّطة · الأحجام والمسافات غير مقيّسة</div>
  {p.scenes.map((s:any,j:number)=><Sequence key={j} from={s.from} durationInFrames={s.duration}><Audio src={staticFile(s.audio)}/></Sequence>)}
  <Audio src={staticFile(p.soundtrack)} volume={1}/>
  </AbsoluteFill>}

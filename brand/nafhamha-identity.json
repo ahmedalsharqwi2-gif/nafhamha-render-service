@@ -1,12 +1,14 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "status": "user-approved",
   "channel": "نفهمها",
   "approvedReference": {
     "title": "ليه السما زرقا والغروب أحمر؟",
     "video": "https://www.youtube.com/watch?v=fOqUVK5Oodw",
     "source": "experiments/openmontage/authoring/index.tsx",
-    "library_file_id": "libfile_1a956cec818881918ac704887e73b5c1"
+    "library_file_id": "libfile_1a956cec818881918ac704887e73b5c1",
+    "library_version": 2,
+    "note": "Published video demonstrates the identity; caption position is superseded by safeZones version1.1 and the corrected Library file."
   },
   "format": {
     "width": 720,
@@ -29,7 +31,7 @@
     ],
     "captionPx": [
       28,
-      31
+      30
     ]
   },
   "palette": {
@@ -45,9 +47,11 @@
     "textLeft": 52,
     "textRight": 124,
     "top": 80,
-    "captionTop": 948,
-    "captionBottomMax": 1080,
-    "footerTop": 1098
+    "captionTop": 704,
+    "captionBottomMax": 830,
+    "footerTop": 120,
+    "captionLeft": 124,
+    "captionRight": 124
   },
   "voice": {
     "provider": "Gemini",
@@ -75,6 +79,7 @@
     "Verify portrait dimensions, actual duration and audio presence",
     "Check caption bounds, sound levels, source speech completeness and audio/video sync",
     "Fix found issues internally before delivery",
-    "Check Buffer for duplicate topic/file before publication"
+    "Check Buffer for duplicate topic/file before publication",
+    "Preview Arabic and mirrored platform controls over the frame; keep captions above channel/title/creator overlays on the supplied reference"
   ]
 }

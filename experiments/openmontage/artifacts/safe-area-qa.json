@@ -1,0 +1,34 @@
+{
+  "caption": {
+    "left": 124,
+    "right": 124,
+    "top": 704,
+    "measured_content_bottom": 821,
+    "max_bottom_with_border": 825,
+    "maximum_lines": 2
+  },
+  "note": {
+    "top": 120,
+    "position": "beneath header"
+  },
+  "graphics": {
+    "technical_scene_scale": 0.65,
+    "origin_y": 210,
+    "full_bleed_sky_preserved": true
+  },
+  "ui_reference": {
+    "image": "user supplied YouTube Arabic screenshot",
+    "viewport_top": 66,
+    "scale": 0.8578125,
+    "side_crop_approx": 14,
+    "creator_overlay_top": 785,
+    "projected_caption_bottom_max": 773.6953125,
+    "note": "Conservative layout check for the supplied screenshot; other device layouts can vary"
+  },
+  "status": "pass",
+  "audio_identical_to_previously_verified_output": true,
+  "duration": 117.6,
+  "width": 720,
+  "height": 1280,
+  "visual_review": "All eight scenes, longest captions and title layout reviewed"
+}

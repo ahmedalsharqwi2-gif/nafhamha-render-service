@@ -55,10 +55,10 @@
   "caption_count": 86,
   "script_words": 334,
   "safe_caption_region": {
-    "left": 52,
+    "left": 124,
     "right": 124,
-    "top": 948,
-    "maximum_expected_bottom": 1080
+    "top": 704,
+    "maximum_expected_bottom": 830
   },
   "status": "pass"
 }
