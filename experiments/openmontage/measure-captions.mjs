@@ -1,0 +1,5 @@
+import {openBrowser} from '@remotion/renderer';
+import fs from 'node:fs';
+const root='/workspace/scratch/fb22708531cd/openmontage-experiment/projects/sky-colors';
+const browser=await openBrowser('chrome',{browserExecutable:'/workspace/scratch/fb22708531cd/wifi-short/node_modules/.remotion/chrome-headless-shell/linux64/chrome-headless-shell-linux64/chrome-headless-shell',chromiumOptions:{gl:'swangle'}});
+try{const page=await browser.newPage({context:()=>null,logLevel:'error',indent:false,pageIndex:0,onBrowserLog:null,onLog:()=>{}});await page.setViewport({width:720,height:1280,deviceScaleFactor:1});await page.goto({url:'file://'+root+'/artifacts/review-v3/caption-measure.html',timeout:20000,options:{waitUntil:'load'}});const r=await page.evaluate(async()=>{await document.fonts.ready;return JSON.parse(document.getElementById('result').textContent)});console.log(r);fs.writeFileSync(root+'/artifacts/caption-layout-v3.json',JSON.stringify(r));if(r.overflow.length)throw Error('Caption overflow');}finally{await browser.close({silent:true});}

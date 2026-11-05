@@ -1,0 +1,58 @@
+[
+  {
+    "scene": 0,
+    "words": 42,
+    "exact_ASR_anchors": 41,
+    "timing": "ASR exact anchors with interpolation only for unmatched tokens",
+    "cues": 10
+  },
+  {
+    "scene": 1,
+    "words": 41,
+    "exact_ASR_anchors": 39,
+    "timing": "ASR exact anchors with interpolation only for unmatched tokens",
+    "cues": 10
+  },
+  {
+    "scene": 2,
+    "words": 42,
+    "exact_ASR_anchors": 40,
+    "timing": "ASR exact anchors with interpolation only for unmatched tokens",
+    "cues": 11
+  },
+  {
+    "scene": 3,
+    "words": 41,
+    "exact_ASR_anchors": 39,
+    "timing": "ASR exact anchors with interpolation only for unmatched tokens",
+    "cues": 12
+  },
+  {
+    "scene": 4,
+    "words": 40,
+    "exact_ASR_anchors": 40,
+    "timing": "ASR exact anchors with interpolation only for unmatched tokens",
+    "cues": 10
+  },
+  {
+    "scene": 5,
+    "words": 42,
+    "exact_ASR_anchors": 41,
+    "timing": "ASR exact anchors with interpolation only for unmatched tokens",
+    "cues": 10
+  },
+  {
+    "scene": 6,
+    "words": 44,
+    "exact_ASR_anchors": 27,
+    "timing": "scene 6 reviewed and corrected against ASR word intervals",
+    "cues": 11
+  },
+  {
+    "scene": 7,
+    "words": 42,
+    "exact_ASR_anchors": 41,
+    "timing": "ASR exact anchors with interpolation only for unmatched tokens",
+    "cues": 12
+  }
+]

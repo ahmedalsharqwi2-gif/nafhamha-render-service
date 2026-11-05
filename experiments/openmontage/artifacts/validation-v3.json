@@ -1,0 +1,64 @@
+{
+  "duration_frames": 3528,
+  "fps": 30,
+  "scenes": [
+    {
+      "index": 0,
+      "audio_seconds": 14.752375,
+      "frames": 443,
+      "captions": 10
+    },
+    {
+      "index": 1,
+      "audio_seconds": 13.453167,
+      "frames": 404,
+      "captions": 10
+    },
+    {
+      "index": 2,
+      "audio_seconds": 15.884125,
+      "frames": 477,
+      "captions": 11
+    },
+    {
+      "index": 3,
+      "audio_seconds": 13.316875,
+      "frames": 400,
+      "captions": 12
+    },
+    {
+      "index": 4,
+      "audio_seconds": 15.36375,
+      "frames": 461,
+      "captions": 10
+    },
+    {
+      "index": 5,
+      "audio_seconds": 14.064,
+      "frames": 422,
+      "captions": 10
+    },
+    {
+      "index": 6,
+      "audio_seconds": 13.223375,
+      "frames": 397,
+      "captions": 11
+    },
+    {
+      "index": 7,
+      "audio_seconds": 17.456458,
+      "frames": 524,
+      "captions": 12
+    }
+  ],
+  "duration_seconds": 117.6,
+  "caption_count": 86,
+  "script_words": 334,
+  "safe_caption_region": {
+    "left": 52,
+    "right": 124,
+    "top": 948,
+    "maximum_expected_bottom": 1080
+  },
+  "status": "pass"
+}

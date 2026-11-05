@@ -1,0 +1,8 @@
+{
+  "measured_mixer_lead_in_samples": 2048,
+  "sample_rate": 48000,
+  "correction_seconds": 0.042666666666666665,
+  "video_reencoded": false,
+  "target_seconds": 117.6,
+  "note": "Confirmed against source speech in all eight scenes; final QA must verify corrected file"
+}

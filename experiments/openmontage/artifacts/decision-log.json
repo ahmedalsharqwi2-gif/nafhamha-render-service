@@ -1,1 +1,39 @@
-{"decisions":[{"category":"render_runtime_selection","subject":"Composition runtime","selected":"remotion","reason":"Preserve Nafhamha React/Three.js workflow; preflight reports HyperFrames unavailable"},{"category":"voice_selection","subject":"Narration TTS provider","selected":"Existing Gemini Charon through private Studio","reason":"User requested combined experiment retaining established voice; no keys copied"},{"category":"composition_mode","selected":"atelier","reason":"Purpose-built atmospheric light diagrams, prism, gas molecules, Earth-path geometry and comparison scenes"}],"scope":"experiment only; no production deployment, merge, scheduling or channel publication","limitations":["No vendor budget quote available; only existing speech account used","Narration block timestamps measured, no word-level alignment claim","Upstream OpenMontage software remains external and AGPL-3.0 licensed"]}
+{
+  "decisions": [
+    {
+      "category": "render_runtime_selection",
+      "subject": "Composition runtime",
+      "selected": "remotion",
+      "reason": "Preserve Nafhamha React/Three.js workflow; preflight reports HyperFrames unavailable"
+    },
+    {
+      "category": "voice_selection",
+      "subject": "Narration TTS provider",
+      "selected": "Existing Gemini Charon through private Studio",
+      "reason": "User requested combined experiment retaining established voice; no keys copied"
+    },
+    {
+      "category": "composition_mode",
+      "selected": "atelier",
+      "reason": "Purpose-built atmospheric light diagrams, prism, gas molecules, Earth-path geometry and comparison scenes"
+    },
+    {
+      "category": "approval_policy",
+      "subject": "Production revision gates",
+      "selected": "Full-run revision authorized",
+      "reason": "User explicitly requests maximum available improvement, self-review and completion without incremental samples; branch only, no merge/publication."
+    },
+    {
+      "category": "sound_design",
+      "subject": "Audio effects",
+      "selected": "Original procedural stereo effects ducked below cached Charon voice",
+      "reason": "No additional paid vendor or credentials. Improve transitions without masking words."
+    }
+  ],
+  "scope": "experiment only; no production deployment, merge, scheduling or channel publication",
+  "limitations": [
+    "No vendor budget quote available; only existing speech account used",
+    "Narration block timestamps measured, no word-level alignment claim",
+    "Upstream OpenMontage software remains external and AGPL-3.0 licensed"
+  ]
+}
