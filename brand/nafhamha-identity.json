@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "status": "user-approved",
+  "channel": "نفهمها",
+  "approvedReference": {
+    "title": "ليه السما زرقا والغروب أحمر؟",
+    "video": "https://www.youtube.com/watch?v=fOqUVK5Oodw",
+    "source": "experiments/openmontage/authoring/index.tsx",
+    "library_file_id": "libfile_1a956cec818881918ac704887e73b5c1"
+  },
+  "format": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "targetSeconds": [
+      100,
+      120
+    ],
+    "minimumExclusiveSeconds": 90,
+    "fullBleed": true
+  },
+  "type": {
+    "font": "Cairo",
+    "wordmark": "نفهمها",
+    "rtl": true,
+    "titlePx": [
+      38,
+      44
+    ],
+    "captionPx": [
+      28,
+      31
+    ]
+  },
+  "palette": {
+    "deepInk": "#152c36",
+    "warmCream": "#fff0d0",
+    "sage": "#b6dbc1",
+    "amber": "#f4a561",
+    "scientificBlue": "#45bce6",
+    "scientificViolet": "#ae7ff0",
+    "rule": "Contextual full-screen palettes per scene; recurring cream/sage/ink identity; scientific colours carry meaning."
+  },
+  "safeZones": {
+    "textLeft": 52,
+    "textRight": 124,
+    "top": 80,
+    "captionTop": 948,
+    "captionBottomMax": 1080,
+    "footerTop": 1098
+  },
+  "voice": {
+    "provider": "Gemini",
+    "voice": "Charon",
+    "language": "Egyptian Arabic",
+    "credentials": "Existing secure Railway service only; never log or request keys"
+  },
+  "motion": {
+    "runtime": "Remotion",
+    "threeJs": "Frame-driven subject-specific models where useful",
+    "transitions": "Connected visual journey, directional/scale match, suppress outgoing labels",
+    "effects": "Subtle original sound design ducked below voice"
+  },
+  "captions": {
+    "maxWords": 6,
+    "minCueFrames": 15,
+    "originalSpelling": true,
+    "timing": "Measured speech alignment; word highlight only with defensible timestamps; do not claim estimates are exact"
+  },
+  "qualityGate": [
+    "New useful question; primary scientific sources",
+    "Subject-specific diagrams and models, no unrelated reused scenes",
+    "Original complete narration and readable connected Arabic",
+    "Inspect every scene and transitions, including closing",
+    "Verify portrait dimensions, actual duration and audio presence",
+    "Check caption bounds, sound levels, source speech completeness and audio/video sync",
+    "Fix found issues internally before delivery",
+    "Check Buffer for duplicate topic/file before publication"
+  ]
+}
