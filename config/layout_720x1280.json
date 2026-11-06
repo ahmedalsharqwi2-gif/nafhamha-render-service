@@ -1,0 +1,11 @@
+{
+  "canvas": {"w": 720, "h": 1280, "fps": 30},
+  "header": {"y": [87, 137], "bar": [93, 97], "x": [127, 593]},
+  "topSlot": {"x": [80, 640], "y": [193, 337], "plateMaxWidth": 520, "plateTopEdge": 200},
+  "stage": {"y": [347, 1158], "height": 811},
+  "disclaimer": {"y": [1166, 1187], "x": [127, 593]},
+  "textLimits": {"x": [127, 593], "y": [193, 1187]},
+  "marginInsideLimit": 27,
+  "plateInk": [21, 44, 54],
+  "source": "04_nafhamha_addendum.md + owner decision 2026-11-07 (stage 811px)"
+}
