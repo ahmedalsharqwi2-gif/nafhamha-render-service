@@ -4,9 +4,9 @@
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "remotion": "4.0.484",
-    "@remotion/cli": "4.0.484",
-    "@remotion/three": "4.0.484",
+    "remotion": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/three": "4.0.540",
     "three": "0.187.0",
     "@react-three/fiber": "8.18.0"
   }

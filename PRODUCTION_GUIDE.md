@@ -13,3 +13,10 @@ Before publishing: inspect all scenes and boundaries, compare rendered audio wit
 The recurring production schedule remains19:00 Africa/Cairo; publication remains12:00 next day. Immediate publication is only for explicit one-off user requests, including this approved sky episode.
 
 Owner correction 2026-11-05: restore the uploaded nafhamha-sky-final.mp4 (Library libfile_3d1498422f2c81919f708ff6bea78ab1) as the visual reference. Revision 1.1 raised-caption/reduced-graphics layout is withdrawn. Preserve original large graphics, motion and original caption placement from the restored authoring source. Do not claim the original lower captions are universally UI-safe or silently reapply global shrink. Publication still requires actual platform-interface review. Production19:00 and publication12:00 next day remain unchanged.
+
+
+## قرار المالك — 2026-11-06 (يُسجَّل هنا بحسب 04)
+انتقل الكابتشن إلى الحيز الأعلى تحت الترويسة (y 200–337 على 720×1280)، والعنوان يتشارك نفس الحيز
+ولا يظهر إلا في فجوة صمت ≥0.8s قبل أول كلمة في المشهد. مساحة الرسم 811 px بارتفاعها المعتمد
+(y 347–1158)، والتذييل عند y 1166. الرسوم الكبيرة وحركات الكاميرا الأصلية محفوظة بلا تصغير شامل.
+هذا القرار يعدّل موضع الكابتشن فقط، ويلغي ملاحظة 2026-11-05 الخاصة بـ«الموضع الأصلي». جدول النشر والإنتاج لم يُمسّ.

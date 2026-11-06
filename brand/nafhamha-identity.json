@@ -1,5 +1,5 @@
 {
-  "version": "1.2-reference-restored",
+  "version": "1.3-top-slot",
   "status": "user-approved",
   "channel": "نفهمها",
   "approvedReference": {
@@ -43,12 +43,16 @@
     "rule": "Contextual full-screen palettes per scene; recurring cream/sage/ink identity; scientific colours carry meaning."
   },
   "safeZones": {
-    "textLeft": 52,
-    "textRight": 124,
-    "top": 80,
-    "captionTop": 948,
-    "captionBottomMax": 1080,
-    "footerTop": 1098
+    "textLeft": 80,
+    "textRight": 80,
+    "top": 193,
+    "captionTop": 200,
+    "captionBottomMax": 337,
+    "stageTop": 347,
+    "stageBottom": 1158,
+    "stageHeight": 811,
+    "footerTop": 1166,
+    "marginInsideLimit": 27
   },
   "voice": {
     "provider": "Gemini",

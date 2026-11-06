@@ -8,6 +8,8 @@ if(typeof document!=='undefined'){
  font.load().then(f=>{document.fonts.add(f);continueRender(h)}).catch(cancelRender);
 }
 const clamp={extrapolateLeft:'clamp',extrapolateRight:'clamp'} as const;
+const firstWordAt=(s:any)=>Math.min(...s.captions.map((c:any)=>(c.words&&c.words.length)?c.words[0].start:c.start));
+const showTitle=(s:any)=>firstWordAt(s)>=24;
 const mix=(f:number,a:number,b:number,x=0,y=1)=>interpolate(f,[a,b],[x,y],clamp);
 const ease=(v:number)=>{const x=Math.max(0,Math.min(1,v));return x*x*(3-2*x)};
 const range=(n:number)=>Array.from({length:n},(_,i)=>i);
@@ -116,16 +118,17 @@ function World({i,f,s,hideText=false}:any){const txt=(...args:Parameters<typeof 
  <g opacity={mix(f,470,500)}>{txt(340,855,'نفهمها',ink,57,900)}{txt(340,904,'كل معلومة تستاهل شرح حلو',ink,21)}</g>
  </g>}
  </svg></AbsoluteFill>}
-function Caption({s,f,ink}:any){const c=s.captions.find((c:any)=>f>=c.start&&f<c.end);if(!c)return null;return <div style={{position:'absolute',top:948,left:52,right:124,minHeight:92,padding:'15px 20px',boxSizing:'border-box',borderRadius:18,background:'#132b2bed',border:'1px solid #c7dfc52a',boxShadow:'0 10px 28px #10222220',color:'#fff5df',fontWeight:650,fontSize:c.text.length>43?28:31,lineHeight:1.55,textAlign:'center',direction:'rtl'}}><span>{c.words.map((w:any,k:number)=><React.Fragment key={k}><span style={{color:f>=w.start&&f<w.end?'#c6ebcb':'#fff5df',fontWeight:f>=w.start&&f<w.end?800:650}}>{w.text}</span>{' '}</React.Fragment>)}</span></div>}
-function Film(p:any){const f=useCurrentFrame();let i=p.scenes.findIndex((s:any)=>f>=s.from&&f<s.from+s.duration);if(i<0)i=p.scenes.length-1;const s=p.scenes[i];const lf=f-s.from;const blend=i?ease(lf/24):1;const [a,b,ink,accent]=palette[i];const pa=palette[Math.max(0,i-1)];return <AbsoluteFill style={{direction:'rtl',fontFamily:'Cairo, sans-serif',background:`radial-gradient(ellipse at 35% 30%,${interpolateColors(blend,[0,1],[pa[0],a])},${interpolateColors(blend,[0,1],[pa[1],b])})`,color:ink,overflow:'hidden'}}>
+function Caption({s,f}:any){const c=s.captions.find((c:any)=>f>=c.start&&f<c.end);if(!c)return null;const long=c.text.length>43;return <div style={{position:'absolute',top:200,left:80,right:80,margin:'0 auto',maxWidth:520,boxSizing:'border-box',padding:'13px 18px',borderRadius:18,background:'#152c36f2',border:'1px solid #b6dbc140',boxShadow:'0 8px 22px #10222233',color:'#fff0d0',fontWeight:700,fontSize:long?28:31,lineHeight:1.5,textAlign:'center',direction:'rtl',maxHeight:117,overflow:'hidden'}}>{c.words?c.words.map((w:any,k:number)=><React.Fragment key={k}><span style={{color:f>=w.start&&f<w.end?'#f4a561':'#fff0d0'}}>{w.text}</span>{' '}</React.Fragment>):<span style={{color:'#f4a561'}}>{c.text}</span>}</div>}
+function Film(p:any){const f=useCurrentFrame();let i=p.scenes.findIndex((s:any)=>f>=s.from&&f<s.from+s.duration);if(i<0)i=p.scenes.length-1;const s=p.scenes[i];const lf=f-s.from;const blend=i?ease(lf/24):1;const camS=1+0.05*(lf/s.duration);const camP=Math.sin(lf/41)*2.5;const camQ=Math.cos(lf/53)*2;const [a,b,ink,accent]=palette[i];const pa=palette[Math.max(0,i-1)];return <AbsoluteFill style={{direction:'rtl',fontFamily:'Cairo, sans-serif',background:`radial-gradient(ellipse at 35% 30%,${interpolateColors(blend,[0,1],[pa[0],a])},${interpolateColors(blend,[0,1],[pa[1],b])})`,color:ink,overflow:'hidden'}}>
  {i>0&&lf<24&&<div style={{position:'absolute',inset:0,opacity:1-blend,transform:`scale(${1+blend*.1})`,filter:`blur(${blend*3}px)`}}><World i={i-1} f={p.scenes[i-1].duration-24+lf} s={p.scenes[i-1]} hideText/></div>}
- <div style={{position:'absolute',inset:0,opacity:blend,transform:`translateY(${(1-blend)*18}px) scale(${1.015-blend*.015})`}}><World i={i} f={lf} s={s}/></div>
+ <div style={{position:'absolute',inset:0,opacity:blend,transform:`translate(${camP}px,${camQ}px) scale(${(1.015-blend*.015)*camS})`}}><World i={i} f={lf} s={s}/></div>
  {/* Shared trace is a visual continuity device, not a physical scale model. */}
  <svg width="720" height="1280" style={{position:'absolute',inset:0,pointerEvents:'none'}}><path d="M50 1140Q340 1110 596 1140" stroke={ink} strokeWidth="1" opacity=".14" fill="none"/><circle cx={50+546*f/p.durationInFrames} cy={1140-30*Math.sin(Math.PI*f/p.durationInFrames)} r="3" fill={accent}/></svg>
- <div style={{position:'absolute',top:80,left:52,right:124,display:'flex',justifyContent:'space-between',alignItems:'center',fontSize:21,fontWeight:800,color:i===0&&lf<100?'#294c4a':i===0||i===6?'#fff4d8':ink,textShadow:i===0||i===6?'0 1px 5px #19363866':'none'}}><span>نفهمها ✦</span><span style={{fontSize:16,fontWeight:600,opacity:.8}}>رحلة الضوء · {i+1}/8</span></div>
- {i!==0&&<div style={{position:'absolute',top:144,left:52,right:124,opacity:mix(lf,0,16)*mix(lf,105,140,1,0),transform:`translateY(${mix(lf,0,24,14,0)}px)`,fontSize:41,fontWeight:850,lineHeight:1.55,color:i===6?'#fff3d6':ink}}>{s.title}</div>}
+ <div style={{position:'absolute',top:93,left:127,right:127,height:4,background:'#ffffff2e',borderRadius:3}}><div style={{height:'100%',width:`${(f/p.durationInFrames)*100}%`,background:accent,borderRadius:3}}/></div>
+ <div style={{position:'absolute',top:105,left:127,right:127,display:'flex',justifyContent:'space-between',alignItems:'center',fontSize:20,fontWeight:800,color:i===0||i===6?'#fff4d8':ink,textShadow:i===0||i===6?'0 1px 5px #19363866':'none'}}><span>نفهمها ✦</span><span style={{fontSize:15,fontWeight:600,opacity:.8}}>رحلة الضوء</span></div>
+ {i!==0&&showTitle(s)&&<div style={{position:'absolute',top:200,left:80,right:80,margin:'0 auto',maxWidth:520,textAlign:'center',opacity:mix(lf,0,10)*mix(lf,Math.min(48,firstWordAt(s))-10,Math.min(48,firstWordAt(s)),1,0),transform:`translateY(${mix(lf,0,10,14,0)}px)`,fontSize:41,fontWeight:850,lineHeight:1.35,color:i===6?'#fff3d6':ink}}>{s.title}</div>}
  <Caption s={s} f={lf} ink={ink}/>
- <div style={{position:'absolute',top:1098,left:52,right:124,fontSize:15,textAlign:'center',opacity:.7,color:i===0||i===6?'#f1ead4':ink}}>رسوم توضيحية مبسّطة · الأحجام والمسافات غير مقيّسة</div>
+ <div style={{position:'absolute',top:1166,left:127,right:127,fontSize:15,textAlign:'center',opacity:.72,color:i===0||i===6?'#f1ead4':ink}}>رسوم توضيحية مبسطة · الأحجام والمسافات غير مقيّسة</div>
  {p.scenes.map((s:any,j:number)=><Sequence key={j} from={s.from} durationInFrames={s.duration}><Audio src={staticFile(s.audio)}/></Sequence>)}
  <Audio src={staticFile(p.soundtrack)} volume={1}/>
  </AbsoluteFill>}
