@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "owner_authorized_on": "2026-11-10",
+  "channel": {
+    "name": "نفهمها",
+    "youtube_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+    "handle": "@نفهمها1"
+  },
+  "timezone": "Africa/Cairo",
+  "cadence_days": 3,
+  "first_preparation_local": "2026-11-10T19:00:00",
+  "first_publication_local": "2026-11-11T12:00:00",
+  "publication_hour": 12,
+  "preparation_previous_day_hour": 19,
+  "automation_id": "Automation_47b4fdc9e65881918fd0c2dc2989f8e7",
+  "automation_enabled_confirmed": true,
+  "first_run_observed": false,
+  "reference_sha256": "63dde66e877210479f05336f32d0063d9ae470e44bc7f73f2313e39df638658a",
+  "research": {
+    "scope": "All scientific fields, Arabic YouTube demand",
+    "evidence_required": true,
+    "no_fabricated_search_volumes": true,
+    "no_guaranteed_views": true,
+    "no_purchased_credits": true,
+    "vidiq_credit_tools_blocked_before": "2026-12-03",
+    "free_evidence_fallback": true
+  },
+  "publication": {
+    "owner_authorized_recurring_complete_films": true,
+    "verify_live_channel_identity": true,
+    "check_existing_slot_and_fingerprints": true,
+    "no_duplicate_generation_or_sends": true,
+    "no_expired_slot_rollover": true,
+    "preserve_receipts_and_intents": true,
+    "ai_disclaimer_in_title_description_narration": false,
+    "mandatory_platform_disclosures": "Comply truthfully when required by applicable platform policy; do not falsely attest or suppress required disclosure."
+  },
+  "execution_limit": "Automation creation is confirmed. Future actual render, credential availability and publication require observed evidence; CI is not proof of any of these."
+}

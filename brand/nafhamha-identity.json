@@ -7,7 +7,15 @@
     "video": "https://www.youtube.com/watch?v=fOqUVK5Oodw",
     "source": "experiments/openmontage/authoring/index.tsx",
     "library_file_id": "libfile_3d1498422f2c81919f708ff6bea78ab1",
-    "note": "User explicitly restored the uploaded nafhamha-sky-final.mp4 on 2026-11-05 after rejecting the raised captions and reduced graphics. This supersedes revision 1.1; no global 0.65 shrink."
+    "note": "User explicitly restored the uploaded nafhamha-sky-final.mp4 on 2026-11-05 after rejecting the raised captions and reduced graphics. This supersedes revision 1.1; no global 0.65 shrink.",
+    "uploaded_file": {
+      "filename": "nafhamha-sky-final.mp4",
+      "sediment_file_id": "file_00000000fdb88243923d4384570bcfe3",
+      "sha256": "63dde66e877210479f05336f32d0063d9ae470e44bc7f73f2313e39df638658a",
+      "bytes": 15811736,
+      "duration_seconds": 117.6,
+      "owner_reaffirmed_on": "2026-11-10"
+    }
   },
   "format": {
     "width": 720,

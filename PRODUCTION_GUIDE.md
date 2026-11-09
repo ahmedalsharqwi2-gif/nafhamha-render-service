@@ -13,3 +13,14 @@ Before publishing: inspect all scenes and boundaries, compare rendered audio wit
 The recurring production schedule remains19:00 Africa/Cairo; publication remains12:00 next day. Immediate publication is only for explicit one-off user requests, including this approved sky episode.
 
 Owner correction 2026-11-05: restore the uploaded nafhamha-sky-final.mp4 (Library libfile_3d1498422f2c81919f708ff6bea78ab1) as the visual reference. Revision 1.1 raised-caption/reduced-graphics layout is withdrawn. Preserve original large graphics, motion and original caption placement from the restored authoring source. Do not claim the original lower captions are universally UI-safe or silently reapply global shrink. Publication still requires actual platform-interface review. Production19:00 and publication12:00 next day remain unchanged.
+
+
+## Owner instruction — 10 November 2026: every three days
+
+The newly attached `nafhamha-sky-final.mp4` is the governing visual reference; its exact SHA256 and size are retained in `brand/nafhamha-identity.json`. Preserve large original graphics, connected scientific visual explanations, contextual palettes, original caption placement subject to real platform review, Cairo Arabic and natural Egyptian Charon. Create topic-specific new scenes; do not repeat sky scenes on unrelated topics.
+
+The owner explicitly requests the first new video to publish **11 November 2026 at12:00 Africa/Cairo**, followed by14,17 November and every three calendar days thereafter. Prepare at19:00 on the preceding day, starting10 November. This cadence supersedes any implication of daily Nafhamha production elsewhere in this repository. The recurring assistant task is enabled; `brand/recurring-production.json` records its binding. Creation of a task is not evidence that a future production or publication already succeeded.
+
+Choose original topics using current Arabic YouTube search-demand evidence across all sciences. Do not fabricate search volume, treat competitor views as search volume, buy credits or promise reach. Respect the known vidIQ quota and use free evidence while credits are unavailable. Preserve the demand evidence, source facts, render/voice fingerprints, QA, submission intent, platform receipt and independent readback in persistent records. Check exact channel and occupied slots before generating or sending; never blindly retry or roll expired dates forward.
+
+The user does not want an AI-production disclaimer in the title, description or narration. Honour that editorial preference for stylized scientific explanation while retaining truthful platform-required altered/synthetic-content disclosure when it actually applies. Do not claim human production or suppress a required declaration. This instruction does not authorize bypassing service gates or an automatic-review rejection.
