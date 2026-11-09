@@ -8,8 +8,8 @@
   },
   "timezone": "Africa/Cairo",
   "cadence_days": 3,
-  "first_preparation_local": "2026-11-10T19:00:00",
-  "first_publication_local": "2026-11-11T12:00:00",
+  "first_preparation_local": "2026-11-10T02:00:00",
+  "first_publication_local": "2026-11-10T12:00:00",
   "publication_hour": 12,
   "preparation_previous_day_hour": 19,
   "automation_id": "Automation_47b4fdc9e65881918fd0c2dc2989f8e7",
@@ -35,5 +35,14 @@
     "ai_disclaimer_in_title_description_narration": false,
     "mandatory_platform_disclosures": "Comply truthfully when required by applicable platform policy; do not falsely attest or suppress required disclosure."
   },
-  "execution_limit": "Automation creation is confirmed. Future actual render, credential availability and publication require observed evidence; CI is not proof of any of these."
+  "execution_limit": "Automation creation is confirmed. Future actual render, credential availability and publication require observed evidence; CI is not proof of any of these.",
+  "first_run_automation_id": "Automation_1da2a42b68108191b0c14c7a5b18563b",
+  "first_run_is_one_off": true,
+  "recurring_preparation_start_local": "2026-11-12T19:00:00",
+  "subsequent_publication_examples_local": [
+    "2026-11-13T12:00:00",
+    "2026-11-16T12:00:00",
+    "2026-11-19T12:00:00"
+  ],
+  "owner_date_correction": "The user clarified that the first publication is Tuesday10November2026 (today), not Wednesday11November; the first production is an early-morning one-off. Subsequent preparation remains19:00 on the preceding day."
 }
