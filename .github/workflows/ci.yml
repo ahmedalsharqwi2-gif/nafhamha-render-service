@@ -1,27 +1,93 @@
-name: CI
-
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
-permissions:
-  contents: read
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-      - name: Set up Node.js 22
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-      - name: Install dependencies
-        run: npm ci
-      - name: Run tests
-        run: npm test
+{
+  "name": "CI",
+  "on": {
+    "push": {
+      "branches": [
+        "main"
+      ]
+    },
+    "pull_request": {
+      "branches": [
+        "main"
+      ]
+    },
+    "workflow_dispatch": {
+      "inputs": {
+        "due_at": {
+          "description": "Exact existing owner-authorized target, UTC. Read-only checks only.",
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  },
+  "permissions": {
+    "contents": "read"
+  },
+  "jobs": {
+    "test": {
+      "runs-on": "ubuntu-latest",
+      "timeout-minutes": 15,
+      "steps": [
+        {
+          "name": "Check out repository",
+          "uses": "actions/checkout@v4"
+        },
+        {
+          "name": "Set up Node.js22",
+          "uses": "actions/setup-node@v4",
+          "with": {
+            "node-version": 22,
+            "cache": "npm"
+          }
+        },
+        {
+          "name": "Install dependencies",
+          "run": "npm ci"
+        },
+        {
+          "name": "Run tests",
+          "run": "npm test"
+        }
+      ]
+    },
+    "production-connection": {
+      "if": "github.event_name == 'workflow_dispatch'",
+      "runs-on": "ubuntu-latest",
+      "timeout-minutes": 5,
+      "env": {
+        "NAFHAMHA_DUE_AT": "${{ inputs.due_at }}",
+        "NAFHAMHA_SERVICE_URL": "${{ vars.NAFHAMHA_SERVICE_URL || secrets.NAFHAMHA_SERVICE_URL || secrets.PUBLIC_URL }}",
+        "NAFHAMHA_API_TOKEN": "${{ secrets.NAFHAMHA_API_TOKEN || secrets.API_TOKEN }}",
+        "BUFFER_API_KEY": "${{ secrets.BUFFER_API_KEY }}",
+        "GEMINI_API_KEY": "${{ secrets.GEMINI_API_KEY }}",
+        "NAFHAMHA_BUFFER_CHANNEL_ID": "${{ vars.NAFHAMHA_BUFFER_CHANNEL_ID }}"
+      },
+      "steps": [
+        {
+          "uses": "actions/checkout@v4"
+        },
+        {
+          "uses": "actions/setup-node@v4",
+          "with": {
+            "node-version": 22
+          }
+        },
+        {
+          "name": "Read-only exact-channel service and publication binding checks",
+          "run": "node production/preflight.mjs"
+        },
+        {
+          "uses": "actions/upload-artifact@v4",
+          "if": "always()",
+          "with": {
+            "name": "nafhamha-connection-report",
+            "path": "preflight-output/report.json",
+            "retention-days": 30,
+            "if-no-files-found": "error"
+          }
+        }
+      ]
+    }
+  }
+}

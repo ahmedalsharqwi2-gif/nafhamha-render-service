@@ -1,1 +1,23 @@
-{"name":"nafhamha-render-service","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test test.mjs"},"dependencies":{"@react-three/fiber":"^9.8.2","@remotion/bundler":"4.0.540","@remotion/cli":"4.0.540","@remotion/renderer":"4.0.540","@remotion/three":"^4.0.540","react":"19.3.1","react-dom":"19.3.1","remotion":"4.0.540","three":"^0.187.0"}}
+{
+  "name": "nafhamha-render-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test.mjs production/*.test.mjs",
+    "production:preflight": "node production/preflight.mjs",
+    "production:voice": "node production/generate-voice.mjs"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/bundler": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "@remotion/three": "^4.0.540",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.540",
+    "three": "^0.187.0"
+  }
+}
