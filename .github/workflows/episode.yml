@@ -63,8 +63,9 @@
         },
         {
           "name": "Verify audio-inspection prerequisite",
-          "run": "if ! command -v ffprobe >/dev/null; then sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg; fi",
-          "if": "inputs.phase != 'publish'"
+          "run": "if ! command -v ffprobe >/dev/null; then\n  sudo timeout 70 apt-get -o Dir::Etc::sourcelist='sources.list.d/ubuntu.sources' -o Dir::Etc::sourceparts='-' -o APT::Get::List-Cleanup=0 -o Acquire::Retries=0 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15 update -qq\n  sudo timeout 100 apt-get -o Acquire::Retries=0 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15 install -y --no-install-recommends ffmpeg\nfi",
+          "if": "inputs.phase != 'publish'",
+          "timeout-minutes": 3
         },
         {
           "name": "Verify full own-channel inventory and retain one original voice request",
