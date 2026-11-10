@@ -2,7 +2,7 @@
   "version": 1,
   "cycles": {
     "nafhamha-2026-11-10-noon": {
-      "status": "blocked_preflight_no_generation_no_publication",
+      "status": "voice_requested",
       "first_run_observed": true,
       "started_at": "2026-11-10T00:09:17.127098+00:00",
       "due_at": "2026-11-10T10:00:00Z",
@@ -21,6 +21,60 @@
         "code_repair_applied": true,
         "live_connection_passed": false,
         "requires_secure_configuration": true
+      },
+      "voice": {
+        "phase": "intent",
+        "story_sha256": "23ed15d83ad106d98cd407c6a163d231a7d7c81922b5eb97d8ca1f9661eb2c32",
+        "text_sha256": "adc1f540ea2b14e188b57afc1f5cba2bc887a0999707c00e8fa02f67dee60a52",
+        "due_at": "2026-11-10T10:00:00Z",
+        "provider": "existing_authenticated_Charon_service",
+        "created_at": "2026-11-10T00:50:35.005Z",
+        "request_run": "42731321259",
+        "generation_calls": 1
+      },
+      "live_preflight": {
+        "version": 1,
+        "checked_at": "2026-11-10T00:50:33.412Z",
+        "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+        "due_at": "2026-11-10T10:00:00Z",
+        "passed": true,
+        "errors": [],
+        "checks": {
+          "voice": {
+            "configured": true,
+            "route": "authenticated_service"
+          },
+          "service_health": {
+            "ok": true,
+            "http_status": 200
+          },
+          "service_auth": {
+            "ok": true,
+            "http_status": 200
+          },
+          "buffer_channel": {
+            "id": "6aeb2098e29c69a1715bfadd",
+            "organization_id": "6aeb1fa35dc6068f4e33c1a9",
+            "service_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+            "connected": true,
+            "queue_running": true,
+            "unlocked": true
+          },
+          "slot": {
+            "checked": true,
+            "post_ids": [],
+            "has_more": false
+          }
+        },
+        "generation_calls": 0,
+        "publication_mutations": 0,
+        "service_origin": "https://nafhamha-render-production.up.railway.app",
+        "limit": "Preflight proves only the recorded read-only checks, not a finished film, media upload, scheduling receipt or publication."
+      },
+      "duplicate_check": {
+        "checked_at": "2026-11-10T00:50:33.412Z",
+        "posts_inspected": 3,
+        "subject_matches": 0
       }
     }
   }
