@@ -63,7 +63,8 @@
         },
         {
           "name": "Verify audio-inspection prerequisite",
-          "run": "if ! command -v ffprobe >/dev/null; then sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg; fi"
+          "run": "if ! command -v ffprobe >/dev/null; then sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg; fi",
+          "if": "inputs.phase != 'publish'"
         },
         {
           "name": "Verify full own-channel inventory and retain one original voice request",
