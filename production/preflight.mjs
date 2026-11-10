@@ -12,7 +12,8 @@ export function serviceOrigin(value){
 function issue(report,code){if(!report.errors.includes(code))report.errors.push(code)}
 export async function check({env=process.env,fetcher=fetch,now=new Date(),dueAt=env.NAFHAMHA_DUE_AT}={}){
  const report={version:1,checked_at:now.toISOString(),channel_id:CHANNEL,due_at:dueAt||null,passed:false,errors:[],checks:{},generation_calls:0,publication_mutations:0};
- for(const key of ['NAFHAMHA_SERVICE_URL','NAFHAMHA_API_TOKEN','BUFFER_API_KEY','GEMINI_API_KEY'])if(!env[key])issue(report,'MISSING_'+key);
+ for(const key of ['NAFHAMHA_SERVICE_URL','NAFHAMHA_API_TOKEN','BUFFER_API_KEY'])if(!env[key])issue(report,'MISSING_'+key);
+ report.checks.voice={configured:Boolean(env.GEMINI_API_KEY),route:env.GEMINI_API_KEY?'direct_gemini':'unverified'};
  let origin;if(env.NAFHAMHA_SERVICE_URL)try{origin=serviceOrigin(env.NAFHAMHA_SERVICE_URL);report.service_origin=origin}catch(e){issue(report,e.message)}
  if(!dueAt||!Number.isFinite(Date.parse(dueAt)))issue(report,'MISSING_OR_INVALID_DUE_AT');
  else if(Date.parse(dueAt)<=now.getTime())issue(report,'EXPIRED_EXACT_SLOT');
@@ -24,6 +25,7 @@ export async function check({env=process.env,fetcher=fetch,now=new Date(),dueAt=
  if(origin&&env.NAFHAMHA_API_TOKEN){
   const health=await get('/health');report.checks.service_health={ok:health.ok,http_status:health.http_status};if(!health.ok)issue(report,'SERVICE_HEALTH_UNAVAILABLE');
   const status=await get('/api/status',true);report.checks.service_auth={ok:status.ok,http_status:status.http_status};if(!status.ok)issue(report,'SERVICE_AUTH_OR_STATUS_UNAVAILABLE');
+  if(!env.GEMINI_API_KEY&&status.ok&&status.body.geminiConfigured===true)report.checks.voice={configured:true,route:'authenticated_service'};
   // Buffer is the selected publisher. The service's independent OAuth channel may be absent;
   // if present it must never contradict the explicitly authorized channel.
   const linked=status.body?.channel;if(linked?.id&&linked.id!==CHANNEL)issue(report,'SERVICE_YOUTUBE_CHANNEL_MISMATCH');
@@ -45,6 +47,7 @@ export async function check({env=process.env,fetcher=fetch,now=new Date(),dueAt=
    }
   }
  }catch(e){const code=/^BUFFER_HTTP_\d+$/.test(e.message)?e.message:e.message==='BUFFER_QUERY_REJECTED'?e.message:'BUFFER_CHECK_FAILED';issue(report,code)}
+ if(!report.checks.voice.configured)issue(report,'VOICE_BINDING_NOT_VERIFIED');
  report.passed=report.errors.length===0;
  report.limit='Preflight proves only the recorded read-only checks, not a finished film, media upload, scheduling receipt or publication.';
  return report;
