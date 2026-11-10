@@ -102,14 +102,18 @@
       ],
       "active_episode_directory": "episodes/2026-11-10-swift",
       "voice": {
-        "phase": "intent",
+        "phase": "generated_pending_artifact",
         "story_sha256": "59e642073b0573dc98426c4ecb7ed6c405089012894f1d3c509d24672c92e073",
         "text_sha256": "814b3b2a49f5c16078ce5272844e08c691f5a86299d9ccfd188431bc131befa2",
         "due_at": "2026-11-10T10:00:00Z",
         "provider": "existing_authenticated_Charon_service",
         "created_at": "2026-11-10T04:17:36.551Z",
         "request_run": "42754570713",
-        "generation_calls": 1
+        "generation_calls": 1,
+        "audio_sha256": "063bf294fa1a7e59c89b8af7b390554e0ab61ba3b5a6774e9bca00fe6921113c",
+        "duration": 109.24,
+        "bytes": 5249638,
+        "completed_at": "2026-11-10T04:17:59.006Z"
       }
     }
   }
