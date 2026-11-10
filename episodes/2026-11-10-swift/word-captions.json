@@ -1,0 +1,2194 @@
+[
+  {
+    "text": "حوّلت",
+    "startMs": 0,
+    "endMs": 660,
+    "timestampMs": 330,
+    "confidence": 0.8708065350850424,
+    "estimated": false
+  },
+  {
+    "text": "فلوس",
+    "startMs": 660,
+    "endMs": 980,
+    "timestampMs": 820,
+    "confidence": 0.9035718043645223,
+    "estimated": false
+  },
+  {
+    "text": "لحد",
+    "startMs": 980,
+    "endMs": 1280,
+    "timestampMs": 1130,
+    "confidence": 0.9542217552661896,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 1280,
+    "endMs": 1440,
+    "timestampMs": 1360,
+    "confidence": 0.8083484768867493,
+    "estimated": false
+  },
+  {
+    "text": "بلد",
+    "startMs": 1440,
+    "endMs": 1600,
+    "timestampMs": 1520,
+    "confidence": 0.9891286889712015,
+    "estimated": false
+  },
+  {
+    "text": "تانية،",
+    "startMs": 1600,
+    "endMs": 2520,
+    "timestampMs": 2060,
+    "confidence": 0.6820064894855022,
+    "estimated": false
+  },
+  {
+    "text": "وبعد",
+    "startMs": 2520,
+    "endMs": 2800,
+    "timestampMs": 2660,
+    "confidence": 0.9614971280097961,
+    "estimated": false
+  },
+  {
+    "text": "شوية",
+    "startMs": 2800,
+    "endMs": 3060,
+    "timestampMs": 2930,
+    "confidence": 0.7740017175674438,
+    "estimated": false
+  },
+  {
+    "text": "ظهرت",
+    "startMs": 3060,
+    "endMs": 3360,
+    "timestampMs": 3210,
+    "confidence": 0.9838836044073105,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 3360,
+    "endMs": 3480,
+    "timestampMs": 3420,
+    "confidence": 0.9616586565971375,
+    "estimated": false
+  },
+  {
+    "text": "حسابه.",
+    "startMs": 3480,
+    "endMs": 3960,
+    "timestampMs": 3720,
+    "confidence": 0.9558967649936676,
+    "estimated": false
+  },
+  {
+    "text": "هل",
+    "startMs": 4340,
+    "endMs": 4500,
+    "timestampMs": 4420,
+    "confidence": 0.9902453422546387,
+    "estimated": false
+  },
+  {
+    "text": "الفلوس",
+    "startMs": 4500,
+    "endMs": 4820,
+    "timestampMs": 4660,
+    "confidence": 0.9499231576919556,
+    "estimated": false
+  },
+  {
+    "text": "نفسها",
+    "startMs": 4820,
+    "endMs": 5220,
+    "timestampMs": 5020,
+    "confidence": 0.9866913557052612,
+    "estimated": false
+  },
+  {
+    "text": "عدّت",
+    "startMs": 5220,
+    "endMs": 5620,
+    "timestampMs": 5420,
+    "confidence": 0.9613421956698099,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 5620,
+    "endMs": 5780,
+    "timestampMs": 5700,
+    "confidence": 0.9838665127754211,
+    "estimated": false
+  },
+  {
+    "text": "سلك",
+    "startMs": 5780,
+    "endMs": 5960,
+    "timestampMs": 5870,
+    "confidence": 0.9686901867389679,
+    "estimated": false
+  },
+  {
+    "text": "بين",
+    "startMs": 5960,
+    "endMs": 6140,
+    "timestampMs": 6050,
+    "confidence": 0.7720057964324951,
+    "estimated": false
+  },
+  {
+    "text": "البلدين؟",
+    "startMs": 6140,
+    "endMs": 7020,
+    "timestampMs": 6580,
+    "confidence": 0.8372425258159637,
+    "estimated": false
+  },
+  {
+    "text": "ولا",
+    "startMs": 7020,
+    "endMs": 7200,
+    "timestampMs": 7110,
+    "confidence": 0.6648144125938416,
+    "estimated": false
+  },
+  {
+    "text": "سويفت",
+    "startMs": 7200,
+    "endMs": 7540,
+    "timestampMs": 7370,
+    "confidence": 0.6950920820236206,
+    "estimated": false
+  },
+  {
+    "text": "عندها",
+    "startMs": 7540,
+    "endMs": 7880,
+    "timestampMs": 7710,
+    "confidence": 0.6788434535264969,
+    "estimated": false
+  },
+  {
+    "text": "خزنة",
+    "startMs": 7880,
+    "endMs": 8320,
+    "timestampMs": 8100,
+    "confidence": 0.9133352935314178,
+    "estimated": false
+  },
+  {
+    "text": "ضخمة",
+    "startMs": 8320,
+    "endMs": 8620,
+    "timestampMs": 8470,
+    "confidence": 0.9819325804710388,
+    "estimated": false
+  },
+  {
+    "text": "بتوزّع",
+    "startMs": 8620,
+    "endMs": 9120,
+    "timestampMs": 8870,
+    "confidence": 0.9573257118463516,
+    "estimated": false
+  },
+  {
+    "text": "منها؟",
+    "startMs": 9120,
+    "endMs": 10040,
+    "timestampMs": 9580,
+    "confidence": 0.9838414390881857,
+    "estimated": false
+  },
+  {
+    "text": "الحقيقة",
+    "startMs": 10040,
+    "endMs": 10560,
+    "timestampMs": 10300,
+    "confidence": 0.9919098218282064,
+    "estimated": false
+  },
+  {
+    "text": "إن",
+    "startMs": 10560,
+    "endMs": 10740,
+    "timestampMs": 10650,
+    "confidence": 0.4440991282463074,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 10740,
+    "endMs": 11020,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "رسائل",
+    "startMs": 11020,
+    "endMs": 11400,
+    "timestampMs": 11210,
+    "confidence": 0.8632576912641525,
+    "estimated": false
+  },
+  {
+    "text": "بتتبعت،",
+    "startMs": 11400,
+    "endMs": 11920,
+    "timestampMs": 11660,
+    "confidence": 0.8768698871135712,
+    "estimated": false
+  },
+  {
+    "text": "وحسابات",
+    "startMs": 11920,
+    "endMs": 12460,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "بتتسوّى.",
+    "startMs": 12460,
+    "endMs": 13360,
+    "timestampMs": 12910,
+    "confidence": 0.8161833167076111,
+    "estimated": false
+  },
+  {
+    "text": "سويفت",
+    "startMs": 13560,
+    "endMs": 13880,
+    "timestampMs": 13720,
+    "confidence": 0.9608834981918335,
+    "estimated": false
+  },
+  {
+    "text": "مش",
+    "startMs": 13880,
+    "endMs": 14020,
+    "timestampMs": 13950,
+    "confidence": 0.9896620512008667,
+    "estimated": false
+  },
+  {
+    "text": "بنك،",
+    "startMs": 14020,
+    "endMs": 14780,
+    "timestampMs": 14400,
+    "confidence": 0.7110800743103027,
+    "estimated": false
+  },
+  {
+    "text": "ومش",
+    "startMs": 14780,
+    "endMs": 14960,
+    "timestampMs": 14870,
+    "confidence": 0.9746901392936707,
+    "estimated": false
+  },
+  {
+    "text": "محفظة",
+    "startMs": 14960,
+    "endMs": 15420,
+    "timestampMs": 15190,
+    "confidence": 0.9731530547142029,
+    "estimated": false
+  },
+  {
+    "text": "ماسكة",
+    "startMs": 15420,
+    "endMs": 15990,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "رصيدك.",
+    "startMs": 15990,
+    "endMs": 16560,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "هي",
+    "startMs": 16560,
+    "endMs": 16660,
+    "timestampMs": 16610,
+    "confidence": 0.9345836639404297,
+    "estimated": false
+  },
+  {
+    "text": "شبكة",
+    "startMs": 16660,
+    "endMs": 17100,
+    "timestampMs": 16880,
+    "confidence": 0.9877993017435074,
+    "estimated": false
+  },
+  {
+    "text": "مراسلات",
+    "startMs": 17100,
+    "endMs": 17620,
+    "timestampMs": 17360,
+    "confidence": 0.8068908467888832,
+    "estimated": false
+  },
+  {
+    "text": "مالية",
+    "startMs": 17620,
+    "endMs": 18020,
+    "timestampMs": 17820,
+    "confidence": 0.9838493466377258,
+    "estimated": false
+  },
+  {
+    "text": "آمنة",
+    "startMs": 18040,
+    "endMs": 18600,
+    "timestampMs": 18320,
+    "confidence": 0.8782646854718527,
+    "estimated": false
+  },
+  {
+    "text": "بتستخدمها",
+    "startMs": 18600,
+    "endMs": 19280,
+    "timestampMs": 18940,
+    "confidence": 0.8764523148536683,
+    "estimated": false
+  },
+  {
+    "text": "مؤسسات",
+    "startMs": 19280,
+    "endMs": 19800,
+    "timestampMs": 19540,
+    "confidence": 0.9894789814949035,
+    "estimated": false
+  },
+  {
+    "text": "مالية.",
+    "startMs": 19800,
+    "endMs": 20500,
+    "timestampMs": 20150,
+    "confidence": 0.9235200683275858,
+    "estimated": false
+  },
+  {
+    "text": "البنك",
+    "startMs": 20840,
+    "endMs": 21100,
+    "timestampMs": 20970,
+    "confidence": 0.9454788962999979,
+    "estimated": false
+  },
+  {
+    "text": "بيبعت",
+    "startMs": 21100,
+    "endMs": 21420,
+    "timestampMs": 21260,
+    "confidence": 0.814801886677742,
+    "estimated": false
+  },
+  {
+    "text": "من",
+    "startMs": 21420,
+    "endMs": 21560,
+    "timestampMs": 21490,
+    "confidence": 0.9885262250900269,
+    "estimated": false
+  },
+  {
+    "text": "خلالها",
+    "startMs": 21560,
+    "endMs": 22040,
+    "timestampMs": 21800,
+    "confidence": 0.994161531329155,
+    "estimated": false
+  },
+  {
+    "text": "تعليمات",
+    "startMs": 22040,
+    "endMs": 22520,
+    "timestampMs": 22280,
+    "confidence": 0.9843827933073044,
+    "estimated": false
+  },
+  {
+    "text": "الدفع،",
+    "startMs": 22520,
+    "endMs": 23240,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "زي",
+    "startMs": 23240,
+    "endMs": 23380,
+    "timestampMs": 23310,
+    "confidence": 0.9327344596385956,
+    "estimated": false
+  },
+  {
+    "text": "مين",
+    "startMs": 23380,
+    "endMs": 23580,
+    "timestampMs": 23480,
+    "confidence": 0.8110338151454926,
+    "estimated": false
+  },
+  {
+    "text": "المستفيد",
+    "startMs": 23580,
+    "endMs": 24240,
+    "timestampMs": 23910,
+    "confidence": 0.9830186665058136,
+    "estimated": false
+  },
+  {
+    "text": "والمبلغ",
+    "startMs": 24240,
+    "endMs": 24680,
+    "timestampMs": 24460,
+    "confidence": 0.9267317056655884,
+    "estimated": false
+  },
+  {
+    "text": "المطلوب.",
+    "startMs": 24680,
+    "endMs": 25360,
+    "timestampMs": 25020,
+    "confidence": 0.9862844496965408,
+    "estimated": false
+  },
+  {
+    "text": "أما",
+    "startMs": 25620,
+    "endMs": 25780,
+    "timestampMs": 25700,
+    "confidence": 0.9195785224437714,
+    "estimated": false
+  },
+  {
+    "text": "نقل",
+    "startMs": 25780,
+    "endMs": 26060,
+    "timestampMs": 25920,
+    "confidence": 0.9932334025700887,
+    "estimated": false
+  },
+  {
+    "text": "القيمة",
+    "startMs": 26060,
+    "endMs": 26580,
+    "timestampMs": 26320,
+    "confidence": 0.9797414938608805,
+    "estimated": false
+  },
+  {
+    "text": "وتسويتها،",
+    "startMs": 26580,
+    "endMs": 27460,
+    "timestampMs": 27020,
+    "confidence": 0.8157475491364797,
+    "estimated": false
+  },
+  {
+    "text": "فبتقوم",
+    "startMs": 27460,
+    "endMs": 27840,
+    "timestampMs": 27650,
+    "confidence": 0.833837890625,
+    "estimated": false
+  },
+  {
+    "text": "بيه",
+    "startMs": 27840,
+    "endMs": 28120,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "البنوك",
+    "startMs": 28120,
+    "endMs": 28400,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "والجهات",
+    "startMs": 28400,
+    "endMs": 28680,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "المالية.",
+    "startMs": 28680,
+    "endMs": 29120,
+    "timestampMs": 28900,
+    "confidence": 0.9921196699142456,
+    "estimated": false
+  },
+  {
+    "text": "إنت",
+    "startMs": 29720,
+    "endMs": 29900,
+    "timestampMs": 29810,
+    "confidence": 0.7912078201770782,
+    "estimated": false
+  },
+  {
+    "text": "عندك",
+    "startMs": 29900,
+    "endMs": 30220,
+    "timestampMs": 30060,
+    "confidence": 0.9564003348350525,
+    "estimated": false
+  },
+  {
+    "text": "حساب",
+    "startMs": 30220,
+    "endMs": 30480,
+    "timestampMs": 30350,
+    "confidence": 0.9798723260561625,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 30480,
+    "endMs": 30600,
+    "timestampMs": 30540,
+    "confidence": 0.9723464846611023,
+    "estimated": false
+  },
+  {
+    "text": "بنك،",
+    "startMs": 30600,
+    "endMs": 31260,
+    "timestampMs": 30930,
+    "confidence": 0.8605150133371353,
+    "estimated": false
+  },
+  {
+    "text": "والبنوك",
+    "startMs": 31260,
+    "endMs": 31600,
+    "timestampMs": 31430,
+    "confidence": 0.9851421356201172,
+    "estimated": false
+  },
+  {
+    "text": "كمان",
+    "startMs": 31600,
+    "endMs": 31860,
+    "timestampMs": 31730,
+    "confidence": 0.9174436926841736,
+    "estimated": false
+  },
+  {
+    "text": "ممكن",
+    "startMs": 31860,
+    "endMs": 32120,
+    "timestampMs": 31990,
+    "confidence": 0.8860605955123901,
+    "estimated": false
+  },
+  {
+    "text": "يكون",
+    "startMs": 32120,
+    "endMs": 32360,
+    "timestampMs": 32240,
+    "confidence": 0.9826913177967072,
+    "estimated": false
+  },
+  {
+    "text": "عندها",
+    "startMs": 32360,
+    "endMs": 32660,
+    "timestampMs": 32510,
+    "confidence": 0.9495907127857208,
+    "estimated": false
+  },
+  {
+    "text": "حسابات",
+    "startMs": 32660,
+    "endMs": 33140,
+    "timestampMs": 32900,
+    "confidence": 0.9917837232351303,
+    "estimated": false
+  },
+  {
+    "text": "عند",
+    "startMs": 33140,
+    "endMs": 33340,
+    "timestampMs": 33240,
+    "confidence": 0.8790022134780884,
+    "estimated": false
+  },
+  {
+    "text": "بنوك",
+    "startMs": 33340,
+    "endMs": 33600,
+    "timestampMs": 33470,
+    "confidence": 0.8914428949356079,
+    "estimated": false
+  },
+  {
+    "text": "تانية.",
+    "startMs": 33600,
+    "endMs": 34080,
+    "timestampMs": 33840,
+    "confidence": 0.9366710186004639,
+    "estimated": false
+  },
+  {
+    "text": "العلاقات",
+    "startMs": 34500,
+    "endMs": 34960,
+    "timestampMs": 34730,
+    "confidence": 0.8967838734388351,
+    "estimated": false
+  },
+  {
+    "text": "دي",
+    "startMs": 34960,
+    "endMs": 35140,
+    "timestampMs": 35050,
+    "confidence": 0.9526062905788422,
+    "estimated": false
+  },
+  {
+    "text": "بتساعدها",
+    "startMs": 35140,
+    "endMs": 35660,
+    "timestampMs": 35400,
+    "confidence": 0.9765730261802673,
+    "estimated": false
+  },
+  {
+    "text": "تدفع",
+    "startMs": 35660,
+    "endMs": 36120,
+    "timestampMs": 35890,
+    "confidence": 0.904995784163475,
+    "estimated": false
+  },
+  {
+    "text": "وتستقبل",
+    "startMs": 36140,
+    "endMs": 36640,
+    "timestampMs": 36390,
+    "confidence": 0.9449681490659714,
+    "estimated": false
+  },
+  {
+    "text": "بعملات",
+    "startMs": 36640,
+    "endMs": 37200,
+    "timestampMs": 36920,
+    "confidence": 0.9625981748104095,
+    "estimated": false
+  },
+  {
+    "text": "وأسواق",
+    "startMs": 37200,
+    "endMs": 37580,
+    "timestampMs": 37390,
+    "confidence": 0.8392886221408844,
+    "estimated": false
+  },
+  {
+    "text": "مختلفة،",
+    "startMs": 37580,
+    "endMs": 38420,
+    "timestampMs": 38000,
+    "confidence": 0.8121036887168884,
+    "estimated": false
+  },
+  {
+    "text": "من",
+    "startMs": 38420,
+    "endMs": 38460,
+    "timestampMs": 38440,
+    "confidence": 0.9771008491516113,
+    "estimated": false
+  },
+  {
+    "text": "غير",
+    "startMs": 38460,
+    "endMs": 38620,
+    "timestampMs": 38540,
+    "confidence": 0.9520630538463593,
+    "estimated": false
+  },
+  {
+    "text": "ما",
+    "startMs": 38620,
+    "endMs": 38740,
+    "timestampMs": 38680,
+    "confidence": 0.9064370393753052,
+    "estimated": false
+  },
+  {
+    "text": "كل",
+    "startMs": 38740,
+    "endMs": 38900,
+    "timestampMs": 38820,
+    "confidence": 0.9679839611053467,
+    "estimated": false
+  },
+  {
+    "text": "بنك",
+    "startMs": 38900,
+    "endMs": 39220,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "يبقى",
+    "startMs": 39220,
+    "endMs": 39420,
+    "timestampMs": 39320,
+    "confidence": 0.8816209733486176,
+    "estimated": false
+  },
+  {
+    "text": "له",
+    "startMs": 39420,
+    "endMs": 39480,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "فرع",
+    "startMs": 39480,
+    "endMs": 39780,
+    "timestampMs": 39630,
+    "confidence": 0.8958369890848795,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 39780,
+    "endMs": 39940,
+    "timestampMs": 39860,
+    "confidence": 0.8952839970588684,
+    "estimated": false
+  },
+  {
+    "text": "كل",
+    "startMs": 39940,
+    "endMs": 40080,
+    "timestampMs": 40010,
+    "confidence": 0.9960377216339111,
+    "estimated": false
+  },
+  {
+    "text": "بلد.",
+    "startMs": 40080,
+    "endMs": 40880,
+    "timestampMs": 40480,
+    "confidence": 0.935799757639567,
+    "estimated": false
+  },
+  {
+    "text": "لو",
+    "startMs": 41080,
+    "endMs": 41160,
+    "timestampMs": 41120,
+    "confidence": 0.9672690629959106,
+    "estimated": false
+  },
+  {
+    "text": "مفيش",
+    "startMs": 41160,
+    "endMs": 41460,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "علاقة",
+    "startMs": 41460,
+    "endMs": 41800,
+    "timestampMs": 41630,
+    "confidence": 0.9751349091529846,
+    "estimated": false
+  },
+  {
+    "text": "مناسبة",
+    "startMs": 41800,
+    "endMs": 42240,
+    "timestampMs": 42020,
+    "confidence": 0.9051651209592819,
+    "estimated": false
+  },
+  {
+    "text": "مباشرة",
+    "startMs": 42240,
+    "endMs": 42640,
+    "timestampMs": 42440,
+    "confidence": 0.8806100338697433,
+    "estimated": false
+  },
+  {
+    "text": "بين",
+    "startMs": 42640,
+    "endMs": 42780,
+    "timestampMs": 42710,
+    "confidence": 0.9852535128593445,
+    "estimated": false
+  },
+  {
+    "text": "البنكين،",
+    "startMs": 42780,
+    "endMs": 43660,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "ممكن",
+    "startMs": 43660,
+    "endMs": 43840,
+    "timestampMs": 43750,
+    "confidence": 0.9920961558818817,
+    "estimated": false
+  },
+  {
+    "text": "يدخل",
+    "startMs": 43840,
+    "endMs": 44200,
+    "timestampMs": 44020,
+    "confidence": 0.9978507459163666,
+    "estimated": false
+  },
+  {
+    "text": "بنك",
+    "startMs": 44200,
+    "endMs": 44480,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "مراسل",
+    "startMs": 44480,
+    "endMs": 44900,
+    "timestampMs": 44690,
+    "confidence": 0.912003830075264,
+    "estimated": false
+  },
+  {
+    "text": "أو",
+    "startMs": 44900,
+    "endMs": 45080,
+    "timestampMs": 44990,
+    "confidence": 0.977770984172821,
+    "estimated": false
+  },
+  {
+    "text": "أكتر.",
+    "startMs": 45080,
+    "endMs": 45780,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "ده",
+    "startMs": 45780,
+    "endMs": 45880,
+    "timestampMs": 45830,
+    "confidence": 0.8663891851902008,
+    "estimated": false
+  },
+  {
+    "text": "بنك",
+    "startMs": 45880,
+    "endMs": 46120,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "بيقدّم",
+    "startMs": 46120,
+    "endMs": 46500,
+    "timestampMs": 46310,
+    "confidence": 0.965212807059288,
+    "estimated": false
+  },
+  {
+    "text": "خدمات",
+    "startMs": 46500,
+    "endMs": 46880,
+    "timestampMs": 46690,
+    "confidence": 0.9803930123647054,
+    "estimated": false
+  },
+  {
+    "text": "لبنك",
+    "startMs": 46880,
+    "endMs": 47160,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "تاني.",
+    "startMs": 47160,
+    "endMs": 47620,
+    "timestampMs": 47390,
+    "confidence": 0.9111023743947347,
+    "estimated": false
+  },
+  {
+    "text": "المسار",
+    "startMs": 47620,
+    "endMs": 48220,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "بيتحدد",
+    "startMs": 48220,
+    "endMs": 48820,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "حسب",
+    "startMs": 48820,
+    "endMs": 49100,
+    "timestampMs": 48960,
+    "confidence": 0.9623138010501862,
+    "estimated": false
+  },
+  {
+    "text": "العلاقات",
+    "startMs": 49100,
+    "endMs": 49540,
+    "timestampMs": 49320,
+    "confidence": 0.9891086220741272,
+    "estimated": false
+  },
+  {
+    "text": "المصرفية",
+    "startMs": 49540,
+    "endMs": 50240,
+    "timestampMs": 49890,
+    "confidence": 0.967724546790123,
+    "estimated": false
+  },
+  {
+    "text": "والعملة",
+    "startMs": 50240,
+    "endMs": 51020,
+    "timestampMs": 50630,
+    "confidence": 0.9401719570159912,
+    "estimated": false
+  },
+  {
+    "text": "ونظام",
+    "startMs": 51020,
+    "endMs": 51440,
+    "timestampMs": 51230,
+    "confidence": 0.7996254488825798,
+    "estimated": false
+  },
+  {
+    "text": "الدفع،",
+    "startMs": 51440,
+    "endMs": 52160,
+    "timestampMs": 51800,
+    "confidence": 0.7427101656794548,
+    "estimated": false
+  },
+  {
+    "text": "ومش",
+    "startMs": 52160,
+    "endMs": 52380,
+    "timestampMs": 52270,
+    "confidence": 0.9704332947731018,
+    "estimated": false
+  },
+  {
+    "text": "كل",
+    "startMs": 52380,
+    "endMs": 52520,
+    "timestampMs": 52450,
+    "confidence": 0.9850895404815674,
+    "estimated": false
+  },
+  {
+    "text": "حوالة",
+    "startMs": 52520,
+    "endMs": 52960,
+    "timestampMs": 52740,
+    "confidence": 0.9496043026447296,
+    "estimated": false
+  },
+  {
+    "text": "لازم",
+    "startMs": 52960,
+    "endMs": 53180,
+    "timestampMs": 53070,
+    "confidence": 0.9835621118545532,
+    "estimated": false
+  },
+  {
+    "text": "تعدّي",
+    "startMs": 53180,
+    "endMs": 53480,
+    "timestampMs": 53330,
+    "confidence": 0.6638486683368683,
+    "estimated": false
+  },
+  {
+    "text": "على",
+    "startMs": 53480,
+    "endMs": 53640,
+    "timestampMs": 53560,
+    "confidence": 0.9845085144042969,
+    "estimated": false
+  },
+  {
+    "text": "نفس",
+    "startMs": 53640,
+    "endMs": 53740,
+    "timestampMs": 53690,
+    "confidence": 0.9994105398654938,
+    "estimated": false
+  },
+  {
+    "text": "عدد",
+    "startMs": 53740,
+    "endMs": 54040,
+    "timestampMs": 53890,
+    "confidence": 0.9886395335197449,
+    "estimated": false
+  },
+  {
+    "text": "الوسطاء.",
+    "startMs": 54020,
+    "endMs": 55060,
+    "timestampMs": 54540,
+    "confidence": 0.7459643382579089,
+    "estimated": false
+  },
+  {
+    "text": "خلّينا",
+    "startMs": 55060,
+    "endMs": 55340,
+    "timestampMs": 55200,
+    "confidence": 0.9099111954371134,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 55340,
+    "endMs": 55460,
+    "timestampMs": 55400,
+    "confidence": 0.9735196828842163,
+    "estimated": false
+  },
+  {
+    "text": "مثال",
+    "startMs": 55460,
+    "endMs": 55640,
+    "timestampMs": 55550,
+    "confidence": 0.7425624132156372,
+    "estimated": false
+  },
+  {
+    "text": "مبسّط:",
+    "startMs": 55640,
+    "endMs": 56680,
+    "timestampMs": 56160,
+    "confidence": 0.8895916938781738,
+    "estimated": false
+  },
+  {
+    "text": "بنكين",
+    "startMs": 56680,
+    "endMs": 56980,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "ليهم",
+    "startMs": 56980,
+    "endMs": 57280,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "حسابات",
+    "startMs": 57280,
+    "endMs": 57760,
+    "timestampMs": 57520,
+    "confidence": 0.956085741519928,
+    "estimated": false
+  },
+  {
+    "text": "عند",
+    "startMs": 57760,
+    "endMs": 57940,
+    "timestampMs": 57850,
+    "confidence": 0.7285251021385193,
+    "estimated": false
+  },
+  {
+    "text": "نفس",
+    "startMs": 57940,
+    "endMs": 58140,
+    "timestampMs": 58040,
+    "confidence": 0.9837430119514465,
+    "estimated": false
+  },
+  {
+    "text": "البنك",
+    "startMs": 58140,
+    "endMs": 58440,
+    "timestampMs": 58290,
+    "confidence": 0.8359064857165018,
+    "estimated": false
+  },
+  {
+    "text": "المراسل.",
+    "startMs": 58440,
+    "endMs": 59340,
+    "timestampMs": 58890,
+    "confidence": 0.9022359609603882,
+    "estimated": false
+  },
+  {
+    "text": "لتحويل",
+    "startMs": 59340,
+    "endMs": 59760,
+    "timestampMs": 59550,
+    "confidence": 0.9478158354759216,
+    "estimated": false
+  },
+  {
+    "text": "مية",
+    "startMs": 59760,
+    "endMs": 59980,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "دولار،",
+    "startMs": 59980,
+    "endMs": 60460,
+    "timestampMs": 60220,
+    "confidence": 0.9308504462242126,
+    "estimated": false
+  },
+  {
+    "text": "المراسل",
+    "startMs": 60460,
+    "endMs": 60920,
+    "timestampMs": 60690,
+    "confidence": 0.9958735555410385,
+    "estimated": false
+  },
+  {
+    "text": "ممكن",
+    "startMs": 60920,
+    "endMs": 61180,
+    "timestampMs": 61050,
+    "confidence": 0.9661735892295837,
+    "estimated": false
+  },
+  {
+    "text": "يخصم",
+    "startMs": 61180,
+    "endMs": 61490,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "مية",
+    "startMs": 61490,
+    "endMs": 61800,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "من",
+    "startMs": 61800,
+    "endMs": 61900,
+    "timestampMs": 61850,
+    "confidence": 0.9790453314781189,
+    "estimated": false
+  },
+  {
+    "text": "رصيد",
+    "startMs": 61900,
+    "endMs": 62160,
+    "timestampMs": 62030,
+    "confidence": 0.8705013791720072,
+    "estimated": false
+  },
+  {
+    "text": "البنك",
+    "startMs": 62160,
+    "endMs": 62500,
+    "timestampMs": 62330,
+    "confidence": 0.9753576119740804,
+    "estimated": false
+  },
+  {
+    "text": "المرسل",
+    "startMs": 62500,
+    "endMs": 62800,
+    "timestampMs": 62650,
+    "confidence": 0.9890324920415878,
+    "estimated": false
+  },
+  {
+    "text": "عنده،",
+    "startMs": 62800,
+    "endMs": 63380,
+    "timestampMs": 63090,
+    "confidence": 0.8134578963120779,
+    "estimated": false
+  },
+  {
+    "text": "ويضيفها",
+    "startMs": 63380,
+    "endMs": 63920,
+    "timestampMs": 63650,
+    "confidence": 0.9587465047836303,
+    "estimated": false
+  },
+  {
+    "text": "لرصيد",
+    "startMs": 63920,
+    "endMs": 64360,
+    "timestampMs": 64140,
+    "confidence": 0.8992223888635635,
+    "estimated": false
+  },
+  {
+    "text": "البنك",
+    "startMs": 64360,
+    "endMs": 64640,
+    "timestampMs": 64500,
+    "confidence": 0.9931222995122274,
+    "estimated": false
+  },
+  {
+    "text": "المستقبل.",
+    "startMs": 64640,
+    "endMs": 65660,
+    "timestampMs": 65150,
+    "confidence": 0.96274836063385,
+    "estimated": false
+  },
+  {
+    "text": "الأرصدة",
+    "startMs": 65660,
+    "endMs": 66040,
+    "timestampMs": 65850,
+    "confidence": 0.6818401999771595,
+    "estimated": false
+  },
+  {
+    "text": "اتغيّرت،",
+    "startMs": 66040,
+    "endMs": 66720,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "مش",
+    "startMs": 66720,
+    "endMs": 66820,
+    "timestampMs": 66770,
+    "confidence": 0.9702109694480896,
+    "estimated": false
+  },
+  {
+    "text": "شنطة",
+    "startMs": 66820,
+    "endMs": 67160,
+    "timestampMs": 66990,
+    "confidence": 0.912728875875473,
+    "estimated": false
+  },
+  {
+    "text": "فلوس",
+    "startMs": 67160,
+    "endMs": 67360,
+    "timestampMs": 67260,
+    "confidence": 0.9448938568433126,
+    "estimated": false
+  },
+  {
+    "text": "سافرت.",
+    "startMs": 67360,
+    "endMs": 68640,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "بعد",
+    "startMs": 68640,
+    "endMs": 68820,
+    "timestampMs": 68730,
+    "confidence": 0.9989820122718811,
+    "estimated": false
+  },
+  {
+    "text": "استكمال",
+    "startMs": 68820,
+    "endMs": 69200,
+    "timestampMs": 69010,
+    "confidence": 0.9501132567723592,
+    "estimated": false
+  },
+  {
+    "text": "الخطوات",
+    "startMs": 69200,
+    "endMs": 69580,
+    "timestampMs": 69390,
+    "confidence": 0.9543047398328781,
+    "estimated": false
+  },
+  {
+    "text": "المطلوبة،",
+    "startMs": 69580,
+    "endMs": 70320,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "بنك",
+    "startMs": 70320,
+    "endMs": 70560,
+    "timestampMs": 70440,
+    "confidence": 0.8785579403241476,
+    "estimated": false
+  },
+  {
+    "text": "المستفيد",
+    "startMs": 70560,
+    "endMs": 71020,
+    "timestampMs": 70790,
+    "confidence": 0.9828720390796661,
+    "estimated": false
+  },
+  {
+    "text": "بيقيّد",
+    "startMs": 71020,
+    "endMs": 71420,
+    "timestampMs": 71220,
+    "confidence": 0.6985308602452278,
+    "estimated": false
+  },
+  {
+    "text": "المبلغ",
+    "startMs": 71420,
+    "endMs": 71800,
+    "timestampMs": 71610,
+    "confidence": 0.9411195317904154,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 71800,
+    "endMs": 71880,
+    "timestampMs": 71840,
+    "confidence": 0.9777307510375977,
+    "estimated": false
+  },
+  {
+    "text": "حساب",
+    "startMs": 71880,
+    "endMs": 72140,
+    "timestampMs": 72010,
+    "confidence": 0.911579966545105,
+    "estimated": false
+  },
+  {
+    "text": "عميله.",
+    "startMs": 72140,
+    "endMs": 72760,
+    "timestampMs": 72450,
+    "confidence": 0.6817360520362854,
+    "estimated": false
+  },
+  {
+    "text": "عشان",
+    "startMs": 73080,
+    "endMs": 73240,
+    "timestampMs": 73160,
+    "confidence": 0.9492933750152588,
+    "estimated": false
+  },
+  {
+    "text": "كده",
+    "startMs": 73240,
+    "endMs": 73380,
+    "timestampMs": 73310,
+    "confidence": 0.9248182773590088,
+    "estimated": false
+  },
+  {
+    "text": "وصول",
+    "startMs": 73380,
+    "endMs": 73620,
+    "timestampMs": 73500,
+    "confidence": 0.9244598944981893,
+    "estimated": false
+  },
+  {
+    "text": "تعليمات",
+    "startMs": 73620,
+    "endMs": 74000,
+    "timestampMs": 73810,
+    "confidence": 0.8308563083410263,
+    "estimated": false
+  },
+  {
+    "text": "الدفع",
+    "startMs": 74000,
+    "endMs": 74260,
+    "timestampMs": 74130,
+    "confidence": 0.9450998107592264,
+    "estimated": false
+  },
+  {
+    "text": "لبنك",
+    "startMs": 74260,
+    "endMs": 74660,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "مش",
+    "startMs": 74660,
+    "endMs": 74860,
+    "timestampMs": 74760,
+    "confidence": 0.9152281880378723,
+    "estimated": false
+  },
+  {
+    "text": "بالضرورة",
+    "startMs": 74860,
+    "endMs": 75400,
+    "timestampMs": 75130,
+    "confidence": 0.942471718788147,
+    "estimated": false
+  },
+  {
+    "text": "معناه",
+    "startMs": 75400,
+    "endMs": 75680,
+    "timestampMs": 75540,
+    "confidence": 0.7873182694117228,
+    "estimated": false
+  },
+  {
+    "text": "إن",
+    "startMs": 75680,
+    "endMs": 75820,
+    "timestampMs": 75750,
+    "confidence": 0.5476720333099365,
+    "estimated": false
+  },
+  {
+    "text": "الفلوس",
+    "startMs": 75820,
+    "endMs": 76100,
+    "timestampMs": 75960,
+    "confidence": 0.9377303520838419,
+    "estimated": false
+  },
+  {
+    "text": "ظهرت",
+    "startMs": 76100,
+    "endMs": 76400,
+    "timestampMs": 76250,
+    "confidence": 0.9752709567546844,
+    "estimated": false
+  },
+  {
+    "text": "فورًا",
+    "startMs": 76400,
+    "endMs": 76860,
+    "timestampMs": 76630,
+    "confidence": 0.832785040140152,
+    "estimated": false
+  },
+  {
+    "text": "عند",
+    "startMs": 76860,
+    "endMs": 76980,
+    "timestampMs": 76920,
+    "confidence": 0.9309993982315063,
+    "estimated": false
+  },
+  {
+    "text": "الشخص.",
+    "startMs": 76980,
+    "endMs": 77780,
+    "timestampMs": 77380,
+    "confidence": 0.9854504267374674,
+    "estimated": false
+  },
+  {
+    "text": "فيه",
+    "startMs": 77860,
+    "endMs": 78060,
+    "timestampMs": 77960,
+    "confidence": 0.8610544204711914,
+    "estimated": false
+  },
+  {
+    "text": "فرق",
+    "startMs": 78060,
+    "endMs": 78200,
+    "timestampMs": 78130,
+    "confidence": 0.986492375532786,
+    "estimated": false
+  },
+  {
+    "text": "بين",
+    "startMs": 78200,
+    "endMs": 78360,
+    "timestampMs": 78280,
+    "confidence": 0.8865680694580078,
+    "estimated": false
+  },
+  {
+    "text": "توصيل",
+    "startMs": 78360,
+    "endMs": 78700,
+    "timestampMs": 78530,
+    "confidence": 0.9830523729324341,
+    "estimated": false
+  },
+  {
+    "text": "الرسالة",
+    "startMs": 78700,
+    "endMs": 79320,
+    "timestampMs": 79010,
+    "confidence": 0.9843344986438751,
+    "estimated": false
+  },
+  {
+    "text": "وإتمام",
+    "startMs": 79320,
+    "endMs": 79660,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "خطوات",
+    "startMs": 79660,
+    "endMs": 80000,
+    "timestampMs": 79830,
+    "confidence": 0.976599708199501,
+    "estimated": false
+  },
+  {
+    "text": "التحويل.",
+    "startMs": 80000,
+    "endMs": 80960,
+    "timestampMs": 80480,
+    "confidence": 0.9874334335327148,
+    "estimated": false
+  },
+  {
+    "text": "والوقت",
+    "startMs": 81160,
+    "endMs": 81480,
+    "timestampMs": 81320,
+    "confidence": 0.9633708596229553,
+    "estimated": false
+  },
+  {
+    "text": "والتكلفة",
+    "startMs": 81480,
+    "endMs": 82000,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "ممكن",
+    "startMs": 82000,
+    "endMs": 82260,
+    "timestampMs": 82130,
+    "confidence": 0.8469120562076569,
+    "estimated": false
+  },
+  {
+    "text": "يتأثروا",
+    "startMs": 82260,
+    "endMs": 82680,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "بمراجعة",
+    "startMs": 82680,
+    "endMs": 83200,
+    "timestampMs": 82940,
+    "confidence": 0.8010608926415443,
+    "estimated": false
+  },
+  {
+    "text": "البيانات،",
+    "startMs": 83200,
+    "endMs": 83940,
+    "timestampMs": 83570,
+    "confidence": 0.9902638643980026,
+    "estimated": false
+  },
+  {
+    "text": "وفحوص",
+    "startMs": 83940,
+    "endMs": 84493,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "الامتثال،",
+    "startMs": 84493,
+    "endMs": 85047,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "ومواعيد",
+    "startMs": 85047,
+    "endMs": 85600,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "عمل",
+    "startMs": 85600,
+    "endMs": 85820,
+    "timestampMs": 85710,
+    "confidence": 0.9827638566493988,
+    "estimated": false
+  },
+  {
+    "text": "أنظمة",
+    "startMs": 85820,
+    "endMs": 86120,
+    "timestampMs": 85970,
+    "confidence": 0.716628909111023,
+    "estimated": false
+  },
+  {
+    "text": "الدفع.",
+    "startMs": 86120,
+    "endMs": 86540,
+    "timestampMs": 86330,
+    "confidence": 0.9312614599863688,
+    "estimated": false
+  },
+  {
+    "text": "ولو",
+    "startMs": 86960,
+    "endMs": 87120,
+    "timestampMs": 87040,
+    "confidence": 0.880752444267273,
+    "estimated": false
+  },
+  {
+    "text": "فيه",
+    "startMs": 87120,
+    "endMs": 87260,
+    "timestampMs": 87190,
+    "confidence": 0.8076140582561493,
+    "estimated": false
+  },
+  {
+    "text": "تغيير",
+    "startMs": 87260,
+    "endMs": 87520,
+    "timestampMs": 87390,
+    "confidence": 0.9649013876914978,
+    "estimated": false
+  },
+  {
+    "text": "عملة",
+    "startMs": 87520,
+    "endMs": 87880,
+    "timestampMs": 87700,
+    "confidence": 0.9702187975247701,
+    "estimated": false
+  },
+  {
+    "text": "أو",
+    "startMs": 87880,
+    "endMs": 88040,
+    "timestampMs": 87960,
+    "confidence": 0.9763559103012085,
+    "estimated": false
+  },
+  {
+    "text": "رسوم",
+    "startMs": 88040,
+    "endMs": 88300,
+    "timestampMs": 88170,
+    "confidence": 0.9880858659744263,
+    "estimated": false
+  },
+  {
+    "text": "بنوك،",
+    "startMs": 88300,
+    "endMs": 89060,
+    "timestampMs": 88680,
+    "confidence": 0.8115274310112,
+    "estimated": false
+  },
+  {
+    "text": "المبلغ",
+    "startMs": 89060,
+    "endMs": 89340,
+    "timestampMs": 89200,
+    "confidence": 0.996508002281189,
+    "estimated": false
+  },
+  {
+    "text": "النهائي",
+    "startMs": 89340,
+    "endMs": 89640,
+    "timestampMs": 89490,
+    "confidence": 0.7079494670033455,
+    "estimated": false
+  },
+  {
+    "text": "ممكن",
+    "startMs": 89640,
+    "endMs": 89840,
+    "timestampMs": 89740,
+    "confidence": 0.9892258942127228,
+    "estimated": false
+  },
+  {
+    "text": "يختلف.",
+    "startMs": 89860,
+    "endMs": 90720,
+    "timestampMs": 90290,
+    "confidence": 0.9912830193837484,
+    "estimated": false
+  },
+  {
+    "text": "مفيش",
+    "startMs": 90720,
+    "endMs": 91200,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "مدة",
+    "startMs": 91200,
+    "endMs": 91460,
+    "timestampMs": 91330,
+    "confidence": 0.9151067137718201,
+    "estimated": false
+  },
+  {
+    "text": "أو",
+    "startMs": 91460,
+    "endMs": 91620,
+    "timestampMs": 91540,
+    "confidence": 0.9243031144142151,
+    "estimated": false
+  },
+  {
+    "text": "رسوم",
+    "startMs": 91620,
+    "endMs": 91880,
+    "timestampMs": 91750,
+    "confidence": 0.9899347821871439,
+    "estimated": false
+  },
+  {
+    "text": "واحدة",
+    "startMs": 91880,
+    "endMs": 92200,
+    "timestampMs": 92040,
+    "confidence": 0.9156317313512167,
+    "estimated": false
+  },
+  {
+    "text": "تنطبق",
+    "startMs": 92200,
+    "endMs": 92580,
+    "timestampMs": 92390,
+    "confidence": 0.9649646639823913,
+    "estimated": false
+  },
+  {
+    "text": "على",
+    "startMs": 92580,
+    "endMs": 92760,
+    "timestampMs": 92670,
+    "confidence": 0.988937497138977,
+    "estimated": false
+  },
+  {
+    "text": "كل",
+    "startMs": 92760,
+    "endMs": 92920,
+    "timestampMs": 92840,
+    "confidence": 0.9703486561775208,
+    "estimated": false
+  },
+  {
+    "text": "حوالة",
+    "startMs": 92920,
+    "endMs": 93180,
+    "timestampMs": 93050,
+    "confidence": 0.9740164130926132,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 93180,
+    "endMs": 93260,
+    "timestampMs": 93220,
+    "confidence": 0.9950085878372192,
+    "estimated": false
+  },
+  {
+    "text": "العالم.",
+    "startMs": 93260,
+    "endMs": 94120,
+    "timestampMs": 93690,
+    "confidence": 0.997168779373169,
+    "estimated": false
+  },
+  {
+    "text": "الخلاصة:",
+    "startMs": 94720,
+    "endMs": 95360,
+    "timestampMs": 95040,
+    "confidence": 0.9121630072593689,
+    "estimated": false
+  },
+  {
+    "text": "سويفت",
+    "startMs": 95360,
+    "endMs": 95640,
+    "timestampMs": 95500,
+    "confidence": 0.5703175328671932,
+    "estimated": false
+  },
+  {
+    "text": "بتساعد",
+    "startMs": 95640,
+    "endMs": 95980,
+    "timestampMs": 95810,
+    "confidence": 0.7762599959969521,
+    "estimated": false
+  },
+  {
+    "text": "المؤسسات",
+    "startMs": 95980,
+    "endMs": 96480,
+    "timestampMs": 96230,
+    "confidence": 0.9810640454292298,
+    "estimated": false
+  },
+  {
+    "text": "تتبادل",
+    "startMs": 96480,
+    "endMs": 96880,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "التعليمات،",
+    "startMs": 96880,
+    "endMs": 97620,
+    "timestampMs": 97250,
+    "confidence": 0.9901211857795715,
+    "estimated": false
+  },
+  {
+    "text": "والبنوك",
+    "startMs": 97860,
+    "endMs": 98220,
+    "timestampMs": 98040,
+    "confidence": 0.9496717929840088,
+    "estimated": false
+  },
+  {
+    "text": "وأنظمة",
+    "startMs": 98220,
+    "endMs": 98560,
+    "timestampMs": 98390,
+    "confidence": 0.6831093207001686,
+    "estimated": false
+  },
+  {
+    "text": "الدفع",
+    "startMs": 98560,
+    "endMs": 98920,
+    "timestampMs": 98740,
+    "confidence": 0.9348645011583964,
+    "estimated": false
+  },
+  {
+    "text": "بتنفّذ",
+    "startMs": 98920,
+    "endMs": 99360,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "تسوية",
+    "startMs": 99360,
+    "endMs": 99780,
+    "timestampMs": 99570,
+    "confidence": 0.8326012641191483,
+    "estimated": false
+  },
+  {
+    "text": "القيمة",
+    "startMs": 99780,
+    "endMs": 100400,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "وقيدها.",
+    "startMs": 100400,
+    "endMs": 101020,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "الحوالة",
+    "startMs": 101020,
+    "endMs": 101320,
+    "timestampMs": 101170,
+    "confidence": 0.9656443446874619,
+    "estimated": false
+  },
+  {
+    "text": "الدولية",
+    "startMs": 101320,
+    "endMs": 101640,
+    "timestampMs": 101480,
+    "confidence": 0.989297072092692,
+    "estimated": false
+  },
+  {
+    "text": "مش",
+    "startMs": 101640,
+    "endMs": 101870,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "ورقة",
+    "startMs": 101870,
+    "endMs": 102100,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "نقدية",
+    "startMs": 102100,
+    "endMs": 102330,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "بتجري",
+    "startMs": 102330,
+    "endMs": 102560,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "على",
+    "startMs": 102560,
+    "endMs": 102720,
+    "timestampMs": 102640,
+    "confidence": 0.8713670372962952,
+    "estimated": false
+  },
+  {
+    "text": "الإنترنت؛",
+    "startMs": 102720,
+    "endMs": 103300,
+    "timestampMs": 103010,
+    "confidence": 0.8711502850055695,
+    "estimated": false
+  },
+  {
+    "text": "هي",
+    "startMs": 103540,
+    "endMs": 103720,
+    "timestampMs": 103630,
+    "confidence": 0.9781051278114319,
+    "estimated": false
+  },
+  {
+    "text": "تنسيق",
+    "startMs": 103720,
+    "endMs": 104200,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "بين",
+    "startMs": 104200,
+    "endMs": 104320,
+    "timestampMs": 104260,
+    "confidence": 0.8273860216140747,
+    "estimated": false
+  },
+  {
+    "text": "مؤسسات",
+    "startMs": 104320,
+    "endMs": 104760,
+    "timestampMs": 104540,
+    "confidence": 0.9884762167930603,
+    "estimated": false
+  },
+  {
+    "text": "وحسابات.",
+    "startMs": 104760,
+    "endMs": 105400,
+    "timestampMs": 105080,
+    "confidence": 0.8959206104278564,
+    "estimated": false
+  },
+  {
+    "text": "والسيناريو",
+    "startMs": 105640,
+    "endMs": 106100,
+    "timestampMs": 105870,
+    "confidence": 0.9016230305035909,
+    "estimated": false
+  },
+  {
+    "text": "اللي",
+    "startMs": 106100,
+    "endMs": 106160,
+    "timestampMs": 106130,
+    "confidence": 0.9483518302440643,
+    "estimated": false
+  },
+  {
+    "text": "شفناه",
+    "startMs": 106160,
+    "endMs": 106520,
+    "timestampMs": 106340,
+    "confidence": 0.9210998266935349,
+    "estimated": false
+  },
+  {
+    "text": "مجرد",
+    "startMs": 106520,
+    "endMs": 106840,
+    "timestampMs": 106680,
+    "confidence": 0.9790653735399246,
+    "estimated": false
+  },
+  {
+    "text": "نموذج",
+    "startMs": 106840,
+    "endMs": 107240,
+    "timestampMs": 107040,
+    "confidence": 0.9662679314613343,
+    "estimated": false
+  },
+  {
+    "text": "من",
+    "startMs": 107240,
+    "endMs": 107360,
+    "timestampMs": 107300,
+    "confidence": 0.7838831543922424,
+    "estimated": false
+  },
+  {
+    "text": "مسارات",
+    "startMs": 107360,
+    "endMs": 107680,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "كتير.",
+    "startMs": 107680,
+    "endMs": 108220,
+    "timestampMs": 107950,
+    "confidence": 0.8831793665885925,
+    "estimated": false
+  },
+  {
+    "text": "دي",
+    "startMs": 108220,
+    "endMs": 108730,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "نفهمها.",
+    "startMs": 108730,
+    "endMs": 109240,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  }
+]

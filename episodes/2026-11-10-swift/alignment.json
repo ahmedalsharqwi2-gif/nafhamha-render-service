@@ -1,0 +1,31 @@
+{
+  "original_word_count": 274,
+  "asr_word_count": 276,
+  "matched_original_words": 228,
+  "anchor_coverage": 0.8321167883211679,
+  "estimated_word_count": 46,
+  "alignment_claim": "Matched ASR anchors with explicitly estimated unmatched words; not phoneme-perfect timing.",
+  "duration": 109.24,
+  "captions": 58,
+  "all_original_words_retained": true,
+  "original_voice_sha256": "063bf294fa1a7e59c89b8af7b390554e0ab61ba3b5a6774e9bca00fe6921113c",
+  "story_sha256": "59e642073b0573dc98426c4ecb7ed6c405089012894f1d3c509d24672c92e073",
+  "last_asr_text": " كثير.  ديني  فعمه.",
+  "last_original_words": [
+    "هي",
+    "تنسيق",
+    "بين",
+    "مؤسسات",
+    "وحسابات.",
+    "والسيناريو",
+    "اللي",
+    "شفناه",
+    "مجرد",
+    "نموذج",
+    "من",
+    "مسارات",
+    "كتير.",
+    "دي",
+    "نفهمها."
+  ]
+}
