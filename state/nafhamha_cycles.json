@@ -2,7 +2,7 @@
   "version": 1,
   "cycles": {
     "nafhamha-2026-11-10-noon": {
-      "status": "render_complete_pending_visual_review",
+      "status": "visual_refinement_ready_same_confirmed_voice",
       "first_run_observed": true,
       "started_at": "2026-11-10T00:09:17.127098+00:00",
       "due_at": "2026-11-10T10:00:00Z",
@@ -117,185 +117,192 @@
         "artifact_id": "13734927520",
         "artifact_name": "nafhamha-voice-2026-11-10-swift"
       },
-      "render": {
-        "phase": "complete",
-        "request_run": "42756119503",
-        "story_sha256": "59e642073b0573dc98426c4ecb7ed6c405089012894f1d3c509d24672c92e073",
-        "voice_sha256": "063bf294fa1a7e59c89b8af7b390554e0ab61ba3b5a6774e9bca00fe6921113c",
-        "started_at": "2026-11-10T04:29:11.067Z",
-        "source_run_sha": "78e48049f24b9b80e8d9909f513775a1305cf46b",
-        "artifact_id": "13735427834",
-        "artifact_name": "nafhamha-render-2026-11-10-swift",
-        "movie_sha256": "144ad62cf209b06f9d56a00adfd21b43ba62f6c9dc053e655a1656cfae584e09",
-        "duration": 109.266667,
-        "bytes": 7319768,
-        "qa": {
-          "status": "technically_verified_pending_visual_review",
-          "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
-          "movie_sha256": "144ad62cf209b06f9d56a00adfd21b43ba62f6c9dc053e655a1656cfae584e09",
-          "bytes": 7319768,
-          "duration": 109.266667,
-          "frames": 3278,
-          "width": 720,
-          "height": 1280,
-          "fps": 30,
-          "audio_codec": "aac",
-          "original_voice_sha256": "063bf294fa1a7e59c89b8af7b390554e0ab61ba3b5a6774e9bca00fe6921113c",
+      "retained_render_revisions": [
+        {
+          "phase": "complete",
+          "request_run": "42756119503",
           "story_sha256": "59e642073b0573dc98426c4ecb7ed6c405089012894f1d3c509d24672c92e073",
-          "render": {
-            "version": 1,
-            "renderer": "Remotion4.0.540 bespoke subject-specific SVG scenes",
+          "voice_sha256": "063bf294fa1a7e59c89b8af7b390554e0ab61ba3b5a6774e9bca00fe6921113c",
+          "started_at": "2026-11-10T04:29:11.067Z",
+          "source_run_sha": "78e48049f24b9b80e8d9909f513775a1305cf46b",
+          "artifact_id": "13735427834",
+          "artifact_name": "nafhamha-render-2026-11-10-swift",
+          "movie_sha256": "144ad62cf209b06f9d56a00adfd21b43ba62f6c9dc053e655a1656cfae584e09",
+          "duration": 109.266667,
+          "bytes": 7319768,
+          "qa": {
+            "status": "technically_verified_pending_visual_review",
+            "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+            "movie_sha256": "144ad62cf209b06f9d56a00adfd21b43ba62f6c9dc053e655a1656cfae584e09",
+            "bytes": 7319768,
+            "duration": 109.266667,
             "frames": 3278,
             "width": 720,
             "height": 1280,
             "fps": 30,
+            "audio_codec": "aac",
             "original_voice_sha256": "063bf294fa1a7e59c89b8af7b390554e0ab61ba3b5a6774e9bca00fe6921113c",
             "story_sha256": "59e642073b0573dc98426c4ecb7ed6c405089012894f1d3c509d24672c92e073",
-            "source_sha256": "0afb8496b2fecd1aaef2ec074375930c3d0099823eddb8506778a537be8d1ea8",
-            "props_sha256": "e9f3bfed56489bd5fb0abd5356a1e8615ef294021c6d9694added094d4408ef5",
-            "caption_measurements": 3189,
-            "captions_expected": 58,
-            "captions_measured": 58,
-            "max_caption_bottom": 1074.09375,
-            "overflow": [],
-            "unmeasured_captions": [],
-            "output_sha256": "dd343441e900ad240eb725dc9e0f39ab3ebf11b8a3334e9a613ec462472646b1"
-          },
-          "alignment": {
-            "original_word_count": 274,
-            "asr_word_count": 276,
-            "matched_original_words": 228,
-            "anchor_coverage": 0.8321167883211679,
-            "estimated_word_count": 46,
-            "alignment_claim": "Matched ASR anchors with explicitly estimated unmatched words; not phoneme-perfect timing.",
-            "duration": 109.24,
-            "captions": 58,
-            "all_original_words_retained": true,
-            "original_voice_sha256": "063bf294fa1a7e59c89b8af7b390554e0ab61ba3b5a6774e9bca00fe6921113c",
-            "story_sha256": "59e642073b0573dc98426c4ecb7ed6c405089012894f1d3c509d24672c92e073",
-            "last_asr_text": " كثير.  ديني  فعمه.",
-            "last_original_words": [
-              "هي",
-              "تنسيق",
-              "بين",
-              "مؤسسات",
-              "وحسابات.",
-              "والسيناريو",
-              "اللي",
-              "شفناه",
-              "مجرد",
-              "نموذج",
-              "من",
-              "مسارات",
-              "كتير.",
-              "دي",
-              "نفهمها."
-            ]
-          },
-          "full_decode_passed": true,
-          "full_speech_waveform_correlation": 0.9999625367655054,
-          "last_speech_window_correlation": 0.9999646257983358,
-          "max_volume_db": -1.5,
-          "black_intervals": [],
-          "stills": [
-            {
-              "file": "scene-1.jpg",
-              "at": 5,
-              "sha256": "5887941c9a62f8b2c4fe4ef75863fd50eaa87f2139f8915c2c5b99951acaa37c"
+            "render": {
+              "version": 1,
+              "renderer": "Remotion4.0.540 bespoke subject-specific SVG scenes",
+              "frames": 3278,
+              "width": 720,
+              "height": 1280,
+              "fps": 30,
+              "original_voice_sha256": "063bf294fa1a7e59c89b8af7b390554e0ab61ba3b5a6774e9bca00fe6921113c",
+              "story_sha256": "59e642073b0573dc98426c4ecb7ed6c405089012894f1d3c509d24672c92e073",
+              "source_sha256": "0afb8496b2fecd1aaef2ec074375930c3d0099823eddb8506778a537be8d1ea8",
+              "props_sha256": "e9f3bfed56489bd5fb0abd5356a1e8615ef294021c6d9694added094d4408ef5",
+              "caption_measurements": 3189,
+              "captions_expected": 58,
+              "captions_measured": 58,
+              "max_caption_bottom": 1074.09375,
+              "overflow": [],
+              "unmeasured_captions": [],
+              "output_sha256": "dd343441e900ad240eb725dc9e0f39ab3ebf11b8a3334e9a613ec462472646b1"
             },
-            {
-              "file": "boundary-1.jpg",
-              "at": 0.4,
-              "sha256": "28cb5fc2c7100adc7898dd517f4016950c9dabc29eab7989da241b882d13b9da"
+            "alignment": {
+              "original_word_count": 274,
+              "asr_word_count": 276,
+              "matched_original_words": 228,
+              "anchor_coverage": 0.8321167883211679,
+              "estimated_word_count": 46,
+              "alignment_claim": "Matched ASR anchors with explicitly estimated unmatched words; not phoneme-perfect timing.",
+              "duration": 109.24,
+              "captions": 58,
+              "all_original_words_retained": true,
+              "original_voice_sha256": "063bf294fa1a7e59c89b8af7b390554e0ab61ba3b5a6774e9bca00fe6921113c",
+              "story_sha256": "59e642073b0573dc98426c4ecb7ed6c405089012894f1d3c509d24672c92e073",
+              "last_asr_text": " كثير.  ديني  فعمه.",
+              "last_original_words": [
+                "هي",
+                "تنسيق",
+                "بين",
+                "مؤسسات",
+                "وحسابات.",
+                "والسيناريو",
+                "اللي",
+                "شفناه",
+                "مجرد",
+                "نموذج",
+                "من",
+                "مسارات",
+                "كتير.",
+                "دي",
+                "نفهمها."
+              ]
             },
-            {
-              "file": "scene-2.jpg",
-              "at": 18.5,
-              "sha256": "fb897bd67237f185a420088a66c6c1d4bcc50ff6d47b46d8ab3cdba79655f50b"
-            },
-            {
-              "file": "boundary-2.jpg",
-              "at": 13.9,
-              "sha256": "a0bf781424998ac0614834b81dbe86b0f49d99c9dd9f1bd3f9f28dae8836d941"
-            },
-            {
-              "file": "scene-3.jpg",
-              "at": 34.66666666666667,
-              "sha256": "4ff54ea74ed80fec890cd1dbe9b9605a9f35895c6d0afc7108e0d83e40a75eff"
-            },
-            {
-              "file": "boundary-3.jpg",
-              "at": 30.066666666666666,
-              "sha256": "84e1b6cb05cc36976d0585b2c36e069a8752c79657e6901ef53e8044e431cd4b"
-            },
-            {
-              "file": "scene-4.jpg",
-              "at": 46,
-              "sha256": "6c7c481861e5d2d85b73bb52b41cc066af81a1152bc3461a7d5d33085d8b3ee2"
-            },
-            {
-              "file": "boundary-4.jpg",
-              "at": 41.4,
-              "sha256": "165678cd2e175376c2975a7cb120ed9cc642a9e3d1b91fdd096a38c43518d8cd"
-            },
-            {
-              "file": "scene-5.jpg",
-              "at": 60,
-              "sha256": "f678023d031452b033e103caea9b6b8184e1b94062b8a4dd110b10ede057e261"
-            },
-            {
-              "file": "boundary-5.jpg",
-              "at": 55.4,
-              "sha256": "8ba801e8f9f51a4e1c31ef180dd68616f721fd73ce40482225c7208ee70ef15c"
-            },
-            {
-              "file": "scene-6.jpg",
-              "at": 73.56666666666666,
-              "sha256": "d7bb765c76b1e2735d2399da0529fc068085daba01ec0ff560f3c58108ed6c22"
-            },
-            {
-              "file": "boundary-6.jpg",
-              "at": 68.96666666666667,
-              "sha256": "a8701b6ec2f335e32dea43058946245bcae53d6af4860f4adae93f294d30d2e6"
-            },
-            {
-              "file": "scene-7.jpg",
-              "at": 86.1,
-              "sha256": "eed1caffa042f5e3adf2161190cbc301402a7e279334e82a126999ba19f96cc7"
-            },
-            {
-              "file": "boundary-7.jpg",
-              "at": 81.5,
-              "sha256": "d1be149b7b6bac12ed3b843a7c14db36e11ef157a15b46627ecfc2aec452a5f3"
-            },
-            {
-              "file": "scene-8.jpg",
-              "at": 99.66666666666667,
-              "sha256": "b3d08bc2fb363bc368ff102f29ba6d3bc640d7aba09d23e88dfc91ac3f03bcfd"
-            },
-            {
-              "file": "boundary-8.jpg",
-              "at": 95.06666666666668,
-              "sha256": "67339389065f0b39df1563192ec3c8a35387f09adfa502900f00cc88bc3dbd25"
-            },
-            {
-              "file": "closing.jpg",
-              "at": 109.016667,
-              "sha256": "40973d5e5dc9a3dc0a8d57592eb8b16c366a2504786d26712a83ceec230c2d77"
+            "full_decode_passed": true,
+            "full_speech_waveform_correlation": 0.9999625367655054,
+            "last_speech_window_correlation": 0.9999646257983358,
+            "max_volume_db": -1.5,
+            "black_intervals": [],
+            "stills": [
+              {
+                "file": "scene-1.jpg",
+                "at": 5,
+                "sha256": "5887941c9a62f8b2c4fe4ef75863fd50eaa87f2139f8915c2c5b99951acaa37c"
+              },
+              {
+                "file": "boundary-1.jpg",
+                "at": 0.4,
+                "sha256": "28cb5fc2c7100adc7898dd517f4016950c9dabc29eab7989da241b882d13b9da"
+              },
+              {
+                "file": "scene-2.jpg",
+                "at": 18.5,
+                "sha256": "fb897bd67237f185a420088a66c6c1d4bcc50ff6d47b46d8ab3cdba79655f50b"
+              },
+              {
+                "file": "boundary-2.jpg",
+                "at": 13.9,
+                "sha256": "a0bf781424998ac0614834b81dbe86b0f49d99c9dd9f1bd3f9f28dae8836d941"
+              },
+              {
+                "file": "scene-3.jpg",
+                "at": 34.66666666666667,
+                "sha256": "4ff54ea74ed80fec890cd1dbe9b9605a9f35895c6d0afc7108e0d83e40a75eff"
+              },
+              {
+                "file": "boundary-3.jpg",
+                "at": 30.066666666666666,
+                "sha256": "84e1b6cb05cc36976d0585b2c36e069a8752c79657e6901ef53e8044e431cd4b"
+              },
+              {
+                "file": "scene-4.jpg",
+                "at": 46,
+                "sha256": "6c7c481861e5d2d85b73bb52b41cc066af81a1152bc3461a7d5d33085d8b3ee2"
+              },
+              {
+                "file": "boundary-4.jpg",
+                "at": 41.4,
+                "sha256": "165678cd2e175376c2975a7cb120ed9cc642a9e3d1b91fdd096a38c43518d8cd"
+              },
+              {
+                "file": "scene-5.jpg",
+                "at": 60,
+                "sha256": "f678023d031452b033e103caea9b6b8184e1b94062b8a4dd110b10ede057e261"
+              },
+              {
+                "file": "boundary-5.jpg",
+                "at": 55.4,
+                "sha256": "8ba801e8f9f51a4e1c31ef180dd68616f721fd73ce40482225c7208ee70ef15c"
+              },
+              {
+                "file": "scene-6.jpg",
+                "at": 73.56666666666666,
+                "sha256": "d7bb765c76b1e2735d2399da0529fc068085daba01ec0ff560f3c58108ed6c22"
+              },
+              {
+                "file": "boundary-6.jpg",
+                "at": 68.96666666666667,
+                "sha256": "a8701b6ec2f335e32dea43058946245bcae53d6af4860f4adae93f294d30d2e6"
+              },
+              {
+                "file": "scene-7.jpg",
+                "at": 86.1,
+                "sha256": "eed1caffa042f5e3adf2161190cbc301402a7e279334e82a126999ba19f96cc7"
+              },
+              {
+                "file": "boundary-7.jpg",
+                "at": 81.5,
+                "sha256": "d1be149b7b6bac12ed3b843a7c14db36e11ef157a15b46627ecfc2aec452a5f3"
+              },
+              {
+                "file": "scene-8.jpg",
+                "at": 99.66666666666667,
+                "sha256": "b3d08bc2fb363bc368ff102f29ba6d3bc640d7aba09d23e88dfc91ac3f03bcfd"
+              },
+              {
+                "file": "boundary-8.jpg",
+                "at": 95.06666666666668,
+                "sha256": "67339389065f0b39df1563192ec3c8a35387f09adfa502900f00cc88bc3dbd25"
+              },
+              {
+                "file": "closing.jpg",
+                "at": 109.016667,
+                "sha256": "40973d5e5dc9a3dc0a8d57592eb8b16c366a2504786d26712a83ceec230c2d77"
+              }
+            ],
+            "visual_review_passed": false,
+            "scheduled": false,
+            "publication_calls": 0,
+            "score": {
+              "original_composition": true,
+              "third_party_music": false,
+              "profile": "warm plucked harmonics with voice-ducked bank-message and ledger cues",
+              "sha256": "1f0467f048ee8092dd854bfc916f37bc886f616b3bc364bca61d4da8ada271e9"
             }
-          ],
-          "visual_review_passed": false,
-          "scheduled": false,
-          "publication_calls": 0,
-          "score": {
-            "original_composition": true,
-            "third_party_music": false,
-            "profile": "warm plucked harmonics with voice-ducked bank-message and ledger cues",
-            "sha256": "1f0467f048ee8092dd854bfc916f37bc886f616b3bc364bca61d4da8ada271e9"
+          },
+          "completed_at": "2026-11-10T04:32:21.984Z",
+          "not_for_publication": true,
+          "visual_review": {
+            "passed": false,
+            "reason": "Closing brand text crossfades across explanatory graphic; direct-route alternative begins too late. Correct original SVG timing and math sign direction, retain original confirmed voice."
           }
-        },
-        "completed_at": "2026-11-10T04:32:21.984Z"
-      }
+        }
+      ]
     }
   }
 }
