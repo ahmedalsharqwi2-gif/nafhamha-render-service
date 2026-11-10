@@ -481,6 +481,11 @@
           }
         },
         "completed_at": "2026-11-10T04:45:32.300Z"
+      },
+      "publication_subject_check": {
+        "checked_at": "2026-11-10T04:47:06.625Z",
+        "posts_inspected": 3,
+        "subject_matches": 0
       }
     }
   }
