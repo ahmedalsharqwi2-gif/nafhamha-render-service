@@ -2,7 +2,7 @@
   "version": 1,
   "cycles": {
     "nafhamha-2026-11-10-noon": {
-      "status": "voice_requested",
+      "status": "voice_complete_pending_render",
       "first_run_observed": true,
       "started_at": "2026-11-10T00:09:17.127098+00:00",
       "due_at": "2026-11-10T10:00:00Z",
@@ -23,7 +23,7 @@
         "requires_secure_configuration": true
       },
       "voice": {
-        "phase": "generated_pending_artifact",
+        "phase": "complete",
         "story_sha256": "23ed15d83ad106d98cd407c6a163d231a7d7c81922b5eb97d8ca1f9661eb2c32",
         "text_sha256": "adc1f540ea2b14e188b57afc1f5cba2bc887a0999707c00e8fa02f67dee60a52",
         "due_at": "2026-11-10T10:00:00Z",
@@ -34,7 +34,9 @@
         "audio_sha256": "2ef366dba4f5f4c504d0693f38fd004c34f24d91b2005e7e81a551d522f17485",
         "duration": 118,
         "bytes": 5670118,
-        "completed_at": "2026-11-10T00:50:59.802Z"
+        "completed_at": "2026-11-10T00:50:59.802Z",
+        "artifact_id": "13724282845",
+        "artifact_name": "nafhamha-voice-2026-11-10"
       },
       "live_preflight": {
         "version": 1,
