@@ -1,6 +1,8 @@
 import {readFile,writeFile,mkdir} from 'node:fs/promises';import {execFileSync} from 'node:child_process';
-export async function runStage({phase,env,cycle,due,story,storyHash,hash,gh,state,mutate,gql,guardTime,check,CHANNEL,episodeDir}){
+export async function runStage({phase,env,cycle,due,story,storyHash,hash,gh,state,mutate,gql,guardTime,check,CHANNEL,episodeDir,inventory}){
  const record=()=>state().then(s=>s.data.cycles[cycle]);
+ async function confirmUnique(proof){const rows=await inventory(proof);const norm=s=>String(s||'').replace(/[أإآ]/g,'ا').replace(/ة/g,'ه');const matches=rows.filter(p=>story.duplicate_term_groups.some(group=>group.every(t=>norm(p.metadata?.title||p.text).includes(norm(t)))));if(matches.length)throw Error('SUBJECT_ALREADY_PRESENT_NO_SECOND_MEDIA_OR_POST');await mutate(e=>e.publication_subject_check={checked_at:new Date().toISOString(),posts_inspected:rows.length,subject_matches:0})}
+
  async function download(entry,destination){if(!/^\d+$/.test(String(entry.artifact_id))||!/^\d+$/.test(String(entry.request_run)))throw Error('RETAINED_ARTIFACT_ID_INVALID');const a=await gh('/actions/artifacts/'+entry.artifact_id);if(a.expired||String(a.workflow_run.id)!==String(entry.request_run)||a.name!==entry.artifact_name)throw Error('RETAINED_ARTIFACT_BINDING_INVALID');await mkdir(destination,{recursive:true});execFileSync('gh',['run','download',String(entry.request_run),'-R',env.GITHUB_REPOSITORY,'-n',entry.artifact_name,'-D',destination],{stdio:'inherit'})}
  async function live(){const p=await check({env,dueAt:due});if(!p.passed)throw Error('FRESH_LIVE_PREFLIGHT_FAILED');return p}
  if(phase==='prepare-render'){
@@ -13,7 +15,7 @@ export async function runStage({phase,env,cycle,due,story,storyHash,hash,gh,stat
   function verify(p,r,url){if(p.id!==r.id||p.channelId!==r.channel_id||p.status!=='scheduled'||Date.parse(p.dueAt)!==Date.parse(due)||p.assets.length!==1||p.assets[0].source!==url||p.metadata?.title!==story.title)throw Error('INDEPENDENT_SAME_ID_CHANNEL_TIME_MEDIA_TITLE_READBACK_FAILED')}
   if(e.receipts?.youtube?.id){const r=e.receipts.youtube;verify(await lookup(r.id),r,e.actual_movie.url);console.log(JSON.stringify({already_scheduled:true,id:r.id,due_at:due,media_url:e.actual_movie.url}));return}
   if(e.publication_intent)throw Error('PREVIOUS_PUBLICATION_INTENT_REQUIRES_READ_ONLY_RECONCILIATION');
-  const proof=await live();await download(e.render,'completed');const file='completed/nafhamha-final.mp4',bytes=await readFile(file),qa=JSON.parse(await readFile('completed/full-qa.json','utf8'));if(hash(bytes)!==e.render.movie_sha256||qa.original_voice_sha256!==e.voice.audio_sha256||bytes.length>24*1024*1024)throw Error('APPROVED_PUBLICATION_BYTES_DIFFER');
+  const proof=await live();await confirmUnique(proof);await download(e.render,'completed');const file='completed/nafhamha-final.mp4',bytes=await readFile(file),qa=JSON.parse(await readFile('completed/full-qa.json','utf8'));if(hash(bytes)!==e.render.movie_sha256||qa.original_voice_sha256!==e.voice.audio_sha256||bytes.length>24*1024*1024)throw Error('APPROVED_PUBLICATION_BYTES_DIFFER');
   let media=e.actual_movie?.url;
   if(!media){
    if(e.media_upload_intent)throw Error('PREVIOUS_MEDIA_UPLOAD_UNRESOLVED_NO_RETRY');
@@ -22,7 +24,7 @@ export async function runStage({phase,env,cycle,due,story,storyHash,hash,gh,stat
   }
   const hosted=await fetch(media,{redirect:'error',signal:AbortSignal.timeout(180000)});if(!hosted.ok||hash(Buffer.from(await hosted.arrayBuffer()))!==hash(bytes))throw Error('INDEPENDENT_PUBLIC_MEDIA_HASH_FAILED');await mutate(e=>e.media_upload_intent.phase='verified');
   const destination=proof.checks.buffer_channel;const caption=story.title+'\n'+story.hashtags.map(x=>'#'+x.replaceAll(' ','_')).join(' ')+'\n'+story.description+'\nالمراجع:\n'+story.source_urls.join('\n');
-  const finalProof=await live();if(finalProof.checks.buffer_channel.id!==destination.id)throw Error('PUBLICATION_DESTINATION_CHANGED');
+  const finalProof=await live();await confirmUnique(finalProof);if(finalProof.checks.buffer_channel.id!==destination.id)throw Error('PUBLICATION_DESTINATION_CHANGED');
   await mutate(e=>{if(e.publication_intent)throw Error('PUBLICATION_ALREADY_CLAIMED');e.publication_intent={phase:'intent',channel_id:destination.id,channel_service_id:CHANNEL,due_at:due,video_sha256:hash(bytes),media_url:media,created_at:new Date().toISOString(),created_posts:0};e.status='scheduling'});guardTime();
   const input={channelId:destination.id,text:caption,mode:'customScheduled',schedulingType:'automatic',dueAt:due,assets:[{video:{url:media}}],metadata:{youtube:{title:story.title,categoryId:'27',privacy:'public',madeForKids:false,notifySubscribers:false}}};
   let id;try{const r=(await gql('mutation ScheduleApprovedNafhamha($input:CreatePostInput!){createPost(input:$input){... on PostActionSuccess{post{id dueAt}} ... on MutationError{message}}}',{input})).createPost;id=r.post?.id;if(!id)throw Error('NO_PROVIDER_ACK');await mutate(e=>{e.publication_intent.phase='acknowledged';e.publication_intent.id=id;e.publication_intent.created_posts=1})}catch(error){await mutate(e=>e.publication_intent.phase='uncertain');throw Error('PUBLICATION_UNRESOLVED_NO_AUTOMATIC_RETRY')}
