@@ -2,7 +2,7 @@
   "version": 1,
   "cycles": {
     "nafhamha-2026-11-10-noon": {
-      "status": "scheduling",
+      "status": "scheduled",
       "first_run_observed": true,
       "started_at": "2026-11-10T00:09:17.127098+00:00",
       "due_at": "2026-11-10T10:00:00Z",
@@ -13,7 +13,17 @@
       "preflight_report": "reviews/2026-11-10/preflight.json",
       "generation_requests": [],
       "submission_intents": [],
-      "receipts": {},
+      "receipts": {
+        "youtube": {
+          "id": "6af2a1d526f9e6aeeae4c836",
+          "channel_id": "6aeb2098e29c69a1715bfadd",
+          "phase": "verified",
+          "due_at": "2026-11-10T10:00:00Z",
+          "media_url": "https://nafhamha-render-production.up.railway.app/media/713b40dfa9787e4c566c760ca5066a8c6dbbb7053b841c184b38c8e51603cdf6.mp4",
+          "status": "scheduled",
+          "verified_at": "2026-11-10T04:47:18.298Z"
+        }
+      },
       "actual_movie": {
         "url": "https://nafhamha-render-production.up.railway.app/media/713b40dfa9787e4c566c760ca5066a8c6dbbb7053b841c184b38c8e51603cdf6.mp4",
         "sha256": "f5a52f9d81c9cd3419285e2f387cfdcd497d61e5d01ebeead400d1c6b1fb9f34",
@@ -484,7 +494,13 @@
             "sha256": "1f0467f048ee8092dd854bfc916f37bc886f616b3bc364bca61d4da8ada271e9"
           }
         },
-        "completed_at": "2026-11-10T04:45:32.300Z"
+        "completed_at": "2026-11-10T04:45:32.300Z",
+        "visual_review": {
+          "passed": true,
+          "reviewed_sha256": "f5a52f9d81c9cd3419285e2f387cfdcd497d61e5d01ebeead400d1c6b1fb9f34",
+          "reviewer": "Authorized assistant: actual scene/boundary/closing images plus entire-file technical/audio checks",
+          "reviewed_at": "2026-11-10T04:47:18.415Z"
+        }
       },
       "publication_subject_check": {
         "checked_at": "2026-11-10T04:47:14.774Z",
@@ -497,7 +513,7 @@
         "created_at": "2026-11-10T04:47:09.701Z"
       },
       "publication_intent": {
-        "phase": "acknowledged",
+        "phase": "verified",
         "channel_id": "6aeb2098e29c69a1715bfadd",
         "channel_service_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
         "due_at": "2026-11-10T10:00:00Z",
@@ -506,7 +522,11 @@
         "created_at": "2026-11-10T04:47:15.689Z",
         "created_posts": 1,
         "id": "6af2a1d526f9e6aeeae4c836"
-      }
+      },
+      "video_sha256": "f5a52f9d81c9cd3419285e2f387cfdcd497d61e5d01ebeead400d1c6b1fb9f34",
+      "duration": 109.266667,
+      "canonical_subject": "international-transfers-swift-messages-correspondent-bank-settlement",
+      "title": "الحوالة الدولية بتوصل إزاي؟ سويفت مش بتنقل الفلوس!"
     }
   }
 }
