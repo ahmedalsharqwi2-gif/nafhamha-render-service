@@ -1,6 +1,6 @@
 /** Read-only unattended binding checks. No TTS, media uploads or publishing mutations. */
 import {pathToFileURL} from 'node:url';
-import {mkdir,writeFile} from 'node:fs/promises';
+import {mkdir,writeFile,readFile} from 'node:fs/promises';
 import path from 'node:path';
 export const CHANNEL='UCVYe5C8jhHFlKz7UPeVzFCg';
 export function serviceOrigin(value){
@@ -55,5 +55,7 @@ export function requireFresh(report,{dueAt,now=new Date()}={}){
  if(Date.parse(dueAt)<=now.getTime())throw Error('EXPIRED_EXACT_SLOT');
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
- const report=await check();const output=process.env.NAFHAMHA_PREFLIGHT_OUTPUT||'preflight-output/report.json';await mkdir(path.dirname(output),{recursive:true});await writeFile(output,JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));if(!report.passed)process.exitCode=2;
+ const binding=JSON.parse(await readFile(new URL('./connection.json',import.meta.url),'utf8'));
+ const env={...process.env,NAFHAMHA_SERVICE_URL:process.env.NAFHAMHA_SERVICE_URL||binding.service_origin};
+ const report=await check({env});const output=process.env.NAFHAMHA_PREFLIGHT_OUTPUT||'preflight-output/report.json';await mkdir(path.dirname(output),{recursive:true});await writeFile(output,JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));if(!report.passed)process.exitCode=2;
 }

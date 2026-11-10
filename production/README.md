@@ -8,7 +8,7 @@ The unattended path uses the existing direct render/media service and existing B
 
 Configure these in the recurring task's environment using the existing values, never in chat, commits or task prompts:
 
-- `NAFHAMHA_SERVICE_URL`: the existing backend's public HTTPS origin, with no path, token or query. This is the backend `PUBLIC_URL`, not the interactive `.chatgpt.site` dashboard.
+- `NAFHAMHA_SERVICE_URL`: optional override of the owner-confirmed public HTTPS origin in `production/connection.json`, with no path, token or query. The confirmed backend is `https://nafhamha-render-production.up.railway.app`, not the interactive `.chatgpt.site` dashboard. Its public health endpoint returned200; the unauthenticated status endpoint correctly returned401. This does not establish authenticated publishing readiness.
 - `NAFHAMHA_API_TOKEN`: the backend's existing `API_TOKEN`.
 - `BUFFER_API_KEY`: the existing Buffer key authorized to access the Nafhamha channel.
 - `GEMINI_API_KEY`: the existing authorized Charon voice key.

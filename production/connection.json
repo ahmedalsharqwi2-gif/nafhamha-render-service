@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "service_origin": "https://nafhamha-render-production.up.railway.app",
+  "provided_by_owner_on": "2026-11-10",
+  "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+  "credentials": "Environment bindings only; no secret values in this file.",
+  "observed_health": {"http_status": 200, "ok": true},
+  "observed_unauthenticated_status": {"http_status": 401, "meaning": "Protected endpoint; authenticated connection is not yet verified."}
+}
