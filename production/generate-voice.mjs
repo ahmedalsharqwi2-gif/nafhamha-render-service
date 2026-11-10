@@ -1,5 +1,5 @@
 /** One exact original Charon request, after an exact-slot live preflight. No Sites session. */
-import {mkdir,readFile,writeFile,rename} from 'node:fs/promises';
+import {mkdir,readFile,writeFile,rename,open} from 'node:fs/promises';
 import path from 'node:path';import {createHash} from 'node:crypto';import {pathToFileURL} from 'node:url';
 import {generateVoice} from '../voice.mjs';import {requireFresh} from './preflight.mjs';
 const digest=x=>createHash('sha256').update(x).digest('hex');
@@ -16,7 +16,10 @@ export async function produce({request,env=process.env,generator=generateVoice,n
   if(previous.phase!=='complete')throw Error('VOICE_REQUEST_UNRESOLVED_DO_NOT_RETRY');
   const audio=await readFile(audioPath);if(digest(audio)!==previous.audio_sha256)throw Error('CACHED_VOICE_HASH_DIFFERS');return {...previous,reused:true};
  }
- const intent={version:1,phase:'intent',voice:'Charon',text_sha256:hash,due_at:dueAt,created_at:now.toISOString(),generation_requests:1};await save(intent);
+ const intent={version:1,phase:'intent',voice:'Charon',text_sha256:hash,due_at:dueAt,created_at:now.toISOString(),generation_requests:1};
+ // Atomic claim: concurrent workers must not both pass an earlier ENOENT read.
+ let claim;try{claim=await open(intentPath,'wx')}catch(error){if(error.code==='EEXIST')throw Error('VOICE_REQUEST_UNRESOLVED_DO_NOT_RETRY');throw error}
+ try{await claim.writeFile(JSON.stringify(intent,null,2)+'\n');await claim.sync()}finally{await claim.close()}
  try{const audio=await generator({text,style:'Natural Egyptian Arabic male educational delivery. Clear and friendly, at a natural measured pace. Read only the exact supplied transcript.'},env.GEMINI_API_KEY);await writeFile(audioPath,audio);Object.assign(intent,{phase:'complete',audio_sha256:digest(audio),bytes:audio.length});await save(intent);return {...intent,reused:false}}
  catch(error){await save({...intent,phase:'uncertain',error:'Provider or persistence failure; reconcile retained intent before any further request.'});throw Error('VOICE_REQUEST_UNRESOLVED_DO_NOT_RETRY')}
 }

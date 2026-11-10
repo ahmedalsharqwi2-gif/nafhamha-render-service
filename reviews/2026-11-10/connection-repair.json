@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-11-10T00:19:06.988Z",
+  "status": "source_repair_tested_live_configuration_still_missing",
+  "source_commit": "3c67c7556255922e39011c29fbfeee586665f466",
+  "live_workflow_run": 42727357200,
+  "live_job_id": 129536297509,
+  "code_checks_run": 42727319370,
+  "code_checks_conclusion": "success",
+  "live_preflight": {
+    "version": 1,
+    "checked_at": "2026-11-10T00:19:06.988Z",
+    "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+    "due_at": "2026-11-10T10:00:00Z",
+    "passed": false,
+    "errors": [
+      "MISSING_NAFHAMHA_SERVICE_URL",
+      "MISSING_NAFHAMHA_API_TOKEN",
+      "MISSING_BUFFER_API_KEY",
+      "MISSING_GEMINI_API_KEY"
+    ],
+    "checks": {},
+    "generation_calls": 0,
+    "publication_mutations": 0,
+    "limit": "Preflight proves only the recorded read-only checks, not a finished film, media upload, scheduling receipt or publication."
+  },
+  "current_task_runtime_missing": [
+    "NAFHAMHA_SERVICE_URL",
+    "NAFHAMHA_API_TOKEN",
+    "BUFFER_API_KEY"
+  ],
+  "local_tests_passed": 16,
+  "confirmed_cause": "Unattended execution relied on a fixed interactive dashboard/session bearer, while the direct render/media service and target publisher credentials were not bound to this task. The same repository's live Actions environment also lacks all four supported bindings, including the accepted aliases.",
+  "dashboard_403_limit": "The 403 was observed at the interactive dashboard. No direct Railway URL was available; this is not evidence that the backend is down.",
+  "source_repairs": [
+    "Direct HTTPS backend and Buffer identity/queue preflight, no interactive Sites session dependency",
+    "Exact external YouTube serviceId UCVYe5C8jhHFlKz7UPeVzFCg verification",
+    "No generation before fresh exact-slot preflight",
+    "Durable original-voice intent and fingerprint; reuse complete bytes, block uncertain retries",
+    "Exclusive intent creation prevents duplicate simultaneous voice calls",
+    "Existing CI workflow read-only live diagnosis with sanitized report",
+    "Recurring task instructions updated; same every-three-day schedule remains enabled"
+  ],
+  "live_repair_complete": false,
+  "production_or_publication_performed": false,
+  "secure_setup_required": {
+    "task_environment": [
+      "NAFHAMHA_SERVICE_URL = existing backend PUBLIC_URL origin",
+      "NAFHAMHA_API_TOKEN = existing backend API_TOKEN",
+      "BUFFER_API_KEY = existing authorized Nafhamha Buffer key"
+    ],
+    "gemini": "Already bound in the current task environment; no need to regenerate or expose its value.",
+    "github_actions_optional": "For unattended work inside Actions as well, bind the same existing values in this repository plus GEMINI_API_KEY. Do not copy another channel's credentials or put secret values in chat/source."
+  }
+}

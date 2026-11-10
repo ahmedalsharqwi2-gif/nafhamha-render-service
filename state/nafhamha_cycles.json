@@ -15,7 +15,13 @@
       "submission_intents": [],
       "receipts": {},
       "actual_movie": null,
-      "resume_rule": "Read this record and fresh provider state; complete missing phases only; never resend uncertain requests or roll an expired slot."
+      "resume_rule": "Read this record and fresh provider state; complete missing phases only; never resend uncertain requests or roll an expired slot.",
+      "connection_repair": {
+        "report": "reviews/2026-11-10/connection-repair.json",
+        "code_repair_applied": true,
+        "live_connection_passed": false,
+        "requires_secure_configuration": true
+      }
     }
   }
 }
