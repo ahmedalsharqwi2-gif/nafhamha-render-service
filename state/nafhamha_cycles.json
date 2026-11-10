@@ -2,7 +2,7 @@
   "version": 1,
   "cycles": {
     "nafhamha-2026-11-10-noon": {
-      "status": "voice_complete_pending_render",
+      "status": "rendering",
       "first_run_observed": true,
       "started_at": "2026-11-10T00:09:17.127098+00:00",
       "due_at": "2026-11-10T10:00:00Z",
@@ -24,7 +24,7 @@
       },
       "live_preflight": {
         "version": 1,
-        "checked_at": "2026-11-10T04:17:35.071Z",
+        "checked_at": "2026-11-10T04:29:07.681Z",
         "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
         "due_at": "2026-11-10T10:00:00Z",
         "passed": true,
@@ -116,6 +116,14 @@
         "completed_at": "2026-11-10T04:17:59.006Z",
         "artifact_id": "13734927520",
         "artifact_name": "nafhamha-voice-2026-11-10-swift"
+      },
+      "render": {
+        "phase": "rendering",
+        "request_run": "42756119503",
+        "story_sha256": "59e642073b0573dc98426c4ecb7ed6c405089012894f1d3c509d24672c92e073",
+        "voice_sha256": "063bf294fa1a7e59c89b8af7b390554e0ab61ba3b5a6774e9bca00fe6921113c",
+        "started_at": "2026-11-10T04:29:11.067Z",
+        "source_run_sha": "78e48049f24b9b80e8d9909f513775a1305cf46b"
       }
     }
   }
