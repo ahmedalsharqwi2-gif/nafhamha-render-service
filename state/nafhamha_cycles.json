@@ -2,7 +2,7 @@
   "version": 1,
   "cycles": {
     "nafhamha-2026-11-10-noon": {
-      "status": "voice_requested",
+      "status": "voice_complete_pending_render",
       "first_run_observed": true,
       "started_at": "2026-11-10T00:09:17.127098+00:00",
       "due_at": "2026-11-10T10:00:00Z",
@@ -102,7 +102,7 @@
       ],
       "active_episode_directory": "episodes/2026-11-10-swift",
       "voice": {
-        "phase": "generated_pending_artifact",
+        "phase": "complete",
         "story_sha256": "59e642073b0573dc98426c4ecb7ed6c405089012894f1d3c509d24672c92e073",
         "text_sha256": "814b3b2a49f5c16078ce5272844e08c691f5a86299d9ccfd188431bc131befa2",
         "due_at": "2026-11-10T10:00:00Z",
@@ -113,7 +113,9 @@
         "audio_sha256": "063bf294fa1a7e59c89b8af7b390554e0ab61ba3b5a6774e9bca00fe6921113c",
         "duration": 109.24,
         "bytes": 5249638,
-        "completed_at": "2026-11-10T04:17:59.006Z"
+        "completed_at": "2026-11-10T04:17:59.006Z",
+        "artifact_id": "13734927520",
+        "artifact_name": "nafhamha-voice-2026-11-10-swift"
       }
     }
   }
