@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-11-10T00:09:17.127098+00:00",
+  "method": "Bounded free YouTube autocomplete queries, hl=ar, gl=eg, ds=yt; primary acoustics/hearing literature. No credit-consuming calls.",
+  "suggestions": [
+    {
+      "query": "ليه صوتي",
+      "suggestions": [
+        "ليه صوتي واطي",
+        "ليه بنستغرب صوتنا في التسجيل",
+        "لماذا صوتي بشع",
+        "ليه بنكره نسمع صوتنا في التسجيل"
+      ],
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=ar&gl=eg&q=%D9%84%D9%8A%D9%87+%D8%B5%D9%88%D8%AA%D9%8A"
+    },
+    {
+      "query": "ليه صوتك في التسجيل",
+      "suggestions": [
+        "ليه بنستغرب صوتنا في التسجيل"
+      ],
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=ar&gl=eg&q=%D9%84%D9%8A%D9%87+%D8%B5%D9%88%D8%AA%D9%83+%D9%81%D9%8A+%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84"
+    },
+    {
+      "query": "ليه بننسى",
+      "suggestions": [
+        "ليه بننسى",
+        "ليه بننسى الدحيح",
+        "ليه بننسى الحب في لحظة غضب",
+        "ليه بنسى ومتهونش عليا",
+        "ليه بنسى الاحلام"
+      ],
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=ar&gl=eg&q=%D9%84%D9%8A%D9%87+%D8%A8%D9%86%D9%86%D8%B3%D9%89"
+    }
+  ],
+  "candidate": "own-voice-air-bone-conduction-recording",
+  "selection_reason": "Multiple specific own-voice/recording completions appeared in two different prefix queries; a narrowly framed everyday science explanation with an original two-path visual mechanism.",
+  "confidence": "Moderate that this is an existing search interest; absolute demand and recent growth unknown.",
+  "absolute_search_volume": null,
+  "competitor_views_used_as_search_volume": false,
+  "youtube_channel_duplicate_check": {
+    "status": "incomplete",
+    "reason": "Owned-library query is credit-blocked; free RSS endpoint denied HTTP CONNECT403; production publisher credentials unavailable. Do not claim unpublished topic."
+  },
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9929504/",
+      "type": "original research",
+      "supports": [
+        "Air/bone conduction distinction",
+        "Recognition of recorded self-voice differs from natural self-voice perception"
+      ],
+      "claim_limit": "No guarantee about perceived voice attractiveness or uniform bass change."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7804419/",
+      "type": "original research",
+      "supports": [
+        "Recorded voice differs in available acoustic pathways",
+        "Individual differences in self-voice equalization"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019673/",
+      "type": "original research",
+      "supports": [
+        "Bone/soft-tissue versus air pathways",
+        "Microphone and playback conditions can alter recorded-voice perception"
+      ]
+    },
+    {
+      "url": "https://www.nidcd.nih.gov/health/how-do-we-hear",
+      "type": "official NIDCD explanation",
+      "supports": [
+        "Air wave to eardrum, ossicles, cochlea and auditory nerve sequence"
+      ]
+    }
+  ],
+  "script_word_count": 291
+}

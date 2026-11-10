@@ -1,0 +1,61 @@
+{
+  "cycle_id": "nafhamha-2026-11-10-noon",
+  "checked_at": "2026-11-10T00:09:17.127098+00:00",
+  "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+  "target_publish_at": "2026-11-10T10:00:00Z",
+  "target_timezone": "Africa/Cairo",
+  "target_local": "2026-11-10 12:00",
+  "status": "blocked_preflight_no_generation_no_publication",
+  "reference_sha256": "63dde66e877210479f05336f32d0063d9ae470e44bc7f73f2313e39df638658a",
+  "reference_verified_locally": true,
+  "observations": {
+    "owned_channel_identity": "Confirmed read-only by zero-credit connected-channel lookup: نفهمها @نفهمها1,3public videos. This is not uploader authorization.",
+    "repository_cycle_history": "No existing cycle, state, receipts or publishing ledger in current main tree before this run.",
+    "studio_probe": {
+      "url": "https://nafhamha-studio-mobile.amusingmyna.chatgpt.site/api/status",
+      "status": 403,
+      "body": "error code: 1010",
+      "scope": "Unauthenticated API reachability; not proof the underlying Railway service is down."
+    },
+    "sites_connector": {
+      "owner_visible_projects": 0,
+      "editor_visible_projects": 0
+    },
+    "runtime_credentials": {
+      "GEMINI_API_KEY_binding_ready": true,
+      "BUFFER_API_KEY_available": false,
+      "NAFHAMHA_API_TOKEN_available": false
+    },
+    "github_secret_metadata_probe": {
+      "status": 403,
+      "message": "Resource not accessible by integration",
+      "does_not_establish_that_repo_secrets_are_absent": true
+    },
+    "duplicate_and_scheduled_slot_live_check": "Not completed: cannot access channel publisher/queue."
+  },
+  "completed_work": [
+    "Exact uploaded-reference fingerprint verified",
+    "Current main and production contract read",
+    "Bounded free demand evidence retained",
+    "291-word original Egyptian script and8scene directions prepared",
+    "No protected publication or runtime credentials exposed"
+  ],
+  "pending": [
+    "Authorized live service and exact target publisher connection",
+    "Live duplicate/topic/file/slot check",
+    "Measured original Charon narration",
+    "Subject-specific render and actual caption alignment",
+    "Full-film visual/audio/transcript QA",
+    "Upload and scheduled publication receipt plus independent readback"
+  ],
+  "voice_generation_calls": 0,
+  "paid_requests": 0,
+  "publication_mutations": 0,
+  "movie_sha256": null,
+  "actual_duration_seconds": null,
+  "video_id": null,
+  "media_url": null,
+  "scheduling_receipt": null,
+  "next_required_action": "Make the existing Nafhamha studio accessible to the current connected Sites account, or bind the existing authorized render/media service endpoint and credential plus its confirmed Nafhamha publication connection securely to this task environment. Do not send secret values in chat. Verify live target identity and queue before generation.",
+  "expired_slot_policy": "If access is restored after10:00UTC on10Nov2026, do not publish immediately or silently move this cycle. Keep future recurring cycles enabled."
+}
