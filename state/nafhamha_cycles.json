@@ -2,7 +2,7 @@
   "version": 1,
   "cycles": {
     "nafhamha-2026-11-10-noon": {
-      "status": "owner_revised_script_ready",
+      "status": "voice_requested",
       "first_run_observed": true,
       "started_at": "2026-11-10T00:09:17.127098+00:00",
       "due_at": "2026-11-10T10:00:00Z",
@@ -24,7 +24,7 @@
       },
       "live_preflight": {
         "version": 1,
-        "checked_at": "2026-11-10T00:50:33.412Z",
+        "checked_at": "2026-11-10T04:17:35.071Z",
         "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
         "due_at": "2026-11-10T10:00:00Z",
         "passed": true,
@@ -62,7 +62,7 @@
         "limit": "Preflight proves only the recorded read-only checks, not a finished film, media upload, scheduling receipt or publication."
       },
       "duplicate_check": {
-        "checked_at": "2026-11-10T00:50:33.412Z",
+        "checked_at": "2026-11-10T04:17:35.071Z",
         "posts_inspected": 3,
         "subject_matches": 0
       },
@@ -100,7 +100,17 @@
           "not_for_current_publication": true
         }
       ],
-      "active_episode_directory": "episodes/2026-11-10-swift"
+      "active_episode_directory": "episodes/2026-11-10-swift",
+      "voice": {
+        "phase": "intent",
+        "story_sha256": "59e642073b0573dc98426c4ecb7ed6c405089012894f1d3c509d24672c92e073",
+        "text_sha256": "814b3b2a49f5c16078ce5272844e08c691f5a86299d9ccfd188431bc131befa2",
+        "due_at": "2026-11-10T10:00:00Z",
+        "provider": "existing_authenticated_Charon_service",
+        "created_at": "2026-11-10T04:17:36.551Z",
+        "request_run": "42754570713",
+        "generation_calls": 1
+      }
     }
   }
 }
