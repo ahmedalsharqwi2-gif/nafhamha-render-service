@@ -497,14 +497,15 @@
         "created_at": "2026-11-10T04:47:09.701Z"
       },
       "publication_intent": {
-        "phase": "intent",
+        "phase": "acknowledged",
         "channel_id": "6aeb2098e29c69a1715bfadd",
         "channel_service_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
         "due_at": "2026-11-10T10:00:00Z",
         "video_sha256": "f5a52f9d81c9cd3419285e2f387cfdcd497d61e5d01ebeead400d1c6b1fb9f34",
         "media_url": "https://nafhamha-render-production.up.railway.app/media/713b40dfa9787e4c566c760ca5066a8c6dbbb7053b841c184b38c8e51603cdf6.mp4",
         "created_at": "2026-11-10T04:47:15.689Z",
-        "created_posts": 0
+        "created_posts": 1,
+        "id": "6af2a1d526f9e6aeeae4c836"
       }
     }
   }
