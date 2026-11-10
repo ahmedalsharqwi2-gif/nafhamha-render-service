@@ -2,7 +2,7 @@
   "version": 1,
   "cycles": {
     "nafhamha-2026-11-10-noon": {
-      "status": "visual_refinement_ready_same_confirmed_voice",
+      "status": "rendering",
       "first_run_observed": true,
       "started_at": "2026-11-10T00:09:17.127098+00:00",
       "due_at": "2026-11-10T10:00:00Z",
@@ -24,7 +24,7 @@
       },
       "live_preflight": {
         "version": 1,
-        "checked_at": "2026-11-10T04:29:07.681Z",
+        "checked_at": "2026-11-10T04:41:39.199Z",
         "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
         "due_at": "2026-11-10T10:00:00Z",
         "passed": true,
@@ -302,7 +302,15 @@
             "reason": "Closing brand text crossfades across explanatory graphic; direct-route alternative begins too late. Correct original SVG timing and math sign direction, retain original confirmed voice."
           }
         }
-      ]
+      ],
+      "render": {
+        "phase": "rendering",
+        "request_run": "42757414549",
+        "story_sha256": "59e642073b0573dc98426c4ecb7ed6c405089012894f1d3c509d24672c92e073",
+        "voice_sha256": "063bf294fa1a7e59c89b8af7b390554e0ab61ba3b5a6774e9bca00fe6921113c",
+        "started_at": "2026-11-10T04:41:43.413Z",
+        "source_run_sha": "c0c553f49967b7ae9e0d8318d023a65fa6842b40"
+      }
     }
   }
 }
