@@ -1,0 +1,14 @@
+import {bundle} from '@remotion/bundler';import {selectComposition,renderMedia} from '@remotion/renderer';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';import {createHash} from 'node:crypto';import path from 'node:path';
+const digest=x=>createHash('sha256').update(x).digest('hex');
+const root=process.cwd(),episode=process.env.NAFHAMHA_EPISODE_DIR||'episodes/2026-11-10-swift';await mkdir('render',{recursive:true});
+const props=JSON.parse(await readFile(episode+'/props.json','utf8'));
+if(props.original_voice_sha256!==digest(await readFile('voice/narration.wav'))||props.story_sha256!==digest(await readFile(episode+'/script.json')))throw Error('MEASURED_TIMING_SOURCE_BINDING_DIFFERS');
+const serveUrl=await bundle({entryPoint:path.join(root,episode,'index.tsx'),publicDir:path.join(root,episode,'public')});
+const common={serveUrl,inputProps:props,chromiumOptions:{gl:'swangle'},browserExecutable:process.env.CHROMIUM_PATH||undefined};
+const composition=await selectComposition({...common,id:'SwiftTransfers'});let measurements=[];
+await renderMedia({...common,composition,codec:'h264',crf:18,imageFormat:'png',x264Preset:'medium',outputLocation:'render/visuals.mp4',concurrency:2,onBrowserLog(log){if(log.text?.startsWith('CAPTION_QA '))measurements.push(JSON.parse(log.text.slice(11)))},onProgress:({progress})=>{if(Math.round(progress*100)%20===0)process.stdout.write('')}});
+const overflow=measurements.filter(m=>m.bottom>1080.5||m.left<51.5||m.right>596.5||m.height>133);const seen=new Set(measurements.map(m=>m.text));const expected=new Set(props.scenes.flatMap(s=>s.captions.map(c=>c.text)));
+const missing=[...expected].filter(x=>!seen.has(x));const report={version:1,renderer:'Remotion4.0.540 bespoke subject-specific SVG scenes',frames:props.durationInFrames,width:720,height:1280,fps:30,original_voice_sha256:props.original_voice_sha256,story_sha256:props.story_sha256,source_sha256:digest(await readFile(episode+'/index.tsx')),props_sha256:digest(await readFile(episode+'/props.json')),caption_measurements:measurements.length,captions_expected:expected.size,captions_measured:seen.size,max_caption_bottom:Math.max(...measurements.map(m=>m.bottom)),overflow,unmeasured_captions:missing,output_sha256:digest(await readFile('render/visuals.mp4'))};
+await writeFile('render/render-proof.json',JSON.stringify(report,null,2));await writeFile('render/caption-measurements.json',JSON.stringify(measurements));if(overflow.length||missing.length||!measurements.length)throw Error('ACTUAL_RENDERED_CAPTION_LAYOUT_FAILED');
+console.log(JSON.stringify({visual_frames:report.frames,caption_bottom:report.max_caption_bottom,captions_measured:seen.size}));

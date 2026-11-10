@@ -1,0 +1,105 @@
+{
+  "profile": "nafhamha",
+  "canonical_subject": "international-transfers-swift-messages-correspondent-bank-settlement",
+  "title": "الحوالة الدولية بتوصل إزاي؟ سويفت مش بتنقل الفلوس!",
+  "status": "owner_selected_topic_pending_current_channel_inventory_and_narration",
+  "owner_reference": "https://www.facebook.com/share/v/1A1sLs5HkE/",
+  "reference_interpretation": "Topic identified from public reel description; original Facebook footage/script not copied or watched in full.",
+  "target_duration_seconds": [
+    100,
+    120
+  ],
+  "actual_duration_seconds": null,
+  "voice_generation_requests": 0,
+  "scenes": [
+    {
+      "id": 1,
+      "title": "الفلوس عدّت منين؟",
+      "narration": "حوّلت فلوس لحد في بلد تانية، وبعد شوية ظهرت في حسابه. هل الفلوس نفسها عدّت في سلك بين البلدين؟ ولا سويفت عندها خزنة ضخمة بتوزّع منها؟ الحقيقة إن في رسائل بتتبعت، وحسابات بتتسوّى.",
+      "visual_direction": "هاتف طلب تحويل ثم خطان متميزان: رسالة كهرمانية بالأعلى ودفتر حسابات أخضر بالأسفل. لا تتحرك نقود مادية داخل شبكة الرسائل.",
+      "timing": "Derive from actual new original narration; never reuse previous episode timings."
+    },
+    {
+      "id": 2,
+      "title": "سويفت مش بنك",
+      "narration": "سويفت مش بنك، ومش محفظة ماسكة رصيدك. هي شبكة مراسلات مالية آمنة بتستخدمها مؤسسات مالية. البنك بيبعت من خلالها تعليمات الدفع، زي مين المستفيد والمبلغ المطلوب. أما نقل القيمة وتسويتها، فبتقوم بيه البنوك والجهات المالية.",
+      "visual_direction": "مغلف تعليمات يعبر شبكة بنوك عامة بلا شعارات حقيقية. عدسة تفتح الرسالة وتظهر حقول مستفيد ومبلغ كعناصر تعليمية، وليس إيصال دفع حقيقي.",
+      "timing": "Derive from actual new original narration; never reuse previous episode timings."
+    },
+    {
+      "id": 3,
+      "title": "البنك كمان له حساب",
+      "narration": "إنت عندك حساب في بنك، والبنوك كمان ممكن يكون عندها حسابات عند بنوك تانية. العلاقات دي بتساعدها تدفع وتستقبل بعملات وأسواق مختلفة، من غير ما كل بنك يبقى له فرع في كل بلد.",
+      "visual_direction": "انتقال كاميرا من حساب عميل إلى ميزانية بنك ثم حساب البنك لدى بنك آخر. توسع الطبقات بدل نسخ بطاقات متكررة.",
+      "timing": "Derive from actual new original narration; never reuse previous episode timings."
+    },
+    {
+      "id": 4,
+      "title": "ليه فيه بنك مراسل؟",
+      "narration": "لو مفيش علاقة مناسبة مباشرة بين البنكين، ممكن يدخل بنك مراسل أو أكتر. ده بنك بيقدّم خدمات لبنك تاني. المسار بيتحدد حسب العلاقات المصرفية والعملة ونظام الدفع، ومش كل حوالة لازم تعدّي على نفس عدد الوسطاء.",
+      "visual_direction": "بنك أ وبنك ب يتصلان بمراسل عام في المنتصف؛ تبديل لمسار مباشر بديل لتوضيح أن الوسيط ليس إلزاميًا لكل حوالة.",
+      "timing": "Derive from actual new original narration; never reuse previous episode timings."
+    },
+    {
+      "id": 5,
+      "title": "مثال مية دولار",
+      "narration": "خلّينا في مثال مبسّط: بنكين ليهم حسابات عند نفس البنك المراسل. لتحويل مية دولار، المراسل ممكن يخصم مية من رصيد البنك المرسل عنده، ويضيفها لرصيد البنك المستقبل. الأرصدة اتغيّرت، مش شنطة فلوس سافرت.",
+      "visual_direction": "دفتر حسابات لدى مراسل واحد: رصيد بنك أ500→400 ورصيد بنك ب300→400، وإجمالي800 ثابت. جميع الأرقام مثال تعليمي وليست سعر صرف أو بيانات معاملة حقيقية.",
+      "timing": "Derive from actual new original narration; never reuse previous episode timings."
+    },
+    {
+      "id": 6,
+      "title": "وصول الرسالة مش النهاية",
+      "narration": "بعد استكمال الخطوات المطلوبة، بنك المستفيد بيقيّد المبلغ في حساب عميله. عشان كده وصول تعليمات الدفع لبنك مش بالضرورة معناه إن الفلوس ظهرت فورًا عند الشخص. فيه فرق بين توصيل الرسالة وإتمام خطوات التحويل.",
+      "visual_direction": "إشارتان منفصلتان: استلام رسالة وتعليمات، ثم تحقق مصرفي وتسوية وقيد حساب المستفيد. لا علامة إتمام قبل المرحلة الأخيرة.",
+      "timing": "Derive from actual new original narration; never reuse previous episode timings."
+    },
+    {
+      "id": 7,
+      "title": "طب ليه الوقت والتكلفة بيختلفوا؟",
+      "narration": "والوقت والتكلفة ممكن يتأثروا بمراجعة البيانات، وفحوص الامتثال، ومواعيد عمل أنظمة الدفع. ولو فيه تغيير عملة أو رسوم بنوك، المبلغ النهائي ممكن يختلف. مفيش مدة أو رسوم واحدة تنطبق على كل حوالة في العالم.",
+      "visual_direction": "ساعة وحقول بيانات ورمز عملة تظهر كعوامل لا كإحصاءات. لا أرقام رسوم أو مدة مختلقة، ولا نصائح لاختيار مزود مالي.",
+      "timing": "Derive from actual new original narration; never reuse previous episode timings."
+    },
+    {
+      "id": 8,
+      "title": "رسائل وتسوية أرصدة",
+      "narration": "الخلاصة: سويفت بتساعد المؤسسات تتبادل التعليمات، والبنوك وأنظمة الدفع بتنفّذ تسوية القيمة وقيدها. الحوالة الدولية مش ورقة نقدية بتجري على الإنترنت؛ هي تنسيق بين مؤسسات وحسابات. والسيناريو اللي شفناه مجرد نموذج من مسارات كتير. دي نفهمها.",
+      "visual_direction": "عودة إلى الخطين المنفصلين: شبكة رسائل كهرمانية ودفاتر أرصدة خضراء، ثم اندماج المعنى في خاتمة نفهمها الأصلية.",
+      "timing": "Derive from actual new original narration; never reuse previous episode timings."
+    }
+  ],
+  "duplicate_term_groups": [
+    [
+      "سويفت"
+    ],
+    [
+      "حوال",
+      "دولي"
+    ],
+    [
+      "swift"
+    ]
+  ],
+  "hashtags": [
+    "نفهمها",
+    "سويفت",
+    "حوالات_دولية",
+    "اقتصاد"
+  ],
+  "source_urls": [
+    "https://www.swift.com/about-us/who-we-are/what-swift",
+    "https://www.swift.com/about-us/who-we-are",
+    "https://www.fdic.gov/risk-management-manual-examination-policies/section-11-1.pdf",
+    "https://www.swift.com/payments/how-long-does-swift-payment-take"
+  ],
+  "publication_date_target": "2026-11-10T10:00:00Z",
+  "facts_review": {
+    "swift_is_messaging_not_bank_or_holder_of_customer_funds": true,
+    "correspondent_accounts_not_physical_cash_transport": true,
+    "single_common_correspondent_example_explicitly_simplified": true,
+    "no_uniform_fee_or_speed_promise": true,
+    "no_copy_of_reference_script_or_media": true
+  },
+  "description": "شرح مبسّط للحوالات الدولية: دور رسائل سويفت، وحسابات البنوك المراسلة، والفرق بين استلام التعليمات وتسوية الأرصدة. المثال العددي للتوضيح فقط، وليس معاملة حقيقية أو سعر صرف."
+}

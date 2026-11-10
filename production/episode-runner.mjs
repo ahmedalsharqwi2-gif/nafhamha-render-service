@@ -6,7 +6,8 @@ if(repo!=='ahmedalsharqwi2-gif/nafhamha-render-service'||cycle!=='nafhamha-2026-
 const api='https://api.github.com/repos/'+repo,hash=x=>createHash('sha256').update(x).digest('hex');
 const binding=JSON.parse(await readFile('production/connection.json','utf8'));
 const env={...process.env,NAFHAMHA_SERVICE_URL:process.env.NAFHAMHA_SERVICE_URL||binding.service_origin};
-const scriptBytes=await readFile('episodes/2026-11-10/script.json'),story=JSON.parse(scriptBytes),storyHash=hash(scriptBytes);
+const episodeDir=process.env.NAFHAMHA_EPISODE_DIR;if(episodeDir!=='episodes/2026-11-10-swift')throw Error('OWNER_APPROVED_EPISODE_DIRECTORY_REQUIRED');
+const scriptBytes=await readFile(episodeDir+'/script.json'),story=JSON.parse(scriptBytes),storyHash=hash(scriptBytes);
 await mkdir('cycle-output',{recursive:true});
 async function gh(route,method='GET',body){const r=await fetch(api+route,{method,headers:{Authorization:'Bearer '+process.env.GITHUB_TOKEN,Accept:'application/vnd.github+json','Content-Type':'application/json'},...(body?{body:JSON.stringify(body)}:{}),signal:AbortSignal.timeout(45000)});if(!r.ok)throw Error('GITHUB_STATE_HTTP_'+r.status);return r.status===204?{}:r.json()}
 async function state(){const raw=await gh('/contents/state/nafhamha_cycles.json?ref=main');return {sha:raw.sha,data:JSON.parse(Buffer.from(raw.content,'base64').toString())}}
@@ -18,7 +19,7 @@ const phase=process.argv[2];
 if(phase==='voice'){
  guardTime();const existing=(await state()).data.cycles[cycle];if(existing.voice){if(existing.voice.phase==='complete'&&existing.voice.story_sha256===storyHash){console.log('Confirmed original voice already retained; no regeneration');process.exit(0)}throw Error('EXISTING_VOICE_INTENT_REQUIRES_RECONCILIATION')}
  const proof=await check({env,dueAt:due});await writeFile('cycle-output/preflight.json',JSON.stringify(proof,null,2));if(!proof.passed)throw Error('LIVE_PREFLIGHT_NOT_READY');
- const rows=await inventory(proof);const normalize=s=>String(s||'').replace(/[أإآ]/g,'ا').replace(/ة/g,'ه');const duplicate=rows.filter(p=>{const t=normalize(p.metadata?.title||p.text);return /صوت|voice/i.test(t)&&/تسجيل|record/i.test(t)});await writeFile('cycle-output/channel-inventory.json',JSON.stringify(rows,null,2));if(duplicate.length)throw Error('SUBJECT_ALREADY_PRESENT_IN_OWN_CHANNEL_HISTORY');
+ const rows=await inventory(proof);const normalize=s=>String(s||'').replace(/[أإآ]/g,'ا').replace(/ة/g,'ه');const duplicate=rows.filter(p=>{const t=normalize(p.metadata?.title||p.text);return story.duplicate_term_groups.some(group=>group.every(term=>t.includes(normalize(term))))});await writeFile('cycle-output/channel-inventory.json',JSON.stringify(rows,null,2));if(duplicate.length)throw Error('SUBJECT_ALREADY_PRESENT_IN_OWN_CHANNEL_HISTORY');
  const text=story.scenes.map(s=>s.narration).join('\n\n');if(text.length>4000)throw Error('VOICE_TRANSCRIPT_TOO_LARGE');
  const intent={phase:'intent',story_sha256:storyHash,text_sha256:hash(text),due_at:due,provider:'existing_authenticated_Charon_service',created_at:new Date().toISOString(),request_run:process.env.GITHUB_RUN_ID,generation_calls:1};
  await mutate(e=>{if(e.voice)throw Error('VOICE_ALREADY_CLAIMED');e.voice=intent;e.status='voice_requested';e.live_preflight=proof;e.duplicate_check={checked_at:proof.checked_at,posts_inspected:rows.length,subject_matches:0}});
@@ -26,4 +27,6 @@ if(phase==='voice'){
  catch(error){await mutate(e=>{if(e.voice.phase==='intent')e.voice.phase='uncertain';e.voice.failure='Read retained intent/artifact before any retry; provider details omitted.'});throw Error('VOICE_PHASE_FAILED_RETAINED_WITHOUT_AUTOMATIC_RETRY')}
 }else if(phase==='seal-voice'){
  const id=process.env.VOICE_ARTIFACT_ID;if(!/^\d+$/.test(id||''))throw Error('VOICE_ARTIFACT_ID_REQUIRED');const a=await gh('/actions/artifacts/'+id);if(a.expired||String(a.workflow_run.id)!==process.env.GITHUB_RUN_ID)throw Error('VOICE_ARTIFACT_BINDING_MISMATCH');await mutate(e=>{if(e.voice?.phase!=='generated_pending_artifact'||e.voice.request_run!==process.env.GITHUB_RUN_ID)throw Error('VOICE_STATE_NOT_READY_FOR_ARTIFACT');Object.assign(e.voice,{phase:'complete',artifact_id:id,artifact_name:a.name});e.status='voice_complete_pending_render'});console.log(JSON.stringify({voice_artifact_retained:id}));
+}else if(['prepare-render','seal-render','publish'].includes(phase)){
+ const {runStage}=await import('./episode-stages.mjs');await runStage({phase,env,cycle,due,story,storyHash,hash,gh,state,mutate,gql,guardTime,check,CHANNEL,episodeDir});
 }else throw Error('UNSUPPORTED_PHASE');

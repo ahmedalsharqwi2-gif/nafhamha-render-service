@@ -6,10 +6,21 @@
         "phase": {
           "type": "choice",
           "options": [
-            "voice"
+            "voice",
+            "render",
+            "publish"
           ],
           "required": true,
           "default": "voice"
+        },
+        "approved_video_sha256": {
+          "type": "string",
+          "required": false
+        },
+        "visual_review_passed": {
+          "type": "boolean",
+          "default": false,
+          "required": false
         }
       }
     }
@@ -25,14 +36,17 @@
   "jobs": {
     "episode": {
       "runs-on": "ubuntu-24.04",
-      "timeout-minutes": 20,
+      "timeout-minutes": 45,
       "env": {
         "GITHUB_TOKEN": "${{ github.token }}",
         "GH_TOKEN": "${{ github.token }}",
         "NAFHAMHA_CYCLE_ID": "nafhamha-2026-11-10-noon",
         "NAFHAMHA_DUE_AT": "2026-11-10T10:00:00Z",
         "NAFHAMHA_API_TOKEN": "${{ secrets.NAFHAMHA_API_TOKEN || secrets.API_TOKEN }}",
-        "BUFFER_API_KEY": "${{ secrets.BUFFER_API_KEY }}"
+        "BUFFER_API_KEY": "${{ secrets.BUFFER_API_KEY }}",
+        "APPROVED_VIDEO_SHA256": "${{ inputs.approved_video_sha256 }}",
+        "VISUAL_REVIEW_PASSED": "${{ inputs.visual_review_passed }}",
+        "NAFHAMHA_EPISODE_DIR": "episodes/2026-11-10-swift"
       },
       "steps": [
         {
@@ -53,14 +67,15 @@
         },
         {
           "name": "Verify full own-channel inventory and retain one original voice request",
-          "run": "node production/episode-runner.mjs voice"
+          "run": "node production/episode-runner.mjs voice",
+          "if": "inputs.phase == 'voice'"
         },
         {
           "uses": "actions/upload-artifact@v4",
           "id": "voice",
-          "if": "always()",
+          "if": "always() && inputs.phase == 'voice'",
           "with": {
-            "name": "nafhamha-voice-2026-11-10",
+            "name": "nafhamha-voice-2026-11-10-swift",
             "path": "cycle-output/",
             "retention-days": 30,
             "if-no-files-found": "error"
@@ -68,11 +83,60 @@
         },
         {
           "name": "Bind exact retained voice artifact to permanent cycle",
-          "if": "success()",
+          "if": "success() && inputs.phase == 'voice'",
           "env": {
             "VOICE_ARTIFACT_ID": "${{ steps.voice.outputs.artifact-id }}"
           },
           "run": "node production/episode-runner.mjs seal-voice"
+        },
+        {
+          "name": "Restore exact retained original voice for new visual render",
+          "if": "inputs.phase == 'render'",
+          "run": "node production/episode-runner.mjs prepare-render"
+        },
+        {
+          "name": "Install pinned visual renderer and QA prerequisites",
+          "if": "inputs.phase == 'render'",
+          "run": "npm ci --no-audit --no-fund\npython -m pip install numpy Pillow\nnpx remotion browser ensure\npython production/fetch-episode-font.py"
+        },
+        {
+          "name": "Render measured full episode without voice regeneration",
+          "if": "inputs.phase == 'render'",
+          "run": "node production/render-episode.mjs\npython production/finish-episode.py"
+        },
+        {
+          "uses": "actions/upload-artifact@v4",
+          "id": "render",
+          "if": "always() && inputs.phase == 'render'",
+          "with": {
+            "name": "nafhamha-render-2026-11-10-swift",
+            "path": "render/nafhamha-final.mp4\nrender/*.json\nrender/*.jpg",
+            "retention-days": 30,
+            "if-no-files-found": "error"
+          }
+        },
+        {
+          "name": "Retain full-film evidence without scheduling",
+          "if": "success() && inputs.phase == 'render'",
+          "env": {
+            "RENDER_ARTIFACT_ID": "${{ steps.render.outputs.artifact-id }}"
+          },
+          "run": "node production/episode-runner.mjs seal-render"
+        },
+        {
+          "name": "Publish only exact visually reviewed complete film to authorized channel and time",
+          "if": "inputs.phase == 'publish'",
+          "run": "node production/episode-runner.mjs publish"
+        },
+        {
+          "uses": "actions/upload-artifact@v4",
+          "if": "always() && inputs.phase == 'publish'",
+          "with": {
+            "name": "nafhamha-publication-receipt-2026-11-10",
+            "path": "publication-output/",
+            "retention-days": 90,
+            "if-no-files-found": "warn"
+          }
         }
       ]
     }
