@@ -1,0 +1,80 @@
+{
+  "name": "Nafhamha approved episode production",
+  "on": {
+    "workflow_dispatch": {
+      "inputs": {
+        "phase": {
+          "type": "choice",
+          "options": [
+            "voice"
+          ],
+          "required": true,
+          "default": "voice"
+        }
+      }
+    }
+  },
+  "permissions": {
+    "contents": "write",
+    "actions": "read"
+  },
+  "concurrency": {
+    "group": "nafhamha-production",
+    "cancel-in-progress": false
+  },
+  "jobs": {
+    "episode": {
+      "runs-on": "ubuntu-24.04",
+      "timeout-minutes": 20,
+      "env": {
+        "GITHUB_TOKEN": "${{ github.token }}",
+        "GH_TOKEN": "${{ github.token }}",
+        "NAFHAMHA_CYCLE_ID": "nafhamha-2026-11-10-noon",
+        "NAFHAMHA_DUE_AT": "2026-11-10T10:00:00Z",
+        "NAFHAMHA_API_TOKEN": "${{ secrets.NAFHAMHA_API_TOKEN || secrets.API_TOKEN }}",
+        "BUFFER_API_KEY": "${{ secrets.BUFFER_API_KEY }}"
+      },
+      "steps": [
+        {
+          "uses": "actions/checkout@v4",
+          "with": {
+            "ref": "main"
+          }
+        },
+        {
+          "uses": "actions/setup-node@v4",
+          "with": {
+            "node-version": 22
+          }
+        },
+        {
+          "name": "Verify audio-inspection prerequisite",
+          "run": "if ! command -v ffprobe >/dev/null; then sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends ffmpeg; fi"
+        },
+        {
+          "name": "Verify full own-channel inventory and retain one original voice request",
+          "run": "node production/episode-runner.mjs voice"
+        },
+        {
+          "uses": "actions/upload-artifact@v4",
+          "id": "voice",
+          "if": "always()",
+          "with": {
+            "name": "nafhamha-voice-2026-11-10",
+            "path": "cycle-output/",
+            "retention-days": 30,
+            "if-no-files-found": "error"
+          }
+        },
+        {
+          "name": "Bind exact retained voice artifact to permanent cycle",
+          "if": "success()",
+          "env": {
+            "VOICE_ARTIFACT_ID": "${{ steps.voice.outputs.artifact-id }}"
+          },
+          "run": "node production/episode-runner.mjs seal-voice"
+        }
+      ]
+    }
+  }
+}
