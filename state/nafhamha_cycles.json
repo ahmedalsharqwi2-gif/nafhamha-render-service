@@ -2,7 +2,7 @@
   "version": 1,
   "cycles": {
     "nafhamha-2026-11-10-noon": {
-      "status": "voice_complete_pending_render",
+      "status": "owner_topic_revision_requested",
       "first_run_observed": true,
       "started_at": "2026-11-10T00:09:17.127098+00:00",
       "due_at": "2026-11-10T10:00:00Z",
@@ -81,6 +81,16 @@
         "checked_at": "2026-11-10T00:50:33.412Z",
         "posts_inspected": 3,
         "subject_matches": 0
+      },
+      "previous_topic_not_for_publication": true,
+      "owner_topic_revision": {
+        "requested_on": "2026-11-10",
+        "reference_url": "https://www.facebook.com/share/v/1A1sLs5HkE/",
+        "resolved_public_url": "https://www.facebook.com/reel/1134259595769044/",
+        "subject": "International transfers, SWIFT messaging and correspondent-bank settlement",
+        "evidence": "Topic identified from public og:description; full Facebook video was not watched.",
+        "previous_original_voice_retained": true,
+        "new_generation_or_publication_calls": 0
       }
     }
   }
