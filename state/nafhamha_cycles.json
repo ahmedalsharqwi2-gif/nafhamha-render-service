@@ -821,6 +821,11 @@
         "blocked_publication_attempt": 43268807898,
         "our_buffer_mutations": 0,
         "action": "Preserve existing GPS post; host only the complete reviewed static-electricity film. No queue mutation or rollover."
+      },
+      "publication_subject_check": {
+        "checked_at": "2026-11-12T17:30:32.349Z",
+        "posts_inspected": 5,
+        "subject_matches": 0
       }
     }
   }
