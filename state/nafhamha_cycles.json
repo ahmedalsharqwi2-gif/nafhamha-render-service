@@ -529,7 +529,7 @@
       "title": "الحوالة الدولية بتوصل إزاي؟ سويفت مش بتنقل الفلوس!"
     },
     "nafhamha-2026-11-13-noon": {
-      "status": "voice_requested",
+      "status": "voice_complete_pending_render",
       "started_at": "2026-11-12T17:06:00Z",
       "due_at": "2026-11-13T10:00:00Z",
       "local_preparation_date": "2026-11-12",
@@ -545,7 +545,7 @@
       "actual_movie": null,
       "resume_rule": "Complete missing confirmed phase only; no uncertain retries, occupied-slot replacement or expired-slot rollover.",
       "voice": {
-        "phase": "generated_pending_artifact",
+        "phase": "complete",
         "story_sha256": "0471799eefa788d1b1d7d57faf6305946ff5c0c2a441a3442c9d58174827aa8d",
         "text_sha256": "4f8996a5d402a7d75cc632752732c3906723b855251d9a6e12bfeee06ffed4cf",
         "due_at": "2026-11-13T10:00:00Z",
@@ -556,7 +556,9 @@
         "audio_sha256": "ab4a86b5e1fc5ccc6f5006d5b6ba2b220a503df219ae60ae943ad5eb815b6db6",
         "duration": 113.52,
         "bytes": 5455076,
-        "completed_at": "2026-11-12T17:05:24.907Z"
+        "completed_at": "2026-11-12T17:05:24.907Z",
+        "artifact_id": "13966231898",
+        "artifact_name": "nafhamha-2026-11-13-noon-voice"
       },
       "live_preflight": {
         "version": 1,
