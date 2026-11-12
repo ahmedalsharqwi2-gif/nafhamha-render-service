@@ -529,7 +529,7 @@
       "title": "الحوالة الدولية بتوصل إزاي؟ سويفت مش بتنقل الفلوس!"
     },
     "nafhamha-2026-11-13-noon": {
-      "status": "complete_film_blocked_by_existing_scheduled_post",
+      "status": "complete_film_hosted_blocked_by_existing_scheduled_post",
       "started_at": "2026-11-12T16:58:49Z",
       "due_at": "2026-11-13T10:00:00Z",
       "local_preparation_date": "2026-11-12",
@@ -794,6 +794,12 @@
           "independent_artifact_metadata_read_confirmed": true,
           "downloaded_film_sha256_verified": true,
           "reconciled_at": "2026-11-12T17:19:35.571Z"
+        },
+        "visual_review": {
+          "passed": true,
+          "reviewed_sha256": "b1c332698e1a0c3b32f0db5d8b5df3c1cc40cc4c43dfb8dcb3103aab148f7fb2",
+          "report": "reviews/2026-11-13/final-qa.json",
+          "reviewed_at": "2026-11-12T17:30:44.649Z"
         }
       },
       "record_corrections": [
@@ -835,6 +841,17 @@
         "phase": "verified",
         "video_sha256": "b1c332698e1a0c3b32f0db5d8b5df3c1cc40cc4c43dfb8dcb3103aab148f7fb2",
         "created_at": "2026-11-12T17:30:39.531Z"
+      },
+      "hosting_receipt": {
+        "kind": "complete_film_hosting_only",
+        "channel_service_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+        "media_url": "https://nafhamha-render-production.up.railway.app/media/c2f31bdbfa07322021be52b6376ff35cfe67737f183c37fd91ed6ea060630b78.mp4",
+        "video_sha256": "b1c332698e1a0c3b32f0db5d8b5df3c1cc40cc4c43dfb8dcb3103aab148f7fb2",
+        "duration": 113.533333,
+        "verified_at": "2026-11-12T17:30:44.408Z",
+        "scheduled_by_this_cycle": false,
+        "buffer_post_mutations": 0,
+        "blocking_post_id": "6af5f55f7e77373fdde41c2f"
       }
     }
   }
