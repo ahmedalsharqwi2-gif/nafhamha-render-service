@@ -2,13 +2,15 @@ import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';import {execFileSync} from 'node:child_process';
 import {check,CHANNEL} from './preflight.mjs';import {serviceVoice} from './generate-voice.mjs';
 const repo=process.env.GITHUB_REPOSITORY,cycle=process.env.NAFHAMHA_CYCLE_ID,due=process.env.NAFHAMHA_DUE_AT;
-if(repo!=='ahmedalsharqwi2-gif/nafhamha-render-service'||cycle!=='nafhamha-2026-11-10-noon'||due!=='2026-11-10T10:00:00Z')throw Error('EXACT_AUTHORIZED_FIRST_CYCLE_REQUIRED');
+import {validateCycle} from './cycle-policy.mjs';
+const episodeDir=process.env.NAFHAMHA_EPISODE_DIR;validateCycle({repo,cycle,due,episodeDir,compositionId:process.env.NAFHAMHA_COMPOSITION_ID});
 const api='https://api.github.com/repos/'+repo,hash=x=>createHash('sha256').update(x).digest('hex');
 const binding=JSON.parse(await readFile('production/connection.json','utf8'));
 const env={...process.env,NAFHAMHA_SERVICE_URL:process.env.NAFHAMHA_SERVICE_URL||binding.service_origin};
-const episodeDir=process.env.NAFHAMHA_EPISODE_DIR;if(episodeDir!=='episodes/2026-11-10-swift')throw Error('OWNER_APPROVED_EPISODE_DIRECTORY_REQUIRED');
+
 const scriptBytes=await readFile(episodeDir+'/script.json'),story=JSON.parse(scriptBytes),storyHash=hash(scriptBytes);
 await mkdir('cycle-output',{recursive:true});
+const bound=JSON.parse(await readFile('state/nafhamha_cycles.json','utf8')).cycles[cycle];if(!bound||bound.due_at!==due||bound.active_episode_directory!==episodeDir||bound.composition_id!==process.env.NAFHAMHA_COMPOSITION_ID||bound.draft_sha256!==storyHash||story.profile!=='nafhamha')throw Error('DURABLE_CYCLE_SOURCE_BINDING_REQUIRED');
 async function gh(route,method='GET',body){const r=await fetch(api+route,{method,headers:{Authorization:'Bearer '+process.env.GITHUB_TOKEN,Accept:'application/vnd.github+json','Content-Type':'application/json'},...(body?{body:JSON.stringify(body)}:{}),signal:AbortSignal.timeout(45000)});if(!r.ok)throw Error('GITHUB_STATE_HTTP_'+r.status);return r.status===204?{}:r.json()}
 async function state(){const raw=await gh('/contents/state/nafhamha_cycles.json?ref=main');return {sha:raw.sha,data:JSON.parse(Buffer.from(raw.content,'base64').toString())}}
 async function mutate(fn){for(let i=0;i<3;i++){const s=await state();fn(s.data.cycles[cycle],s.data);const content=Buffer.from(JSON.stringify(s.data,null,2)+'\n').toString('base64');try{await gh('/contents/state/nafhamha_cycles.json','PUT',{branch:'main',sha:s.sha,message:'Preserve exact Nafhamha cycle intent and evidence [skip ci]',content});return}catch(error){if(!/HTTP_(409|422)$/.test(error.message))throw error}}throw Error('DURABLE_CYCLE_STATE_CONFLICT')}
@@ -16,7 +18,8 @@ async function gql(query,variables){const r=await fetch('https://api.buffer.com'
 async function inventory(proof){let after=null,rows=[];const c=proof.checks.buffer_channel;for(let page=0;page<8;page++){const d=(await gql('query {posts(first:100'+(after?',after:'+JSON.stringify(after):'')+',input:{organizationId:'+JSON.stringify(c.organization_id)+',filter:{channelIds:['+JSON.stringify(c.id)+'],status:[draft,scheduled,sending,sent,error]}}){edges{node{id channelId status dueAt text metadata{... on YoutubePostMetadata{title}}}} pageInfo{hasNextPage endCursor}}}')).posts;rows.push(...d.edges.map(x=>x.node));if(!d.pageInfo.hasNextPage)return rows;after=d.pageInfo.endCursor}throw Error('COMPLETE_TARGET_CHANNEL_HISTORY_NOT_VERIFIED')}
 function guardTime(){if(Date.now()>=Date.parse(due))throw Error('EXPIRED_EXACT_SLOT_NO_ROLLOVER')}
 const phase=process.argv[2];
-if(phase==='voice'){
+if(phase==='inspect'){const proof=await check({env,dueAt:due});await writeFile('cycle-output/preflight.json',JSON.stringify(proof,null,2));if(!proof.passed)throw Error('LIVE_PREFLIGHT_NOT_READY');await writeFile('cycle-output/channel-inventory.json',JSON.stringify(await inventory(proof),null,2));console.log('Read-only exact-channel inventory retained; no generation or publication');
+}else if(phase==='voice'){
  guardTime();const existing=(await state()).data.cycles[cycle];if(existing.voice){if(existing.voice.phase==='complete'&&existing.voice.story_sha256===storyHash){console.log('Confirmed original voice already retained; no regeneration');process.exit(0)}throw Error('EXISTING_VOICE_INTENT_REQUIRES_RECONCILIATION')}
  const proof=await check({env,dueAt:due});await writeFile('cycle-output/preflight.json',JSON.stringify(proof,null,2));if(!proof.passed)throw Error('LIVE_PREFLIGHT_NOT_READY');
  const rows=await inventory(proof);const normalize=s=>String(s||'').replace(/[أإآ]/g,'ا').replace(/ة/g,'ه');const duplicate=rows.filter(p=>{const t=normalize(p.metadata?.title||p.text);return story.duplicate_term_groups.some(group=>group.every(term=>t.includes(normalize(term))))});await writeFile('cycle-output/channel-inventory.json',JSON.stringify(rows,null,2));if(duplicate.length)throw Error('SUBJECT_ALREADY_PRESENT_IN_OWN_CHANNEL_HISTORY');

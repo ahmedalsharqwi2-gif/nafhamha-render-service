@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {validateCycle} from './cycle-policy.mjs';
+const good={repo:'ahmedalsharqwi2-gif/nafhamha-render-service',cycle:'nafhamha-2026-11-13-noon',due:'2026-11-13T10:00:00Z',episodeDir:'episodes/2026-11-13-static',compositionId:'NafhamhaStaticElectricity'};
+test('authorized November cycle is Cairo noon',()=>assert.equal(validateCycle(good),'2026-11-13'));
+for(const [name,patch] of [['other repo',{repo:'ahmedalsharqwi2-gif/science-discovery-shorts'}],['wrong hour',{due:'2026-11-13T12:00:00Z'}],['off cadence',{due:'2026-11-14T10:00:00Z',cycle:'nafhamha-2026-11-14-noon',episodeDir:'episodes/2026-11-14-static'}],['unbound directory',{episodeDir:'episodes/2026-11-10-swift'}],['path traversal',{episodeDir:'episodes/2026-11-13-../../other'}]])test('reject '+name,()=>assert.throws(()=>validateCycle({...good,...patch})));

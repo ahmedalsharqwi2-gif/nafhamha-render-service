@@ -527,6 +527,23 @@
       "duration": 109.266667,
       "canonical_subject": "international-transfers-swift-messages-correspondent-bank-settlement",
       "title": "الحوالة الدولية بتوصل إزاي؟ سويفت مش بتنقل الفلوس!"
+    },
+    "nafhamha-2026-11-13-noon": {
+      "status": "script_ready_pending_live_inventory",
+      "started_at": "2026-11-12T17:06:00Z",
+      "due_at": "2026-11-13T10:00:00Z",
+      "local_preparation_date": "2026-11-12",
+      "active_episode_directory": "episodes/2026-11-13-static",
+      "composition_id": "NafhamhaStaticElectricity",
+      "draft_subject": "static-electricity-contact-separation-door-spark-dry-air",
+      "draft_sha256": "0471799eefa788d1b1d7d57faf6305946ff5c0c2a441a3442c9d58174827aa8d",
+      "draft_path": "episodes/2026-11-13-static/script.json",
+      "research_path": "reviews/2026-11-13/research.json",
+      "generation_requests": [],
+      "submission_intents": [],
+      "receipts": {},
+      "actual_movie": null,
+      "resume_rule": "Complete missing confirmed phase only; no uncertain retries, occupied-slot replacement or expired-slot rollover."
     }
   }
 }

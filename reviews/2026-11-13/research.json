@@ -1,0 +1,27 @@
+{
+  "observed_at": "2026-11-12T17:02:00Z",
+  "selected_question": "ليه بتتكهرب لما تلمس الباب؟",
+  "selection_reason": "Free YouTube suggestions contain static electricity, static in clothing and bodily sparks; original everyday mechanism suitable for current dry/cool-season interest. No claim of an emerging trend or measured search volume. Metal-cold alternative suggestions were unrelated.",
+  "suggestions_file": "reviews/2026-11-13/youtube-suggestions.json",
+  "own_history": "Existing permanent ledger contains sky, microwave, wifi and Swift references; fresh full channel inventory must pass before any voice call. Retained unpublished old voice topic is also avoided.",
+  "scientific_sources": [
+    {
+      "url": "https://www.scienceworld.ca/resource/static-electricity/",
+      "facts": "Charge separation by contact/separation; material-dependent transfer, positive/negative signs; rapid discharge."
+    },
+    {
+      "url": "https://www.pa.uky.edu/sciworks/courses/heat/static.htm",
+      "facts": "Low humidity, thin surface water films, leakage; high voltage can coexist with small stored charge."
+    },
+    {
+      "url": "https://www.electrochem.org/ecsnews/static-electricitys-tiny-sparks",
+      "facts": "Dry winter months and small static discharges."
+    }
+  ],
+  "blocked_reference": "Library of Congress full page returned403; its search snippet is not the sole scientific source.",
+  "copyright": "Original Egyptian script and original diagrams; no competitor narration, music or visuals copied.",
+  "research_cost": 0,
+  "vidiq_credit_calls": 0,
+  "search_volume": null,
+  "guaranteed_views": false
+}

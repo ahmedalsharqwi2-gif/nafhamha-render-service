@@ -1,0 +1,48 @@
+{
+  "observed_at": "2026-11-12T17:02:00Z",
+  "evidence": [
+    {
+      "query": "الكهرباء الساكنة",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=ar&gl=eg&q=%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1%20%D8%A7%D9%84%D8%B3%D8%A7%D9%83%D9%86%D8%A9",
+      "suggestions": [
+        "الكهرباء الساكنة",
+        "الكهرباء الساكنة اولى اعدادي",
+        "الكهرباء الساكنة ثالث ثانوي",
+        "الكهرباء الساكنة الشهادة السودانية",
+        "الكهرباء الساكنة الصف الاول الاعدادي",
+        "الكهرباء الساكنة شهادة سودانية",
+        "الكهرباء الساكنة الصف العاشر",
+        "الكهرباء الساكنة الدحيح",
+        "الكهرباء الساكنة في الملابس",
+        "الكهرباء الساكنة والكهرباء المتحركة"
+      ]
+    },
+    {
+      "query": "سبب لسعة الكهرباء",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=ar&gl=eg&q=%D8%B3%D8%A8%D8%A8%20%D9%84%D8%B3%D8%B9%D8%A9%20%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1",
+      "suggestions": [
+        "سبب النتلات الكهربائيه بالجسم",
+        "سبب الماس الكهربائي",
+        "سبب الشرارة الكهربائية في الجسم",
+        "سبب الصعقات الكهربائية في الجسم"
+      ]
+    },
+    {
+      "query": "ليه بنتكهرب",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=ar&gl=eg&q=%D9%84%D9%8A%D9%87%20%D8%A8%D9%86%D8%AA%D9%83%D9%87%D8%B1%D8%A8",
+      "suggestions": [
+        "ليه بنتكهرب"
+      ]
+    },
+    {
+      "query": "لماذا المعدن أبرد",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=ar&gl=eg&q=%D9%84%D9%85%D8%A7%D8%B0%D8%A7%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D9%86%20%D8%A3%D8%A8%D8%B1%D8%AF",
+      "suggestions": [
+        "لماذا لا تمتص الارض الدم",
+        "لماذا البراد يثلج",
+        "لماذا الذهب اغلى المعادن"
+      ]
+    }
+  ],
+  "limit": "YouTube autocomplete suggestions are qualitative demand signals, not numeric search volume or guaranteed views."
+}

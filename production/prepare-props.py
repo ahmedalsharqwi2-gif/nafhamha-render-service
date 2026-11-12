@@ -1,8 +1,9 @@
+import os
 """Bind exact original script captions to measured ASR anchors, explicitly marking estimates."""
 import argparse,difflib,hashlib,json,math,re,subprocess
 from pathlib import Path
 p=argparse.ArgumentParser();p.add_argument('--root',default='.');a=p.parse_args();root=Path(a.root)
-story_path=root/'episodes/2026-11-10-swift/script.json';voice=root/'voice/narration.wav';asr_path=root/'render/asr.json';story=json.loads(story_path.read_text());asr=json.loads(asr_path.read_text());meta=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-of','json',str(voice)]));duration=float(meta['format']['duration']);fps=30;frames=math.ceil(duration*fps)
+story_path=root/os.environ['NAFHAMHA_EPISODE_DIR']/'script.json';voice=root/'voice/narration.wav';asr_path=root/'render/asr.json';story=json.loads(story_path.read_text());asr=json.loads(asr_path.read_text());meta=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-of','json',str(voice)]));duration=float(meta['format']['duration']);fps=30;frames=math.ceil(duration*fps)
 def norm(x):return re.sub(r'[^ء-ي0-9]','',x.replace('أ','ا').replace('إ','ا').replace('آ','ا').replace('ى','ي').replace('ة','ه'))
 original=[];scene_counts=[]
 for scene in story['scenes']:

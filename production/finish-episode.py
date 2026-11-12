@@ -1,16 +1,17 @@
+import os
 """Complete technical QA of retained speech and the entire new film, without publishing."""
 import hashlib,json,math,re,subprocess,wave
 from pathlib import Path
 import numpy as np
 from PIL import Image,ImageStat
-root=Path.cwd();out=root/'render';episode=root/'episodes/2026-11-10-swift';props=json.loads((episode/'props.json').read_text());proof=json.loads((out/'render-proof.json').read_text());alignment=json.loads((episode/'alignment.json').read_text());duration=props['durationInFrames']/30
+root=Path.cwd();out=root/'render';episode=root/os.environ['NAFHAMHA_EPISODE_DIR'];props=json.loads((episode/'props.json').read_text());proof=json.loads((out/'render-proof.json').read_text());alignment=json.loads((episode/'alignment.json').read_text());duration=props['durationInFrames']/30
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def run(args,**kw):return subprocess.run(['ffmpeg','-y','-v','error',*map(str,args)],check=True,**kw)
 def probe(p):return json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(p)]))
 voice=root/'voice/narration.wav'
 if sha(voice)!=props['original_voice_sha256'] or sha(episode/'script.json')!=props['story_sha256']:raise ValueError('Retained voice/story binding differs')
 run(['-i',voice,'-af','highpass=f=60,lowpass=f=10000,loudnorm=I=-16:TP=-2:LRA=7,aresample=48000','-ac','1','-c:a','pcm_s16le',out/'voice-normalized.wav'])
-rate=48000;n=math.ceil(duration*rate);score=np.zeros((n,2),dtype=np.float32);rng=np.random.default_rng(int(props['story_sha256'][:8],16));notes=[146.832,220.,293.665,174.614,261.626,196.]
+rate=48000;n=math.ceil(duration*rate);score=np.zeros((n,2),dtype=np.float32);rng=np.random.default_rng(int(props['story_sha256'][:8],16));notes=[164.814,246.942,329.628,196.,293.665,220.]
 for k,at in enumerate(np.arange(.4,duration-1,3.8)):
  length=.85;t=np.arange(int(length*rate))/rate;env=(1-np.exp(-t*75))*np.exp(-t*4.2);freq=notes[k%len(notes)];tone=(np.sin(2*np.pi*freq*t)+.25*np.sin(2*np.pi*freq*2*t)+.08*np.sin(2*np.pi*freq*3*t))*env*.025;start=int(at*rate);end=min(n,start+len(tone));pan=.5+.25*np.sin(k);score[start:end,0]+=tone[:end-start]*pan;score[start:end,1]+=tone[:end-start]*(1-pan)
 for i,s in enumerate(props['scenes']):
@@ -36,5 +37,5 @@ for i,s in enumerate(props['scenes']):
   if max(ImageStat.Stat(im).stddev)<6:raise ValueError('Blank sampled scene')
   stills.append({'file':p.name,'at':at,'sha256':sha(p)})
 p=out/'closing.jpg';run(['-ss',actual-.25,'-i',movie,'-frames:v','1','-q:v','2',p]);stills.append({'file':p.name,'at':actual-.25,'sha256':sha(p)})
-qa={'status':'technically_verified_pending_visual_review','channel_id':'UCVYe5C8jhHFlKz7UPeVzFCg','movie_sha256':sha(movie),'bytes':movie.stat().st_size,'duration':actual,'frames':int(v['nb_frames']),'width':v['width'],'height':v['height'],'fps':30,'audio_codec':audio['codec_name'],'original_voice_sha256':sha(voice),'story_sha256':sha(episode/'script.json'),'render':proof,'alignment':alignment,'full_decode_passed':True,'full_speech_waveform_correlation':full,'last_speech_window_correlation':tail,'max_volume_db':peak,'black_intervals':black,'stills':stills,'visual_review_passed':False,'scheduled':False,'publication_calls':0,'score':{'original_composition':True,'third_party_music':False,'profile':'warm plucked harmonics with voice-ducked bank-message and ledger cues','sha256':sha(out/'score.wav')}}
+qa={'status':'technically_verified_pending_visual_review','channel_id':'UCVYe5C8jhHFlKz7UPeVzFCg','movie_sha256':sha(movie),'bytes':movie.stat().st_size,'duration':actual,'frames':int(v['nb_frames']),'width':v['width'],'height':v['height'],'fps':30,'audio_codec':audio['codec_name'],'original_voice_sha256':sha(voice),'story_sha256':sha(episode/'script.json'),'render':proof,'alignment':alignment,'full_decode_passed':True,'full_speech_waveform_correlation':full,'last_speech_window_correlation':tail,'max_volume_db':peak,'black_intervals':black,'stills':stills,'visual_review_passed':False,'scheduled':False,'publication_calls':0,'score':{'original_composition':True,'third_party_music':False,'profile':json.loads((episode/'script.json').read_text()).get('music_profile','Original quiet score and subject cues'),'sha256':sha(out/'score.wav')}}
 (out/'full-qa.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:qa[k] for k in ('status','duration','movie_sha256','bytes','full_speech_waveform_correlation','last_speech_window_correlation')}))

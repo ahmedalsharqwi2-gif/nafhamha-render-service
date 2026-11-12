@@ -6,6 +6,7 @@
         "phase": {
           "type": "choice",
           "options": [
+            "inspect",
             "voice",
             "render",
             "publish"
@@ -21,6 +22,22 @@
           "type": "boolean",
           "default": false,
           "required": false
+        },
+        "cycle_id": {
+          "type": "string",
+          "required": true
+        },
+        "due_at": {
+          "type": "string",
+          "required": true
+        },
+        "episode_dir": {
+          "type": "string",
+          "required": true
+        },
+        "composition_id": {
+          "type": "string",
+          "required": true
         }
       }
     }
@@ -40,13 +57,14 @@
       "env": {
         "GITHUB_TOKEN": "${{ github.token }}",
         "GH_TOKEN": "${{ github.token }}",
-        "NAFHAMHA_CYCLE_ID": "nafhamha-2026-11-10-noon",
-        "NAFHAMHA_DUE_AT": "2026-11-10T10:00:00Z",
+        "NAFHAMHA_CYCLE_ID": "${{ inputs.cycle_id }}",
+        "NAFHAMHA_DUE_AT": "${{ inputs.due_at }}",
         "NAFHAMHA_API_TOKEN": "${{ secrets.NAFHAMHA_API_TOKEN || secrets.API_TOKEN }}",
         "BUFFER_API_KEY": "${{ secrets.BUFFER_API_KEY }}",
         "APPROVED_VIDEO_SHA256": "${{ inputs.approved_video_sha256 }}",
         "VISUAL_REVIEW_PASSED": "${{ inputs.visual_review_passed }}",
-        "NAFHAMHA_EPISODE_DIR": "episodes/2026-11-10-swift"
+        "NAFHAMHA_EPISODE_DIR": "${{ inputs.episode_dir }}",
+        "NAFHAMHA_COMPOSITION_ID": "${{ inputs.composition_id }}"
       },
       "steps": [
         {
@@ -63,9 +81,23 @@
         },
         {
           "name": "Verify audio-inspection prerequisite",
-          "run": "if ! command -v ffprobe >/dev/null; then\n  sudo timeout 70 apt-get -o Dir::Etc::sourcelist='sources.list.d/ubuntu.sources' -o Dir::Etc::sourceparts='-' -o APT::Get::List-Cleanup=0 -o Acquire::Retries=0 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15 update -qq\n  sudo timeout 100 apt-get -o Acquire::Retries=0 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15 install -y --no-install-recommends ffmpeg\nfi",
-          "if": "inputs.phase != 'publish'",
+          "run": "if ! command -v ffprobe >/dev/null; then\n  sudo sed -i 's|http://azure.archive.ubuntu.com/ubuntu|https://archive.ubuntu.com/ubuntu|g' /etc/apt/sources.list.d/ubuntu.sources\n  sudo timeout 70 apt-get -o Dir::Etc::sourcelist='sources.list.d/ubuntu.sources' -o Dir::Etc::sourceparts='-' -o APT::Get::List-Cleanup=0 -o Acquire::Retries=0 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15 update -qq\n  sudo timeout 100 apt-get -o Acquire::Retries=0 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15 install -y --no-install-recommends ffmpeg\nfi",
+          "if": "inputs.phase == 'voice' || inputs.phase == 'render'",
           "timeout-minutes": 3
+        },
+        {
+          "name": "Read-only current channel inventory before topic selection",
+          "if": "inputs.phase == 'inspect'",
+          "run": "node production/episode-runner.mjs inspect"
+        },
+        {
+          "uses": "actions/upload-artifact@v4",
+          "if": "always() && inputs.phase == 'inspect'",
+          "with": {
+            "name": "${{ inputs.cycle_id }}-inspection",
+            "path": "cycle-output/",
+            "retention-days": 30
+          }
         },
         {
           "name": "Verify full own-channel inventory and retain one original voice request",
@@ -77,7 +109,7 @@
           "id": "voice",
           "if": "always() && inputs.phase == 'voice'",
           "with": {
-            "name": "nafhamha-voice-2026-11-10-swift",
+            "name": "${{ inputs.cycle_id }}-voice",
             "path": "cycle-output/",
             "retention-days": 30,
             "if-no-files-found": "error"
@@ -111,7 +143,7 @@
           "id": "render",
           "if": "always() && inputs.phase == 'render'",
           "with": {
-            "name": "nafhamha-render-2026-11-10-swift",
+            "name": "${{ inputs.cycle_id }}-render",
             "path": "render/nafhamha-final.mp4\nrender/*.json\nrender/*.jpg",
             "retention-days": 30,
             "if-no-files-found": "error"
@@ -134,7 +166,7 @@
           "uses": "actions/upload-artifact@v4",
           "if": "always() && inputs.phase == 'publish'",
           "with": {
-            "name": "nafhamha-publication-receipt-2026-11-10",
+            "name": "${{ inputs.cycle_id }}-publication-receipt",
             "path": "publication-output/",
             "retention-days": 90,
             "if-no-files-found": "warn"
