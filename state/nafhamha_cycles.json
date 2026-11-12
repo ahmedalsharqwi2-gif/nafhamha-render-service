@@ -529,7 +529,7 @@
       "title": "الحوالة الدولية بتوصل إزاي؟ سويفت مش بتنقل الفلوس!"
     },
     "nafhamha-2026-11-13-noon": {
-      "status": "voice_complete_pending_render",
+      "status": "rendering",
       "started_at": "2026-11-12T17:06:00Z",
       "due_at": "2026-11-13T10:00:00Z",
       "local_preparation_date": "2026-11-12",
@@ -562,7 +562,7 @@
       },
       "live_preflight": {
         "version": 1,
-        "checked_at": "2026-11-12T17:04:59.237Z",
+        "checked_at": "2026-11-12T17:13:37.590Z",
         "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
         "due_at": "2026-11-13T10:00:00Z",
         "passed": true,
@@ -603,6 +603,14 @@
         "checked_at": "2026-11-12T17:04:59.237Z",
         "posts_inspected": 4,
         "subject_matches": 0
+      },
+      "render": {
+        "phase": "rendering",
+        "request_run": "43267066580",
+        "story_sha256": "0471799eefa788d1b1d7d57faf6305946ff5c0c2a441a3442c9d58174827aa8d",
+        "voice_sha256": "ab4a86b5e1fc5ccc6f5006d5b6ba2b220a503df219ae60ae943ad5eb815b6db6",
+        "started_at": "2026-11-12T17:13:39.577Z",
+        "source_run_sha": "8567d9eed3826241c0182f578956a06c4ed8665a"
       }
     }
   }
