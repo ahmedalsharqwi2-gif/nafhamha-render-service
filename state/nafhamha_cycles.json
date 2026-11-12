@@ -529,8 +529,8 @@
       "title": "الحوالة الدولية بتوصل إزاي؟ سويفت مش بتنقل الفلوس!"
     },
     "nafhamha-2026-11-13-noon": {
-      "status": "rendering",
-      "started_at": "2026-11-12T17:06:00Z",
+      "status": "render_complete_pending_visual_review",
+      "started_at": "2026-11-12T16:58:49Z",
       "due_at": "2026-11-13T10:00:00Z",
       "local_preparation_date": "2026-11-12",
       "active_episode_directory": "episodes/2026-11-13-static",
@@ -605,13 +605,200 @@
         "subject_matches": 0
       },
       "render": {
-        "phase": "rendering",
+        "phase": "complete",
         "request_run": "43267066580",
         "story_sha256": "0471799eefa788d1b1d7d57faf6305946ff5c0c2a441a3442c9d58174827aa8d",
         "voice_sha256": "ab4a86b5e1fc5ccc6f5006d5b6ba2b220a503df219ae60ae943ad5eb815b6db6",
         "started_at": "2026-11-12T17:13:39.577Z",
-        "source_run_sha": "8567d9eed3826241c0182f578956a06c4ed8665a"
-      }
+        "source_run_sha": "8567d9eed3826241c0182f578956a06c4ed8665a",
+        "artifact_id": "13967380822",
+        "artifact_name": "nafhamha-2026-11-13-noon-render",
+        "movie_sha256": "b1c332698e1a0c3b32f0db5d8b5df3c1cc40cc4c43dfb8dcb3103aab148f7fb2",
+        "duration": 113.533333,
+        "bytes": 7030983,
+        "qa": {
+          "status": "technically_verified_pending_visual_review",
+          "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+          "movie_sha256": "b1c332698e1a0c3b32f0db5d8b5df3c1cc40cc4c43dfb8dcb3103aab148f7fb2",
+          "bytes": 7030983,
+          "duration": 113.533333,
+          "frames": 3406,
+          "width": 720,
+          "height": 1280,
+          "fps": 30,
+          "audio_codec": "aac",
+          "original_voice_sha256": "ab4a86b5e1fc5ccc6f5006d5b6ba2b220a503df219ae60ae943ad5eb815b6db6",
+          "story_sha256": "0471799eefa788d1b1d7d57faf6305946ff5c0c2a441a3442c9d58174827aa8d",
+          "render": {
+            "version": 1,
+            "renderer": "Remotion4.0.540 bespoke subject-specific SVG scenes",
+            "frames": 3406,
+            "width": 720,
+            "height": 1280,
+            "fps": 30,
+            "original_voice_sha256": "ab4a86b5e1fc5ccc6f5006d5b6ba2b220a503df219ae60ae943ad5eb815b6db6",
+            "story_sha256": "0471799eefa788d1b1d7d57faf6305946ff5c0c2a441a3442c9d58174827aa8d",
+            "source_sha256": "c7f9bfb09294b8a62b8367a7258f11d16f195b0e52a02f4d872d233481100825",
+            "props_sha256": "3d9f1c4e3997dc07143b2821434aff57346684a7acd495d96e6a41c5a1db3aac",
+            "caption_measurements": 3236,
+            "captions_expected": 55,
+            "captions_measured": 55,
+            "max_caption_bottom": 1074.09375,
+            "overflow": [],
+            "unmeasured_captions": [],
+            "output_sha256": "bece3bc51f6a99a81c64d54cac317e5ec77f4ca4955270148538aac6865e2ae7"
+          },
+          "alignment": {
+            "original_word_count": 265,
+            "asr_word_count": 267,
+            "matched_original_words": 224,
+            "anchor_coverage": 0.8452830188679246,
+            "estimated_word_count": 41,
+            "alignment_claim": "Matched ASR anchors with explicitly estimated unmatched words; not phoneme-perfect timing.",
+            "duration": 113.52,
+            "captions": 55,
+            "all_original_words_retained": true,
+            "original_voice_sha256": "ab4a86b5e1fc5ccc6f5006d5b6ba2b220a503df219ae60ae943ad5eb815b6db6",
+            "story_sha256": "0471799eefa788d1b1d7d57faf6305946ff5c0c2a441a3442c9d58174827aa8d",
+            "last_asr_text": " دي  نفهمها.",
+            "last_original_words": [
+              "بالملابس",
+              "والسجاد؛",
+              "مش",
+              "حكم",
+              "إن",
+              "أي",
+              "جهاز",
+              "بيلسعك",
+              "سليم.",
+              "كهربا",
+              "الأجهزة",
+              "موضوع",
+              "مختلف.",
+              "دي",
+              "نفهمها."
+            ]
+          },
+          "full_decode_passed": true,
+          "full_speech_waveform_correlation": 0.9999486284568465,
+          "last_speech_window_correlation": 0.9999464595103102,
+          "max_volume_db": -1.9,
+          "black_intervals": [],
+          "stills": [
+            {
+              "file": "scene-1.jpg",
+              "at": 5,
+              "sha256": "3359a1760a5662083927ec758c87773df496fa5ef22f2affda7d0f114d15c4df"
+            },
+            {
+              "file": "boundary-1.jpg",
+              "at": 0.4,
+              "sha256": "98b090ba240b66d086aa11368a5a0682ccfe81d28b09faf28df4fcf613facc9e"
+            },
+            {
+              "file": "scene-2.jpg",
+              "at": 19.333333333333336,
+              "sha256": "694cd8a6ebbc52c586d25d43cc70897d613d1afe84ebab3b06ba1a7da2ed5f8a"
+            },
+            {
+              "file": "boundary-2.jpg",
+              "at": 14.733333333333334,
+              "sha256": "8147435e8371f5d29f6ae0e340490fbef48d934455c74b00e855dc92d93406c3"
+            },
+            {
+              "file": "scene-3.jpg",
+              "at": 32.6,
+              "sha256": "364dcbcdf3443bee6b4a9fb1420d0955c154f8584e324a27279753811f453f8b"
+            },
+            {
+              "file": "boundary-3.jpg",
+              "at": 28,
+              "sha256": "eb86ea6d83b6c0c03673fb3e9008c7c44e4838d5d0e6dfe2dc2d5cbc2679c5a1"
+            },
+            {
+              "file": "scene-4.jpg",
+              "at": 49.06666666666667,
+              "sha256": "c07f29448cebd1d4826ae36eeb2c25b85cd15d80c83f62e6fffba4b6ea1bdf03"
+            },
+            {
+              "file": "boundary-4.jpg",
+              "at": 44.46666666666667,
+              "sha256": "05862e41ffaa1703ffd4a827bbf73174b5c41d1c16559a30348e109f50774f17"
+            },
+            {
+              "file": "scene-5.jpg",
+              "at": 63.96666666666667,
+              "sha256": "dc482ed51a8e44b766aad85a6a02bcf5dbbdcd1123b2cafa1b865cb4f9c5e23e"
+            },
+            {
+              "file": "boundary-5.jpg",
+              "at": 59.36666666666667,
+              "sha256": "df7c27b61c9dd2db77bd662cc7f06d1a71ef227eac7016d93e9908b588d20bdd"
+            },
+            {
+              "file": "scene-6.jpg",
+              "at": 80.26666666666667,
+              "sha256": "e2e25e389cfb33906f9d579b039dc9b9c99373c4ed0f8a904f219a7a5790d50b"
+            },
+            {
+              "file": "boundary-6.jpg",
+              "at": 75.66666666666667,
+              "sha256": "7d707aa0f5b7365db57975efe48e6d9674366fa8e4c21e52fbbe02cd0bafba26"
+            },
+            {
+              "file": "scene-7.jpg",
+              "at": 92.9,
+              "sha256": "9eff2deab9080fbc42a90d4143f8d8155a772de14d8b411067e1ea2c9f0001b9"
+            },
+            {
+              "file": "boundary-7.jpg",
+              "at": 88.30000000000001,
+              "sha256": "b4a84b1d05e42fd4833c70c2d6afa542aac965888b114d0980b9cc7850818f84"
+            },
+            {
+              "file": "scene-8.jpg",
+              "at": 106.3,
+              "sha256": "2cf66780b1340cea16eb8a39c173a01d819dab9a9a3c9be6c73eda88c134a401"
+            },
+            {
+              "file": "boundary-8.jpg",
+              "at": 101.7,
+              "sha256": "cad57475403f06ac8461867f89ecf0fdf0e8e2aa2bbbd41604a3e1da0ed9da79"
+            },
+            {
+              "file": "closing.jpg",
+              "at": 113.283333,
+              "sha256": "7724d5d4dab5003f5fcfca1ba22e9ad934feb87ecea594ca4762194da0c4e6fd"
+            }
+          ],
+          "visual_review_passed": false,
+          "scheduled": false,
+          "publication_calls": 0,
+          "score": {
+            "original_composition": true,
+            "third_party_music": false,
+            "profile": "Original quiet felt-glass plucks and short spark/contact cues, ducked under Egyptian narration",
+            "sha256": "bdea4bbf6bd8d610038dbd38a5f3776c4dcc69aa96dcf8e93021dbb911f9f182"
+          }
+        },
+        "completed_at": "2026-11-12T17:19:35.570Z",
+        "reconciliation": {
+          "original_run_conclusion": "failure",
+          "failed_step": "seal-render artifact metadata GET returned404 immediately after upload",
+          "retained_film_reused": true,
+          "new_voice_or_render_requests": 0,
+          "independent_artifact_metadata_read_confirmed": true,
+          "downloaded_film_sha256_verified": true,
+          "reconciled_at": "2026-11-12T17:19:35.571Z"
+        }
+      },
+      "record_corrections": [
+        {
+          "field": "started_at",
+          "previous_value": "2026-11-12T17:06:00Z",
+          "reason": "Replace initial approximate timestamp with first observed actual task clock"
+        }
+      ]
     }
   }
 }
