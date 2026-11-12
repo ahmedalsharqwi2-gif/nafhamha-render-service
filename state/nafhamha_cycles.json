@@ -545,14 +545,18 @@
       "actual_movie": null,
       "resume_rule": "Complete missing confirmed phase only; no uncertain retries, occupied-slot replacement or expired-slot rollover.",
       "voice": {
-        "phase": "intent",
+        "phase": "generated_pending_artifact",
         "story_sha256": "0471799eefa788d1b1d7d57faf6305946ff5c0c2a441a3442c9d58174827aa8d",
         "text_sha256": "4f8996a5d402a7d75cc632752732c3906723b855251d9a6e12bfeee06ffed4cf",
         "due_at": "2026-11-13T10:00:00Z",
         "provider": "existing_authenticated_Charon_service",
         "created_at": "2026-11-12T17:04:59.634Z",
         "request_run": "43265522424",
-        "generation_calls": 1
+        "generation_calls": 1,
+        "audio_sha256": "ab4a86b5e1fc5ccc6f5006d5b6ba2b220a503df219ae60ae943ad5eb815b6db6",
+        "duration": 113.52,
+        "bytes": 5455076,
+        "completed_at": "2026-11-12T17:05:24.907Z"
       },
       "live_preflight": {
         "version": 1,
