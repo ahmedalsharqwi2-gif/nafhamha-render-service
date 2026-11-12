@@ -9,7 +9,8 @@
             "inspect",
             "voice",
             "render",
-            "publish"
+            "publish",
+            "host-reviewed"
           ],
           "required": true,
           "default": "voice"
@@ -158,15 +159,20 @@
           "run": "node production/episode-runner.mjs seal-render"
         },
         {
+          "name": "Host exact complete reviewed film without creating or changing a scheduled post",
+          "if": "inputs.phase == 'host-reviewed'",
+          "run": "node production/episode-runner.mjs host-reviewed"
+        },
+        {
           "name": "Publish only exact visually reviewed complete film to authorized channel and time",
           "if": "inputs.phase == 'publish'",
           "run": "node production/episode-runner.mjs publish"
         },
         {
           "uses": "actions/upload-artifact@v4",
-          "if": "always() && inputs.phase == 'publish'",
+          "if": "always() && (inputs.phase == 'publish' || inputs.phase == 'host-reviewed')",
           "with": {
-            "name": "${{ inputs.cycle_id }}-publication-receipt",
+            "name": "${{ inputs.cycle_id }}-${{ inputs.phase }}-receipt",
             "path": "publication-output/",
             "retention-days": 90,
             "if-no-files-found": "warn"

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "checked_at": "2026-11-12T17:26:16.304Z",
+  "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+  "due_at": "2026-11-13T10:00:00Z",
+  "passed": false,
+  "errors": [
+    "EXACT_SLOT_OCCUPIED_RECONCILE_BEFORE_GENERATION"
+  ],
+  "checks": {
+    "voice": {
+      "configured": true,
+      "route": "authenticated_service"
+    },
+    "service_health": {
+      "ok": true,
+      "http_status": 200
+    },
+    "service_auth": {
+      "ok": true,
+      "http_status": 200
+    },
+    "buffer_channel": {
+      "id": "6aeb2098e29c69a1715bfadd",
+      "organization_id": "6aeb1fa35dc6068f4e33c1a9",
+      "service_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+      "connected": true,
+      "queue_running": true,
+      "unlocked": true
+    },
+    "slot": {
+      "checked": true,
+      "post_ids": [
+        "6af5f55f7e77373fdde41c2f"
+      ],
+      "has_more": false
+    }
+  },
+  "generation_calls": 0,
+  "publication_mutations": 0,
+  "service_origin": "https://nafhamha-render-production.up.railway.app",
+  "limit": "Preflight proves only the recorded read-only checks, not a finished film, media upload, scheduling receipt or publication."
+}

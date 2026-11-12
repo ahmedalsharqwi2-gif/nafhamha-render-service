@@ -30,6 +30,6 @@ if(phase==='inspect'){const proof=await check({env,dueAt:due});await writeFile('
  catch(error){await mutate(e=>{if(e.voice.phase==='intent')e.voice.phase='uncertain';e.voice.failure='Read retained intent/artifact before any retry; provider details omitted.'});throw Error('VOICE_PHASE_FAILED_RETAINED_WITHOUT_AUTOMATIC_RETRY')}
 }else if(phase==='seal-voice'){
  const id=process.env.VOICE_ARTIFACT_ID;if(!/^\d+$/.test(id||''))throw Error('VOICE_ARTIFACT_ID_REQUIRED');const a=await gh('/actions/artifacts/'+id);if(a.expired||String(a.workflow_run.id)!==process.env.GITHUB_RUN_ID)throw Error('VOICE_ARTIFACT_BINDING_MISMATCH');await mutate(e=>{if(e.voice?.phase!=='generated_pending_artifact'||e.voice.request_run!==process.env.GITHUB_RUN_ID)throw Error('VOICE_STATE_NOT_READY_FOR_ARTIFACT');Object.assign(e.voice,{phase:'complete',artifact_id:id,artifact_name:a.name});e.status='voice_complete_pending_render'});console.log(JSON.stringify({voice_artifact_retained:id}));
-}else if(['prepare-render','seal-render','publish'].includes(phase)){
+}else if(['prepare-render','seal-render','publish','host-reviewed'].includes(phase)){
  const {runStage}=await import('./episode-stages.mjs');await runStage({phase,env,cycle,due,story,storyHash,hash,gh,state,mutate,gql,guardTime,check,CHANNEL,episodeDir,inventory});
 }else throw Error('UNSUPPORTED_PHASE');

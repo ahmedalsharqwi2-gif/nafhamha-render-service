@@ -529,7 +529,7 @@
       "title": "الحوالة الدولية بتوصل إزاي؟ سويفت مش بتنقل الفلوس!"
     },
     "nafhamha-2026-11-13-noon": {
-      "status": "render_complete_pending_visual_review",
+      "status": "complete_film_blocked_by_existing_scheduled_post",
       "started_at": "2026-11-12T16:58:49Z",
       "due_at": "2026-11-13T10:00:00Z",
       "local_preparation_date": "2026-11-12",
@@ -798,7 +798,30 @@
           "previous_value": "2026-11-12T17:06:00Z",
           "reason": "Replace initial approximate timestamp with first observed actual task clock"
         }
-      ]
+      ],
+      "publication_block": {
+        "observed_at": "2026-11-12T17:29:38.441Z",
+        "occupied_post": {
+          "id": "6af5f55f7e77373fdde41c2f",
+          "channelId": "6aeb2098e29c69a1715bfadd",
+          "status": "scheduled",
+          "dueAt": "2026-11-13T10:00:00.000Z",
+          "text": "إزاي الموبايل بيحوّل زمن وصول إشارات الأقمار لمكان على الخريطة؟ في الحلقة دي هنفهم دور الساعة وليه المباني العالية ممكن تزحزح نقطة الموقع. الرسوم والأحجام والمسافات مبسّطة للتوضيح.\n\nالمصادر:\nhttps://www.gps.gov/gps\nhttps://www.gps.gov/trilateration\nhttps://www.garmin.com/en-GB/aboutgps/\n\n#نفهمها #GPS #علوم #Shorts",
+          "assets": [
+            {
+              "source": "https://nafhamha-render-production.up.railway.app/media/d492f491e87f39d04763cacadec4109022a9dcf33024220a81fa5d6f61b97bf6.mp4"
+            }
+          ],
+          "metadata": {
+            "title": "إزاي الموبايل بيعرف مكانك من إشارات جاية من السما؟ | نفهمها"
+          }
+        },
+        "inspection_run": 43269396661,
+        "inspection_artifact": 13967432430,
+        "blocked_publication_attempt": 43268807898,
+        "our_buffer_mutations": 0,
+        "action": "Preserve existing GPS post; host only the complete reviewed static-electricity film. No queue mutation or rollover."
+      }
     }
   }
 }
