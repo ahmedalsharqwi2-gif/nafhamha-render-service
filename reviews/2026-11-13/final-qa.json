@@ -1,0 +1,198 @@
+{
+  "reviewed_at": "2026-11-12T17:21:40.879339+00:00",
+  "status": "full_film_review_passed",
+  "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+  "movie_sha256": "b1c332698e1a0c3b32f0db5d8b5df3c1cc40cc4c43dfb8dcb3103aab148f7fb2",
+  "duration": 113.533333,
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "render_run": 43267066580,
+  "render_artifact": 13967380822,
+  "render_run_failure_reconciled": "Film and QA succeeded; immediate artifact-metadata read returned404, later independently read and downloaded exact existing artifact. No new generation or render.",
+  "scenes_reviewed": 8,
+  "boundaries_reviewed": 8,
+  "closing_reviewed": true,
+  "additional_spark_and_charge_transfer_frames_reviewed": 3,
+  "all_caption_cues_measured": 55,
+  "caption_max_bottom": 1074.09375,
+  "no_caption_overflow": true,
+  "full_decode_passed": true,
+  "full_speech_waveform_correlation": 0.9999486284568465,
+  "last_speech_correlation": 0.9999464595103102,
+  "no_detected_black_intervals": true,
+  "max_volume_db": -1.9,
+  "final_mix_independent_asr": {
+    "original_words": 265,
+    "recognized_words": 267,
+    "exact_normalized_matches": 223,
+    "coverage": 0.8415094339622642,
+    "complete_closing_recognized": true,
+    "differences": [
+      {
+        "original": "تمد إيدك",
+        "asr": " تمدي  إيديك",
+        "at": 1.88
+      },
+      {
+        "original": "موصل بالكهربا؟",
+        "asr": " موصد  بالكهرباء؟",
+        "at": 5.82
+      },
+      {
+        "original": "موجبة",
+        "asr": " موجابة",
+        "at": 15.38
+      },
+      {
+        "original": "تأثيرهم الكلي",
+        "asr": " تأثرهم  كله",
+        "at": 17.84
+      },
+      {
+        "original": "مفيهوش",
+        "asr": " ما  فيه",
+        "at": 20.4
+      },
+      {
+        "original": "يتلامسوا وبعدين",
+        "asr": " يتلمسوا  بعدين",
+        "at": 25.560000000000002
+      },
+      {
+        "original": "بيتكرر",
+        "asr": " بيدكرل",
+        "at": 30.4
+      },
+      {
+        "original": "والانفصال.",
+        "asr": " والانفصار.",
+        "at": 31.2
+      },
+      {
+        "original": "المثال",
+        "asr": " المسال",
+        "at": 32.36
+      },
+      {
+        "original": "ناحيتك،",
+        "asr": " نحيتك",
+        "at": 34.760000000000005
+      },
+      {
+        "original": "سالبة،",
+        "asr": " سلبة،",
+        "at": 36.3
+      },
+      {
+        "original": "تسريبها",
+        "asr": " تسربها",
+        "at": 49.46
+      },
+      {
+        "original": "النعال العازلة،",
+        "asr": " النعل  العزلة،",
+        "at": 50.879999999999995
+      },
+      {
+        "original": "متراكمة",
+        "asr": " متركمة  فترة.",
+        "at": 53.14
+      },
+      {
+        "original": "كهربا",
+        "asr": " كهرباء",
+        "at": 55.94
+      },
+      {
+        "original": "اتجمعت.",
+        "asr": " تجمعات.",
+        "at": 57.7
+      },
+      {
+        "original": "وبينكم",
+        "asr": " وبنكم",
+        "at": 61.019999999999996
+      },
+      {
+        "original": "الهواء",
+        "asr": " الهوى",
+        "at": 65.26
+      },
+      {
+        "original": "باللسعة.",
+        "asr": " بالأسعة.",
+        "at": 71.06
+      },
+      {
+        "original": "بيقل.",
+        "asr": " بقل،",
+        "at": 76.62
+      },
+      {
+        "original": "اتحركت واتشحن",
+        "asr": " تحركت  وتشحن",
+        "at": 81.12
+      },
+      {
+        "original": "تتكرر.",
+        "asr": " تكرر.",
+        "at": 83.48
+      },
+      {
+        "original": "الجو الجاف، تراكم الشحنة",
+        "asr": " قوي  قيف  تركوا  مشوحناها",
+        "at": 88.14
+      },
+      {
+        "original": "مواقف",
+        "asr": " موقف",
+        "at": 90.3
+      },
+      {
+        "original": "رفيعة",
+        "asr": " رفاعة",
+        "at": 93.32
+      },
+      {
+        "original": "المية",
+        "asr": " الماء",
+        "at": 94.02
+      },
+      {
+        "original": "بنلاحظ",
+        "asr": " بنلحظ",
+        "at": 97.62
+      },
+      {
+        "original": "جافة،",
+        "asr": " جفة،",
+        "at": 99.12
+      },
+      {
+        "original": "تلامس وانفصال،",
+        "asr": " تلامص  وانفصل،",
+        "at": 102.02
+      },
+      {
+        "original": "مش",
+        "asr": " ليس",
+        "at": 108.96
+      },
+      {
+        "original": "بيلسعك",
+        "asr": " يلسعك",
+        "at": 109.94
+      },
+      {
+        "original": "كهربا",
+        "asr": " كهرباء",
+        "at": 111.02
+      }
+    ],
+    "limit": "ASR substitutions and Egyptian spelling variants are not treated as proof of a mispronunciation; estimates are not phoneme-perfect. Entire final waveform retains the checked original speech."
+  },
+  "licensing": "Original SVG diagrams and synthesized original music/effects; Google Fonts Cairo SIL OFL retained. No third-party photo/music.",
+  "interface_check": "Measured actual rendered captions within approved reference bounds x52..596 and bottom<=1080; not a claim of watching in a live YouTube mobile client.",
+  "publication_calls_at_review": 0
+}

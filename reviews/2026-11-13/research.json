@@ -1,5 +1,4 @@
 {
-  "observed_at": "2026-11-12T17:02:00Z",
   "selected_question": "ليه بتتكهرب لما تلمس الباب؟",
   "selection_reason": "Free YouTube suggestions contain static electricity, static in clothing and bodily sparks; original everyday mechanism suitable for current dry/cool-season interest. No claim of an emerging trend or measured search volume. Metal-cold alternative suggestions were unrelated.",
   "suggestions_file": "reviews/2026-11-13/youtube-suggestions.json",
@@ -23,5 +22,7 @@
   "research_cost": 0,
   "vidiq_credit_calls": 0,
   "search_volume": null,
-  "guaranteed_views": false
+  "guaranteed_views": false,
+  "suggestions_observed_at": "2026-11-12T17:00:24.827992+00:00",
+  "research_date": "2026-11-12"
 }
