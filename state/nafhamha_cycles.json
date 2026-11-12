@@ -529,7 +529,7 @@
       "title": "الحوالة الدولية بتوصل إزاي؟ سويفت مش بتنقل الفلوس!"
     },
     "nafhamha-2026-11-13-noon": {
-      "status": "script_ready_pending_live_inventory",
+      "status": "voice_requested",
       "started_at": "2026-11-12T17:06:00Z",
       "due_at": "2026-11-13T10:00:00Z",
       "local_preparation_date": "2026-11-12",
@@ -543,7 +543,61 @@
       "submission_intents": [],
       "receipts": {},
       "actual_movie": null,
-      "resume_rule": "Complete missing confirmed phase only; no uncertain retries, occupied-slot replacement or expired-slot rollover."
+      "resume_rule": "Complete missing confirmed phase only; no uncertain retries, occupied-slot replacement or expired-slot rollover.",
+      "voice": {
+        "phase": "intent",
+        "story_sha256": "0471799eefa788d1b1d7d57faf6305946ff5c0c2a441a3442c9d58174827aa8d",
+        "text_sha256": "4f8996a5d402a7d75cc632752732c3906723b855251d9a6e12bfeee06ffed4cf",
+        "due_at": "2026-11-13T10:00:00Z",
+        "provider": "existing_authenticated_Charon_service",
+        "created_at": "2026-11-12T17:04:59.634Z",
+        "request_run": "43265522424",
+        "generation_calls": 1
+      },
+      "live_preflight": {
+        "version": 1,
+        "checked_at": "2026-11-12T17:04:59.237Z",
+        "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+        "due_at": "2026-11-13T10:00:00Z",
+        "passed": true,
+        "errors": [],
+        "checks": {
+          "voice": {
+            "configured": true,
+            "route": "authenticated_service"
+          },
+          "service_health": {
+            "ok": true,
+            "http_status": 200
+          },
+          "service_auth": {
+            "ok": true,
+            "http_status": 200
+          },
+          "buffer_channel": {
+            "id": "6aeb2098e29c69a1715bfadd",
+            "organization_id": "6aeb1fa35dc6068f4e33c1a9",
+            "service_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+            "connected": true,
+            "queue_running": true,
+            "unlocked": true
+          },
+          "slot": {
+            "checked": true,
+            "post_ids": [],
+            "has_more": false
+          }
+        },
+        "generation_calls": 0,
+        "publication_mutations": 0,
+        "service_origin": "https://nafhamha-render-production.up.railway.app",
+        "limit": "Preflight proves only the recorded read-only checks, not a finished film, media upload, scheduling receipt or publication."
+      },
+      "duplicate_check": {
+        "checked_at": "2026-11-12T17:04:59.237Z",
+        "posts_inspected": 4,
+        "subject_matches": 0
+      }
     }
   }
 }
