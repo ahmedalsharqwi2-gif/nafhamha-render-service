@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-11-12T17:31:55.085947+00:00",
+  "status": "complete_original_film_not_scheduled_due_to_existing_other_post",
+  "channel_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+  "title": "ليه بتتكهرب لما تلمس الباب؟ سر لسعة الكهرباء الساكنة",
+  "selection_reason": "Free dated YouTube autocomplete supplied static-electricity/clothing/body-spark queries; qualitative signal only, no search-volume number or guaranteed views.",
+  "duration": 113.533333,
+  "movie": {
+    "url": "https://nafhamha-render-production.up.railway.app/media/c2f31bdbfa07322021be52b6376ff35cfe67737f183c37fd91ed6ea060630b78.mp4",
+    "sha256": "b1c332698e1a0c3b32f0db5d8b5df3c1cc40cc4c43dfb8dcb3103aab148f7fb2",
+    "bytes": 7030983
+  },
+  "hosting_receipt": {
+    "kind": "complete_film_hosting_only",
+    "channel_service_id": "UCVYe5C8jhHFlKz7UPeVzFCg",
+    "media_url": "https://nafhamha-render-production.up.railway.app/media/c2f31bdbfa07322021be52b6376ff35cfe67737f183c37fd91ed6ea060630b78.mp4",
+    "video_sha256": "b1c332698e1a0c3b32f0db5d8b5df3c1cc40cc4c43dfb8dcb3103aab148f7fb2",
+    "duration": 113.533333,
+    "verified_at": "2026-11-12T17:30:44.408Z",
+    "scheduled_by_this_cycle": false,
+    "buffer_post_mutations": 0,
+    "blocking_post_id": "6af5f55f7e77373fdde41c2f"
+  },
+  "target_due_at": "2026-11-13T10:00:00Z",
+  "target_local": "2026-11-13T12:00:00 Africa/Cairo",
+  "occupied_post": {
+    "id": "6af5f55f7e77373fdde41c2f",
+    "channelId": "6aeb2098e29c69a1715bfadd",
+    "status": "scheduled",
+    "dueAt": "2026-11-13T10:00:00.000Z",
+    "text": "إزاي الموبايل بيحوّل زمن وصول إشارات الأقمار لمكان على الخريطة؟ في الحلقة دي هنفهم دور الساعة وليه المباني العالية ممكن تزحزح نقطة الموقع. الرسوم والأحجام والمسافات مبسّطة للتوضيح.\n\nالمصادر:\nhttps://www.gps.gov/gps\nhttps://www.gps.gov/trilateration\nhttps://www.garmin.com/en-GB/aboutgps/\n\n#نفهمها #GPS #علوم #Shorts",
+    "assets": [
+      {
+        "source": "https://nafhamha-render-production.up.railway.app/media/d492f491e87f39d04763cacadec4109022a9dcf33024220a81fa5d6f61b97bf6.mp4"
+      }
+    ],
+    "metadata": {
+      "title": "إزاي الموبايل بيعرف مكانك من إشارات جاية من السما؟ | نفهمها"
+    }
+  },
+  "our_youtube_receipt": null,
+  "our_buffer_post_mutations": 0,
+  "voice_requests": 1,
+  "visual_renders": 1,
+  "media_uploads": 1,
+  "no_other_posts_changed": true,
+  "no_automatic_rollover": true,
+  "no_future_task_disable_or_schedule_change_performed": true,
+  "qa": "reviews/2026-11-13/final-qa.json",
+  "research": "reviews/2026-11-13/research.json",
+  "next_step": "Owner must explicitly select a publication time or instruct how to handle the existing GPS slot. Do not replace that post or silently assign the retained film to a later cycle."
+}
