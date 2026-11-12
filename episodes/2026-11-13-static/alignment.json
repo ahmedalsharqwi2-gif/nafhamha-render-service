@@ -1,0 +1,31 @@
+{
+  "original_word_count": 265,
+  "asr_word_count": 267,
+  "matched_original_words": 224,
+  "anchor_coverage": 0.8452830188679246,
+  "estimated_word_count": 41,
+  "alignment_claim": "Matched ASR anchors with explicitly estimated unmatched words; not phoneme-perfect timing.",
+  "duration": 113.52,
+  "captions": 55,
+  "all_original_words_retained": true,
+  "original_voice_sha256": "ab4a86b5e1fc5ccc6f5006d5b6ba2b220a503df219ae60ae943ad5eb815b6db6",
+  "story_sha256": "0471799eefa788d1b1d7d57faf6305946ff5c0c2a441a3442c9d58174827aa8d",
+  "last_asr_text": " دي  نفهمها.",
+  "last_original_words": [
+    "بالملابس",
+    "والسجاد؛",
+    "مش",
+    "حكم",
+    "إن",
+    "أي",
+    "جهاز",
+    "بيلسعك",
+    "سليم.",
+    "كهربا",
+    "الأجهزة",
+    "موضوع",
+    "مختلف.",
+    "دي",
+    "نفهمها."
+  ]
+}

@@ -14,8 +14,14 @@ run(['-i',voice,'-af','highpass=f=60,lowpass=f=10000,loudnorm=I=-16:TP=-2:LRA=7,
 rate=48000;n=math.ceil(duration*rate);score=np.zeros((n,2),dtype=np.float32);rng=np.random.default_rng(int(props['story_sha256'][:8],16));notes=[164.814,246.942,329.628,196.,293.665,220.]
 for k,at in enumerate(np.arange(.4,duration-1,3.8)):
  length=.85;t=np.arange(int(length*rate))/rate;env=(1-np.exp(-t*75))*np.exp(-t*4.2);freq=notes[k%len(notes)];tone=(np.sin(2*np.pi*freq*t)+.25*np.sin(2*np.pi*freq*2*t)+.08*np.sin(2*np.pi*freq*3*t))*env*.025;start=int(at*rate);end=min(n,start+len(tone));pan=.5+.25*np.sin(k);score[start:end,0]+=tone[:end-start]*pan;score[start:end,1]+=tone[:end-start]*(1-pan)
+events=json.loads((episode/'audio-events.json').read_text()) if (episode/'audio-events.json').exists() else []
 for i,s in enumerate(props['scenes']):
- at=s['from']/30+.15;length=.18;t=np.arange(int(length*rate))/rate;env=np.sin(np.pi*t/length)**2*np.exp(-t*14);cue=(np.sin(2*np.pi*(480+160*i)*t)*.009+rng.normal(0,.0015,len(t)))*env;start=int(at*rate);end=min(n,start+len(cue));score[start:end,0]+=cue[:end-start];score[start:end,1]+=cue[:end-start]
+ at=s['from']/30+.15
+ event=next((e for e in events if e['scene']==i),None)
+ if event:
+  keyword=event['word'];anchors=[w['start'] for c in s['captions'] for w in c['words'] if keyword in w['text']]
+  if anchors:at=s['from']/30+anchors[0]/30+event['offset_seconds']
+ length=.18;t=np.arange(int(length*rate))/rate;env=np.sin(np.pi*t/length)**2*np.exp(-t*14);cue=(np.sin(2*np.pi*(480+160*i)*t)*.009+rng.normal(0,.0015,len(t)))*env;start=int(at*rate);end=min(n,start+len(cue));score[start:end,0]+=cue[:end-start];score[start:end,1]+=cue[:end-start]
 score*=np.minimum(1,np.arange(n)/(rate*1.2))[:,None];score*=np.minimum(1,np.maximum(0,n-np.arange(n))/(rate*2))[:,None]
 with wave.open(str(out/'score.wav'),'wb') as w:w.setnchannels(2);w.setsampwidth(2);w.setframerate(rate);w.writeframes((np.clip(score,-1,1)*32767).astype('<i2').tobytes())
 run(['-i',out/'voice-normalized.wav','-i',out/'score.wav','-filter_complex','[0:a]asplit=2[voice][key];[1:a][key]sidechaincompress=threshold=0.025:ratio=8:attack=10:release=250[bed];[voice][bed]amix=inputs=2:duration=first:normalize=0[mix]','-map','[mix]','-ar','48000','-c:a','pcm_s16le',out/'mix.wav'])

@@ -1,0 +1,2122 @@
+[
+  {
+    "text": "ماشي",
+    "startMs": 0,
+    "endMs": 640,
+    "timestampMs": 320,
+    "confidence": 0.7310735732316971,
+    "estimated": false
+  },
+  {
+    "text": "على",
+    "startMs": 640,
+    "endMs": 720,
+    "timestampMs": 680,
+    "confidence": 0.9452877044677734,
+    "estimated": false
+  },
+  {
+    "text": "السجادة،",
+    "startMs": 720,
+    "endMs": 1880,
+    "timestampMs": 1300,
+    "confidence": 0.8196537673473359,
+    "estimated": false
+  },
+  {
+    "text": "تمد",
+    "startMs": 1880,
+    "endMs": 2150,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "إيدك",
+    "startMs": 2150,
+    "endMs": 2420,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "لمقبض",
+    "startMs": 2420,
+    "endMs": 2820,
+    "timestampMs": 2620,
+    "confidence": 0.9446167200803757,
+    "estimated": false
+  },
+  {
+    "text": "الباب،",
+    "startMs": 2820,
+    "endMs": 3340,
+    "timestampMs": 3080,
+    "confidence": 0.9941341876983643,
+    "estimated": false
+  },
+  {
+    "text": "وتاخد",
+    "startMs": 3340,
+    "endMs": 4020,
+    "timestampMs": 3680,
+    "confidence": 0.8790963888168335,
+    "estimated": false
+  },
+  {
+    "text": "لسعة",
+    "startMs": 4020,
+    "endMs": 4320,
+    "timestampMs": 4170,
+    "confidence": 0.813853402932485,
+    "estimated": false
+  },
+  {
+    "text": "صغيرة!",
+    "startMs": 4320,
+    "endMs": 4880,
+    "timestampMs": 4600,
+    "confidence": 0.9891370336214701,
+    "estimated": false
+  },
+  {
+    "text": "هو",
+    "startMs": 5440,
+    "endMs": 5560,
+    "timestampMs": 5500,
+    "confidence": 0.8280413746833801,
+    "estimated": false
+  },
+  {
+    "text": "الباب",
+    "startMs": 5560,
+    "endMs": 5820,
+    "timestampMs": 5690,
+    "confidence": 0.9957537949085236,
+    "estimated": false
+  },
+  {
+    "text": "موصل",
+    "startMs": 5820,
+    "endMs": 6510,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "بالكهربا؟",
+    "startMs": 6510,
+    "endMs": 7200,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "مش",
+    "startMs": 7200,
+    "endMs": 7340,
+    "timestampMs": 7270,
+    "confidence": 0.8985666632652283,
+    "estimated": false
+  },
+  {
+    "text": "بالضرورة.",
+    "startMs": 7340,
+    "endMs": 8240,
+    "timestampMs": 7790,
+    "confidence": 0.9409240365028382,
+    "estimated": false
+  },
+  {
+    "text": "أحيانًا",
+    "startMs": 8400,
+    "endMs": 8780,
+    "timestampMs": 8590,
+    "confidence": 0.8917491336663564,
+    "estimated": false
+  },
+  {
+    "text": "جسمك",
+    "startMs": 8780,
+    "endMs": 9080,
+    "timestampMs": 8930,
+    "confidence": 0.9714445869127909,
+    "estimated": false
+  },
+  {
+    "text": "بيكون",
+    "startMs": 9080,
+    "endMs": 9380,
+    "timestampMs": 9230,
+    "confidence": 0.9863766630490621,
+    "estimated": false
+  },
+  {
+    "text": "شايل",
+    "startMs": 9380,
+    "endMs": 9640,
+    "timestampMs": 9510,
+    "confidence": 0.7575297753016154,
+    "estimated": false
+  },
+  {
+    "text": "شحنة",
+    "startMs": 9640,
+    "endMs": 9980,
+    "timestampMs": 9810,
+    "confidence": 0.9264950752258301,
+    "estimated": false
+  },
+  {
+    "text": "زيادة،",
+    "startMs": 9980,
+    "endMs": 10720,
+    "timestampMs": 10350,
+    "confidence": 0.9158831715583802,
+    "estimated": false
+  },
+  {
+    "text": "والشرارة",
+    "startMs": 10720,
+    "endMs": 11220,
+    "timestampMs": 10970,
+    "confidence": 0.8892804384231567,
+    "estimated": false
+  },
+  {
+    "text": "هي",
+    "startMs": 11220,
+    "endMs": 11320,
+    "timestampMs": 11270,
+    "confidence": 0.9733306169509888,
+    "estimated": false
+  },
+  {
+    "text": "لحظة",
+    "startMs": 11320,
+    "endMs": 11660,
+    "timestampMs": 11490,
+    "confidence": 0.9759535491466522,
+    "estimated": false
+  },
+  {
+    "text": "تفريغها.",
+    "startMs": 11660,
+    "endMs": 12280,
+    "timestampMs": 11970,
+    "confidence": 0.9796482443809509,
+    "estimated": false
+  },
+  {
+    "text": "بس",
+    "startMs": 12580,
+    "endMs": 12780,
+    "timestampMs": 12680,
+    "confidence": 0.9653759002685547,
+    "estimated": false
+  },
+  {
+    "text": "الشحنة",
+    "startMs": 12780,
+    "endMs": 13120,
+    "timestampMs": 12950,
+    "confidence": 0.9837608486413956,
+    "estimated": false
+  },
+  {
+    "text": "دي",
+    "startMs": 13120,
+    "endMs": 13200,
+    "timestampMs": 13160,
+    "confidence": 0.9819051921367645,
+    "estimated": false
+  },
+  {
+    "text": "جات",
+    "startMs": 13200,
+    "endMs": 13320,
+    "timestampMs": 13260,
+    "confidence": 0.7229793518781662,
+    "estimated": false
+  },
+  {
+    "text": "منين؟",
+    "startMs": 13320,
+    "endMs": 14400,
+    "timestampMs": 13860,
+    "confidence": 0.9502094586690267,
+    "estimated": false
+  },
+  {
+    "text": "المادة",
+    "startMs": 14400,
+    "endMs": 14800,
+    "timestampMs": 14600,
+    "confidence": 0.85456250111262,
+    "estimated": false
+  },
+  {
+    "text": "فيها",
+    "startMs": 14800,
+    "endMs": 14960,
+    "timestampMs": 14880,
+    "confidence": 0.9902016818523407,
+    "estimated": false
+  },
+  {
+    "text": "شحنات",
+    "startMs": 14960,
+    "endMs": 15380,
+    "timestampMs": 15170,
+    "confidence": 0.9237782210111618,
+    "estimated": false
+  },
+  {
+    "text": "موجبة",
+    "startMs": 15380,
+    "endMs": 15720,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "وسالبة.",
+    "startMs": 15720,
+    "endMs": 16180,
+    "timestampMs": 15950,
+    "confidence": 0.9788039922714233,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 16620,
+    "endMs": 16720,
+    "timestampMs": 16670,
+    "confidence": 0.9626103043556213,
+    "estimated": false
+  },
+  {
+    "text": "الجسم",
+    "startMs": 16720,
+    "endMs": 16960,
+    "timestampMs": 16840,
+    "confidence": 0.9899678230285645,
+    "estimated": false
+  },
+  {
+    "text": "المتعادل،",
+    "startMs": 16960,
+    "endMs": 17880,
+    "timestampMs": 17420,
+    "confidence": 0.8632079164187113,
+    "estimated": false
+  },
+  {
+    "text": "تأثيرهم",
+    "startMs": 17880,
+    "endMs": 18320,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "الكلي",
+    "startMs": 18320,
+    "endMs": 18760,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "متوازن،",
+    "startMs": 18760,
+    "endMs": 19140,
+    "timestampMs": 18950,
+    "confidence": 0.8428856492042541,
+    "estimated": false
+  },
+  {
+    "text": "مش",
+    "startMs": 19140,
+    "endMs": 19940,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "معنى",
+    "startMs": 19940,
+    "endMs": 20160,
+    "timestampMs": 20050,
+    "confidence": 0.731762150923411,
+    "estimated": false
+  },
+  {
+    "text": "كده",
+    "startMs": 20160,
+    "endMs": 20320,
+    "timestampMs": 20240,
+    "confidence": 0.9095521569252014,
+    "estimated": false
+  },
+  {
+    "text": "إنه",
+    "startMs": 20320,
+    "endMs": 20400,
+    "timestampMs": 20360,
+    "confidence": 0.5220523625612259,
+    "estimated": false
+  },
+  {
+    "text": "مفيهوش",
+    "startMs": 20400,
+    "endMs": 20600,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "شحنات.",
+    "startMs": 20600,
+    "endMs": 21000,
+    "timestampMs": 20800,
+    "confidence": 0.8581151187419891,
+    "estimated": false
+  },
+  {
+    "text": "والإلكترونات",
+    "startMs": 21640,
+    "endMs": 22260,
+    "timestampMs": 21950,
+    "confidence": 0.7815981275801148,
+    "estimated": false
+  },
+  {
+    "text": "شحنتها",
+    "startMs": 22260,
+    "endMs": 22700,
+    "timestampMs": 22480,
+    "confidence": 0.9797874093055725,
+    "estimated": false
+  },
+  {
+    "text": "سالبة،",
+    "startMs": 22700,
+    "endMs": 23080,
+    "timestampMs": 22890,
+    "confidence": 0.7956663817167282,
+    "estimated": false
+  },
+  {
+    "text": "وممكن",
+    "startMs": 23520,
+    "endMs": 23900,
+    "timestampMs": 23710,
+    "confidence": 0.8146788279215494,
+    "estimated": false
+  },
+  {
+    "text": "بعض",
+    "startMs": 23900,
+    "endMs": 24120,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "منها",
+    "startMs": 24120,
+    "endMs": 24420,
+    "timestampMs": 24270,
+    "confidence": 0.9448178708553314,
+    "estimated": false
+  },
+  {
+    "text": "ينتقل",
+    "startMs": 24420,
+    "endMs": 24760,
+    "timestampMs": 24590,
+    "confidence": 0.974802553653717,
+    "estimated": false
+  },
+  {
+    "text": "بين",
+    "startMs": 24760,
+    "endMs": 24920,
+    "timestampMs": 24840,
+    "confidence": 0.9845751523971558,
+    "estimated": false
+  },
+  {
+    "text": "سطحين",
+    "startMs": 24920,
+    "endMs": 25300,
+    "timestampMs": 25110,
+    "confidence": 0.8956832736730576,
+    "estimated": false
+  },
+  {
+    "text": "لما",
+    "startMs": 25300,
+    "endMs": 25560,
+    "timestampMs": 25430,
+    "confidence": 0.9217819273471832,
+    "estimated": false
+  },
+  {
+    "text": "يتلامسوا",
+    "startMs": 25560,
+    "endMs": 25930,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "وبعدين",
+    "startMs": 25930,
+    "endMs": 26300,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "ينفصلوا.",
+    "startMs": 26300,
+    "endMs": 27000,
+    "timestampMs": 26650,
+    "confidence": 0.9827749609947205,
+    "estimated": false
+  },
+  {
+    "text": "تخيّل",
+    "startMs": 27680,
+    "endMs": 28120,
+    "timestampMs": 27900,
+    "confidence": 0.9730463027954102,
+    "estimated": false
+  },
+  {
+    "text": "نعل",
+    "startMs": 28120,
+    "endMs": 28360,
+    "timestampMs": 28240,
+    "confidence": 0.6880808025598526,
+    "estimated": false
+  },
+  {
+    "text": "الجزمة",
+    "startMs": 28360,
+    "endMs": 28700,
+    "timestampMs": 28530,
+    "confidence": 0.8893251220385233,
+    "estimated": false
+  },
+  {
+    "text": "والسجادة.",
+    "startMs": 28700,
+    "endMs": 29080,
+    "timestampMs": 28890,
+    "confidence": 0.9423471291859945,
+    "estimated": false
+  },
+  {
+    "text": "مع",
+    "startMs": 29720,
+    "endMs": 29900,
+    "timestampMs": 29810,
+    "confidence": 0.9888643026351929,
+    "estimated": false
+  },
+  {
+    "text": "الحركة",
+    "startMs": 29900,
+    "endMs": 30400,
+    "timestampMs": 30150,
+    "confidence": 0.9839480320612589,
+    "estimated": false
+  },
+  {
+    "text": "بيتكرر",
+    "startMs": 30400,
+    "endMs": 30800,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "التلامس",
+    "startMs": 30800,
+    "endMs": 31200,
+    "timestampMs": 31000,
+    "confidence": 0.6580997109413147,
+    "estimated": false
+  },
+  {
+    "text": "والانفصال.",
+    "startMs": 31200,
+    "endMs": 32260,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "في",
+    "startMs": 32260,
+    "endMs": 32360,
+    "timestampMs": 32310,
+    "confidence": 0.9721913933753967,
+    "estimated": false
+  },
+  {
+    "text": "المثال",
+    "startMs": 32360,
+    "endMs": 32620,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "المبسّط",
+    "startMs": 32620,
+    "endMs": 33100,
+    "timestampMs": 32860,
+    "confidence": 0.9029649347066879,
+    "estimated": false
+  },
+  {
+    "text": "ده،",
+    "startMs": 33100,
+    "endMs": 33700,
+    "timestampMs": 33400,
+    "confidence": 0.9034175078074137,
+    "estimated": false
+  },
+  {
+    "text": "إلكترونات",
+    "startMs": 33700,
+    "endMs": 34300,
+    "timestampMs": 34000,
+    "confidence": 0.9297883709271749,
+    "estimated": false
+  },
+  {
+    "text": "انتقلت",
+    "startMs": 34300,
+    "endMs": 34760,
+    "timestampMs": 34530,
+    "confidence": 0.9416891694068908,
+    "estimated": false
+  },
+  {
+    "text": "ناحيتك،",
+    "startMs": 34760,
+    "endMs": 35520,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "فبقى",
+    "startMs": 35520,
+    "endMs": 35740,
+    "timestampMs": 35630,
+    "confidence": 0.9725593775510788,
+    "estimated": false
+  },
+  {
+    "text": "عندك",
+    "startMs": 35740,
+    "endMs": 36000,
+    "timestampMs": 35870,
+    "confidence": 0.9824515879154205,
+    "estimated": false
+  },
+  {
+    "text": "زيادة",
+    "startMs": 36000,
+    "endMs": 36300,
+    "timestampMs": 36150,
+    "confidence": 0.990750253200531,
+    "estimated": false
+  },
+  {
+    "text": "سالبة،",
+    "startMs": 36300,
+    "endMs": 36870,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "والسطح",
+    "startMs": 36870,
+    "endMs": 37440,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "التاني",
+    "startMs": 37440,
+    "endMs": 37720,
+    "timestampMs": 37580,
+    "confidence": 0.8797359069188436,
+    "estimated": false
+  },
+  {
+    "text": "نقص",
+    "startMs": 37720,
+    "endMs": 38060,
+    "timestampMs": 37890,
+    "confidence": 0.9885560671488444,
+    "estimated": false
+  },
+  {
+    "text": "منه",
+    "startMs": 38060,
+    "endMs": 38300,
+    "timestampMs": 38180,
+    "confidence": 0.7241780459880829,
+    "estimated": false
+  },
+  {
+    "text": "إلكترونات.",
+    "startMs": 38300,
+    "endMs": 39380,
+    "timestampMs": 38840,
+    "confidence": 0.934737632671992,
+    "estimated": false
+  },
+  {
+    "text": "الاتجاه",
+    "startMs": 39520,
+    "endMs": 39920,
+    "timestampMs": 39720,
+    "confidence": 0.8818379640579224,
+    "estimated": false
+  },
+  {
+    "text": "الحقيقي",
+    "startMs": 39920,
+    "endMs": 40360,
+    "timestampMs": 40140,
+    "confidence": 0.9613736867904663,
+    "estimated": false
+  },
+  {
+    "text": "بيعتمد",
+    "startMs": 40360,
+    "endMs": 40800,
+    "timestampMs": 40580,
+    "confidence": 0.8987431645393371,
+    "estimated": false
+  },
+  {
+    "text": "على",
+    "startMs": 40800,
+    "endMs": 40940,
+    "timestampMs": 40870,
+    "confidence": 0.9792390465736389,
+    "estimated": false
+  },
+  {
+    "text": "المواد؛",
+    "startMs": 40940,
+    "endMs": 41580,
+    "timestampMs": 41260,
+    "confidence": 0.9033216536045074,
+    "estimated": false
+  },
+  {
+    "text": "مش",
+    "startMs": 41580,
+    "endMs": 41700,
+    "timestampMs": 41640,
+    "confidence": 0.9787498116493225,
+    "estimated": false
+  },
+  {
+    "text": "كل",
+    "startMs": 41700,
+    "endMs": 41940,
+    "timestampMs": 41820,
+    "confidence": 0.9266917109489441,
+    "estimated": false
+  },
+  {
+    "text": "جزمة",
+    "startMs": 41940,
+    "endMs": 42240,
+    "timestampMs": 42090,
+    "confidence": 0.6867935657501221,
+    "estimated": false
+  },
+  {
+    "text": "بتشحنك",
+    "startMs": 42240,
+    "endMs": 42680,
+    "timestampMs": 42460,
+    "confidence": 0.9168281197547913,
+    "estimated": false
+  },
+  {
+    "text": "بنفس",
+    "startMs": 42680,
+    "endMs": 42920,
+    "timestampMs": 42800,
+    "confidence": 0.9894029200077057,
+    "estimated": false
+  },
+  {
+    "text": "الطريقة.",
+    "startMs": 42920,
+    "endMs": 43260,
+    "timestampMs": 43090,
+    "confidence": 0.9480299552281698,
+    "estimated": false
+  },
+  {
+    "text": "الاحتكاك",
+    "startMs": 44120,
+    "endMs": 44800,
+    "timestampMs": 44460,
+    "confidence": 0.8822494983673096,
+    "estimated": false
+  },
+  {
+    "text": "ما",
+    "startMs": 44800,
+    "endMs": 44960,
+    "timestampMs": 44880,
+    "confidence": 0.7879061698913574,
+    "estimated": false
+  },
+  {
+    "text": "خلقش",
+    "startMs": 44960,
+    "endMs": 45340,
+    "timestampMs": 45150,
+    "confidence": 0.9715109318494797,
+    "estimated": false
+  },
+  {
+    "text": "إلكترونات",
+    "startMs": 45340,
+    "endMs": 45860,
+    "timestampMs": 45600,
+    "confidence": 0.9819891452789307,
+    "estimated": false
+  },
+  {
+    "text": "من",
+    "startMs": 45860,
+    "endMs": 45980,
+    "timestampMs": 45920,
+    "confidence": 0.992453396320343,
+    "estimated": false
+  },
+  {
+    "text": "العدم؛",
+    "startMs": 45980,
+    "endMs": 46800,
+    "timestampMs": 46390,
+    "confidence": 0.9029067556063334,
+    "estimated": false
+  },
+  {
+    "text": "اللي",
+    "startMs": 46800,
+    "endMs": 46900,
+    "timestampMs": 46850,
+    "confidence": 0.688119187951088,
+    "estimated": false
+  },
+  {
+    "text": "حصل",
+    "startMs": 46900,
+    "endMs": 47340,
+    "timestampMs": 47120,
+    "confidence": 0.9945342242717743,
+    "estimated": false
+  },
+  {
+    "text": "فصل",
+    "startMs": 47340,
+    "endMs": 47900,
+    "timestampMs": 47620,
+    "confidence": 0.8667715191841125,
+    "estimated": false
+  },
+  {
+    "text": "للشحنات.",
+    "startMs": 47900,
+    "endMs": 48240,
+    "timestampMs": 48070,
+    "confidence": 0.9230225443840027,
+    "estimated": false
+  },
+  {
+    "text": "ولو",
+    "startMs": 49020,
+    "endMs": 49220,
+    "timestampMs": 49120,
+    "confidence": 0.9125932455062866,
+    "estimated": false
+  },
+  {
+    "text": "طريق",
+    "startMs": 49220,
+    "endMs": 49480,
+    "timestampMs": 49350,
+    "confidence": 0.8506970604260763,
+    "estimated": false
+  },
+  {
+    "text": "تسريبها",
+    "startMs": 49480,
+    "endMs": 49820,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "ضعيف،",
+    "startMs": 49820,
+    "endMs": 50480,
+    "timestampMs": 50150,
+    "confidence": 0.9188400059938431,
+    "estimated": false
+  },
+  {
+    "text": "زي",
+    "startMs": 50480,
+    "endMs": 50600,
+    "timestampMs": 50540,
+    "confidence": 0.9910047054290771,
+    "estimated": false
+  },
+  {
+    "text": "بعض",
+    "startMs": 50600,
+    "endMs": 50880,
+    "timestampMs": 50740,
+    "confidence": 0.9876846373081207,
+    "estimated": false
+  },
+  {
+    "text": "النعال",
+    "startMs": 50880,
+    "endMs": 51440,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "العازلة،",
+    "startMs": 51440,
+    "endMs": 52000,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "الزيادة",
+    "startMs": 52000,
+    "endMs": 52500,
+    "timestampMs": 52250,
+    "confidence": 0.9887071967124939,
+    "estimated": false
+  },
+  {
+    "text": "ممكن",
+    "startMs": 52500,
+    "endMs": 52840,
+    "timestampMs": 52670,
+    "confidence": 0.9930476546287537,
+    "estimated": false
+  },
+  {
+    "text": "تفضل",
+    "startMs": 52840,
+    "endMs": 53140,
+    "timestampMs": 52990,
+    "confidence": 0.9774030596017838,
+    "estimated": false
+  },
+  {
+    "text": "متراكمة",
+    "startMs": 53140,
+    "endMs": 53600,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "فترة.",
+    "startMs": 53600,
+    "endMs": 54500,
+    "timestampMs": 54050,
+    "confidence": 0.7265477888286114,
+    "estimated": false
+  },
+  {
+    "text": "جسمك",
+    "startMs": 54500,
+    "endMs": 54820,
+    "timestampMs": 54660,
+    "confidence": 0.9679161111513773,
+    "estimated": false
+  },
+  {
+    "text": "هنا",
+    "startMs": 54820,
+    "endMs": 54980,
+    "timestampMs": 54900,
+    "confidence": 0.7307047843933105,
+    "estimated": false
+  },
+  {
+    "text": "مش",
+    "startMs": 54980,
+    "endMs": 55140,
+    "timestampMs": 55060,
+    "confidence": 0.9708916544914246,
+    "estimated": false
+  },
+  {
+    "text": "بطارية",
+    "startMs": 55140,
+    "endMs": 55560,
+    "timestampMs": 55350,
+    "confidence": 0.9364082515239716,
+    "estimated": false
+  },
+  {
+    "text": "بتولّد",
+    "startMs": 55560,
+    "endMs": 55940,
+    "timestampMs": 55750,
+    "confidence": 0.8581748207410177,
+    "estimated": false
+  },
+  {
+    "text": "كهربا",
+    "startMs": 55940,
+    "endMs": 56280,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "باستمرار؛",
+    "startMs": 56280,
+    "endMs": 57220,
+    "timestampMs": 56750,
+    "confidence": 0.9294380346934,
+    "estimated": false
+  },
+  {
+    "text": "دي",
+    "startMs": 57220,
+    "endMs": 57320,
+    "timestampMs": 57270,
+    "confidence": 0.945269376039505,
+    "estimated": false
+  },
+  {
+    "text": "شحنة",
+    "startMs": 57320,
+    "endMs": 57700,
+    "timestampMs": 57510,
+    "confidence": 0.8965797871351242,
+    "estimated": false
+  },
+  {
+    "text": "اتجمعت.",
+    "startMs": 57700,
+    "endMs": 59040,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "دلوقتي",
+    "startMs": 59040,
+    "endMs": 59520,
+    "timestampMs": 59280,
+    "confidence": 0.9697656184434891,
+    "estimated": false
+  },
+  {
+    "text": "إيدك",
+    "startMs": 59520,
+    "endMs": 59880,
+    "timestampMs": 59700,
+    "confidence": 0.8716517686843872,
+    "estimated": false
+  },
+  {
+    "text": "قربت",
+    "startMs": 59880,
+    "endMs": 60200,
+    "timestampMs": 60040,
+    "confidence": 0.8801125288009644,
+    "estimated": false
+  },
+  {
+    "text": "من",
+    "startMs": 60200,
+    "endMs": 60320,
+    "timestampMs": 60260,
+    "confidence": 0.9859024286270142,
+    "estimated": false
+  },
+  {
+    "text": "معدن،",
+    "startMs": 60320,
+    "endMs": 61020,
+    "timestampMs": 60670,
+    "confidence": 0.8567574769258499,
+    "estimated": false
+  },
+  {
+    "text": "وبينكم",
+    "startMs": 61020,
+    "endMs": 61380,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "فرق",
+    "startMs": 61380,
+    "endMs": 61640,
+    "timestampMs": 61510,
+    "confidence": 0.9787068764368693,
+    "estimated": false
+  },
+  {
+    "text": "جهد.",
+    "startMs": 61640,
+    "endMs": 62460,
+    "timestampMs": 62050,
+    "confidence": 0.8565555661916733,
+    "estimated": false
+  },
+  {
+    "text": "لو",
+    "startMs": 62460,
+    "endMs": 62600,
+    "timestampMs": 62530,
+    "confidence": 0.9884955883026123,
+    "estimated": false
+  },
+  {
+    "text": "المجال",
+    "startMs": 62600,
+    "endMs": 62960,
+    "timestampMs": 62780,
+    "confidence": 0.9847616155942281,
+    "estimated": false
+  },
+  {
+    "text": "الكهربائي",
+    "startMs": 62960,
+    "endMs": 63460,
+    "timestampMs": 63210,
+    "confidence": 0.9710068583488465,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 63460,
+    "endMs": 63580,
+    "timestampMs": 63520,
+    "confidence": 0.9556533098220825,
+    "estimated": false
+  },
+  {
+    "text": "الفجوة",
+    "startMs": 63580,
+    "endMs": 63960,
+    "timestampMs": 63770,
+    "confidence": 0.9410006999969482,
+    "estimated": false
+  },
+  {
+    "text": "بقى",
+    "startMs": 63960,
+    "endMs": 64120,
+    "timestampMs": 64040,
+    "confidence": 0.9473705689112345,
+    "estimated": false
+  },
+  {
+    "text": "قوي",
+    "startMs": 64120,
+    "endMs": 64340,
+    "timestampMs": 64230,
+    "confidence": 0.9756868481636047,
+    "estimated": false
+  },
+  {
+    "text": "كفاية،",
+    "startMs": 64340,
+    "endMs": 65260,
+    "timestampMs": 64800,
+    "confidence": 0.9320544958114624,
+    "estimated": false
+  },
+  {
+    "text": "الهواء",
+    "startMs": 65260,
+    "endMs": 65580,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "ممكن",
+    "startMs": 65580,
+    "endMs": 65860,
+    "timestampMs": 65720,
+    "confidence": 0.994949609041214,
+    "estimated": false
+  },
+  {
+    "text": "يسمح",
+    "startMs": 65860,
+    "endMs": 66200,
+    "timestampMs": 66030,
+    "confidence": 0.98647141456604,
+    "estimated": false
+  },
+  {
+    "text": "بتفريغ",
+    "startMs": 66200,
+    "endMs": 66620,
+    "timestampMs": 66410,
+    "confidence": 0.9770551770925522,
+    "estimated": false
+  },
+  {
+    "text": "سريع.",
+    "startMs": 66620,
+    "endMs": 67420,
+    "timestampMs": 67020,
+    "confidence": 0.8939593732357025,
+    "estimated": false
+  },
+  {
+    "text": "الشحنة",
+    "startMs": 67420,
+    "endMs": 67800,
+    "timestampMs": 67610,
+    "confidence": 0.9911070466041565,
+    "estimated": false
+  },
+  {
+    "text": "تتحرك،",
+    "startMs": 67800,
+    "endMs": 68360,
+    "timestampMs": 68080,
+    "confidence": 0.9875902980566025,
+    "estimated": false
+  },
+  {
+    "text": "فتشوف",
+    "startMs": 68360,
+    "endMs": 68760,
+    "timestampMs": 68560,
+    "confidence": 0.8732901513576508,
+    "estimated": false
+  },
+  {
+    "text": "شرارة",
+    "startMs": 68760,
+    "endMs": 69480,
+    "timestampMs": 69120,
+    "confidence": 0.994643047451973,
+    "estimated": false
+  },
+  {
+    "text": "وتسمع",
+    "startMs": 69480,
+    "endMs": 70000,
+    "timestampMs": 69740,
+    "confidence": 0.9517823259035746,
+    "estimated": false
+  },
+  {
+    "text": "طقّة",
+    "startMs": 70000,
+    "endMs": 70460,
+    "timestampMs": 70230,
+    "confidence": 0.7712914645671844,
+    "estimated": false
+  },
+  {
+    "text": "وتحس",
+    "startMs": 70460,
+    "endMs": 71060,
+    "timestampMs": 70760,
+    "confidence": 0.9590770800908407,
+    "estimated": false
+  },
+  {
+    "text": "باللسعة.",
+    "startMs": 71060,
+    "endMs": 72180,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "التفريغ",
+    "startMs": 72180,
+    "endMs": 72640,
+    "timestampMs": 72410,
+    "confidence": 0.9600028395652771,
+    "estimated": false
+  },
+  {
+    "text": "ممكن",
+    "startMs": 72640,
+    "endMs": 72960,
+    "timestampMs": 72800,
+    "confidence": 0.756087064743042,
+    "estimated": false
+  },
+  {
+    "text": "يبدأ",
+    "startMs": 72960,
+    "endMs": 73340,
+    "timestampMs": 73150,
+    "confidence": 0.9711877306302389,
+    "estimated": false
+  },
+  {
+    "text": "حتى",
+    "startMs": 73340,
+    "endMs": 73680,
+    "timestampMs": 73510,
+    "confidence": 0.9724991619586945,
+    "estimated": false
+  },
+  {
+    "text": "قبل",
+    "startMs": 73680,
+    "endMs": 73880,
+    "timestampMs": 73780,
+    "confidence": 0.9846763908863068,
+    "estimated": false
+  },
+  {
+    "text": "اللمس.",
+    "startMs": 73880,
+    "endMs": 75320,
+    "timestampMs": 74600,
+    "confidence": 0.7557005695998669,
+    "estimated": false
+  },
+  {
+    "text": "بعد",
+    "startMs": 75320,
+    "endMs": 75460,
+    "timestampMs": 75390,
+    "confidence": 0.9939525723457336,
+    "estimated": false
+  },
+  {
+    "text": "التفريغ،",
+    "startMs": 75460,
+    "endMs": 76080,
+    "timestampMs": 75770,
+    "confidence": 0.9967448711395264,
+    "estimated": false
+  },
+  {
+    "text": "فرق",
+    "startMs": 76080,
+    "endMs": 76340,
+    "timestampMs": 76210,
+    "confidence": 0.876387357711792,
+    "estimated": false
+  },
+  {
+    "text": "الجهد",
+    "startMs": 76340,
+    "endMs": 76620,
+    "timestampMs": 76480,
+    "confidence": 0.6796413908402125,
+    "estimated": false
+  },
+  {
+    "text": "بيقل.",
+    "startMs": 76620,
+    "endMs": 77420,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "عشان",
+    "startMs": 77420,
+    "endMs": 77640,
+    "timestampMs": 77530,
+    "confidence": 0.9612332979838053,
+    "estimated": false
+  },
+  {
+    "text": "كده",
+    "startMs": 77640,
+    "endMs": 77800,
+    "timestampMs": 77720,
+    "confidence": 0.8260296781857809,
+    "estimated": false
+  },
+  {
+    "text": "نفس",
+    "startMs": 77800,
+    "endMs": 77980,
+    "timestampMs": 77890,
+    "confidence": 0.9813670516014099,
+    "estimated": false
+  },
+  {
+    "text": "اللمسة",
+    "startMs": 77980,
+    "endMs": 78580,
+    "timestampMs": 78280,
+    "confidence": 0.9690415114164352,
+    "estimated": false
+  },
+  {
+    "text": "غالبًا",
+    "startMs": 78580,
+    "endMs": 78940,
+    "timestampMs": 78760,
+    "confidence": 0.921841099858284,
+    "estimated": false
+  },
+  {
+    "text": "مش",
+    "startMs": 78940,
+    "endMs": 79060,
+    "timestampMs": 79000,
+    "confidence": 0.7297480702400208,
+    "estimated": false
+  },
+  {
+    "text": "بتديك",
+    "startMs": 79060,
+    "endMs": 79440,
+    "timestampMs": 79250,
+    "confidence": 0.935071607430776,
+    "estimated": false
+  },
+  {
+    "text": "نفس",
+    "startMs": 79440,
+    "endMs": 79640,
+    "timestampMs": 79540,
+    "confidence": 0.9988243579864502,
+    "estimated": false
+  },
+  {
+    "text": "الشرارة",
+    "startMs": 79640,
+    "endMs": 79980,
+    "timestampMs": 79810,
+    "confidence": 0.9018632471561432,
+    "estimated": false
+  },
+  {
+    "text": "فورًا.",
+    "startMs": 79980,
+    "endMs": 80800,
+    "timestampMs": 80390,
+    "confidence": 0.8099872395396233,
+    "estimated": false
+  },
+  {
+    "text": "لكن",
+    "startMs": 80800,
+    "endMs": 80980,
+    "timestampMs": 80890,
+    "confidence": 0.9602327942848206,
+    "estimated": false
+  },
+  {
+    "text": "لو",
+    "startMs": 80980,
+    "endMs": 81120,
+    "timestampMs": 81050,
+    "confidence": 0.994268536567688,
+    "estimated": false
+  },
+  {
+    "text": "اتحركت",
+    "startMs": 81120,
+    "endMs": 81580,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "واتشحن",
+    "startMs": 81580,
+    "endMs": 82040,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "جسمك",
+    "startMs": 82040,
+    "endMs": 82420,
+    "timestampMs": 82230,
+    "confidence": 0.9826943278312683,
+    "estimated": false
+  },
+  {
+    "text": "تاني،",
+    "startMs": 82420,
+    "endMs": 82840,
+    "timestampMs": 82630,
+    "confidence": 0.911638081073761,
+    "estimated": false
+  },
+  {
+    "text": "الحكاية",
+    "startMs": 82840,
+    "endMs": 83240,
+    "timestampMs": 83040,
+    "confidence": 0.8635665327310562,
+    "estimated": false
+  },
+  {
+    "text": "ممكن",
+    "startMs": 83240,
+    "endMs": 83480,
+    "timestampMs": 83360,
+    "confidence": 0.9915298521518707,
+    "estimated": false
+  },
+  {
+    "text": "تتكرر.",
+    "startMs": 83480,
+    "endMs": 84420,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "المعدن",
+    "startMs": 84420,
+    "endMs": 84800,
+    "timestampMs": 84610,
+    "confidence": 0.9517058332761129,
+    "estimated": false
+  },
+  {
+    "text": "سهّل",
+    "startMs": 84800,
+    "endMs": 85140,
+    "timestampMs": 84970,
+    "confidence": 0.9404120842615763,
+    "estimated": false
+  },
+  {
+    "text": "حركة",
+    "startMs": 85140,
+    "endMs": 85520,
+    "timestampMs": 85330,
+    "confidence": 0.9830302596092224,
+    "estimated": false
+  },
+  {
+    "text": "الشحنة؛",
+    "startMs": 85520,
+    "endMs": 86120,
+    "timestampMs": 85820,
+    "confidence": 0.7397539436817169,
+    "estimated": false
+  },
+  {
+    "text": "مش",
+    "startMs": 86120,
+    "endMs": 86180,
+    "timestampMs": 86150,
+    "confidence": 0.9627368450164795,
+    "estimated": false
+  },
+  {
+    "text": "لازم",
+    "startMs": 86180,
+    "endMs": 86440,
+    "timestampMs": 86310,
+    "confidence": 0.991179347038269,
+    "estimated": false
+  },
+  {
+    "text": "يكون",
+    "startMs": 86440,
+    "endMs": 86580,
+    "timestampMs": 86510,
+    "confidence": 0.9954315423965454,
+    "estimated": false
+  },
+  {
+    "text": "هو",
+    "startMs": 86580,
+    "endMs": 86760,
+    "timestampMs": 86670,
+    "confidence": 0.9049929976463318,
+    "estimated": false
+  },
+  {
+    "text": "اللي",
+    "startMs": 86760,
+    "endMs": 86860,
+    "timestampMs": 86810,
+    "confidence": 0.7641246914863586,
+    "estimated": false
+  },
+  {
+    "text": "صنعها.",
+    "startMs": 86860,
+    "endMs": 87980,
+    "timestampMs": 87420,
+    "confidence": 0.7679911911487579,
+    "estimated": false
+  },
+  {
+    "text": "وفي",
+    "startMs": 87980,
+    "endMs": 88140,
+    "timestampMs": 88060,
+    "confidence": 0.9643490612506866,
+    "estimated": false
+  },
+  {
+    "text": "الجو",
+    "startMs": 88140,
+    "endMs": 88320,
+    "timestampMs": 88230,
+    "confidence": 0.9066281616687775,
+    "estimated": false
+  },
+  {
+    "text": "الجاف،",
+    "startMs": 88320,
+    "endMs": 88670,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "تراكم",
+    "startMs": 88670,
+    "endMs": 89020,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "الشحنة",
+    "startMs": 89020,
+    "endMs": 89500,
+    "timestampMs": 89260,
+    "confidence": 0.9806546866893768,
+    "estimated": false
+  },
+  {
+    "text": "بيبقى",
+    "startMs": 89500,
+    "endMs": 89840,
+    "timestampMs": 89670,
+    "confidence": 0.9694965720176697,
+    "estimated": false
+  },
+  {
+    "text": "أسهل",
+    "startMs": 89840,
+    "endMs": 90160,
+    "timestampMs": 90000,
+    "confidence": 0.8220837488770485,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 90160,
+    "endMs": 90300,
+    "timestampMs": 90230,
+    "confidence": 0.966702938079834,
+    "estimated": false
+  },
+  {
+    "text": "مواقف",
+    "startMs": 90300,
+    "endMs": 90540,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "يومية",
+    "startMs": 90540,
+    "endMs": 90800,
+    "timestampMs": 90670,
+    "confidence": 0.8224703669548035,
+    "estimated": false
+  },
+  {
+    "text": "كتير.",
+    "startMs": 90800,
+    "endMs": 91420,
+    "timestampMs": 91110,
+    "confidence": 0.9021931687990824,
+    "estimated": false
+  },
+  {
+    "text": "الرطوبة",
+    "startMs": 91540,
+    "endMs": 91960,
+    "timestampMs": 91750,
+    "confidence": 0.8222141563892365,
+    "estimated": false
+  },
+  {
+    "text": "ممكن",
+    "startMs": 91960,
+    "endMs": 92180,
+    "timestampMs": 92070,
+    "confidence": 0.9692963063716888,
+    "estimated": false
+  },
+  {
+    "text": "تساعد",
+    "startMs": 92180,
+    "endMs": 92520,
+    "timestampMs": 92350,
+    "confidence": 0.9971585124731064,
+    "estimated": false
+  },
+  {
+    "text": "على",
+    "startMs": 92520,
+    "endMs": 92680,
+    "timestampMs": 92600,
+    "confidence": 0.9887452721595764,
+    "estimated": false
+  },
+  {
+    "text": "تكوين",
+    "startMs": 92680,
+    "endMs": 93040,
+    "timestampMs": 92860,
+    "confidence": 0.9690366238355637,
+    "estimated": false
+  },
+  {
+    "text": "طبقة",
+    "startMs": 93040,
+    "endMs": 93320,
+    "timestampMs": 93180,
+    "confidence": 0.9491351445515951,
+    "estimated": false
+  },
+  {
+    "text": "رفيعة",
+    "startMs": 93320,
+    "endMs": 93840,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "من",
+    "startMs": 93840,
+    "endMs": 94020,
+    "timestampMs": 93930,
+    "confidence": 0.9828082919120789,
+    "estimated": false
+  },
+  {
+    "text": "المية",
+    "startMs": 94020,
+    "endMs": 94300,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "على",
+    "startMs": 94300,
+    "endMs": 94500,
+    "timestampMs": 94400,
+    "confidence": 0.9724152088165283,
+    "estimated": false
+  },
+  {
+    "text": "الأسطح،",
+    "startMs": 94500,
+    "endMs": 95100,
+    "timestampMs": 94800,
+    "confidence": 0.8490813225507736,
+    "estimated": false
+  },
+  {
+    "text": "فتسهّل",
+    "startMs": 95100,
+    "endMs": 95660,
+    "timestampMs": 95380,
+    "confidence": 0.8978396892547608,
+    "estimated": false
+  },
+  {
+    "text": "تسريب",
+    "startMs": 95660,
+    "endMs": 96020,
+    "timestampMs": 95840,
+    "confidence": 0.9917131066322327,
+    "estimated": false
+  },
+  {
+    "text": "الشحنة",
+    "startMs": 96020,
+    "endMs": 96340,
+    "timestampMs": 96180,
+    "confidence": 0.9968311488628387,
+    "estimated": false
+  },
+  {
+    "text": "تدريجيًا.",
+    "startMs": 96340,
+    "endMs": 96880,
+    "timestampMs": 96610,
+    "confidence": 0.9170890688896179,
+    "estimated": false
+  },
+  {
+    "text": "عشان",
+    "startMs": 97300,
+    "endMs": 97500,
+    "timestampMs": 97400,
+    "confidence": 0.971165676911672,
+    "estimated": false
+  },
+  {
+    "text": "كده",
+    "startMs": 97500,
+    "endMs": 97620,
+    "timestampMs": 97560,
+    "confidence": 0.8738168875376383,
+    "estimated": false
+  },
+  {
+    "text": "بنلاحظ",
+    "startMs": 97620,
+    "endMs": 98000,
+    "timestampMs": 97810,
+    "confidence": 0.7904887869954109,
+    "estimated": false
+  },
+  {
+    "text": "الظاهرة",
+    "startMs": 98000,
+    "endMs": 98380,
+    "timestampMs": 98190,
+    "confidence": 0.944315031170845,
+    "estimated": false
+  },
+  {
+    "text": "أكتر",
+    "startMs": 98380,
+    "endMs": 98820,
+    "timestampMs": 98600,
+    "confidence": 0.8616629242897034,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 98820,
+    "endMs": 98940,
+    "timestampMs": 98880,
+    "confidence": 0.9556906223297119,
+    "estimated": false
+  },
+  {
+    "text": "أيام",
+    "startMs": 98940,
+    "endMs": 99120,
+    "timestampMs": 99030,
+    "confidence": 0.9794178903102875,
+    "estimated": false
+  },
+  {
+    "text": "جافة،",
+    "startMs": 99120,
+    "endMs": 99840,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "ومنها",
+    "startMs": 99840,
+    "endMs": 100100,
+    "timestampMs": 99970,
+    "confidence": 0.9920451641082764,
+    "estimated": false
+  },
+  {
+    "text": "أيام",
+    "startMs": 100100,
+    "endMs": 100320,
+    "timestampMs": 100210,
+    "confidence": 0.9667716920375824,
+    "estimated": false
+  },
+  {
+    "text": "في",
+    "startMs": 100320,
+    "endMs": 100420,
+    "timestampMs": 100370,
+    "confidence": 0.9899163842201233,
+    "estimated": false
+  },
+  {
+    "text": "الشتاء.",
+    "startMs": 100420,
+    "endMs": 100900,
+    "timestampMs": 100660,
+    "confidence": 0.7412190635999044,
+    "estimated": false
+  },
+  {
+    "text": "إذن:",
+    "startMs": 101380,
+    "endMs": 102020,
+    "timestampMs": 101700,
+    "confidence": 0.6558762043714523,
+    "estimated": false
+  },
+  {
+    "text": "تلامس",
+    "startMs": 102020,
+    "endMs": 102360,
+    "timestampMs": 102190,
+    "confidence": 0.850853681564331,
+    "estimated": false
+  },
+  {
+    "text": "وانفصال،",
+    "startMs": 102360,
+    "endMs": 103260,
+    "timestampMs": 102810,
+    "confidence": 0.8338487893342972,
+    "estimated": false
+  },
+  {
+    "text": "شحنة",
+    "startMs": 103260,
+    "endMs": 103680,
+    "timestampMs": 103470,
+    "confidence": 0.9742001295089722,
+    "estimated": false
+  },
+  {
+    "text": "تتراكم،",
+    "startMs": 103680,
+    "endMs": 104460,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "وبعدين",
+    "startMs": 104460,
+    "endMs": 104720,
+    "timestampMs": 104590,
+    "confidence": 0.9608522256215414,
+    "estimated": false
+  },
+  {
+    "text": "تفريغ",
+    "startMs": 104720,
+    "endMs": 105040,
+    "timestampMs": 104880,
+    "confidence": 0.9593417048454285,
+    "estimated": false
+  },
+  {
+    "text": "سريع.",
+    "startMs": 105040,
+    "endMs": 105520,
+    "timestampMs": 105280,
+    "confidence": 0.9577942887941996,
+    "estimated": false
+  },
+  {
+    "text": "وده",
+    "startMs": 105680,
+    "endMs": 105900,
+    "timestampMs": 105790,
+    "confidence": 0.9395049611727396,
+    "estimated": false
+  },
+  {
+    "text": "تفسير",
+    "startMs": 105900,
+    "endMs": 106220,
+    "timestampMs": 106060,
+    "confidence": 0.9948814709981283,
+    "estimated": false
+  },
+  {
+    "text": "الشرارة",
+    "startMs": 106220,
+    "endMs": 106640,
+    "timestampMs": 106430,
+    "confidence": 0.9853755235671997,
+    "estimated": false
+  },
+  {
+    "text": "الصغيرة",
+    "startMs": 106640,
+    "endMs": 107100,
+    "timestampMs": 106870,
+    "confidence": 0.9682866334915161,
+    "estimated": false
+  },
+  {
+    "text": "المرتبطة",
+    "startMs": 107100,
+    "endMs": 107740,
+    "timestampMs": 107420,
+    "confidence": 0.9841335654258728,
+    "estimated": false
+  },
+  {
+    "text": "بالملابس",
+    "startMs": 107740,
+    "endMs": 108140,
+    "timestampMs": 107940,
+    "confidence": 0.9086107969284057,
+    "estimated": false
+  },
+  {
+    "text": "والسجاد؛",
+    "startMs": 108140,
+    "endMs": 108720,
+    "timestampMs": 108430,
+    "confidence": 0.9563888907432556,
+    "estimated": false
+  },
+  {
+    "text": "مش",
+    "startMs": 108720,
+    "endMs": 109080,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "حكم",
+    "startMs": 109080,
+    "endMs": 109340,
+    "timestampMs": 109210,
+    "confidence": 0.913264811038971,
+    "estimated": false
+  },
+  {
+    "text": "إن",
+    "startMs": 109340,
+    "endMs": 109500,
+    "timestampMs": 109420,
+    "confidence": 0.4667891561985016,
+    "estimated": false
+  },
+  {
+    "text": "أي",
+    "startMs": 109500,
+    "endMs": 109680,
+    "timestampMs": 109590,
+    "confidence": 0.9477135539054871,
+    "estimated": false
+  },
+  {
+    "text": "جهاز",
+    "startMs": 109680,
+    "endMs": 109940,
+    "timestampMs": 109810,
+    "confidence": 0.9686204592386881,
+    "estimated": false
+  },
+  {
+    "text": "بيلسعك",
+    "startMs": 109940,
+    "endMs": 110380,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "سليم.",
+    "startMs": 110380,
+    "endMs": 110860,
+    "timestampMs": 110620,
+    "confidence": 0.9808343251546224,
+    "estimated": false
+  },
+  {
+    "text": "كهربا",
+    "startMs": 110860,
+    "endMs": 111320,
+    "timestampMs": null,
+    "confidence": null,
+    "estimated": true
+  },
+  {
+    "text": "الأجهزة",
+    "startMs": 111320,
+    "endMs": 111660,
+    "timestampMs": 111490,
+    "confidence": 0.9933526873588562,
+    "estimated": false
+  },
+  {
+    "text": "موضوع",
+    "startMs": 111660,
+    "endMs": 111940,
+    "timestampMs": 111800,
+    "confidence": 0.9519852697849274,
+    "estimated": false
+  },
+  {
+    "text": "مختلف.",
+    "startMs": 111940,
+    "endMs": 112400,
+    "timestampMs": 112170,
+    "confidence": 0.9975309173266093,
+    "estimated": false
+  },
+  {
+    "text": "دي",
+    "startMs": 112720,
+    "endMs": 112840,
+    "timestampMs": 112780,
+    "confidence": 0.8875243365764618,
+    "estimated": false
+  },
+  {
+    "text": "نفهمها.",
+    "startMs": 112840,
+    "endMs": 113240,
+    "timestampMs": 113040,
+    "confidence": 0.9914171099662781,
+    "estimated": false
+  }
+]
