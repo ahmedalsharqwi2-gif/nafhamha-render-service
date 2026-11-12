@@ -542,7 +542,11 @@
       "generation_requests": [],
       "submission_intents": [],
       "receipts": {},
-      "actual_movie": null,
+      "actual_movie": {
+        "url": "https://nafhamha-render-production.up.railway.app/media/c2f31bdbfa07322021be52b6376ff35cfe67737f183c37fd91ed6ea060630b78.mp4",
+        "sha256": "b1c332698e1a0c3b32f0db5d8b5df3c1cc40cc4c43dfb8dcb3103aab148f7fb2",
+        "bytes": 7030983
+      },
       "resume_rule": "Complete missing confirmed phase only; no uncertain retries, occupied-slot replacement or expired-slot rollover.",
       "voice": {
         "phase": "complete",
@@ -828,7 +832,7 @@
         "subject_matches": 0
       },
       "media_upload_intent": {
-        "phase": "intent",
+        "phase": "acknowledged",
         "video_sha256": "b1c332698e1a0c3b32f0db5d8b5df3c1cc40cc4c43dfb8dcb3103aab148f7fb2",
         "created_at": "2026-11-12T17:30:39.531Z"
       }
