@@ -9,3 +9,5 @@ Local template render: PASS, seven actual 1080x1920 stills in docs/previews. Thi
 First remote run: verify PASS. Review failed; see review-media/reviews/*/report.json. Added public-feed redirect handling and Gemini model discovery after observed HTTP 404. News freshness window remains 48 hours. Await the next actual run before claiming any success.
 
 Latest observed remote result: completed / failure; preflight: MISSING_GEMINI_BINDING. No new complete review film exists. See REMOTE_CHECKS.json for the exact run ID; later Actions status supersedes this observation.
+
+Final observed run is completed / failure: preflight: MISSING_GEMINI_BINDING. See FINAL_REPORT.md.
