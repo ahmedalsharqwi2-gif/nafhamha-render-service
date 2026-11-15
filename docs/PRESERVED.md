@@ -12,3 +12,13 @@ All listed bytes preserved at their original paths, except the Nafhamha identity
 | `episodes/2026-11-10-swift/public/Cairo-OFL.txt` | `a4554e1799d42e1405924b61eb0e0722ae1623b1f1f07f995348f96c496362a9` |
 
 Original logo present in checkout: no. The owner subsequently supplied inline logo references. Their original file bytes have not been exposed by the upload tool; no replacement has been drawn. See config/logo-intake.json. Original font files and their available notices remain. Charon and intended 17:00 Africa/Cairo destination names remain in config. No .mp4 files were tracked on the cloned main snapshots; no approved media was deleted from remote media branches. Legacy scheduling files are in the backup, but the new branch has only one active workflow.
+
+## Follow-up original logo installation
+
+Source: Owner supplied logos.zip / nafhamha-render-service.png
+
+Canonical file: `brand/logo/logo.png`
+
+SHA-256: `bbcbca077ed53e6472939a51be6f3d20a5818ee39860e894fef740500e5d1bcd`
+
+Byte-for-byte copy verified; no redraw, recolor, background removal, raster edit or vectorization. The public/brand/logo directory is a symlink to the canonical directory. Header, intro/outro and thumbnail use the same Logo component and source.

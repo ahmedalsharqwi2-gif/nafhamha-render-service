@@ -1,20 +1,30 @@
-# Actual delivery status
+# Nafhamha follow-up: actual validation and remaining blocker
 
-This rebuild remains a DRAFT candidate; the requested full production acceptance is incomplete.
+This PR is still review-only. `publish_enabled=false` was not changed. Main, the backup branch/tag, Repository Secrets and the live service were not modified.
 
-- Remote backup branch and tag verified before deletion. Main never modified.
-- Preserved identity, fonts, available font licenses and original historical topic data; extracted semantic topic index retained.
-- One review-only workflow; publishing blocked; no Buffer/YouTube upload or scheduling performed.
-- Local eight policy/evidence/service tests and TypeScript pass in all six repositories. Remote verify job also passed in all six.
-- Seven actual 1080x1920 template stills rendered and visually sampled for Nafhamha; seven for the stickman prototype, then re-rendered after outline/expression changes. These are not complete episodes.
-- Actual local review attempt failed at missing Gemini binding. Actual remote review attempts failed as recorded below.
+## Original logo
 
-Latest remote attempt: https://github.com/ahmedalsharqwi2-gif/nafhamha-render-service/actions/runs/43767342258
+The owner-supplied PNG was installed byte-for-byte at `brand/logo/logo.png`; no redraw, recolor, background removal or vectorization. All rendered logo locations use `BrandLogo` and the canonical path through a public symlink. The source hash test also rejects altered bytes.
 
-Failure: `preflight: MISSING_GEMINI_BINDING`.
+SHA-256: `bbcbca077ed53e6472939a51be6f3d20a5818ee39860e894fef740500e5d1bcd` (1421340 bytes).
 
-No new complete film, final contact sheet, listening approval or reference-level acceptance was produced. Original inline logo images were seen but their file bytes were unavailable through the attachment tool, so they have not been recreated or falsely claimed installed. Exact-logo installation, fully matched art direction, automatic visual/pronunciation/character gates, comprehensive Python lock/license audit, and service caller compatibility remain incomplete. See RUNBOOK and REFERENCE_COMPARISON before any production use.
+## Executed locally
 
-Provider 429 means usage/rate limits; 503 means provider unavailable; no-current-source deliberately stops stale/unverified news; missing Gemini binding needs the existing secure repository connection configured, not a key pasted into chat.
+- `make test`: PASS, 29 Node tests and TypeScript. Tests use mocked Gemini HTTP responses; none sends a request to the real Gemini API. Log: `docs/FOLLOWUP_LOCAL_TESTS.txt`.
+- Tests cover 429/503 backoff+jitter, Retry-After seconds/date, model fallback, discovery throttling, bounded attempts/deadline, serialization, durable successful-chunk reuse across a fresh client, settings-based invalidation, immutable logo verification and dated/corroborated sources.
+- Layout smoke: PASS, 26 sampled frames and 196 text boxes; no text crossed y=150 or y=1670. This is DOM geometry evidence, not a completed film or listening review.
+- Actual local `RENDER_PARTIAL=false make review`: STOPPED at `MISSING_REPOSITORY_SECRET_GEMINI_API_KEY`. Partial rendering was explicitly disabled for that local probe to avoid duplicating the distributed Actions render.
 
-Remotion may require a paid Company License for commercial organizations outside its free eligibility; see LICENSES.md.
+## Required Repository Secret
+
+**`GEMINI_API_KEY`** is the exact recommended secret name to add. It supplies text and Charon TTS through environment bindings. Separate `GEMINI_TEXT_API_KEY` and `GEMINI_TTS_API_KEY` bindings are optional alternatives. No secret value was requested, opened, printed, copied or changed.
+
+## Actual GitHub review
+
+The current branch will run the full review attempt through GitHub Actions after this commit. Its terminal result and actual video/contact-sheet evidence will be appended before this work is reported complete. On missing Gemini binding, the workflow must stop narrated production and render a separate, visibly labeled **silent incomplete** 96-second visual preview; this does not pass narrated-film acceptance. It uses original vector templates, not a fabricated editorial story.
+
+## Acceptance
+
+A full Charon-narrated film, measured word alignment and listening approval remain unavailable while the binding is missing. A silent preview cannot prove audio, pronunciation or narration/caption synchrony. Exact rendered-logo pixels, dimensions, fps, duration and known-watermark OCR are checked on exported artifacts, with manual review still required. No deployment, publication, scheduling or main merge was performed.
+
+Remotion remains subject to its existing free/company license eligibility; commercial organizations outside the free group require a Company License.

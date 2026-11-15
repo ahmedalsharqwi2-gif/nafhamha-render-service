@@ -9,3 +9,12 @@ One daily.yml workflow runs checks and a review-only attempt on same-repository 
 Publication is deliberately unavailable: config/release.json has publish_enabled=false, publish mode errors even if config is edited, and /api/youtube/upload returns 403 after authentication. To enable later, owner review must approve the MP4 and an explicit publishing implementation/security review in a separate PR; changing a Boolean alone does not silently activate upload. Never merge this rebuild as production-ready until six complete review films, all required QA and exact original logos have been accepted.
 
 The rebuilt Nafhamha service changes /api/render to a review runner and removes legacy OAuth/media/voice routes. Dashboard integration compatibility is NOT established; do not deploy it over the existing service without adapting and testing callers. Docker build not assumed tested. Auth requires API_TOKEN at least 32 characters; health requires no token. Render lock excludes parallel jobs; no error dumps provider bodies, keys or headers.
+
+
+## Follow-up blocker repair
+
+For this repository the exact recommended missing binding is `GEMINI_API_KEY` in Repository Secrets; do not paste its value into code, chat, artifacts or logs. Optional separate text/TTS bindings are documented in FINAL_REPORT.md. The preflight fails before any provider request when the required binding is absent.
+
+`config/gemini.json` owns all model fallback names, generation settings, per-process request limits, retry budgets and voice chunk settings. The client shares a serial queue across text, voice and image work, honors Retry-After on discovery and generation, uses bounded jittered backoff and never substitutes another voice. Successful response/audio chunks are hash-cached under `.cache/gemini` and `.cache/voice`; active script/source reservations persist through `state/active-review.json` and `review-media`. Actions restores/saves these caches even after failure, with run_attempt in cache keys so reruns can save additional completed chunks. Public RSS uses a clear User-Agent, a bounded cache and minimum delay; protected responses are not bypassed or replaced with stale cache.
+
+`make visual-review` exports a separate silent, incomplete 96-second preview for visual inspection when the provider is unavailable. The partial file and its INCOMPLETE.json cannot be used as a complete narrated-film acceptance. Canonical logo bytes are hash-checked and rendered pixels are compared against the source; text safe-area checks use the real Player/Chromium output.
