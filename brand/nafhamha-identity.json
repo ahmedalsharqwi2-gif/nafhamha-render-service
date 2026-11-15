@@ -85,5 +85,31 @@
     "Check caption bounds, sound levels, source speech completeness and audio/video sync",
     "Fix found issues internally before delivery",
     "Check Buffer for duplicate topic/file before publication"
-  ]
+  ],
+  "rebuild_tokens": {
+    "canvas": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "text_top_min": 150,
+    "text_bottom_max": 1670,
+    "header_y": 170,
+    "title_y": 350,
+    "caption_y": 1410,
+    "reference_duration_seconds": 117.610667,
+    "reference_dimensions": [
+      720,
+      1280
+    ],
+    "palette": [
+      "#152c36",
+      "#fff0d0",
+      "#b6dbc1",
+      "#f4a561",
+      "#45bce6",
+      "#ae7ff0"
+    ],
+    "analysis": "Sampled every 6 seconds; not a claimed frame-by-frame match. Original approved identity remains in .original.json."
+  }
 }

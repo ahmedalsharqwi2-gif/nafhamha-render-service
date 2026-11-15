@@ -1,0 +1,11 @@
+node_modules/
+out/
+.cache/
+.venv/
+__pycache__/
+*.pyc
+.env*
+!.env.example
+public/generated/
+bundle/
+data/

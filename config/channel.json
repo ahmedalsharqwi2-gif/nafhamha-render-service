@@ -1,0 +1,14 @@
+{
+  "profile": "nafhamha",
+  "name": "نفهمها",
+  "accent": "#63edc2",
+  "counter": "رحلة الفكرة",
+  "maxAgeHours": 168,
+  "feeds": [
+    {
+      "url": "https://www.nasa.gov/feed/",
+      "official": true
+    }
+  ],
+  "logo": ""
+}
