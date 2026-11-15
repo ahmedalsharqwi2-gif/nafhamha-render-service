@@ -1,0 +1,12 @@
+{
+  "id": "2026-11-15T22-03-10-483Z",
+  "mode": "review",
+  "published": false,
+  "stages": [],
+  "status": "failed",
+  "limitations": [
+    "Visual semantics, pronunciation, watermark absence and copyright require human review; metrics are not proof."
+  ],
+  "failedStage": "preflight",
+  "errorCode": "MISSING_GEMINI_BINDING"
+}
