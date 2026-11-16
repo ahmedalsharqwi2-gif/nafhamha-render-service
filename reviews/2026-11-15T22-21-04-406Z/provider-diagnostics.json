@@ -10,7 +10,7 @@
         "gemini-3.8-flash-tts",
         "gemini-3.8-flash-lite-tts"
       ],
-      "at": 1794783475691
+      "at": 1794826722769
     },
     {
       "type": "attempt",
@@ -19,7 +19,7 @@
       "attempt": 1,
       "totalAttempt": 1,
       "status": 200,
-      "at": 1794783512695
+      "at": 1794826758996
     },
     {
       "type": "attempt",
@@ -28,7 +28,7 @@
       "attempt": 1,
       "totalAttempt": 1,
       "status": 200,
-      "at": 1794783542594
+      "at": 1794826790762
     },
     {
       "type": "attempt",
@@ -37,7 +37,7 @@
       "attempt": 1,
       "totalAttempt": 1,
       "status": 200,
-      "at": 1794783571181
+      "at": 1794826819959
     },
     {
       "type": "attempt",
@@ -46,7 +46,7 @@
       "attempt": 1,
       "totalAttempt": 1,
       "status": 200,
-      "at": 1794783601884
+      "at": 1794826850460
     },
     {
       "type": "attempt",
@@ -55,7 +55,7 @@
       "attempt": 1,
       "totalAttempt": 1,
       "status": 200,
-      "at": 1794783632865
+      "at": 1794826880554
     },
     {
       "type": "attempt",
@@ -64,34 +64,7 @@
       "attempt": 1,
       "totalAttempt": 1,
       "status": 200,
-      "at": 1794783662939
-    },
-    {
-      "type": "attempt",
-      "kind": "voice",
-      "model": "gemini-3.1-flash-tts-preview",
-      "attempt": 1,
-      "totalAttempt": 1,
-      "status": 503,
-      "at": 1794783686400
-    },
-    {
-      "type": "backoff",
-      "kind": "voice",
-      "model": "gemini-3.1-flash-tts-preview",
-      "status": 503,
-      "waitMs": 3168.786748084883,
-      "retryAfterMs": 0,
-      "at": 1794783686401
-    },
-    {
-      "type": "attempt",
-      "kind": "voice",
-      "model": "gemini-3.1-flash-tts-preview",
-      "attempt": 2,
-      "totalAttempt": 2,
-      "status": 200,
-      "at": 1794783730276
+      "at": 1794826911593
     },
     {
       "type": "attempt",
@@ -100,7 +73,7 @@
       "attempt": 1,
       "totalAttempt": 1,
       "status": 200,
-      "at": 1794783754039
+      "at": 1794826940330
     },
     {
       "type": "attempt",
@@ -108,26 +81,17 @@
       "model": "gemini-3.1-flash-tts-preview",
       "attempt": 1,
       "totalAttempt": 1,
-      "status": 503,
-      "at": 1794783777855
-    },
-    {
-      "type": "backoff",
-      "kind": "voice",
-      "model": "gemini-3.1-flash-tts-preview",
-      "status": 503,
-      "waitMs": 3867.6346807017435,
-      "retryAfterMs": 0,
-      "at": 1794783777855
+      "status": 200,
+      "at": 1794826972155
     },
     {
       "type": "attempt",
       "kind": "voice",
       "model": "gemini-3.1-flash-tts-preview",
-      "attempt": 2,
-      "totalAttempt": 2,
+      "attempt": 1,
+      "totalAttempt": 1,
       "status": 200,
-      "at": 1794783812539
+      "at": 1794827000119
     }
   ],
   "resolvedModels": {

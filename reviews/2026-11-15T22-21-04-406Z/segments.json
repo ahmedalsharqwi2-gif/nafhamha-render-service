@@ -1,9 +1,9 @@
 [
   {
     "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-15T22-21-04-406Z/scene-0.wav",
-    "duration": 12.6,
+    "duration": 12.96,
     "text": "هل فكرت قبل كده إزاي نجم عملاق ومرعب في الفضاء البعيد يقدر يفضل ينفجر كذا مرة ورا بعض من غير ما يختفي، ومرصد شاندرا التابع لناسا كشف سر الانفجارات دي؟",
-    "sha256": "da16344808fa3f400f836b58ba1652a01192584cc7eaa4cee1b9d4e63df4fb01",
+    "sha256": "a2d174eaeb9f94a136b946dc9020167efc08eff0d0497e4512a2984fa7ab28e0",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -12,12 +12,12 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "a295895e009c5f77c633d4efa026086e13c10d63b24bba0f31e11926cc034c14",
-        "sha256": "da16344808fa3f400f836b58ba1652a01192584cc7eaa4cee1b9d4e63df4fb01",
+        "sha256": "a2d174eaeb9f94a136b946dc9020167efc08eff0d0497e4512a2984fa7ab28e0",
         "text_sha256": "62994f45ecafd792f4526b2f1a6e1e0253747dfe0da7ae9953ef34331bf2a405",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 604878,
+        "bytes": 622158,
         "reused": false
       }
     ]
@@ -26,7 +26,7 @@
     "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-15T22-21-04-406Z/scene-1.wav",
     "duration": 15.08,
     "text": "علماء الفلك قدروا مؤخراً باستخدام مرصد شاندرا الفضائي للأشعة السينية إنهم يوصلوا للسبب الحقيقي اللي بيولع انفجارات متكررة لنجم ضخم جداً وغير مستقر تايه في أعماق الكون الواسع.",
-    "sha256": "3e00bfa6bf465b0dec237b2cda091fd74868c2b3c6d4eff59e8b5076a76491d3",
+    "sha256": "fa3c58445842c2a5985c8edf82974cbb0bd1a9c30aaa87eafee18c1f2c82cbbe",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -35,7 +35,7 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "f8b148e7eceb15cc519c1ca53538eea8f3e7f023cca1691b2f70ba29e41157f7",
-        "sha256": "3e00bfa6bf465b0dec237b2cda091fd74868c2b3c6d4eff59e8b5076a76491d3",
+        "sha256": "fa3c58445842c2a5985c8edf82974cbb0bd1a9c30aaa87eafee18c1f2c82cbbe",
         "text_sha256": "20fdcbd5344ce72c3c517fd53eb54314dd234e7c10089eccd174318eb1092d24",
         "voice": "Charon",
         "provider": "Gemini",
@@ -47,9 +47,9 @@
   },
   {
     "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-15T22-21-04-406Z/scene-2.wav",
-    "duration": 12.04,
+    "duration": 12.12,
     "text": "الصورة اللي نشرتها وكالة ناسا يوم تسعة نوفمبر سنة ألفين وستة وعشرين وضحت المجرة اللي عايش فيها النجم الغريب ده، وخلت الباحثين يدققوا في طبيعة السلوك المتقلب بتاعه.",
-    "sha256": "4080cf698ae17bc512f4b360aa98427d313b137aab65f385daedbf7f08fe75f7",
+    "sha256": "c16a3949d5b1f71f3844bfebde34915c59ca260e640b347ffda16c1ee65097ec",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -58,21 +58,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "b3546b4b16b99be6915ef561e0af31d999d8f1d0a6de4ba3211c2f73d1745a51",
-        "sha256": "4080cf698ae17bc512f4b360aa98427d313b137aab65f385daedbf7f08fe75f7",
+        "sha256": "c16a3949d5b1f71f3844bfebde34915c59ca260e640b347ffda16c1ee65097ec",
         "text_sha256": "8b2518015b615041304c822b673b773e75bc9564999c455584a8840e97a2853e",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 577998,
+        "bytes": 581838,
         "reused": false
       }
     ]
   },
   {
     "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-15T22-21-04-406Z/scene-3.wav",
-    "duration": 13.24,
+    "duration": 14.32,
     "text": "النجم المتقلب والمثير للجدل ده اتعرف رسمياً بين العلماء باسم مميز جداً هو إيه تي ألفين وستاشر بي إل يو، وده اسم بيحدد هويته وسط نجوم الفضاء السحيق.",
-    "sha256": "633bc0ffc27bcc42333d3a68a7e4fb14fcd334ed32d2999af19521ca8ba8214f",
+    "sha256": "b1ddabb98597594eb3f2bd9ea57656e172db2c9cb4a279197e952a81ad1433ba",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -81,21 +81,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "e018a96e21a845810a6ae4caa6ffd846e4c6506ccdaa34fad92824b9f3bb459c",
-        "sha256": "633bc0ffc27bcc42333d3a68a7e4fb14fcd334ed32d2999af19521ca8ba8214f",
+        "sha256": "b1ddabb98597594eb3f2bd9ea57656e172db2c9cb4a279197e952a81ad1433ba",
         "text_sha256": "b642bb3b145aa599ab7fa42633e3f186b41b771adb831b96044b928005190d68",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 635598,
+        "bytes": 687438,
         "reused": false
       }
     ]
   },
   {
     "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-15T22-21-04-406Z/scene-4.wav",
-    "duration": 14.48,
+    "duration": 15.36,
     "text": "النجم العملاق ده موجود جوة مجرة حلزونية معروفة في الكتالوجات الفلكية باسم إن جي سي أربعة خمسة خمسة تسعة، وبتعتبر بيئة خصبة لظواهر كونية في منتهى الغرابة والغموض.",
-    "sha256": "35e2ce3d3254d6526bbc7f4cb5e7cc806508700baf3a9f384ba6eeb3fa54f15f",
+    "sha256": "25cd4f6cfb7714b270ada9a40735874c5066e51c1396958db4b715bf17fa7de4",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -104,21 +104,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "798574fe6d81f70073d41fa4e1efa32e8ee9e31c2d06384c220c3a6ab7252333",
-        "sha256": "35e2ce3d3254d6526bbc7f4cb5e7cc806508700baf3a9f384ba6eeb3fa54f15f",
+        "sha256": "25cd4f6cfb7714b270ada9a40735874c5066e51c1396958db4b715bf17fa7de4",
         "text_sha256": "a039b908ce9c0c3d3d8f785bdbe1deecacd9ebc90005648949b350d00a4c28cc",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 695118,
+        "bytes": 737358,
         "reused": false
       }
     ]
   },
   {
     "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-15T22-21-04-406Z/scene-5.wav",
-    "duration": 15.52,
+    "duration": 15.76,
     "text": "المجرة الحلزونية دي بتبعد عن كوكب الأرض مسافة مرعبة بتتقدر بحوالي تلاتين مليون سنة ضوئية، وده بيخلي رصد تفاصيل النجم من خلال التلسكوبات إنجاز علمي كبير ومهم للجميع.",
-    "sha256": "1f90947a6b96db8474eefca5ff1de0ff85fe81f42f986373a8fdff149e71db96",
+    "sha256": "f70e965155f49a4701de279a5d174d50bc184fdcc7a9679d54430c6fce049070",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -127,21 +127,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "4433ae6ac6d3cdf700f9753df39d21b1afe2ee0ffdcc72c9e7a46fde084cbfc1",
-        "sha256": "1f90947a6b96db8474eefca5ff1de0ff85fe81f42f986373a8fdff149e71db96",
+        "sha256": "f70e965155f49a4701de279a5d174d50bc184fdcc7a9679d54430c6fce049070",
         "text_sha256": "fe2998b0df3ccaa478a27d7ecdc5e5dbb20fe9f93fb91d81d413f8be2b4107ed",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 745038,
+        "bytes": 756558,
         "reused": false
       }
     ]
   },
   {
     "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-15T22-21-04-406Z/scene-6.wav",
-    "duration": 13.8,
+    "duration": 14.36,
     "text": "العلماء لما حسبوا كتلة هذا النجم المشتعل اكتشفوا إنها ضخمة بشكل لا يصدق، لإن تقديراتهم أكدت إن كتلته بتعادل على الأقل تلاتة وتلاتين مرة قد كتلة شمسنا اللي بنعرفها.",
-    "sha256": "b825a2cbd0e410cbad9117306eb6cad293ed93c1025d906f0bfcfd30b2658ba0",
+    "sha256": "9b34b1a00c2a6cb81f35068ef63ad1bfd3093b4fc87b688eb0c6994c22af80e5",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -150,21 +150,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "2c48f9903f0140eafcf2781268c26598be942b933fceb95f4b2b39630d12074f",
-        "sha256": "b825a2cbd0e410cbad9117306eb6cad293ed93c1025d906f0bfcfd30b2658ba0",
+        "sha256": "9b34b1a00c2a6cb81f35068ef63ad1bfd3093b4fc87b688eb0c6994c22af80e5",
         "text_sha256": "e31ae893b0d72cc6327700d3bdbfcac2538a86798b319c6b9126c767c2747c96",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 662478,
+        "bytes": 689358,
         "reused": false
       }
     ]
   },
   {
     "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-15T22-21-04-406Z/scene-7.wav",
-    "duration": 15.84,
+    "duration": 16.36,
     "text": "الرصد الدقيق باستخدام مرصد شاندرا بالأشعة السينية فتح الباب لفهم الديناميكية المعقدة اللي بتسبب الانفجارات المتكررة داخل النجم المتقلب ده، ووضح إزاي النجوم العملاقة بتعيش أطوارها الأخيرة بقوة.",
-    "sha256": "9b76682ec5df8a4d67137cd6418c273512e7822b8fa8c1958e062759e50c46aa",
+    "sha256": "d97d7666a3a3d4a1862972f75158cdb41cba4185fe1275f9119cf09cf00788c4",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -173,21 +173,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "6462d538fbe0cda761baf36d71ad754c5854bd714fdd5b8b52da24e713b778a4",
-        "sha256": "9b76682ec5df8a4d67137cd6418c273512e7822b8fa8c1958e062759e50c46aa",
+        "sha256": "d97d7666a3a3d4a1862972f75158cdb41cba4185fe1275f9119cf09cf00788c4",
         "text_sha256": "dde1ece2edad030b6f8a082751a4560e9160b2ad0596b5a4c00c9b45e4b27d2e",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 760398,
+        "bytes": 785358,
         "reused": false
       }
     ]
   },
   {
     "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-15T22-21-04-406Z/scene-8.wav",
-    "duration": 13.56,
+    "duration": 14.32,
     "text": "تابع معانا الحلقات الجاية علشان تفهم أسرار جديدة عن أعماق الفضاء ونشاركك كل الاكتشافات الفلكية أول بأول بطريقة سهلة وممتعة، واكتب لنا رأيك في التعليقات عشان نفهمها سوا دايماً.",
-    "sha256": "f831fb5ba22552bfd63a1f45080d4dafd8522ea22c1a607435900eeffccadcc2",
+    "sha256": "b87db05b005568f24070f2f471e608e338415234d6beac397a480c3cfe823e4a",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -196,12 +196,12 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "dfa07f5e949153f9d20bb55866f2564dffcf80df41417f5896e72a17ddf7e7f2",
-        "sha256": "f831fb5ba22552bfd63a1f45080d4dafd8522ea22c1a607435900eeffccadcc2",
+        "sha256": "b87db05b005568f24070f2f471e608e338415234d6beac397a480c3cfe823e4a",
         "text_sha256": "a50404fbec5528166ef946b7d8ff1146db24bcb7f482096ed250d05b23fdf3dc",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 650958,
+        "bytes": 687438,
         "reused": false
       }
     ]
