@@ -1,0 +1,187 @@
+{
+  "title": "إزاي المحرك بيشغل الصاروخ؟",
+  "editorialLabel": null,
+  "scenes": [
+    {
+      "title": "اختبار محرك الصاروخ",
+      "text": "ناسا بتعمل اختبارات قوية جداً لمحركات الصواريخ في مركز ستينيس للفضاء، الهدف هو التأكد من كفاءة المحركات قبل ما تطلع في رحلات حقيقية، وده بيضمن سلامة الرواد اللي هيسافروا للقمر في المهمات الجاية.",
+      "summary": "ناسا تختبر محركات الصواريخ لضمان سلامة الرحلات.",
+      "keyword": "محرك",
+      "template": "phenomenon",
+      "labels": [
+        "ناسا",
+        "اختبار",
+        "محرك"
+      ],
+      "values": [],
+      "claim": "NASA conducts a hot fire test of RS-25 engine No. 10001 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, on Nov. 18, 2026.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "NASA conducts a hot fire test of RS-25 engine No. 10001 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, on Nov. 18, 2026.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "brollQuery": "rocket engine test",
+      "duration": 16,
+      "words": []
+    },
+    {
+      "title": "مدة الاختبار",
+      "text": "الاختبار الأخير للمحرك استمر لمدة ثلاث دقائق وعشرين ثانية، وده وقت كافي جداً للمهندسين عشان يجمعوا بيانات مهمة عن أداء المحرك وقدرته على التحمل، البيانات دي بتساعد في تحسين الموثوقية للرحلات الفضائية الكبيرة.",
+      "summary": "الاختبار استمر مائتين ثانية لجمع بيانات الأداء.",
+      "keyword": "ثانية",
+      "template": "steps",
+      "labels": [
+        "زمن",
+        "اختبار",
+        "بيانات"
+      ],
+      "values": [],
+      "claim": "Test teams fired the developmental engine for the planned duration of three minutes and 20 seconds (200 seconds).",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "Test teams fired the developmental engine for the planned duration of three minutes and 20 seconds (200 seconds).",
+      "kind": "fact",
+      "expression": 6,
+      "action": "walk",
+      "brollQuery": "engine fire test",
+      "duration": 16.6,
+      "words": []
+    },
+    {
+      "title": "قوة الدفع الهائلة",
+      "text": "عشان الصاروخ يقدر يخرج من جاذبية الأرض، بيحتاج قوة دفع خرافية، الأربع محركات اللي بيستخدموا في مهمات أرتميس بيقدروا ينتجوا قوة دفع بتوصل لاتنين مليون رطل، وده رقم ضخم جداً ومحتاج هندسة دقيقة.",
+      "summary": "أربع محركات تنتج مليوني رطل من قوة الدفع.",
+      "keyword": "دفع",
+      "template": "comparison",
+      "labels": [
+        "قوة",
+        "صاروخ",
+        "أرتميس"
+      ],
+      "values": [],
+      "claim": "For each Artemis mission, four RS-25 engines produce up to 2 million pounds of combined thrust to help launch the SLS rocket.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "For each Artemis mission, four RS-25 engines produce up to 2 million pounds of combined thrust to help launch the SLS rocket.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "jump",
+      "brollQuery": "rocket launch",
+      "duration": 16.92,
+      "words": []
+    },
+    {
+      "title": "مهمة أرتميس الرابعة",
+      "text": "مهمة أرتميس الرابعة المخطط ليها في سنة ألفين وثمانية وعشرين، هتكون خطوة أساسية في استكشاف القطب الجنوبي للقمر، ناسا بتخطط لبناء وجود بشري مستدام على سطح القمر، وده تمهيد لأول رحلة مأهولة للمريخ.",
+      "summary": "أرتميس أربعة تستهدف استكشاف القطب الجنوبي للقمر.",
+      "keyword": "قمر",
+      "template": "journey",
+      "labels": [
+        "أرتميس",
+        "قمر",
+        "مريخ"
+      ],
+      "values": [],
+      "claim": "For the Artemis IV Moon landing mission in 2028, the SLS rocket will launch astronauts aboard the Orion spacecraft from NASA s Kennedy Space Center in Florida.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "For the Artemis IV Moon landing mission in 2028, the SLS rocket will launch astronauts aboard the Orion spacecraft from NASA s Kennedy Space Center in Florida.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "turn",
+      "brollQuery": "moon surface",
+      "duration": 15.52,
+      "words": []
+    },
+    {
+      "title": "تطوير الأداء",
+      "text": "رغم إن المحرك اللي اتختبر مش هيطلع في رحلة طيران، لكنه بيوفر بيانات حيوية لشركة إل ثري هاريس، البيانات دي بتساعد في تحسين أداء المحركات وموثوقيتها، عشان تكون جاهزة تماماً للمهمات الحقيقية اللي جاية.",
+      "summary": "بيانات الاختبار تحسن موثوقية المحركات للرحلات.",
+      "keyword": "بيانات",
+      "template": "cause",
+      "labels": [
+        "تطوير",
+        "أداء",
+        "هندسة"
+      ],
+      "values": [],
+      "claim": "While this developmental engine will not be used in flight, the hot fire test provides NASA and NASA’s prime contractor L3Harris Technologies with the capability to capture critical data to improve engine performance and reliability for future Artemis missions.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "While this developmental engine will not be used in flight, the hot fire test provides NASA and NASA’s prime contractor L3Harris Technologies with the capability to capture critical data to improve engine performance and reliability for future Artemis missions.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "point",
+      "brollQuery": "engine engineering",
+      "duration": 14.850958,
+      "words": []
+    },
+    {
+      "title": "فريق العمل",
+      "text": "الاختبارات دي مش بيعملها شخص واحد، ده فريق عمل متكامل من ناسا وشركة إل ثري هاريس وشركة نوفا سبيس سوليوشنز، الكل بيشتغل مع بعض عشان يضمنوا إن كل محرك يكون جاهز ومثبت كفاءته قبل الإطلاق.",
+      "summary": "تعاون بين ناسا وشركات لضمان كفاءة المحركات.",
+      "keyword": "فريق",
+      "template": "phenomenon",
+      "labels": [
+        "تعاون",
+        "فريق",
+        "عمل"
+      ],
+      "values": [],
+      "claim": "Tests are conducted by a team of operators from NASA, L3Harris, and Nova Space Solutions.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "Tests are conducted by a team of operators from NASA, L3Harris, and Nova Space Solutions.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "run",
+      "brollQuery": "engineers working",
+      "duration": 16.76,
+      "words": []
+    },
+    {
+      "title": "الاستعداد للرحلات",
+      "text": "كل محرك من نوع أر إس خمسة وعشرين بيتم اختباره بدقة في مركز ستينيس، لازم يتأكدوا إنه صالح للطيران قبل ما يركبوه في الصاروخ، دي إجراءات صارمة عشان يضمنوا نجاح المهمة وسلامة الرواد في الفضاء.",
+      "summary": "اختبارات صارمة تضمن صلاحية المحركات للطيران.",
+      "keyword": "طيران",
+      "template": "steps",
+      "labels": [
+        "سلامة",
+        "اختبار",
+        "طيران"
+      ],
+      "values": [],
+      "claim": "All RS-25 engines are tested and proven flightworthy at NASA Stennis prior to use.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "All RS-25 engines are tested and proven flightworthy at NASA Stennis prior to use.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "walk",
+      "brollQuery": "rocket engine",
+      "duration": 13.930958,
+      "words": []
+    },
+    {
+      "title": "خاتمة الرحلة",
+      "text": "الرحلة للقمر مش مجرد حلم، دي خطط حقيقية بتتبني بجهد كبير واختبارات دقيقة، كل ثانية في الاختبار ده بتقربنا أكتر من هدفنا في استكشاف الفضاء، شكراً لمتابعتكم معانا النهاردة في نفهمها، استنونا في الحلقة الجاية.",
+      "summary": "الاختبارات تقربنا من استكشاف الفضاء.",
+      "keyword": "فضاء",
+      "template": "journey",
+      "labels": [
+        "استكشاف",
+        "فضاء",
+        "رحلة"
+      ],
+      "values": [],
+      "claim": "This mission will be a key step in the agency’s broader goals to explore the lunar South Pole, establish an enduring human presence on the lunar surface, and build on the agency’s foundation for the first crewed mission to Mars.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "This mission will be a key step in the agency’s broader goals to explore the lunar South Pole, establish an enduring human presence on the lunar surface, and build on the agency’s foundation for the first crewed mission to Mars.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "point",
+      "brollQuery": "space exploration",
+      "duration": 16.56,
+      "words": []
+    }
+  ],
+  "durationInFrames": 3815,
+  "audio": "generated/2026-11-19T15-16-37-030Z/audio.wav",
+  "incompleteMode": "unaligned_narration",
+  "preview": true,
+  "incomplete": true
+}

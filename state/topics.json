@@ -38,7 +38,13 @@
   {
     "topicKey": "nasa-moon-base-lunar-outpost",
     "value": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-moon-base/",
-    "status": "reserved",
+    "status": "retired",
     "run": "2026-11-19T14-34-01-995Z"
+  },
+  {
+    "topicKey": "nasa-rs25-engine-testing",
+    "value": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
+    "status": "reserved",
+    "run": "2026-11-19T15-16-37-030Z"
   }
 ]
