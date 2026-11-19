@@ -1,0 +1,176 @@
+{
+  "topicKey": "nasa-ampere-thruster-challenge",
+  "title": "إزاي الصاروخ بيتحرك في الفضاء من غير وقود كتير؟",
+  "hook": "إزاي الصاروخ بيتحرك في الفضاء من غير وقود كتير؟ الحقيقة إن وكالة الفضاء الأمريكية بتدور على تقنيات جديدة بتعتمد على الكهرباء عشان توفر في الوقود وتخلي الرحلات البعيدة أسهل وأسرع بكتير من زمان.",
+  "cta": "لو عايز تعرف أكتر عن مستقبل السفر للفضاء، تابعنا وشوف التطورات اللي بتحصل في تكنولوجيا المحركات الكهربائية الجديدة اللي بتغير قواعد اللعبة في استكشاف الكون البعيد، واستنونا في فيديوهات تانية كتير.",
+  "scenes": [
+    {
+      "title": "تحدي الصواريخ الكهربائية",
+      "text": "وكالة الفضاء الأمريكية أعلنت عن مسابقة جديدة بتدعي فيها الشركات لتطوير نماذج أولية لمحركات كهربائية متطورة، والهدف هو تحسين كفاءة الدفع في المهام الفضائية الطويلة اللي بتحتاج تكنولوجيا دقيقة وموفرة للطاقة بشكل كبير.",
+      "summary": "وكالة الفضاء الأمريكية تطلق مسابقة لتطوير محركات كهربائية.",
+      "keyword": "صاروخ",
+      "template": "phenomenon",
+      "labels": [
+        "وكالة الفضاء",
+        "محركات",
+        "تكنولوجيا"
+      ],
+      "values": [],
+      "claim": "NASA launched a new competition inviting U.S. companies to produce prototypes of mid-power Hall effect thrusters",
+      "sourceId": "946586051f9f",
+      "evidence": "NASA launched a new competition inviting U.S. companies to produce prototypes of mid-power Hall effect thrusters",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "brollQuery": "space rocket"
+    },
+    {
+      "title": "إزاي المحرك ده بيشتغل؟",
+      "text": "المحركات دي بتستخدم مجال كهربائي عشان تسرع غاز معين، وده بينتج قوة دفع فعالة جداً، والنوع ده من المحركات بيعتبر تقنية حيوية ومهمة جداً لتشغيل الأقمار الصناعية والمركبات الروبوتية في أعماق الفضاء البعيد.",
+      "summary": "المحركات الكهربائية تستخدم مجالات كهربائية لتوليد الدفع.",
+      "keyword": "محرك",
+      "template": "phenomenon",
+      "labels": [
+        "كهرباء",
+        "دفع",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "Hall effect thrusters use an electric field to accelerate a propellant gas, producing efficient thrust for long-duration missions.",
+      "sourceId": "946586051f9f",
+      "evidence": "Hall effect thrusters use an electric field to accelerate a propellant gas, producing efficient thrust for long-duration missions.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "turn",
+      "brollQuery": "electric thruster"
+    },
+    {
+      "title": "توفير الوقود",
+      "text": "الميزة الكبيرة هنا إن النظام ده بيستهلك وقود أقل بكتير من الصواريخ الكيميائية التقليدية، وده بيخلي المركبات تقدر تكمل رحلاتها لفترات أطول بكتير من غير ما تحتاج كميات ضخمة من الوقود التقليدي الثقيل.",
+      "summary": "المحركات الكهربائية توفر الوقود مقارنة بالصواريخ الكيميائية.",
+      "keyword": "وقود",
+      "template": "comparison",
+      "labels": [
+        "كفاءة",
+        "توفير",
+        "وقود"
+      ],
+      "values": [
+        10
+      ],
+      "claim": "The Hall thruster is part of an Solar Electric Propulsion (SEP) system that uses 10 times less propellant than equivalent chemical rockets.",
+      "sourceId": "946586051f9f",
+      "evidence": "The Hall thruster is part of an Solar Electric Propulsion (SEP) system that uses 10 times less propellant than equivalent chemical rockets.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "walk",
+      "brollQuery": "fuel tank"
+    },
+    {
+      "title": "دعم الشركات",
+      "text": "المسابقة دي بتقدم مبالغ مالية كبيرة للشركات الفايزة عشان تساعدهم يطوروا الأنظمة دي، والهدف هو تسريع نضج التكنولوجيا اللي ممكن تكون أساسية لدعم مهام الوكالة والشركات التجارية في المستقبل القريب في الفضاء.",
+      "summary": "المسابقة تهدف لتسريع تطوير التكنولوجيا الفضائية.",
+      "keyword": "شركات",
+      "template": "steps",
+      "labels": [
+        "تمويل",
+        "تطوير",
+        "ابتكار"
+      ],
+      "values": [],
+      "claim": "NASA’s Advanced Mid-Power Electric Rocket (AMPERE) Challenge is offering $500,000, split between two winning U.S. companies, to accelerate the maturation of mid-power systems",
+      "sourceId": "946586051f9f",
+      "evidence": "NASA’s Advanced Mid-Power Electric Rocket (AMPERE) Challenge is offering $500,000, split between two winning U.S. companies, to accelerate the maturation of mid-power systems",
+      "kind": "fact",
+      "expression": 8,
+      "action": "jump",
+      "brollQuery": "business meeting"
+    },
+    {
+      "title": "مراحل المسابقة",
+      "text": "المسابقة بتمر بتلات مراحل أساسية، بتبدأ بتقديم تصميمات وخطط تصنيع، وبعدين بيتم اختيار فرق لتطوير نماذج أولية، وفي المرحلة الأخيرة بيتم اختبار النماذج دي في مرافق الوكالة المتطورة من غير تكلفة على الفرق.",
+      "summary": "المسابقة تتكون من ثلاث مراحل لتطوير واختبار النماذج.",
+      "keyword": "مراحل",
+      "template": "steps",
+      "labels": [
+        "تصميم",
+        "تصنيع",
+        "اختبار"
+      ],
+      "values": [
+        3
+      ],
+      "claim": "The competition includes three phases.",
+      "sourceId": "946586051f9f",
+      "evidence": "The competition includes three phases.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "point",
+      "brollQuery": "rocket blueprint"
+    },
+    {
+      "title": "جوائز المسابقة",
+      "text": "وكل فريق من الفرق الفايزة ممكن يحصل على مبلغ مالي بيوصل لربع مليون دولار، وده بيشجع الشركات إنها تقدم أفضل ما عندها وتشارك في تطوير تكنولوجيا المحركات الكهربائية اللي بتخدم مستقبل البشرية في الفضاء.",
+      "summary": "الفرق الفائزة تحصل على جوائز مالية لدعم الابتكار.",
+      "keyword": "جوائز",
+      "template": "chart",
+      "labels": [
+        "مال",
+        "جوائز",
+        "دعم"
+      ],
+      "values": [],
+      "claim": "In total, two winning teams may be selected to receive up to $250,000 each.",
+      "sourceId": "946586051f9f",
+      "evidence": "In total, two winning teams may be selected to receive up to $250,000 each.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "sleep",
+      "brollQuery": "money"
+    },
+    {
+      "title": "التعاون مع الوكالة",
+      "text": "الفرق اللي بتوصل للمراحل المتقدمة هتاخد فرصة للتعاون مع خبراء الوكالة، وهيكون عندهم وصول لتقنيات متطورة بتستخدم غاز الكريبتون كوقود، وده بيسهل عليهم تطوير حلول مبتكرة ومنافسة في سوق الفضاء التجاري العالمي.",
+      "summary": "الفرق تتعاون مع خبراء الوكالة للوصول لتقنيات متطورة.",
+      "keyword": "تعاون",
+      "template": "journey",
+      "labels": [
+        "خبراء",
+        "تقنية",
+        "تعاون"
+      ],
+      "values": [],
+      "claim": "Through no-cost licensing, these teams can gain early access to NASA-developed Hall effect thruster technologies that use krypton as a propellant.",
+      "sourceId": "946586051f9f",
+      "evidence": "Through no-cost licensing, these teams can gain early access to NASA-developed Hall effect thruster technologies that use krypton as a propellant.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "run",
+      "brollQuery": "scientist"
+    },
+    {
+      "title": "مستقبل الاستكشاف",
+      "text": "المبادرة دي مش بس بتطور محركات، دي كمان بتقوي اقتصاد الفضاء وبتمهد الطريق لمهام استكشافية جديدة، والوكالة بتأمل إن المشاركين يشوفوا الفرصة دي كطريقة لإثبات قدراتهم قدام العالم كله في مجال تكنولوجيا الفضاء.",
+      "summary": "المبادرة تعزز اقتصاد الفضاء وتدعم مهام الاستكشاف المستقبلية.",
+      "keyword": "استكشاف",
+      "template": "phenomenon",
+      "labels": [
+        "اقتصاد",
+        "فضاء",
+        "مستقبل"
+      ],
+      "values": [],
+      "claim": "The competition is the first of NASA’s Tech Maturation Prize series, which seeks to accelerate development of breakthrough technologies in support of NASA missions while strengthening the U.S. space economy.",
+      "sourceId": "946586051f9f",
+      "evidence": "The competition is the first of NASA’s Tech Maturation Prize series, which seeks to accelerate development of breakthrough technologies in support of NASA missions while strengthening the U.S. space economy.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "hang",
+      "brollQuery": "space exploration"
+    }
+  ],
+  "seriesLabel": "علوم الفضاء",
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}

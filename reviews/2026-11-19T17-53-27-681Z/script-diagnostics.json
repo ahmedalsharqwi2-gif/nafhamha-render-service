@@ -1,0 +1,6 @@
+{
+  "code": "SCRIPT_LINT",
+  "attempt": 2,
+  "zodIssues": null,
+  "detail": "scene[6].text spelled_out_year: year-like number words in: وكل فريق منهم هياخد مبلغ بيوصل لمائتين وخمسين ألف دولار."
+}

@@ -44,7 +44,19 @@
   {
     "topicKey": "nasa-rs25-engine-testing",
     "value": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
-    "status": "reserved",
+    "status": "retired",
     "run": "2026-11-19T15-16-37-030Z"
+  },
+  {
+    "topicKey": "nasa-ampere-thruster-challenge",
+    "value": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/",
+    "status": "retired",
+    "run": "2026-11-19T17-53-27-681Z"
+  },
+  {
+    "value": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+    "status": "retired",
+    "reason": "SCRIPT_LINT",
+    "run": "2026-11-19T18-09-55-277Z"
   }
 ]

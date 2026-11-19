@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-19T17-53-27-681Z",
+  "attemptId": "2026-11-19T17-53-27-681Z",
+  "mode": "review",
+  "published": false,
+  "status": "running",
+  "resumed": false,
+  "stages": [
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.111
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 9.085
+    },
+    {
+      "name": "script",
+      "status": "pass",
+      "seconds": 207.799
+    },
+    {
+      "name": "voice",
+      "status": "pass",
+      "seconds": 520.65
+    },
+    {
+      "name": "voice-repair-1",
+      "status": "pass",
+      "seconds": 1.674
+    }
+  ],
+  "limitations": [
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate.",
+    "align failed (ALIGNMENT_INVALID_MEASURED_SPAN); re-narrating once with fresh synthesis"
+  ],
+  "retiredEpisode": {
+    "id": "2026-11-19T15-16-37-030Z",
+    "stage": "qa",
+    "code": "STAGE_FAILED_SEE_RUNBOOK",
+    "reason": "Same stage and code failed on consecutive resumed attempts; retained audio and hash-locked script are immutable, so the deterministic failure cannot clear. Episode retired; a fresh episode is rolled through the same gates."
+  }
+}

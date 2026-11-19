@@ -1,0 +1,101 @@
+{
+  "id": "2026-11-19T18-11-35-659Z",
+  "attemptId": "2026-11-19T17-53-27-681Z",
+  "mode": "review",
+  "published": false,
+  "status": "failed",
+  "resumed": false,
+  "stages": [
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.111
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 9.085
+    },
+    {
+      "name": "script",
+      "status": "pass",
+      "seconds": 207.799
+    },
+    {
+      "name": "voice",
+      "status": "pass",
+      "seconds": 520.65
+    },
+    {
+      "name": "voice-repair-1",
+      "status": "pass",
+      "seconds": 1.674
+    },
+    {
+      "name": "roll",
+      "status": "rolled_fresh_topic",
+      "roll": 1,
+      "fromStage": "align-repair-1",
+      "code": "ALIGNMENT_INVALID_MEASURED_SPAN"
+    },
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.039
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 0.022
+    },
+    {
+      "name": "roll",
+      "status": "rolled_fresh_topic",
+      "roll": 2,
+      "fromStage": "script",
+      "code": "SCRIPT_LINT"
+    },
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.036
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 0.018
+    }
+  ],
+  "limitations": [
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate.",
+    "align failed (ALIGNMENT_INVALID_MEASURED_SPAN); re-narrating once with fresh synthesis",
+    "align repair failed (ALIGNMENT_INVALID_MEASURED_SPAN); repair budget exhausted"
+  ],
+  "retiredEpisode": {
+    "id": "2026-11-19T15-16-37-030Z",
+    "stage": "qa",
+    "code": "STAGE_FAILED_SEE_RUNBOOK",
+    "reason": "Same stage and code failed on consecutive resumed attempts; retained audio and hash-locked script are immutable, so the deterministic failure cannot clear. Episode retired; a fresh episode is rolled through the same gates."
+  },
+  "rolled": [
+    {
+      "id": "2026-11-19T17-53-27-681Z",
+      "stage": "align-repair-1",
+      "code": "ALIGNMENT_INVALID_MEASURED_SPAN",
+      "roll": 1
+    },
+    {
+      "id": "2026-11-19T18-09-55-277Z",
+      "stage": "script",
+      "code": "SCRIPT_LINT",
+      "roll": 2
+    }
+  ],
+  "failedStage": "script",
+  "errorCode": "GEMINI_HTTP_503_EXHAUSTED",
+  "partial": {
+    "status": "rendered",
+    "path": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/out/2026-11-19T18-11-35-659Z/incomplete/visual-preview-incomplete.mp4",
+    "incomplete": true
+  }
+}

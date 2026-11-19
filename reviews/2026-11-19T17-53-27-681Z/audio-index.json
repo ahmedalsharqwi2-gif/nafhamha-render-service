@@ -1,0 +1,186 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 18.08,
+    "text": "وكالة الفضاء الأمريكية أعلنت عن مسابقة جديدة بتدعي فيها الشركات لتطوير نماذج أولية لمحركات كهربائية متطورة، والهدف هو تحسين كفاءة الدفع في المهام الفضائية الطويلة اللي بتحتاج تكنولوجيا دقيقة وموفرة للطاقة بشكل كبير.",
+    "sha256": "92b4285696f78774baa37532e80dc4590b687712fc37a1704de1dd9a4328cf16",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "ad07cf6d53c65fb46cd267a33ed15e8fb6ff67742395792403fa4b427ddc28bc",
+        "sha256": "92b4285696f78774baa37532e80dc4590b687712fc37a1704de1dd9a4328cf16",
+        "text_sha256": "0f981628c9a3eedbcc212967f861a86ea138a5ac96695af467341fd5f8bb9fff",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 867918,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 17.88,
+    "text": "المحركات دي بتستخدم مجال كهربائي عشان تسرع غاز معين، وده بينتج قوة دفع فعالة جداً، والنوع ده من المحركات بيعتبر تقنية حيوية ومهمة جداً لتشغيل الأقمار الصناعية والمركبات الروبوتية في أعماق الفضاء البعيد.",
+    "sha256": "f9a54d26a96e7d76832639c12376e225b6bfe26bdcbc8b87a00a6f72677bf8c5",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "3ec4c28774b5b159f880b35a1a298b6c536c3c69ad365b9e0ea1e430d704aac0",
+        "sha256": "f9a54d26a96e7d76832639c12376e225b6bfe26bdcbc8b87a00a6f72677bf8c5",
+        "text_sha256": "7658e232045600042bd5007a7e35ae435ca5974282b985786cebcdc41e3e513a",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 858318,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 15.32,
+    "text": "الميزة الكبيرة هنا إن النظام ده بيستهلك وقود أقل بكتير من الصواريخ الكيميائية التقليدية، وده بيخلي المركبات تقدر تكمل رحلاتها لفترات أطول بكتير من غير ما تحتاج كميات ضخمة من الوقود التقليدي الثقيل.",
+    "sha256": "e500fab2a746fd3beea6c8aa54fe1fa8d447dad814c93e529ae374ae52ee199b",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "6828e625ffe4e5c658325834d3c2aa838c2c3fc4b20bb325046e3e49dd64fc38",
+        "sha256": "e500fab2a746fd3beea6c8aa54fe1fa8d447dad814c93e529ae374ae52ee199b",
+        "text_sha256": "b866befd66a4e8beeb61b7c1acfbdc938029421ef7b8bceb7dc854b7bbfe2673",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 735438,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 15.24,
+    "text": "المسابقة دي بتقدم مبالغ مالية كبيرة للشركات الفايزة عشان تساعدهم يطوروا الأنظمة دي، والهدف هو تسريع نضج التكنولوجيا اللي ممكن تكون أساسية لدعم مهام الوكالة والشركات التجارية في المستقبل القريب في الفضاء.",
+    "sha256": "391a161746cd7bc021dbeefc49720f5e2156a5a9ec4b5cae55779cfebf3ed0fd",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "ca03ebed202b85440bfd137d232f0be4fba191f1949faf00145adb8267008121",
+        "sha256": "391a161746cd7bc021dbeefc49720f5e2156a5a9ec4b5cae55779cfebf3ed0fd",
+        "text_sha256": "58552508db8b8199eee632872eec75457fa6699bc689726419fd1651559cf46f",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 731598,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 15.810958,
+    "text": "المسابقة بتمر بتلات مراحل أساسية، بتبدأ بتقديم تصميمات وخطط تصنيع، وبعدين بيتم اختيار فرق لتطوير نماذج أولية، وفي المرحلة الأخيرة بيتم اختبار النماذج دي في مرافق الوكالة المتطورة من غير تكلفة على الفرق.",
+    "sha256": "b6b77ff11535f589ca72f498558a2f3d95237fb77c05b3f7c17c4526e51b4076",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "6bd295f0e3cc9611cd8f17def851559806be1a4722574f7533ec3b7b962ba5f1",
+        "sha256": "b6b77ff11535f589ca72f498558a2f3d95237fb77c05b3f7c17c4526e51b4076",
+        "text_sha256": "3cf01041935bc56c2b3ddb6f908abf5465edfb69a59b0054d154a389f257dda9",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 759004,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 16.44,
+    "text": "وكل فريق من الفرق الفايزة ممكن يحصل على مبلغ مالي بيوصل لربع مليون دولار، وده بيشجع الشركات إنها تقدم أفضل ما عندها وتشارك في تطوير تكنولوجيا المحركات الكهربائية اللي بتخدم مستقبل البشرية في الفضاء.",
+    "sha256": "a00cf9cea4ddb314cf5519ff0af3badd4d5a7516ee148bb7ddf15e5249382325",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "24ef3e7e8d11bc3d9a22aba3f472b6b6758bf3c66d1ec65efd68575751f6769f",
+        "sha256": "a00cf9cea4ddb314cf5519ff0af3badd4d5a7516ee148bb7ddf15e5249382325",
+        "text_sha256": "660233c3fbb0a2d3a56ce64a9d9fa90453a3719351e3404fb42c2c12de0653b0",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 789198,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 15.610958,
+    "text": "الفرق اللي بتوصل للمراحل المتقدمة هتاخد فرصة للتعاون مع خبراء الوكالة، وهيكون عندهم وصول لتقنيات متطورة بتستخدم غاز الكريبتون كوقود، وده بيسهل عليهم تطوير حلول مبتكرة ومنافسة في سوق الفضاء التجاري العالمي.",
+    "sha256": "6fbfeeb054a107ebfbd447c6453a5ade12a383d104a9abe3c909cbae24644931",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "14e5b575fc5bce0c8f36e67bd89dbc532937c556cdeb9b8952f219697469f6cd",
+        "sha256": "6fbfeeb054a107ebfbd447c6453a5ade12a383d104a9abe3c909cbae24644931",
+        "text_sha256": "403fb2afcbeeba4a509eb2f6c2f5fb267eca632b44e2bccea64c0b64038f271d",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 749404,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 16,
+    "text": "المبادرة دي مش بس بتطور محركات، دي كمان بتقوي اقتصاد الفضاء وبتمهد الطريق لمهام استكشافية جديدة، والوكالة بتأمل إن المشاركين يشوفوا الفرصة دي كطريقة لإثبات قدراتهم قدام العالم كله في مجال تكنولوجيا الفضاء.",
+    "sha256": "eee2df36562c1da2eed860d9e201c3c26fe810fee1380f0f78d60c4eaa7a6075",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "3558208b434c4c29ef8ce24a6c7f8e91784aac73949b40d95893b35762ac832a",
+        "sha256": "eee2df36562c1da2eed860d9e201c3c26fe810fee1380f0f78d60c4eaa7a6075",
+        "text_sha256": "dd4920be805b57daf9e938667f4309a192cb26b86dc9df936b9d27b6e5c7be3d",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 768078,
+        "reused": true
+      }
+    ]
+  }
+]

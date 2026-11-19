@@ -1,0 +1,6 @@
+{
+  "code": "SCRIPT_LINT",
+  "attempt": 3,
+  "zodIssues": null,
+  "detail": "scene[2].text spelled_out_number_run: 3 consecutive number-words in: لدرجة إننا لقينا نجم بيلف مائتين وواحد وستين مرة في الثانية الواحدة باستخدام كمبيوتر عادي في عشر ساعات."
+}
