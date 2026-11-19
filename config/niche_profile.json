@@ -1,0 +1,94 @@
+{
+  "channel": "نفهمها",
+  "audience": "curious Egyptian-Arabic viewers wanting quick understanding",
+  "searchIntent": "يعني إيه…، إزاي…، ليه…، الفرق بين…",
+  "tone": "simple, friendly Egyptian explanation, no jargon",
+  "pillars": [
+    {
+      "id": "how_things_work",
+      "title": "إزاي بتشتغل الأشياء اليومية (تكنولوجيا وأجهزة)",
+      "keywords": [
+        "إزاي بتشتغل",
+        "موبايل",
+        "بطارية",
+        "شاحن",
+        "واي فاي",
+        "wifi",
+        "بلوتوث",
+        "شاشة",
+        "معالج",
+        "bluetooth"
+      ]
+    },
+    {
+      "id": "money_simplified",
+      "title": "اقتصاد وفلوس مبسط (مفاهيم عامة فقط)",
+      "keywords": [
+        "تضخم",
+        "فايدة",
+        "دولار",
+        "عملة",
+        "سعر الصرف",
+        "بنك مركزي",
+        "inflation",
+        "interest"
+      ]
+    },
+    {
+      "id": "everyday_science",
+      "title": "علوم يومية",
+      "keywords": [
+        "مغناطيس",
+        "ماء",
+        "ثلج",
+        "صابون",
+        "بخار",
+        "غليان",
+        "science"
+      ]
+    },
+    {
+      "id": "society_history_causes",
+      "title": "أسباب اجتماعية وتاريخية مبسطة",
+      "keywords": [
+        "ليه حصل",
+        "سبب",
+        "أصل العادة",
+        "تقليد",
+        "tradition"
+      ]
+    },
+    {
+      "id": "news_terms",
+      "title": "مصطلحات متداولة في الأخبار",
+      "keywords": [
+        "يعني إيه",
+        "مصطلح",
+        "سقف الدين",
+        "احتياطي",
+        "term",
+        "definition"
+      ]
+    }
+  ],
+  "questionPatterns": [
+    "يعني إيه",
+    "إزاي",
+    "ليه",
+    "الفرق بين"
+  ],
+  "bannedTopics": [
+    "نصيحة طبية شخصية",
+    "نصيحة قانونية شخصية",
+    "نصيحة استثمار"
+  ],
+  "rules": [
+    "health/legal/investment: general explanation from an official source with no personal recommendations, otherwise exclude"
+  ],
+  "bankMix": {
+    "evergreen": 75,
+    "trending": 25
+  },
+  "visualFilmabilityDefault": 0.7,
+  "aiDisclosure": "محتوى مُنشأ بمساعدة الذكاء الاصطناعي"
+}
