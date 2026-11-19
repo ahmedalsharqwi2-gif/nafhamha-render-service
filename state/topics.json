@@ -4,5 +4,11 @@
     "value": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
     "status": "retired",
     "run": "2026-11-15T22-21-04-406Z"
+  },
+  {
+    "topicKey": "nasa-webb-bao-stellar-merger",
+    "value": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+    "status": "reserved",
+    "run": "2026-11-19T06-38-45-015Z"
   }
 ]

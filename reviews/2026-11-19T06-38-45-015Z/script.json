@@ -1,0 +1,169 @@
+{
+  "topicKey": "nasa-webb-bao-stellar-merger",
+  "title": "اندماج نجمي في مجرة أندروميدا",
+  "hook": "ماذا لو قلت لك إن هناك نجماً عملاقاً ابتلع رفيقه في الفضاء؟",
+  "cta": "تابعونا لمعرفة المزيد عن أسرار الكون العجيبة واكتشافات تلسكوب جيمس ويب القادمة.",
+  "scenes": [
+    {
+      "title": "بداية القصة",
+      "text": "تخيل نجمين بيدوروا حوالين بعض بسلام لآلاف السنين، وفجأة النجم الصغير يقرر يقرب من سطح النجم العملاق، ويبدأ صراع البقاء اللي بيغير شكل النجوم للأبد في مجرة أندروميدا المجاورة لينا.",
+      "summary": "نجمان في مدار ثنائي يبدآن عملية اندماج كونية.",
+      "keyword": "نظام ثنائي",
+      "template": "phenomenon",
+      "labels": [
+        "نجم",
+        "مدار",
+        "أندروميدا"
+      ],
+      "values": [],
+      "claim": "نظام نجمي ثنائي في أندروميدا مر بعملية اندماج.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "Before their transformation, the two stars spent millennia placidly orbiting one another as a binary pair.",
+      "kind": "illustration",
+      "expression": 5,
+      "action": "point"
+    },
+    {
+      "title": "الاندماج السريع",
+      "text": "العلماء لاحظوا إن الاندماج ده حصل بسرعة غير متوقعة، خلال 7 مدارات بس، يعني حوالي 7 سنين، وده بيعتبر ومضة في عمر النجوم اللي عادة بتاخد آلاف السنين عشان تندمج مع بعضها.",
+      "summary": "الاندماج حدث خلال 7 سنوات فقط.",
+      "keyword": "اندماج",
+      "template": "comparison",
+      "labels": [
+        "زمن",
+        "مدارات",
+        "سرعة"
+      ],
+      "values": [
+        7
+      ],
+      "claim": "الاندماج استغرق سبع مدارات فقط.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "their “unification” happened after only seven orbits (about seven years).",
+      "kind": "fact",
+      "expression": 8,
+      "action": "run"
+    },
+    {
+      "title": "تلسكوب ويب في الموعد",
+      "text": "تلسكوب جيمس ويب رصد النجم الملقب بـ باو بعد 47 يوم بس من ذروة الانفجار، وده أسرع رصد لحدث من النوع ده، وساعدنا نفهم إيه اللي حصل قبل وبعد الاندماج ده.",
+      "summary": "رصد ويب للحدث بعد 47 يوما من الانفجار.",
+      "keyword": "جيمس ويب",
+      "template": "journey",
+      "labels": [
+        "تلسكوب",
+        "رصد",
+        "انفجار"
+      ],
+      "values": [
+        47
+      ],
+      "claim": "رصد ويب للحدث بعد 47 يوما من ذروة الانفجار.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "Webb observed Bao only 47 days after the stars’ eruption peaked, the earliest ever follow-up of an event like this.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "walk"
+    },
+    {
+      "title": "تكوين الغلاف المشترك",
+      "text": "لما النجم الصغير قرب، بدأ يجرده من طبقاته الخارجية، والغاز ده عمل غلاف مشترك بين النجمين، النجم العملاق ابتلع الصغير اللي بدأ يلف جوه الغلاف ويفقد طاقته لحد ما انتهى أمره.",
+      "summary": "تكون غلاف مشترك أدى لابتلاع النجم الصغير.",
+      "keyword": "غلاف مشترك",
+      "template": "cause",
+      "labels": [
+        "غاز",
+        "طاقة",
+        "ابتلاع"
+      ],
+      "values": [],
+      "claim": "تكون غلاف مشترك أدى لابتلاع النجم الصغير.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "In this system, the primary star engulfed the smaller star and the companion plummeted, spiraling through the envelope as it was robbed of orbital energy by drag.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "fall"
+    },
+    {
+      "title": "مواصفات النجم العملاق",
+      "text": "قبل الانفجار، النجم العملاق كان وحش حقيقي، كتلته 7 أضعاف كتلة الشمس، ونصف قطره 350 ضعف، وسطوعه 18 ألف ضعف، عشان كده سموه باو الكبير، وكان بيسيطر على المشهد تماماً في البيانات.",
+      "summary": "خصائص النجم العملاق باو.",
+      "keyword": "نجم عملاق",
+      "template": "chart",
+      "labels": [
+        "كتلة",
+        "نصف قطر",
+        "سطوع"
+      ],
+      "values": [],
+      "claim": "النجم العملاق كان كتلته 7 أضعاف الشمس ونصف قطره 350 ضعف.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "It was seven times as massive, 350 times the radius, and 18,000 times brighter",
+      "kind": "fact",
+      "expression": 10,
+      "action": "jump"
+    },
+    {
+      "title": "مصير النجم الصغير",
+      "text": "النجم الصغير، أو باو الصغير، كان أقل كتلة من الشمس، والنموذج بيورينا إنه بدل ما يهرب، تم سحبه لقلب النجم العملاق، وكأن قنبلة انفجرت جوه نجم حي، مشهد خيالي ومذهل فعلاً.",
+      "summary": "النجم الصغير تم سحبه لقلب العملاق.",
+      "keyword": "نجم صغير",
+      "template": "phenomenon",
+      "labels": [
+        "قلب النجم",
+        "طاقة",
+        "انفجار"
+      ],
+      "values": [
+        0.7
+      ],
+      "claim": "النجم الصغير تم سحبه لقلب النجم العملاق.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "further analysis determined that Little Bao was dragged into Big Bao’s core. Their encounter was “almost like a bomb exploding inside a living star,” De said.",
+      "kind": "fact",
+      "expression": 3,
+      "action": "turn"
+    },
+    {
+      "title": "اكتشافات مستقبلية",
+      "text": "العلماء استخدموا بيانات من تلسكوبات كتير عشان يتابعوا الحدث ده، ومع إطلاق تلسكوب نانسي جريس رومان، متوقع نشوف اكتشافات أكتر بكتير من النوع ده في المستقبل القريب، الكون لسه مخبي أسرار كتير.",
+      "summary": "توقعات باكتشافات مشابهة مستقبلا.",
+      "keyword": "تلسكوب رومان",
+      "template": "journey",
+      "labels": [
+        "اكتشاف",
+        "بيانات",
+        "مستقبل"
+      ],
+      "values": [],
+      "claim": "تلسكوب نانسي جريس رومان سيوفر اكتشافات مشابهة.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "The new finding comes about just as NASA’s recently launched Nancy Grace Roman Space Telescope is about to conduct vast publicly available surveys.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "point"
+    },
+    {
+      "title": "خاتمة",
+      "text": "دي كانت قصة اندماج النجوم في أندروميدا، العلم بيخلينا نشوف أبعد مما نتخيل، لو عجبكم الفيديو ده، ما تنسوش تشتركوا في القناة وتفعلوا الجرس عشان يوصلكم كل جديد عن الفضاء.",
+      "summary": "دعوة للاشتراك والمتابعة.",
+      "keyword": "فضاء",
+      "template": "steps",
+      "labels": [
+        "اشتراك",
+        "فضاء",
+        "علم"
+      ],
+      "values": [],
+      "claim": "العلم يوسع آفاق فهمنا للكون.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "Webb is solving mysteries in our solar system, looking beyond to distant worlds around other stars, and probing the mysterious structures and origins of our universe and our place in it.",
+      "kind": "illustration",
+      "expression": 11,
+      "action": "sleep"
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite-preview"
+}

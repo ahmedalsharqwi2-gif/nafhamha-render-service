@@ -1,0 +1,186 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 17.44,
+    "text": "تخيل نجمين بيدوروا حوالين بعض بسلام لآلاف السنين، وفجأة النجم الصغير يقرر يقرب من سطح النجم العملاق، ويبدأ صراع البقاء اللي بيغير شكل النجوم للأبد في مجرة أندروميدا المجاورة لينا.",
+    "sha256": "de37d0eb3993e3a7d447871475bfb99ccca36a734bf984de9b82d122e7ad6b21",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "e7884f76bf8944b09630ff00398a70ed42c93e4d4948934f6542537e2700b24b",
+        "sha256": "de37d0eb3993e3a7d447871475bfb99ccca36a734bf984de9b82d122e7ad6b21",
+        "text_sha256": "7d199309954833ad87a24fa420185fc9de186bdb839d33257d831a2a3625858d",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 837198,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 15.6,
+    "text": "العلماء لاحظوا إن الاندماج ده حصل بسرعة غير متوقعة، خلال 7 مدارات بس، يعني حوالي 7 سنين، وده بيعتبر ومضة في عمر النجوم اللي عادة بتاخد آلاف السنين عشان تندمج مع بعضها.",
+    "sha256": "abb9e05535f8947fd1258508d29e753e3070f38c8af16d5772a4571845151264",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "ce3a4ff70e7a90bda2ca157676e55f3bbf52d0d0bf76940d6ff1fc97e4f1e72f",
+        "sha256": "abb9e05535f8947fd1258508d29e753e3070f38c8af16d5772a4571845151264",
+        "text_sha256": "3ebe81116d44c904157e19bccccb9c0f1b0684949c9e17c8e577e6b07389ec7a",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 748878,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 12.56,
+    "text": "تلسكوب جيمس ويب رصد النجم الملقب بـ باو بعد 47 يوم بس من ذروة الانفجار، وده أسرع رصد لحدث من النوع ده، وساعدنا نفهم إيه اللي حصل قبل وبعد الاندماج ده.",
+    "sha256": "6c6e0e1671627e6847c4e856a6d5154f1c7b26ce2ea0fdf29e90685db9137eaa",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "ccb7b883033089fd3a1d03437a5ffad3012e70ce2d72acfe06ee3e3150d54210",
+        "sha256": "6c6e0e1671627e6847c4e856a6d5154f1c7b26ce2ea0fdf29e90685db9137eaa",
+        "text_sha256": "823b5cd9cfd056c273089545be096bb955408262e6b2bd347eb0b4057702e885",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 602958,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 16.92,
+    "text": "لما النجم الصغير قرب، بدأ يجرده من طبقاته الخارجية، والغاز ده عمل غلاف مشترك بين النجمين، النجم العملاق ابتلع الصغير اللي بدأ يلف جوه الغلاف ويفقد طاقته لحد ما انتهى أمره.",
+    "sha256": "d754807cadd7f97c13e1342dd0461dfa4e4746a486a6f01c27d040c0d2ddefa3",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "d608fc47df3401472889e0c7f23d63e1529099af996f20715ff35c3d122c4d6d",
+        "sha256": "d754807cadd7f97c13e1342dd0461dfa4e4746a486a6f01c27d040c0d2ddefa3",
+        "text_sha256": "18cc0af5c8d59cf8735923ac7fa5facd92906645401cbb240010bbe4520f4cf1",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 812238,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 19.76,
+    "text": "قبل الانفجار، النجم العملاق كان وحش حقيقي، كتلته 7 أضعاف كتلة الشمس، ونصف قطره 350 ضعف، وسطوعه 18 ألف ضعف، عشان كده سموه باو الكبير، وكان بيسيطر على المشهد تماماً في البيانات.",
+    "sha256": "acef684a8b83596d75d1f732300ef7e051f9c749ea4e1462ebd7ad33253e37dc",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "31e1b9824529c42a70b14296a9c3fb7a2bc538e755c70bb791f6f81953a98116",
+        "sha256": "acef684a8b83596d75d1f732300ef7e051f9c749ea4e1462ebd7ad33253e37dc",
+        "text_sha256": "d000b54fbd67e8d8952425372c0502b6577176893b0c50f27a48039f2f2e052e",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 948558,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 17,
+    "text": "النجم الصغير، أو باو الصغير، كان أقل كتلة من الشمس، والنموذج بيورينا إنه بدل ما يهرب، تم سحبه لقلب النجم العملاق، وكأن قنبلة انفجرت جوه نجم حي، مشهد خيالي ومذهل فعلاً.",
+    "sha256": "60409cc7d6e1c0f54096fdfecf0b82047735e101e8c673de045d0d4483d4b5dc",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "014bdffc2a2611378a9b8b693d7f99b0744d607e1e2e74af1a3ba40941027d2e",
+        "sha256": "60409cc7d6e1c0f54096fdfecf0b82047735e101e8c673de045d0d4483d4b5dc",
+        "text_sha256": "c1e4ee096b16a01a45defe29e45c0cf965b51318cd26124569dfb7acf297e2fd",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 816078,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 15.6,
+    "text": "العلماء استخدموا بيانات من تلسكوبات كتير عشان يتابعوا الحدث ده، ومع إطلاق تلسكوب نانسي جريس رومان، متوقع نشوف اكتشافات أكتر بكتير من النوع ده في المستقبل القريب، الكون لسه مخبي أسرار كتير.",
+    "sha256": "9650157a9ef843809a5b35379a21075de158735ef19e84383e945736866d0c3c",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "876308df6af0e6825a5fccfa97b82fa9bfac87dcc3aebff3f55748a2333efcc9",
+        "sha256": "9650157a9ef843809a5b35379a21075de158735ef19e84383e945736866d0c3c",
+        "text_sha256": "9edfdd8667c619cc73c56b15b652c5dfade232395ab35ea7ea59b10b4b1c3dbd",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 748878,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 13.4,
+    "text": "دي كانت قصة اندماج النجوم في أندروميدا، العلم بيخلينا نشوف أبعد مما نتخيل، لو عجبكم الفيديو ده، ما تنسوش تشتركوا في القناة وتفعلوا الجرس عشان يوصلكم كل جديد عن الفضاء.",
+    "sha256": "52a197118be5182d7e885b1757a685f6bc9448afb16ae321c945cb8d06451bc0",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "6660614de7a75087d4f479f0edbc60fdfddc69a4ce5d6f2e43028857c68d780f",
+        "sha256": "52a197118be5182d7e885b1757a685f6bc9448afb16ae321c945cb8d06451bc0",
+        "text_sha256": "1984bea480e3ffe8078b2d96b5593fa03d3a21e1a41251400ca3eba771f4a1ea",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 643278,
+        "reused": false
+      }
+    ]
+  }
+]
