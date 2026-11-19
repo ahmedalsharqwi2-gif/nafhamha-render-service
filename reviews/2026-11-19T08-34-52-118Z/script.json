@@ -1,0 +1,163 @@
+{
+  "topicKey": "horsehead-flame-nebula-imaging",
+  "title": "أهم أخبار الأسبوع: أسرار سديم رأس الحصان",
+  "hook": "ماذا لو قلت لك إن صورة فلكية مذهلة تم التقاطها من مسافة تزيد عن ألفين كيلومتر؟ هل تتخيل أننا نتحكم في تلسكوبات عملاقة من بيوتنا لنصور سديم يبعد عنا ألف وخمسمائة سنة ضوئية؟",
+  "cta": "تابعونا كل أسبوع عشان تعرفوا أسرار الكون اللي بنكتشفها كل يوم، واشتركوا في القناة عشان يوصلكم كل جديد عن الفضاء والعلوم، وشاركوا الفيديو مع أصحابكم المهتمين بعلم الفلك والنجوم.",
+  "scenes": [
+    {
+      "title": "سديم رأس الحصان المذهل",
+      "text": "في صورة اليوم، بنشوف سديم رأس الحصان الشهير، وهو تشكيل غازي وغباري بياخد شكل رأس حصان. الصورة دي مش مجرد لوحة فنية، دي حقيقة علمية بتورينا جمال الكون اللي بيحيط بينا في كل مكان.",
+      "summary": "استكشاف سديم رأس الحصان الفضائي",
+      "keyword": "سديم",
+      "template": "phenomenon",
+      "labels": [
+        "فضاء",
+        "سديم",
+        "نجوم"
+      ],
+      "values": [],
+      "claim": "سديم رأس الحصان هو تشكيل غباري وغازي.",
+      "sourceId": "2e20115a6100",
+      "evidence": "The instantly recognizable shape of a dark horse’s head at the center is the aptly named Horsehead Nebula .",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point"
+    },
+    {
+      "title": "أبعاد السديم العملاق",
+      "text": "السديم ده مش صغير زي ما يبان، ده طوله بيوصل لخمس سنوات ضوئية كاملة. تخيلوا حجمه المهول وهو بيعوم في الفضاء السحيق، بيحجب الضوء اللي وراه وبيخلق مشهد كوني بيخطف الأنفاس بجد.",
+      "summary": "حجم سديم رأس الحصان",
+      "keyword": "سنة ضوئية",
+      "template": "comparison",
+      "labels": [
+        "أبعاد",
+        "فضاء",
+        "كون"
+      ],
+      "values": [],
+      "claim": "يبلغ طول سديم رأس الحصان خمس سنوات ضوئية.",
+      "sourceId": "2e20115a6100",
+      "evidence": "It is about five light-years tall and lies approximately 1,500 light-years away.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "walk"
+    },
+    {
+      "title": "سر التوهج الأحمر",
+      "text": "ليه السديم ده منور باللون الأحمر؟ السبب هو غاز الهيدروجين اللي بيتم تأيينه بواسطة نجم ساطع اسمه سيجما أوريونيس. النجم ده بيخلي الغاز يشع ضوء أحمر قوي بيظهر ورا السديم المظلم ده.",
+      "summary": "تفسير توهج الهيدروجين",
+      "keyword": "هيدروجين",
+      "template": "cause",
+      "labels": [
+        "كيمياء",
+        "نجوم",
+        "فيزياء"
+      ],
+      "values": [],
+      "claim": "توهج السديم ناتج عن تأين غاز الهيدروجين.",
+      "sourceId": "2e20115a6100",
+      "evidence": "It is made of dust and gas that obscure the red glow behind it, which is caused by hydrogen gas being ionized by the bright star Sigma Orionis at the top.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "jump"
+    },
+    {
+      "title": "نجم النطاق الساطع",
+      "text": "على يسار المركز، بنشوف نجم أزرق ساطع جداً اسمه النطاق. النجم ده جزء من حزام كوكبة الجبار، وهو نظام نجمي ثلاثي بيعتبر من أشهر النجوم اللي بنشوفها في السما بالليل بوضوح تام.",
+      "summary": "نجم النطاق في كوكبة الجبار",
+      "keyword": "النطاق",
+      "template": "phenomenon",
+      "labels": [
+        "نجوم",
+        "كوكبة",
+        "فلك"
+      ],
+      "values": [],
+      "claim": "النطاق هو نجم ثلاثي في حزام الجبار.",
+      "sourceId": "2e20115a6100",
+      "evidence": "The brightest star, left of the center, is blue Alnitak (the Girdle): a triple star system best known for being the easternmost star in Orion’s Belt .",
+      "kind": "fact",
+      "expression": 6,
+      "action": "point"
+    },
+    {
+      "title": "سديم اللهب البرتقالي",
+      "text": "جنب رأس الحصان، فيه سديم تاني اسمه سديم اللهب، لونه برتقالي وفيه خيوط مظلمة. المنظر ده بيورينا قد إيه الكون مليان تفاصيل معقدة ومختلفة، وكل سديم له قصته الخاصة وتكوينه الفريد والمميز جداً.",
+      "summary": "وصف سديم اللهب",
+      "keyword": "سديم اللهب",
+      "template": "phenomenon",
+      "labels": [
+        "سديم",
+        "كون",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "سديم اللهب يتميز بلون برتقالي وخيوط مظلمة.",
+      "sourceId": "2e20115a6100",
+      "evidence": "The orange nebula with dark filaments on the left is the Flame Nebula .",
+      "kind": "fact",
+      "expression": 9,
+      "action": "turn"
+    },
+    {
+      "title": "ولادة النجوم الجديدة",
+      "text": "قريب من رأس الحصان، فيه سديم انعكاسي أزرق اسمه إن جي سي ألفين ثلاثة وعشرين. السديم ده مكان نشط جداً، وفيه نجوم جديدة بتتكون حالياً، وده بيورينا دورة حياة النجوم في الفضاء.",
+      "summary": "تكون النجوم في السديم",
+      "keyword": "نجوم",
+      "template": "journey",
+      "labels": [
+        "نجوم",
+        "تكون",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "سديم إن جي سي ألفين ثلاثة وعشرين يشكل نجوماً.",
+      "sourceId": "2e20115a6100",
+      "evidence": "Closer to the Horsehead, the blue reflection nebula NGC 2023 is actively forming stars.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "run"
+    },
+    {
+      "title": "تصوير عن بعد",
+      "text": "المذهل إن البيانات اللي طلعت الصورة دي اتجمعت في ست ساعات من مرصد في يوتا، لكن المصور كان بيتحكم في التلسكوب من بيته في إلينوي، على بعد أكثر من ألفين كيلومتر من المرصد.",
+      "summary": "التحكم عن بعد في التلسكوبات",
+      "keyword": "مرصد",
+      "template": "steps",
+      "labels": [
+        "تكنولوجيا",
+        "تصوير",
+        "فلك"
+      ],
+      "values": [],
+      "claim": "تم التحكم في التلسكوب من مسافة ألفين كيلومتر.",
+      "sourceId": "2e20115a6100",
+      "evidence": "the equipment was remotely controlled by the astrophotographer from his home, over 2,000 km away in Illinois .",
+      "kind": "fact",
+      "expression": 10,
+      "action": "point"
+    },
+    {
+      "title": "خيال علمي أم حقيقة؟",
+      "text": "تخيل إن كل ده حقيقة مش خيال، العلم بيخلينا نشوف أبعد نقطة في الكون من غير ما نتحرك من مكاننا. التكنولوجيا دي بتفتح لنا أبواب جديدة لفهم أسرار الفضاء الشاسع اللي بيحيط بينا.",
+      "summary": "العلم يفتح آفاق الكون",
+      "keyword": "تكنولوجيا",
+      "template": "phenomenon",
+      "labels": [
+        "علم",
+        "فضاء",
+        "تكنولوجيا"
+      ],
+      "values": [],
+      "claim": "التكنولوجيا تتيح استكشاف الكون عن بعد.",
+      "sourceId": "2e20115a6100",
+      "evidence": "Today’s image could have been a painting.",
+      "kind": "illustration",
+      "expression": 11,
+      "action": "sleep"
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite-preview"
+}

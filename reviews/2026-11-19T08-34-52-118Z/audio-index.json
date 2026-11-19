@@ -1,0 +1,199 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 15.72,
+    "text": "في صورة اليوم، بنشوف سديم رأس الحصان الشهير، وهو تشكيل غازي وغباري بياخد شكل رأس حصان. الصورة دي مش مجرد لوحة فنية، دي حقيقة علمية بتورينا جمال الكون اللي بيحيط بينا في كل مكان.",
+    "sha256": "b6433352911d957dda4d0ec5a00d4ffa4b29e173b78c3234ae474bc9ed2b5125",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "b5d48c3122d14dae9611ff603f955ba8486fb4e6b48cc48d3510bc1f137814de",
+        "sha256": "b6433352911d957dda4d0ec5a00d4ffa4b29e173b78c3234ae474bc9ed2b5125",
+        "text_sha256": "62f2710fb774f978267b37f07dc2bbb26a64a91c77d27c8b9a0d633b88fba711",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 754638,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 15.64,
+    "text": "السديم ده مش صغير زي ما يبان، ده طوله بيوصل لخمس سنوات ضوئية كاملة. تخيلوا حجمه المهول وهو بيعوم في الفضاء السحيق، بيحجب الضوء اللي وراه وبيخلق مشهد كوني بيخطف الأنفاس بجد.",
+    "sha256": "5193ef42a1e20bcd88aa7b4a92601de3a5f94689c1e20860e46796c8f5874911",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "243bebe1e8f2536efa5ac69ff4d66f7c209efa0dd62d0625446814cb93353566",
+        "sha256": "5193ef42a1e20bcd88aa7b4a92601de3a5f94689c1e20860e46796c8f5874911",
+        "text_sha256": "7d300b858e4bea7ed6527301b715966460de4cb91973702f052e99e26f39d2ab",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 750798,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 17.64,
+    "text": "ليه السديم ده منور باللون الأحمر؟ السبب هو غاز الهيدروجين اللي بيتم تأيينه بواسطة نجم ساطع اسمه سيجما أوريونيس. النجم ده بيخلي الغاز يشع ضوء أحمر قوي بيظهر ورا السديم المظلم ده.",
+    "sha256": "f1317bf7a21cf58cc93f10a3a0b53917f66a50b5407413e35be160e86efb6717",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "9697021209add1e23a77b882c2cd5ad026963c091b43f3e16d6a74346aff63f7",
+        "sha256": "f0821721ab74fd9cffa4e836471a52a443c9ee052deda01c539d5ac9468e16a5",
+        "text_sha256": "c1804cda3bafdd989e0b3e58912c426533090fb935c3f62f2b7d94730f7a7209",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 520398,
+        "reused": false
+      },
+      {
+        "scene": 2,
+        "chunk": 1,
+        "schema": 1,
+        "cacheKey": "c8c488b4f2b289776e2f0671a090bf60232b4a1f2eada18f3ab9b669deb75add",
+        "sha256": "6166622fdad5422192202fcd1e5385c1114f30f71e8da3c3aa061e5eca157c71",
+        "text_sha256": "e6170167bbd1341b0b6d24bc9393ac72d67cd066d22aef70688a7f3cbd2724ce",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 326478,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 16.2,
+    "text": "على يسار المركز، بنشوف نجم أزرق ساطع جداً اسمه النطاق. النجم ده جزء من حزام كوكبة الجبار، وهو نظام نجمي ثلاثي بيعتبر من أشهر النجوم اللي بنشوفها في السما بالليل بوضوح تام.",
+    "sha256": "f048f382c7bb6053da6d6c9e0831cdd48c8f2d300bf0e8e7fe5d6e1e0162fe40",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "b1ab914dabf65d853f47f0201f0477e4baa4ac9edb58fd4eceaea168cca7fdd4",
+        "sha256": "f048f382c7bb6053da6d6c9e0831cdd48c8f2d300bf0e8e7fe5d6e1e0162fe40",
+        "text_sha256": "c16b30ff145f6ca93daf109e6ca1ff798322030018fd62aa75ba361438d1d5f9",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 777678,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 17.56,
+    "text": "جنب رأس الحصان، فيه سديم تاني اسمه سديم اللهب، لونه برتقالي وفيه خيوط مظلمة. المنظر ده بيورينا قد إيه الكون مليان تفاصيل معقدة ومختلفة، وكل سديم له قصته الخاصة وتكوينه الفريد والمميز جداً.",
+    "sha256": "406145629270c65d32d7bd462b5e0d86752b30ccd525b43c62e3170f6a2abc2e",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "9ede109e66e048f48f2736e6e751a9cea95917f0808184bc2bef029d01acbb68",
+        "sha256": "406145629270c65d32d7bd462b5e0d86752b30ccd525b43c62e3170f6a2abc2e",
+        "text_sha256": "112acd6903c6fe9e36ac4fc432132fb3d4dbd6234d53c48d3fb48cc4fc6bddb5",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 842958,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 15.28,
+    "text": "قريب من رأس الحصان، فيه سديم انعكاسي أزرق اسمه إن جي سي ألفين ثلاثة وعشرين. السديم ده مكان نشط جداً، وفيه نجوم جديدة بتتكون حالياً، وده بيورينا دورة حياة النجوم في الفضاء.",
+    "sha256": "ff113c0b2cfdbcb9a0fec258c52e900afafdc3eb66836fbe22ac2ac5ac010d44",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "6a6bc623c0a1c388e1d392001f213662bdcaeca0c5e24fdf19a5b31d08e7a545",
+        "sha256": "ff113c0b2cfdbcb9a0fec258c52e900afafdc3eb66836fbe22ac2ac5ac010d44",
+        "text_sha256": "f241618882f86e55378e368bc0f38814a007418e9065d6b5f0294e2405c13462",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 733518,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 14.32,
+    "text": "المذهل إن البيانات اللي طلعت الصورة دي اتجمعت في ست ساعات من مرصد في يوتا، لكن المصور كان بيتحكم في التلسكوب من بيته في إلينوي، على بعد أكثر من ألفين كيلومتر من المرصد.",
+    "sha256": "66614f51ee908ea43314ccb80cb94da9d5910ec0b2fa7af51e6db1b04b68eacd",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "0146a4f94a28ace6d770034f805e4cd57a9f9f58b181a226a28a3fd3753007d1",
+        "sha256": "66614f51ee908ea43314ccb80cb94da9d5910ec0b2fa7af51e6db1b04b68eacd",
+        "text_sha256": "1943292148764bc6e6d6ca6b71ffbbf0fa1b977602701d747174c95d64491828",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 687438,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 14.44,
+    "text": "تخيل إن كل ده حقيقة مش خيال، العلم بيخلينا نشوف أبعد نقطة في الكون من غير ما نتحرك من مكاننا. التكنولوجيا دي بتفتح لنا أبواب جديدة لفهم أسرار الفضاء الشاسع اللي بيحيط بينا.",
+    "sha256": "7e77d67f525736176cebf5faf62aa133ef672857dec3a985362d2845474429f1",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "e43715f043694e5d165b29660a640a0863e9a9141cb61087dd276d4210c38af7",
+        "sha256": "7e77d67f525736176cebf5faf62aa133ef672857dec3a985362d2845474429f1",
+        "text_sha256": "732cf48f43dd29964aeb4adb98b520a800d19e8c3452dbfec918aece7f6d0042",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 693198,
+        "reused": false
+      }
+    ]
+  }
+]

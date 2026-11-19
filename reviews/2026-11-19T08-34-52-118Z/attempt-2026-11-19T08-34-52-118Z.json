@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-19T08-34-52-118Z",
+  "attemptId": "2026-11-19T08-34-52-118Z",
+  "mode": "review",
+  "published": false,
+  "status": "review_ready",
+  "resumed": false,
+  "stages": [
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.272
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 0.893
+    },
+    {
+      "name": "script",
+      "status": "pass",
+      "seconds": 68.714
+    },
+    {
+      "name": "voice",
+      "status": "pass",
+      "seconds": 299.173
+    },
+    {
+      "name": "align",
+      "status": "pass",
+      "seconds": 166.13
+    },
+    {
+      "name": "assets",
+      "status": "pass",
+      "seconds": 0
+    },
+    {
+      "name": "mix",
+      "status": "pass",
+      "seconds": 3.551
+    },
+    {
+      "name": "layout-qa",
+      "status": "pass",
+      "seconds": 25.409
+    },
+    {
+      "name": "render",
+      "status": "pass",
+      "seconds": 163.812
+    },
+    {
+      "name": "qa",
+      "status": "pass",
+      "seconds": 5.566
+    },
+    {
+      "name": "package",
+      "status": "pass",
+      "seconds": 0.009
+    }
+  ],
+  "limitations": [
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
+  ],
+  "retiredEpisode": {
+    "id": "2026-11-19T07-46-10-097Z",
+    "stage": "align",
+    "code": "ALIGNMENT_SPEECH_MISMATCH",
+    "reason": "Same stage and code failed on consecutive resumed attempts; retained audio and hash-locked script are immutable, so the deterministic failure cannot clear. Episode retired; a fresh episode is rolled through the same gates."
+  }
+}

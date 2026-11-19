@@ -1,0 +1,1510 @@
+{
+  "topicKey": "horsehead-flame-nebula-imaging",
+  "title": "أهم أخبار الأسبوع: أسرار سديم رأس الحصان",
+  "hook": "ماذا لو قلت لك إن صورة فلكية مذهلة تم التقاطها من مسافة تزيد عن ألفين كيلومتر؟ هل تتخيل أننا نتحكم في تلسكوبات عملاقة من بيوتنا لنصور سديم يبعد عنا ألف وخمسمائة سنة ضوئية؟",
+  "cta": "تابعونا كل أسبوع عشان تعرفوا أسرار الكون اللي بنكتشفها كل يوم، واشتركوا في القناة عشان يوصلكم كل جديد عن الفضاء والعلوم، وشاركوا الفيديو مع أصحابكم المهتمين بعلم الفلك والنجوم.",
+  "scenes": [
+    {
+      "title": "سديم رأس الحصان المذهل",
+      "text": "في صورة اليوم، بنشوف سديم رأس الحصان الشهير، وهو تشكيل غازي وغباري بياخد شكل رأس حصان. الصورة دي مش مجرد لوحة فنية، دي حقيقة علمية بتورينا جمال الكون اللي بيحيط بينا في كل مكان.",
+      "summary": "استكشاف سديم رأس الحصان الفضائي",
+      "keyword": "سديم",
+      "template": "phenomenon",
+      "labels": [
+        "فضاء",
+        "سديم",
+        "نجوم"
+      ],
+      "values": [],
+      "claim": "سديم رأس الحصان هو تشكيل غباري وغازي.",
+      "sourceId": "2e20115a6100",
+      "evidence": "The instantly recognizable shape of a dark horse’s head at the center is the aptly named Horsehead Nebula .",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "words": [
+        {
+          "text": "في",
+          "start": 0,
+          "end": 0.32
+        },
+        {
+          "text": "صورة",
+          "start": 0.34,
+          "end": 0.68
+        },
+        {
+          "text": "اليوم،",
+          "start": 0.68,
+          "end": 1.18
+        },
+        {
+          "text": "بنشوف",
+          "start": 1.18,
+          "end": 2.1
+        },
+        {
+          "text": "سديم",
+          "start": 2.1,
+          "end": 2.48
+        },
+        {
+          "text": "رأس",
+          "start": 2.48,
+          "end": 2.8
+        },
+        {
+          "text": "الحصان",
+          "start": 2.8,
+          "end": 3.32
+        },
+        {
+          "text": "الشهير،",
+          "start": 3.32,
+          "end": 3.94
+        },
+        {
+          "text": "وهو",
+          "start": 4.46,
+          "end": 4.66
+        },
+        {
+          "text": "تشكيل",
+          "start": 4.66,
+          "end": 5.16
+        },
+        {
+          "text": "غازي",
+          "start": 5.16,
+          "end": 5.64
+        },
+        {
+          "text": "وغباري",
+          "start": 5.64,
+          "end": 6.32
+        },
+        {
+          "text": "بياخد",
+          "start": 6.32,
+          "end": 6.88
+        },
+        {
+          "text": "شكل",
+          "start": 7.1,
+          "end": 7.2
+        },
+        {
+          "text": "رأس",
+          "start": 7.2,
+          "end": 7.44
+        },
+        {
+          "text": "حصان.",
+          "start": 7.44,
+          "end": 7.76
+        },
+        {
+          "text": "الصورة",
+          "start": 8.76,
+          "end": 8.9
+        },
+        {
+          "text": "دي",
+          "start": 8.9,
+          "end": 9.06
+        },
+        {
+          "text": "مش",
+          "start": 9.06,
+          "end": 9.2
+        },
+        {
+          "text": "مجرد",
+          "start": 9.2,
+          "end": 9.72
+        },
+        {
+          "text": "لوحة",
+          "start": 9.72,
+          "end": 9.92
+        },
+        {
+          "text": "فنية،",
+          "start": 10.14,
+          "end": 10.46
+        },
+        {
+          "text": "دي",
+          "start": 10.9,
+          "end": 11
+        },
+        {
+          "text": "حقيقة",
+          "start": 11,
+          "end": 11.44
+        },
+        {
+          "text": "علمية",
+          "start": 11.44,
+          "end": 11.84
+        },
+        {
+          "text": "بتورينا",
+          "start": 11.84,
+          "end": 12.58
+        },
+        {
+          "text": "جمال",
+          "start": 12.58,
+          "end": 13.06
+        },
+        {
+          "text": "الكون",
+          "start": 13.06,
+          "end": 13.38
+        },
+        {
+          "text": "اللي",
+          "start": 13.38,
+          "end": 13.8
+        },
+        {
+          "text": "بيحيط",
+          "start": 13.8,
+          "end": 14.24
+        },
+        {
+          "text": "بينا",
+          "start": 14.24,
+          "end": 14.48
+        },
+        {
+          "text": "في",
+          "start": 14.48,
+          "end": 14.62
+        },
+        {
+          "text": "كل",
+          "start": 14.62,
+          "end": 14.84
+        },
+        {
+          "text": "مكان.",
+          "start": 14.84,
+          "end": 15.14
+        }
+      ],
+      "duration": 15.72,
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+      "sourceLabel": "science.nasa.gov"
+    },
+    {
+      "title": "أبعاد السديم العملاق",
+      "text": "السديم ده مش صغير زي ما يبان، ده طوله بيوصل لخمس سنوات ضوئية كاملة. تخيلوا حجمه المهول وهو بيعوم في الفضاء السحيق، بيحجب الضوء اللي وراه وبيخلق مشهد كوني بيخطف الأنفاس بجد.",
+      "summary": "حجم سديم رأس الحصان",
+      "keyword": "سنة ضوئية",
+      "template": "comparison",
+      "labels": [
+        "أبعاد",
+        "فضاء",
+        "كون"
+      ],
+      "values": [],
+      "claim": "يبلغ طول سديم رأس الحصان خمس سنوات ضوئية.",
+      "sourceId": "2e20115a6100",
+      "evidence": "It is about five light-years tall and lies approximately 1,500 light-years away.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "walk",
+      "words": [
+        {
+          "text": "السديم",
+          "start": 0.36,
+          "end": 0.76
+        },
+        {
+          "text": "ده",
+          "start": 0.76,
+          "end": 1
+        },
+        {
+          "text": "مش",
+          "start": 1,
+          "end": 1.22
+        },
+        {
+          "text": "صغير",
+          "start": 1.22,
+          "end": 1.74
+        },
+        {
+          "text": "زي",
+          "start": 1.74,
+          "end": 2.02
+        },
+        {
+          "text": "ما",
+          "start": 2.02,
+          "end": 2.14
+        },
+        {
+          "text": "يبان،",
+          "start": 2.14,
+          "end": 2.54
+        },
+        {
+          "text": "ده",
+          "start": 3,
+          "end": 3.1
+        },
+        {
+          "text": "طوله",
+          "start": 3.1,
+          "end": 3.38
+        },
+        {
+          "text": "بيوصل",
+          "start": 3.38,
+          "end": 3.82
+        },
+        {
+          "text": "لخمس",
+          "start": 3.82,
+          "end": 4.42
+        },
+        {
+          "text": "سنوات",
+          "start": 4.42,
+          "end": 4.9
+        },
+        {
+          "text": "ضوئية",
+          "start": 4.9,
+          "end": 5.44
+        },
+        {
+          "text": "كاملة.",
+          "start": 5.44,
+          "end": 5.86
+        },
+        {
+          "text": "تخيلوا",
+          "start": 6.66,
+          "end": 6.98
+        },
+        {
+          "text": "حجمه",
+          "start": 6.98,
+          "end": 7.38
+        },
+        {
+          "text": "المهول",
+          "start": 7.38,
+          "end": 7.8
+        },
+        {
+          "text": "وهو",
+          "start": 7.8,
+          "end": 8.46
+        },
+        {
+          "text": "بيعوم",
+          "start": 8.46,
+          "end": 8.96
+        },
+        {
+          "text": "في",
+          "start": 8.96,
+          "end": 9.14
+        },
+        {
+          "text": "الفضاء",
+          "start": 9.36,
+          "end": 9.62
+        },
+        {
+          "text": "السحيق،",
+          "start": 9.62,
+          "end": 10.2
+        },
+        {
+          "text": "بيحجب",
+          "start": 10.72,
+          "end": 11.1
+        },
+        {
+          "text": "الضوء",
+          "start": 11.1,
+          "end": 11.38
+        },
+        {
+          "text": "اللي",
+          "start": 11.38,
+          "end": 11.56
+        },
+        {
+          "text": "وراه",
+          "start": 11.56,
+          "end": 11.92
+        },
+        {
+          "text": "وبيخلق",
+          "start": 11.92,
+          "end": 12.84
+        },
+        {
+          "text": "مشهد",
+          "start": 12.98,
+          "end": 13.3
+        },
+        {
+          "text": "كوني",
+          "start": 13.48,
+          "end": 13.74
+        },
+        {
+          "text": "بيخطف",
+          "start": 13.74,
+          "end": 14.34
+        },
+        {
+          "text": "الأنفاس",
+          "start": 14.74,
+          "end": 14.84
+        },
+        {
+          "text": "بجد.",
+          "start": 14.84,
+          "end": 14.96
+        }
+      ],
+      "duration": 15.64,
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+      "sourceLabel": "science.nasa.gov"
+    },
+    {
+      "title": "سر التوهج الأحمر",
+      "text": "ليه السديم ده منور باللون الأحمر؟ السبب هو غاز الهيدروجين اللي بيتم تأيينه بواسطة نجم ساطع اسمه سيجما أوريونيس. النجم ده بيخلي الغاز يشع ضوء أحمر قوي بيظهر ورا السديم المظلم ده.",
+      "summary": "تفسير توهج الهيدروجين",
+      "keyword": "هيدروجين",
+      "template": "cause",
+      "labels": [
+        "كيمياء",
+        "نجوم",
+        "فيزياء"
+      ],
+      "values": [],
+      "claim": "توهج السديم ناتج عن تأين غاز الهيدروجين.",
+      "sourceId": "2e20115a6100",
+      "evidence": "It is made of dust and gas that obscure the red glow behind it, which is caused by hydrogen gas being ionized by the bright star Sigma Orionis at the top.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "jump",
+      "words": [
+        {
+          "text": "ليه",
+          "start": 0.66,
+          "end": 0.86
+        },
+        {
+          "text": "السديم",
+          "start": 0.86,
+          "end": 1.28
+        },
+        {
+          "text": "ده",
+          "start": 1.28,
+          "end": 1.48
+        },
+        {
+          "text": "منور",
+          "start": 1.48,
+          "end": 1.9
+        },
+        {
+          "text": "باللون",
+          "start": 1.9,
+          "end": 2.34
+        },
+        {
+          "text": "الأحمر؟",
+          "start": 2.34,
+          "end": 2.88
+        },
+        {
+          "text": "السبب",
+          "start": 3.64,
+          "end": 4.1
+        },
+        {
+          "text": "هو",
+          "start": 4.32,
+          "end": 4.42
+        },
+        {
+          "text": "غاز",
+          "start": 4.42,
+          "end": 4.88
+        },
+        {
+          "text": "الهيدروجين",
+          "start": 4.88,
+          "end": 5.54
+        },
+        {
+          "text": "اللي",
+          "start": 5.54,
+          "end": 6.02
+        },
+        {
+          "text": "بيتم",
+          "start": 6.02,
+          "end": 6.42
+        },
+        {
+          "text": "تأيينه",
+          "start": 6.42,
+          "end": 6.96
+        },
+        {
+          "text": "بواسطة",
+          "start": 6.96,
+          "end": 7.58
+        },
+        {
+          "text": "نجم",
+          "start": 7.58,
+          "end": 7.96
+        },
+        {
+          "text": "ساطع",
+          "start": 7.96,
+          "end": 8.36
+        },
+        {
+          "text": "اسمه",
+          "start": 8.36,
+          "end": 8.92
+        },
+        {
+          "text": "سيجما",
+          "start": 8.92,
+          "end": 9.58
+        },
+        {
+          "text": "أوريونيس.",
+          "start": 9.58,
+          "end": 10.46
+        },
+        {
+          "text": "النجم",
+          "start": 11.16,
+          "end": 11.6
+        },
+        {
+          "text": "ده",
+          "start": 11.6,
+          "end": 11.82
+        },
+        {
+          "text": "بيخلي",
+          "start": 12.2,
+          "end": 12.64
+        },
+        {
+          "text": "الغاز",
+          "start": 12.64,
+          "end": 13.08
+        },
+        {
+          "text": "يشع",
+          "start": 13.08,
+          "end": 13.48
+        },
+        {
+          "text": "ضوء",
+          "start": 13.48,
+          "end": 13.98
+        },
+        {
+          "text": "أحمر",
+          "start": 13.98,
+          "end": 14.46
+        },
+        {
+          "text": "قوي",
+          "start": 14.46,
+          "end": 14.86
+        },
+        {
+          "text": "بيظهر",
+          "start": 14.86,
+          "end": 15.86
+        },
+        {
+          "text": "ورا",
+          "start": 15.86,
+          "end": 16.08
+        },
+        {
+          "text": "السديم",
+          "start": 16.08,
+          "end": 16.54
+        },
+        {
+          "text": "المظلم",
+          "start": 16.54,
+          "end": 16.96
+        },
+        {
+          "text": "ده.",
+          "start": 16.96,
+          "end": 17.24
+        }
+      ],
+      "duration": 17.64,
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+      "sourceLabel": "science.nasa.gov"
+    },
+    {
+      "title": "نجم النطاق الساطع",
+      "text": "على يسار المركز، بنشوف نجم أزرق ساطع جداً اسمه النطاق. النجم ده جزء من حزام كوكبة الجبار، وهو نظام نجمي ثلاثي بيعتبر من أشهر النجوم اللي بنشوفها في السما بالليل بوضوح تام.",
+      "summary": "نجم النطاق في كوكبة الجبار",
+      "keyword": "النطاق",
+      "template": "phenomenon",
+      "labels": [
+        "نجوم",
+        "كوكبة",
+        "فلك"
+      ],
+      "values": [],
+      "claim": "النطاق هو نجم ثلاثي في حزام الجبار.",
+      "sourceId": "2e20115a6100",
+      "evidence": "The brightest star, left of the center, is blue Alnitak (the Girdle): a triple star system best known for being the easternmost star in Orion’s Belt .",
+      "kind": "fact",
+      "expression": 6,
+      "action": "point",
+      "words": [
+        {
+          "text": "على",
+          "start": 0.48,
+          "end": 0.58
+        },
+        {
+          "text": "يسار",
+          "start": 0.58,
+          "end": 1.02
+        },
+        {
+          "text": "المركز،",
+          "start": 1.02,
+          "end": 1.64
+        },
+        {
+          "text": "بنشوف",
+          "start": 2.06,
+          "end": 2.46
+        },
+        {
+          "text": "نجم",
+          "start": 2.46,
+          "end": 2.76
+        },
+        {
+          "text": "أزرق",
+          "start": 2.76,
+          "end": 3.22
+        },
+        {
+          "text": "ساطع",
+          "start": 3.22,
+          "end": 3.64
+        },
+        {
+          "text": "جداً",
+          "start": 3.64,
+          "end": 4.1
+        },
+        {
+          "text": "اسمه",
+          "start": 4.54,
+          "end": 4.9
+        },
+        {
+          "text": "النطاق.",
+          "start": 4.9,
+          "end": 5.52
+        },
+        {
+          "text": "النجم",
+          "start": 6.52,
+          "end": 6.84
+        },
+        {
+          "text": "ده",
+          "start": 6.84,
+          "end": 6.98
+        },
+        {
+          "text": "جزء",
+          "start": 6.98,
+          "end": 7.34
+        },
+        {
+          "text": "من",
+          "start": 7.34,
+          "end": 7.48
+        },
+        {
+          "text": "حزام",
+          "start": 7.48,
+          "end": 7.94
+        },
+        {
+          "text": "كوكبة",
+          "start": 7.94,
+          "end": 8.42
+        },
+        {
+          "text": "الجبار،",
+          "start": 8.42,
+          "end": 9.1
+        },
+        {
+          "text": "وهو",
+          "start": 9.66,
+          "end": 9.9
+        },
+        {
+          "text": "نظام",
+          "start": 9.9,
+          "end": 10.32
+        },
+        {
+          "text": "نجمي",
+          "start": 10.32,
+          "end": 10.66
+        },
+        {
+          "text": "ثلاثي",
+          "start": 10.66,
+          "end": 11.16
+        },
+        {
+          "text": "بيعتبر",
+          "start": 11.16,
+          "end": 11.98
+        },
+        {
+          "text": "من",
+          "start": 11.98,
+          "end": 12.2
+        },
+        {
+          "text": "أشهر",
+          "start": 12.2,
+          "end": 12.74
+        },
+        {
+          "text": "النجوم",
+          "start": 12.74,
+          "end": 13.16
+        },
+        {
+          "text": "اللي",
+          "start": 13.16,
+          "end": 13.3
+        },
+        {
+          "text": "بنشوفها",
+          "start": 13.3,
+          "end": 13.72
+        },
+        {
+          "text": "في",
+          "start": 13.72,
+          "end": 13.84
+        },
+        {
+          "text": "السما",
+          "start": 13.9,
+          "end": 14.08
+        },
+        {
+          "text": "بالليل",
+          "start": 14.08,
+          "end": 14.66
+        },
+        {
+          "text": "بوضوح",
+          "start": 14.66,
+          "end": 15.32
+        },
+        {
+          "text": "تام.",
+          "start": 15.32,
+          "end": 15.76
+        }
+      ],
+      "duration": 16.2,
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+      "sourceLabel": "science.nasa.gov"
+    },
+    {
+      "title": "سديم اللهب البرتقالي",
+      "text": "جنب رأس الحصان، فيه سديم تاني اسمه سديم اللهب، لونه برتقالي وفيه خيوط مظلمة. المنظر ده بيورينا قد إيه الكون مليان تفاصيل معقدة ومختلفة، وكل سديم له قصته الخاصة وتكوينه الفريد والمميز جداً.",
+      "summary": "وصف سديم اللهب",
+      "keyword": "سديم اللهب",
+      "template": "phenomenon",
+      "labels": [
+        "سديم",
+        "كون",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "سديم اللهب يتميز بلون برتقالي وخيوط مظلمة.",
+      "sourceId": "2e20115a6100",
+      "evidence": "The orange nebula with dark filaments on the left is the Flame Nebula .",
+      "kind": "fact",
+      "expression": 9,
+      "action": "turn",
+      "words": [
+        {
+          "text": "جنب",
+          "start": 0.58,
+          "end": 0.86
+        },
+        {
+          "text": "رأس",
+          "start": 0.86,
+          "end": 1.08
+        },
+        {
+          "text": "الحصان،",
+          "start": 1.08,
+          "end": 1.74
+        },
+        {
+          "text": "فيه",
+          "start": 1.74,
+          "end": 2.24
+        },
+        {
+          "text": "سديم",
+          "start": 2.24,
+          "end": 2.64
+        },
+        {
+          "text": "تاني",
+          "start": 2.64,
+          "end": 3.02
+        },
+        {
+          "text": "اسمه",
+          "start": 3.02,
+          "end": 3.46
+        },
+        {
+          "text": "سديم",
+          "start": 3.46,
+          "end": 3.88
+        },
+        {
+          "text": "اللهب،",
+          "start": 3.88,
+          "end": 4.48
+        },
+        {
+          "text": "لونه",
+          "start": 4.94,
+          "end": 5.22
+        },
+        {
+          "text": "برتقالي",
+          "start": 5.22,
+          "end": 5.88
+        },
+        {
+          "text": "وفيه",
+          "start": 5.88,
+          "end": 6.4
+        },
+        {
+          "text": "خيوط",
+          "start": 6.4,
+          "end": 6.8
+        },
+        {
+          "text": "مظلمة.",
+          "start": 6.8,
+          "end": 7.36
+        },
+        {
+          "text": "المنظر",
+          "start": 8.08,
+          "end": 8.52
+        },
+        {
+          "text": "ده",
+          "start": 8.52,
+          "end": 8.66
+        },
+        {
+          "text": "بيورينا",
+          "start": 8.66,
+          "end": 9.24
+        },
+        {
+          "text": "قد",
+          "start": 9.24,
+          "end": 9.56
+        },
+        {
+          "text": "إيه",
+          "start": 9.56,
+          "end": 9.82
+        },
+        {
+          "text": "الكون",
+          "start": 9.82,
+          "end": 10.1
+        },
+        {
+          "text": "مليان",
+          "start": 10.1,
+          "end": 10.56
+        },
+        {
+          "text": "تفاصيل",
+          "start": 10.56,
+          "end": 11.08
+        },
+        {
+          "text": "معقدة",
+          "start": 11.08,
+          "end": 11.7
+        },
+        {
+          "text": "ومختلفة،",
+          "start": 11.7,
+          "end": 12.4
+        },
+        {
+          "text": "وكل",
+          "start": 12.9,
+          "end": 13.12
+        },
+        {
+          "text": "سديم",
+          "start": 13.12,
+          "end": 13.64
+        },
+        {
+          "text": "له",
+          "start": 13.64,
+          "end": 13.84
+        },
+        {
+          "text": "قصته",
+          "start": 13.84,
+          "end": 14.24
+        },
+        {
+          "text": "الخاصة",
+          "start": 14.28,
+          "end": 14.74
+        },
+        {
+          "text": "وتكوينه",
+          "start": 15.06,
+          "end": 15.58
+        },
+        {
+          "text": "الفريد",
+          "start": 15.58,
+          "end": 16.06
+        },
+        {
+          "text": "والمميز",
+          "start": 16.06,
+          "end": 16.7
+        },
+        {
+          "text": "جداً.",
+          "start": 16.7,
+          "end": 16.96
+        }
+      ],
+      "duration": 17.56,
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+      "sourceLabel": "science.nasa.gov"
+    },
+    {
+      "title": "ولادة النجوم الجديدة",
+      "text": "قريب من رأس الحصان، فيه سديم انعكاسي أزرق اسمه إن جي سي ألفين ثلاثة وعشرين. السديم ده مكان نشط جداً، وفيه نجوم جديدة بتتكون حالياً، وده بيورينا دورة حياة النجوم في الفضاء.",
+      "summary": "تكون النجوم في السديم",
+      "keyword": "نجوم",
+      "template": "journey",
+      "labels": [
+        "نجوم",
+        "تكون",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "سديم إن جي سي ألفين ثلاثة وعشرين يشكل نجوماً.",
+      "sourceId": "2e20115a6100",
+      "evidence": "Closer to the Horsehead, the blue reflection nebula NGC 2023 is actively forming stars.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "run",
+      "words": [
+        {
+          "text": "قريب",
+          "start": 0.3,
+          "end": 0.66
+        },
+        {
+          "text": "من",
+          "start": 0.66,
+          "end": 0.78
+        },
+        {
+          "text": "رأس",
+          "start": 0.78,
+          "end": 1.04
+        },
+        {
+          "text": "الحصان،",
+          "start": 1.04,
+          "end": 1.64
+        },
+        {
+          "text": "فيه",
+          "start": 1.64,
+          "end": 2.02
+        },
+        {
+          "text": "سديم",
+          "start": 2.02,
+          "end": 2.42
+        },
+        {
+          "text": "انعكاسي",
+          "start": 2.42,
+          "end": 3.04
+        },
+        {
+          "text": "أزرق",
+          "start": 3.04,
+          "end": 3.46
+        },
+        {
+          "text": "اسمه",
+          "start": 3.96,
+          "end": 4.36
+        },
+        {
+          "text": "إن",
+          "start": 4.36,
+          "end": 4.64
+        },
+        {
+          "text": "جي",
+          "start": 4.64,
+          "end": 4.92
+        },
+        {
+          "text": "سي",
+          "start": 4.92,
+          "end": 5.16
+        },
+        {
+          "text": "ألفين",
+          "start": 5.16,
+          "end": 5.82
+        },
+        {
+          "text": "ثلاثة",
+          "start": 5.82,
+          "end": 6.18
+        },
+        {
+          "text": "وعشرين.",
+          "start": 6.18,
+          "end": 6.68
+        },
+        {
+          "text": "السديم",
+          "start": 7.62,
+          "end": 8
+        },
+        {
+          "text": "ده",
+          "start": 8,
+          "end": 8.18
+        },
+        {
+          "text": "مكان",
+          "start": 8.18,
+          "end": 8.44
+        },
+        {
+          "text": "نشط",
+          "start": 8.44,
+          "end": 8.86
+        },
+        {
+          "text": "جداً،",
+          "start": 9.04,
+          "end": 9.34
+        },
+        {
+          "text": "وفيه",
+          "start": 9.86,
+          "end": 9.96
+        },
+        {
+          "text": "نجوم",
+          "start": 9.96,
+          "end": 10.3
+        },
+        {
+          "text": "جديدة",
+          "start": 10.3,
+          "end": 10.74
+        },
+        {
+          "text": "بتتكون",
+          "start": 10.74,
+          "end": 11.18
+        },
+        {
+          "text": "حالياً،",
+          "start": 11.18,
+          "end": 11.84
+        },
+        {
+          "text": "وده",
+          "start": 12.38,
+          "end": 12.54
+        },
+        {
+          "text": "بيورينا",
+          "start": 12.54,
+          "end": 13.04
+        },
+        {
+          "text": "دورة",
+          "start": 13.04,
+          "end": 13.5
+        },
+        {
+          "text": "حياة",
+          "start": 13.5,
+          "end": 13.82
+        },
+        {
+          "text": "النجوم",
+          "start": 13.82,
+          "end": 14.26
+        },
+        {
+          "text": "في",
+          "start": 14.26,
+          "end": 14.38
+        },
+        {
+          "text": "الفضاء.",
+          "start": 14.38,
+          "end": 14.72
+        }
+      ],
+      "duration": 15.28,
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+      "sourceLabel": "science.nasa.gov"
+    },
+    {
+      "title": "تصوير عن بعد",
+      "text": "المذهل إن البيانات اللي طلعت الصورة دي اتجمعت في ست ساعات من مرصد في يوتا، لكن المصور كان بيتحكم في التلسكوب من بيته في إلينوي، على بعد أكثر من ألفين كيلومتر من المرصد.",
+      "summary": "التحكم عن بعد في التلسكوبات",
+      "keyword": "مرصد",
+      "template": "steps",
+      "labels": [
+        "تكنولوجيا",
+        "تصوير",
+        "فلك"
+      ],
+      "values": [],
+      "claim": "تم التحكم في التلسكوب من مسافة ألفين كيلومتر.",
+      "sourceId": "2e20115a6100",
+      "evidence": "the equipment was remotely controlled by the astrophotographer from his home, over 2,000 km away in Illinois .",
+      "kind": "fact",
+      "expression": 10,
+      "action": "point",
+      "words": [
+        {
+          "text": "المذهل",
+          "start": 0.24,
+          "end": 0.88
+        },
+        {
+          "text": "إن",
+          "start": 0.88,
+          "end": 1.14
+        },
+        {
+          "text": "البيانات",
+          "start": 1.14,
+          "end": 1.76
+        },
+        {
+          "text": "اللي",
+          "start": 1.76,
+          "end": 1.92
+        },
+        {
+          "text": "طلعت",
+          "start": 1.92,
+          "end": 2.32
+        },
+        {
+          "text": "الصورة",
+          "start": 2.32,
+          "end": 2.76
+        },
+        {
+          "text": "دي",
+          "start": 2.76,
+          "end": 2.94
+        },
+        {
+          "text": "اتجمعت",
+          "start": 3.48,
+          "end": 3.94
+        },
+        {
+          "text": "في",
+          "start": 3.94,
+          "end": 4.12
+        },
+        {
+          "text": "ست",
+          "start": 4.26,
+          "end": 4.42
+        },
+        {
+          "text": "ساعات",
+          "start": 4.46,
+          "end": 4.92
+        },
+        {
+          "text": "من",
+          "start": 5.16,
+          "end": 5.26
+        },
+        {
+          "text": "مرصد",
+          "start": 5.26,
+          "end": 5.72
+        },
+        {
+          "text": "في",
+          "start": 5.8,
+          "end": 5.9
+        },
+        {
+          "text": "يوتا،",
+          "start": 5.9,
+          "end": 6.26
+        },
+        {
+          "text": "لكن",
+          "start": 6.92,
+          "end": 7.06
+        },
+        {
+          "text": "المصور",
+          "start": 7.12,
+          "end": 7.64
+        },
+        {
+          "text": "كان",
+          "start": 7.84,
+          "end": 7.94
+        },
+        {
+          "text": "بيتحكم",
+          "start": 7.94,
+          "end": 8.6
+        },
+        {
+          "text": "في",
+          "start": 8.6,
+          "end": 8.72
+        },
+        {
+          "text": "التلسكوب",
+          "start": 8.72,
+          "end": 9.28
+        },
+        {
+          "text": "من",
+          "start": 9.28,
+          "end": 9.66
+        },
+        {
+          "text": "بيته",
+          "start": 9.66,
+          "end": 10.06
+        },
+        {
+          "text": "في",
+          "start": 10.06,
+          "end": 10.18
+        },
+        {
+          "text": "إلينوي،",
+          "start": 10.28,
+          "end": 10.68
+        },
+        {
+          "text": "على",
+          "start": 11.1,
+          "end": 11.2
+        },
+        {
+          "text": "بعد",
+          "start": 11.2,
+          "end": 11.48
+        },
+        {
+          "text": "أكثر",
+          "start": 11.48,
+          "end": 11.94
+        },
+        {
+          "text": "من",
+          "start": 11.94,
+          "end": 12.12
+        },
+        {
+          "text": "ألفين",
+          "start": 12.12,
+          "end": 12.64
+        },
+        {
+          "text": "كيلومتر",
+          "start": 12.64,
+          "end": 13.26
+        },
+        {
+          "text": "من",
+          "start": 13.3,
+          "end": 13.4
+        },
+        {
+          "text": "المرصد.",
+          "start": 13.4,
+          "end": 13.86
+        }
+      ],
+      "duration": 14.32,
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+      "sourceLabel": "science.nasa.gov"
+    },
+    {
+      "title": "خيال علمي أم حقيقة؟",
+      "text": "تخيل إن كل ده حقيقة مش خيال، العلم بيخلينا نشوف أبعد نقطة في الكون من غير ما نتحرك من مكاننا. التكنولوجيا دي بتفتح لنا أبواب جديدة لفهم أسرار الفضاء الشاسع اللي بيحيط بينا.",
+      "summary": "العلم يفتح آفاق الكون",
+      "keyword": "تكنولوجيا",
+      "template": "phenomenon",
+      "labels": [
+        "علم",
+        "فضاء",
+        "تكنولوجيا"
+      ],
+      "values": [],
+      "claim": "التكنولوجيا تتيح استكشاف الكون عن بعد.",
+      "sourceId": "2e20115a6100",
+      "evidence": "Today’s image could have been a painting.",
+      "kind": "illustration",
+      "expression": 11,
+      "action": "sleep",
+      "words": [
+        {
+          "text": "تخيل",
+          "start": 0.28,
+          "end": 0.66
+        },
+        {
+          "text": "إن",
+          "start": 0.66,
+          "end": 0.8
+        },
+        {
+          "text": "كل",
+          "start": 0.94,
+          "end": 1.04
+        },
+        {
+          "text": "ده",
+          "start": 1.04,
+          "end": 1.34
+        },
+        {
+          "text": "حقيقة",
+          "start": 1.34,
+          "end": 1.8
+        },
+        {
+          "text": "مش",
+          "start": 2.1,
+          "end": 2.2
+        },
+        {
+          "text": "خيال،",
+          "start": 2.2,
+          "end": 2.82
+        },
+        {
+          "text": "العلم",
+          "start": 3.36,
+          "end": 3.74
+        },
+        {
+          "text": "بيخلينا",
+          "start": 3.74,
+          "end": 4.28
+        },
+        {
+          "text": "نشوف",
+          "start": 4.28,
+          "end": 4.54
+        },
+        {
+          "text": "أبعد",
+          "start": 4.54,
+          "end": 5.04
+        },
+        {
+          "text": "نقطة",
+          "start": 5.04,
+          "end": 5.54
+        },
+        {
+          "text": "في",
+          "start": 5.54,
+          "end": 5.64
+        },
+        {
+          "text": "الكون",
+          "start": 5.84,
+          "end": 5.94
+        },
+        {
+          "text": "من",
+          "start": 6.24,
+          "end": 6.34
+        },
+        {
+          "text": "غير",
+          "start": 6.34,
+          "end": 6.62
+        },
+        {
+          "text": "ما",
+          "start": 6.62,
+          "end": 6.7
+        },
+        {
+          "text": "نتحرك",
+          "start": 6.7,
+          "end": 7.12
+        },
+        {
+          "text": "من",
+          "start": 7.18,
+          "end": 7.28
+        },
+        {
+          "text": "مكاننا.",
+          "start": 7.28,
+          "end": 7.68
+        },
+        {
+          "text": "التكنولوجيا",
+          "start": 8.7,
+          "end": 9.06
+        },
+        {
+          "text": "دي",
+          "start": 9.06,
+          "end": 9.24
+        },
+        {
+          "text": "بتفتح",
+          "start": 9.24,
+          "end": 9.92
+        },
+        {
+          "text": "لنا",
+          "start": 9.92,
+          "end": 10.16
+        },
+        {
+          "text": "أبواب",
+          "start": 10.16,
+          "end": 10.56
+        },
+        {
+          "text": "جديدة",
+          "start": 10.56,
+          "end": 11.02
+        },
+        {
+          "text": "لفهم",
+          "start": 11.02,
+          "end": 11.44
+        },
+        {
+          "text": "أسرار",
+          "start": 11.44,
+          "end": 11.96
+        },
+        {
+          "text": "الفضاء",
+          "start": 11.96,
+          "end": 12.44
+        },
+        {
+          "text": "الشاسع",
+          "start": 12.44,
+          "end": 13.04
+        },
+        {
+          "text": "اللي",
+          "start": 13.04,
+          "end": 13.46
+        },
+        {
+          "text": "بيحيط",
+          "start": 13.46,
+          "end": 13.84
+        },
+        {
+          "text": "بينا.",
+          "start": 13.84,
+          "end": 14.14
+        }
+      ],
+      "duration": 14.44,
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+      "sourceLabel": "science.nasa.gov"
+    }
+  ],
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite-preview",
+  "audio": "generated/2026-11-19T08-34-52-118Z/audio.wav",
+  "durationInFrames": 3805
+}

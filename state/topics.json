@@ -14,7 +14,13 @@
   {
     "topicKey": "atacama-flowering-desert-2026",
     "value": "https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/",
-    "status": "reserved",
+    "status": "retired",
     "run": "2026-11-19T07-46-10-097Z"
+  },
+  {
+    "topicKey": "horsehead-flame-nebula-imaging",
+    "value": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+    "status": "review",
+    "run": "2026-11-19T08-34-52-118Z"
   }
 ]
