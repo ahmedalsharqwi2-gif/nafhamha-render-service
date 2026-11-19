@@ -1,0 +1,218 @@
+{
+  "sources": [
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "trends",
+      "status": "ok",
+      "items": 10
+    }
+  ],
+  "degraded": false,
+  "decisions": [
+    {
+      "id": "2e20115a6100",
+      "title": "APOD: 2026 November 19 – The Horsehead and Flame Nebulas",
+      "demand": 8,
+      "recency": 0.963,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "c",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "خضار",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "علم الأرصاد الجوية",
+          "weight": 2
+        }
+      ],
+      "score": 8.481687054071179
+    },
+    {
+      "id": "b41c4de3e0f2",
+      "title": "El Niño Rains Paint the Atacama",
+      "demand": 10,
+      "recency": 0.962,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "c",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "خضار",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "علم الأرصاد الجوية",
+          "weight": 2
+        }
+      ],
+      "score": 10.481129868414348
+    },
+    {
+      "id": "162c5c6a72fe",
+      "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+      "demand": 8,
+      "recency": 0.877,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "c",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "خضار",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "علم الأرصاد الجوية",
+          "weight": 2
+        }
+      ],
+      "score": 8.43850830127826
+    },
+    {
+      "id": "9d57f4dbe2e3",
+      "title": "MAF EAP Holidays – How to manage the BAH HUMBUG that tries to sneak in",
+      "demand": 2,
+      "recency": 0.837,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "c",
+          "weight": 2
+        }
+      ],
+      "score": 2.418589005686357
+    },
+    {
+      "id": "946586051f9f",
+      "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
+      "demand": 6,
+      "recency": 0.828,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "c",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "خضار",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "علم الأرصاد الجوية",
+          "weight": 2
+        }
+      ],
+      "score": 6.414163443573775
+    },
+    {
+      "id": "0cb2e3ffdc8f",
+      "title": "Empire State Building Goes Gold for Voyager",
+      "demand": 6,
+      "recency": 0.824,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "c",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "خضار",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "علم الأرصاد الجوية",
+          "weight": 2
+        }
+      ],
+      "score": 6.412050101037403
+    },
+    {
+      "id": "413bc2a06dfb",
+      "title": "What Is the Moon Base?",
+      "demand": 4,
+      "recency": 0.821,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "c",
+          "weight": 4
+        }
+      ],
+      "score": 4.410680471738782
+    },
+    {
+      "id": "4294d968436d",
+      "title": "Thank You for Doing NASA Science!",
+      "demand": 4,
+      "recency": 0.821,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "c",
+          "weight": 4
+        }
+      ],
+      "score": 4.410377959868912
+    },
+    {
+      "id": "0806628fa243",
+      "title": "APOD: 2026 November 18 – A Medium-Sized Solar Flare",
+      "demand": 8,
+      "recency": 0.69,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "c",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "خضار",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "علم الأرصاد الجوية",
+          "weight": 2
+        }
+      ],
+      "score": 8.34514385614005
+    }
+  ]
+}

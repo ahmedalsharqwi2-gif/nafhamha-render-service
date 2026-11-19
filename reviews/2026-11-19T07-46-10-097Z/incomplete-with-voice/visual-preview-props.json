@@ -1,0 +1,179 @@
+{
+  "title": "أهم أخبار الأسبوع: صحراء أتاكاما بتزهر من تاني",
+  "editorialLabel": null,
+  "scenes": [
+    {
+      "title": "صحراء أتاكاما بتغير لونها",
+      "text": "في ربيع ألفين وستة وعشرين، صحراء أتاكاما في تشيلي، المعروفة بجفافها الشديد، اتفاجئت بظاهرة نادرة. الأرض اللي كانت قاحلة اتحولت لألوان زاهية زي الأحمر والأرجواني والأخضر والأبيض، في مشهد بيخطف الأنظار.",
+      "summary": "صحراء أتاكاما تتحول لألوان زاهية في ربيع ٢٠٢٦.",
+      "keyword": "أتاكاما",
+      "template": "phenomenon",
+      "labels": [
+        "صحراء",
+        "أتاكاما",
+        "ربيع"
+      ],
+      "values": [],
+      "claim": "أجزاء من صحراء أتاكاما تحولت لألوان زاهية بعد شتاء ممطر.",
+      "sourceId": "b41c4de3e0f2",
+      "evidence": "Parts of the Atacama Desert in northern Chile, normally one of the driest places on Earth, turned red-purple, green, and white in austral spring 2026 following an unusually wet winter.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "duration": 17.76,
+      "words": []
+    },
+    {
+      "title": "سر الظاهرة: المطر بيحيي الأرض",
+      "text": "السر وراء الجمال ده هو الأمطار غير المعتادة اللي نزلت في الشتاء. المطر ده صحى بذور كانت نايمة في التربة لسنوات طويلة، وبدأت تنبت وتزهر في ظاهرة بيسموها العلماء 'الصحراء المزهرة'.",
+      "summary": "الأمطار تحيي البذور النائمة في الصحراء.",
+      "keyword": "بذور",
+      "template": "cause",
+      "labels": [
+        "بذور",
+        "مطر",
+        "نمو"
+      ],
+      "values": [],
+      "claim": "الأمطار أيقظت بذوراً كانت خاملة في التربة.",
+      "sourceId": "b41c4de3e0f2",
+      "evidence": "The rain woke seeds lying dormant in the soil, setting off what scientists say may be the most extensive desierto florido , or “flowering desert,” of the satellite era.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "walk",
+      "duration": 14.68,
+      "words": []
+    },
+    {
+      "title": "تأثير ظاهرة النينيو",
+      "text": "العلماء بيقولوا إن ظاهرة النينيو في المحيط الهادئ كان ليها دور كبير. الظاهرة دي أضعفت الضغط الجوي اللي بيحفظ جفاف المنطقة، وسمحت للعواصف إنها توصل للصحراء وتجيب معاها كميات كبيرة من المطر.",
+      "summary": "ظاهرة النينيو تسببت في أمطار غير معتادة.",
+      "keyword": "النينيو",
+      "template": "cause",
+      "labels": [
+        "نينيو",
+        "مناخ",
+        "عواصف"
+      ],
+      "values": [],
+      "claim": "ظاهرة النينيو أضعفت الضغط الجوي المسبب للجفاف.",
+      "sourceId": "b41c4de3e0f2",
+      "evidence": "During an El Niño, the subtropical Pacific high that normally keeps the region dry weakens, while a blocking high tends to form in the South Pacific near the tip of South America.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "turn",
+      "duration": 15.76,
+      "words": []
+    },
+    {
+      "title": "عواصف شتوية وثلج نادر",
+      "text": "مش بس مطر، ده كمان في شهر أغسطس، عواصف شتوية متتالية غطت أجزاء من الصحراء بتلج نادر جداً. المشاهد دي اتوثقت عبر الأقمار الصناعية اللي صورت التغيرات دي في سبتمبر وأكتوبر.",
+      "summary": "عواصف شتوية نادرة جلبت الثلج للصحراء.",
+      "keyword": "ثلج",
+      "template": "phenomenon",
+      "labels": [
+        "ثلج",
+        "شتاء",
+        "أغسطس"
+      ],
+      "values": [],
+      "claim": "عواصف شتوية جلبت ثلوجاً نادرة لأجزاء من أتاكاما.",
+      "sourceId": "b41c4de3e0f2",
+      "evidence": "In August, back-to-back winter storms blanketed parts of the Atacama Desert in rare snow .",
+      "kind": "fact",
+      "expression": 9,
+      "action": "jump",
+      "duration": 15.170958,
+      "words": []
+    },
+    {
+      "title": "ألوان الصحراء: باتا دي جوانكو",
+      "text": "المساحات الأرجوانية اللي ظهرت في الصور هي زهور 'باتا دي جوانكو'. العلماء بيقولوا إنها غالباً من نوع 'سيستانثي'، ودي بتنتشر بشكل واسع في المناطق اللي شافت المطر الغزير ده.",
+      "summary": "زهور باتا دي جوانكو تلون الصحراء بالأرجواني.",
+      "keyword": "زهور",
+      "template": "phenomenon",
+      "labels": [
+        "زهور",
+        "أرجواني",
+        "نبات"
+      ],
+      "values": [],
+      "claim": "المساحات الأرجوانية هي زهور باتا دي جوانكو.",
+      "sourceId": "b41c4de3e0f2",
+      "evidence": "The red-purple areas prominent in the October 24 scene are vast blooms of pata de guanaco, most likely Cistanthe longiscapa or another Cistanthe species",
+      "kind": "fact",
+      "expression": 7,
+      "action": "point",
+      "duration": 13.16,
+      "words": []
+    },
+    {
+      "title": "جمال الزهور البيضاء",
+      "text": "وفي أماكن تانية، ظهرت زهور 'سوسبيروس' أو 'نولانا' باللون الأبيض والأخضر. العلماء درسوا المناطق دي عشان يفهموا التنوع البيولوجي اللي بيحصل في الصحراء بعد فترات المطر دي.",
+      "summary": "زهور النولانا البيضاء تغطي تلال الصحراء.",
+      "keyword": "نولانا",
+      "template": "phenomenon",
+      "labels": [
+        "نولانا",
+        "أبيض",
+        "تنوع"
+      ],
+      "values": [],
+      "claim": "المناطق الخضراء والبيضاء هي زهور سوسبيروس أو نولانا.",
+      "sourceId": "b41c4de3e0f2",
+      "evidence": "The green areas capped with white are blooms of suspiros, or Nolana , probably Nolana baccata",
+      "kind": "fact",
+      "expression": 6,
+      "action": "walk",
+      "duration": 13.16,
+      "words": []
+    },
+    {
+      "title": "مقارنة مع الماضي",
+      "text": "الباحثين أكدوا إن حدث ألفين وستة وعشرين هو الأقوى والأكثر اتساعاً من حيث الانتشار والمدة مقارنة بكل اللي تم رصده من سنة ألف وتسعمائة وواحد وثمانين باستخدام الأقمار الصناعية.",
+      "summary": "حدث ٢٠٢٦ هو الأقوى منذ عقود.",
+      "keyword": "مقارنة",
+      "template": "comparison",
+      "labels": [
+        "تاريخ",
+        "أقمار",
+        "دراسة"
+      ],
+      "values": [],
+      "claim": "حدث ٢٠٢٦ هو الأكثر أهمية من حيث الانتشار والمدة.",
+      "sourceId": "b41c4de3e0f2",
+      "evidence": "“This instance of the ‘blooming desert’ phenomenon appears to be the most significant to date—in terms of its extent, intensity, and duration,” Moreira-Muñoz said",
+      "kind": "fact",
+      "expression": 10,
+      "action": "point",
+      "duration": 15.56,
+      "words": []
+    },
+    {
+      "title": "أهمية البحث العلمي",
+      "text": "المشاريع العلمية دي بتستخدم بيانات الأقمار الصناعية والدرونز عشان ترسم خريطة للتنوع البيولوجي. الهدف هو مساعدة المخططين ومديري المحميات في حماية المناطق دي والحفاظ على جمالها الطبيعي الفريد.",
+      "summary": "استخدام التكنولوجيا لحماية التنوع البيولوجي.",
+      "keyword": "بحث",
+      "template": "steps",
+      "labels": [
+        "تكنولوجيا",
+        "حماية",
+        "بيئة"
+      ],
+      "values": [],
+      "claim": "المشروع يهدف لرسم خريطة للتنوع البيولوجي لدعم الحماية.",
+      "sourceId": "b41c4de3e0f2",
+      "evidence": "The project aims to use these data to map how the bloom’s biodiversity changes across space and over time, to inform land-use planners and conservation managers.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "run",
+      "duration": 15.490958,
+      "words": []
+    }
+  ],
+  "durationInFrames": 3623,
+  "audio": "generated/2026-11-19T07-46-10-097Z/audio.wav",
+  "incompleteMode": "unaligned_narration",
+  "preview": true,
+  "incomplete": true
+}

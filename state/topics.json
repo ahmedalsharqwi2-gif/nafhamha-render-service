@@ -8,7 +8,13 @@
   {
     "topicKey": "nasa-webb-bao-stellar-merger",
     "value": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
-    "status": "reserved",
+    "status": "retired",
     "run": "2026-11-19T06-38-45-015Z"
+  },
+  {
+    "topicKey": "atacama-flowering-desert-2026",
+    "value": "https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/",
+    "status": "reserved",
+    "run": "2026-11-19T07-46-10-097Z"
   }
 ]

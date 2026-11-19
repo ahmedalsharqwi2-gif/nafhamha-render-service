@@ -1,0 +1,186 @@
+[
+  {
+    "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-19T07-46-10-097Z/scene-0.wav",
+    "duration": 17.76,
+    "text": "في ربيع ألفين وستة وعشرين، صحراء أتاكاما في تشيلي، المعروفة بجفافها الشديد، اتفاجئت بظاهرة نادرة. الأرض اللي كانت قاحلة اتحولت لألوان زاهية زي الأحمر والأرجواني والأخضر والأبيض، في مشهد بيخطف الأنظار.",
+    "sha256": "4482d2e755a4440ccdb15c2c36aabb6aa639fb74ea0cacc950fd8de4b7ff5a52",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "340d311085c2010d57d389e6fded3f26166e2a7f219f49555e87ecbedef6e991",
+        "sha256": "4482d2e755a4440ccdb15c2c36aabb6aa639fb74ea0cacc950fd8de4b7ff5a52",
+        "text_sha256": "eabed02801e157c62f10478f2a40870a86c894627330e9f922491d6df968cd5b",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 852558,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-19T07-46-10-097Z/scene-1.wav",
+    "duration": 14.68,
+    "text": "السر وراء الجمال ده هو الأمطار غير المعتادة اللي نزلت في الشتاء. المطر ده صحى بذور كانت نايمة في التربة لسنوات طويلة، وبدأت تنبت وتزهر في ظاهرة بيسموها العلماء 'الصحراء المزهرة'.",
+    "sha256": "6ec9533f246ac483e709acc53c757f9824e144cd0c181eb53bcd77026a4998dc",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "913e246d1b7f45135898423c3227ae8d85b890ae74e0c4ee22d2e9a8b04be54e",
+        "sha256": "6ec9533f246ac483e709acc53c757f9824e144cd0c181eb53bcd77026a4998dc",
+        "text_sha256": "fadf7dfaba797be1e5b92999d7c91ddf6145ce6c69806ffec04264959e13809d",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 704718,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-19T07-46-10-097Z/scene-2.wav",
+    "duration": 15.76,
+    "text": "العلماء بيقولوا إن ظاهرة النينيو في المحيط الهادئ كان ليها دور كبير. الظاهرة دي أضعفت الضغط الجوي اللي بيحفظ جفاف المنطقة، وسمحت للعواصف إنها توصل للصحراء وتجيب معاها كميات كبيرة من المطر.",
+    "sha256": "78286c357de55caf513d8f1c6eb8f97536d16a7e2503f947b907c289f9ab99a5",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "5fb74e0255bba7651a4f986ff97b420ba6c8480027cc41679328574d8553a715",
+        "sha256": "78286c357de55caf513d8f1c6eb8f97536d16a7e2503f947b907c289f9ab99a5",
+        "text_sha256": "cf51a7c1a4cfbb21047aeba4eab049b3d5bfbe62e57ea94126ecfa29d0d9a868",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 756558,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-19T07-46-10-097Z/scene-3.wav",
+    "duration": 15.170958,
+    "text": "مش بس مطر، ده كمان في شهر أغسطس، عواصف شتوية متتالية غطت أجزاء من الصحراء بتلج نادر جداً. المشاهد دي اتوثقت عبر الأقمار الصناعية اللي صورت التغيرات دي في سبتمبر وأكتوبر.",
+    "sha256": "942f94edda013ab621aa019cb8dc19a736bd342f9e6a4816636d5d20e2580f62",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "9ba01d6b488b7ceeb2864c69513f0bbfc8918f2a8e5d7ddc86404da4f11cb848",
+        "sha256": "942f94edda013ab621aa019cb8dc19a736bd342f9e6a4816636d5d20e2580f62",
+        "text_sha256": "183cd2907821803f4e4e70510f3584d89ca104fe4f1052c8b2710f665a5c4059",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 728284,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-19T07-46-10-097Z/scene-4.wav",
+    "duration": 13.16,
+    "text": "المساحات الأرجوانية اللي ظهرت في الصور هي زهور 'باتا دي جوانكو'. العلماء بيقولوا إنها غالباً من نوع 'سيستانثي'، ودي بتنتشر بشكل واسع في المناطق اللي شافت المطر الغزير ده.",
+    "sha256": "017cdc5464495b38242cf8cab2fe7bed6bf2104f914eced0c3b77c327d800989",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "45b67576f7db77ed914c53a18ed6331d641feaee548f7edef926b8bda3e36cdf",
+        "sha256": "017cdc5464495b38242cf8cab2fe7bed6bf2104f914eced0c3b77c327d800989",
+        "text_sha256": "f1e843ee3dfee134b5725d3f0c754d94d92d844808aa54e3f57255e72bac4df6",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 631758,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-19T07-46-10-097Z/scene-5.wav",
+    "duration": 13.16,
+    "text": "وفي أماكن تانية، ظهرت زهور 'سوسبيروس' أو 'نولانا' باللون الأبيض والأخضر. العلماء درسوا المناطق دي عشان يفهموا التنوع البيولوجي اللي بيحصل في الصحراء بعد فترات المطر دي.",
+    "sha256": "fd61e71371adbca51feac2cba270c18ab8cdef599dd6ef07277fe9be2a8cf57d",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "c6fd23047386e1b828a157fc09ab560ad10439ad0f9cd8792e4e34c77ac0eab8",
+        "sha256": "fd61e71371adbca51feac2cba270c18ab8cdef599dd6ef07277fe9be2a8cf57d",
+        "text_sha256": "ce788372d881b81ec395b049f82ddcfd1a7387e239ae512f271d32f2d79c476f",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 631758,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-19T07-46-10-097Z/scene-6.wav",
+    "duration": 15.56,
+    "text": "الباحثين أكدوا إن حدث ألفين وستة وعشرين هو الأقوى والأكثر اتساعاً من حيث الانتشار والمدة مقارنة بكل اللي تم رصده من سنة ألف وتسعمائة وواحد وثمانين باستخدام الأقمار الصناعية.",
+    "sha256": "bebdddef33c83e2c7c2c40c5e6f4f15b07168b2750093b9c9bbc00970a9d5ecf",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "6bd368ef74995d7707f59df3fa5daf15116f75631aed03c5e6074b73ab7b6a77",
+        "sha256": "bebdddef33c83e2c7c2c40c5e6f4f15b07168b2750093b9c9bbc00970a9d5ecf",
+        "text_sha256": "da13192f12612f2e902f200255a48361984fb06acb59c90d621c9e526d005f37",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 746958,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/public/generated/2026-11-19T07-46-10-097Z/scene-7.wav",
+    "duration": 15.490958,
+    "text": "المشاريع العلمية دي بتستخدم بيانات الأقمار الصناعية والدرونز عشان ترسم خريطة للتنوع البيولوجي. الهدف هو مساعدة المخططين ومديري المحميات في حماية المناطق دي والحفاظ على جمالها الطبيعي الفريد.",
+    "sha256": "e5e259b7484adbf542d7a37f6ea0bb01a7e7f706d670009316ab7c4d1ef7efa8",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "315cbeb60248d105d1c27b81373d55b168050616db2cc2e9e1c7f01e081fd13b",
+        "sha256": "e5e259b7484adbf542d7a37f6ea0bb01a7e7f706d670009316ab7c4d1ef7efa8",
+        "text_sha256": "75e87a1ab7ee21b8ad53068268dede4a21f585c03668bfbd2aaad6a38f1ccdd1",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 743644,
+        "reused": false
+      }
+    ]
+  }
+]
