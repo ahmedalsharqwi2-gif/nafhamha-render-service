@@ -10,5 +10,6 @@
       "official": true
     }
   ],
-  "logo": "brand/logo/logo.png"
+  "logo": "brand/logo/logo.png",
+  "paper": true
 }
