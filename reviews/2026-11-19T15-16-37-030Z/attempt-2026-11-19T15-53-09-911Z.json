@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-19T15-16-37-030Z",
+  "attemptId": "2026-11-19T15-53-09-911Z",
+  "mode": "review",
+  "published": false,
+  "status": "failed",
+  "resumed": true,
+  "stages": [
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.604
+    },
+    {
+      "name": "topics",
+      "status": "resumed_from_saved_source_manifest"
+    },
+    {
+      "name": "script",
+      "status": "resumed_from_hash_verified_script"
+    },
+    {
+      "name": "voice",
+      "status": "pass",
+      "seconds": 788.872
+    },
+    {
+      "name": "align",
+      "status": "pass",
+      "seconds": 258.403
+    },
+    {
+      "name": "assets",
+      "status": "pass",
+      "seconds": 0.001
+    },
+    {
+      "name": "drawplan",
+      "status": "pass",
+      "seconds": 73.516
+    },
+    {
+      "name": "mix",
+      "status": "pass",
+      "seconds": 4.057
+    },
+    {
+      "name": "layout-qa",
+      "status": "pass",
+      "seconds": 27.899
+    },
+    {
+      "name": "render",
+      "status": "pass",
+      "seconds": 188.722
+    }
+  ],
+  "limitations": [
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
+  ],
+  "failedStage": "qa",
+  "errorCode": "STAGE_FAILED_SEE_RUNBOOK",
+  "partial": {
+    "status": "rendered",
+    "path": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/out/2026-11-19T15-16-37-030Z/incomplete-with-voice/review-with-voice-INCOMPLETE.mp4",
+    "incomplete": true
+  }
+}

@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "framesChecked": 26,
-  "textBoxesChecked": 232,
+  "framesChecked": 295,
+  "textBoxesChecked": 2651,
   "forbiddenTop": 150,
   "forbiddenBottomFrom": 1670,
   "failures": []
