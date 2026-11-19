@@ -507,8 +507,8 @@
   "scriptSha256": "0b60482cb123111789898ecf70ba071e7afb5d7b7580579dae52f5e750c89f04",
   "state": "failed",
   "lastFailure": {
-    "stage": "qa",
-    "code": "STAGE_FAILED_SEE_RUNBOOK",
+    "stage": "align-repair-1",
+    "code": "ALIGNMENT_SPEECH_MISMATCH",
     "repeat": 0
   }
 }
