@@ -1,6 +1,6 @@
 {
   "id": "2026-11-15T22-21-04-406Z",
-  "attemptId": "2026-11-19T04-21-01-407Z",
+  "attemptId": "2026-11-19T04-32-42-703Z",
   "mode": "review",
   "published": false,
   "status": "failed",
@@ -9,7 +9,7 @@
     {
       "name": "preflight",
       "status": "pass",
-      "seconds": 0.085
+      "seconds": 0.727
     },
     {
       "name": "topics",
@@ -22,7 +22,7 @@
     {
       "name": "voice",
       "status": "pass",
-      "seconds": 0.829
+      "seconds": 0.964
     }
   ],
   "limitations": [
@@ -31,7 +31,8 @@
   "failedStage": "align",
   "errorCode": "ALIGNMENT_SPEECH_MISMATCH",
   "partial": {
-    "status": "failed",
-    "code": "PARTIAL_RENDER_FAILED"
+    "status": "rendered",
+    "path": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/out/2026-11-15T22-21-04-406Z/incomplete-with-voice/review-with-voice-INCOMPLETE.mp4",
+    "incomplete": true
   }
 }

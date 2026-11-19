@@ -1,0 +1,200 @@
+{
+  "title": "سر انفجارات النجم العملاق AT 2016blu",
+  "editorialLabel": null,
+  "scenes": [
+    {
+      "title": "لغز النجم المتفجر",
+      "text": "هل فكرت قبل كده إزاي نجم عملاق ومرعب في الفضاء البعيد يقدر يفضل ينفجر كذا مرة ورا بعض من غير ما يختفي، ومرصد شاندرا التابع لناسا كشف سر الانفجارات دي؟",
+      "summary": "لغز الانفجارات المتكررة لنجم عملاق في الفضاء",
+      "keyword": "انفجار نجمي",
+      "template": "phenomenon",
+      "labels": [
+        "مرصد شاندرا",
+        "نجم عملاق",
+        "انفجارات"
+      ],
+      "values": [],
+      "claim": "اكتشف العلماء سبب الانفجارات المتكررة لنجم عملاق غير مستقر باستخدام مرصد شاندرا",
+      "sourceId": "e714212c4694",
+      "evidence": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star",
+      "kind": "fact",
+      "expression": 9,
+      "action": "point",
+      "duration": 12.96,
+      "words": []
+    },
+    {
+      "title": "رصد مرصد شاندرا",
+      "text": "علماء الفلك قدروا مؤخراً باستخدام مرصد شاندرا الفضائي للأشعة السينية إنهم يوصلوا للسبب الحقيقي اللي بيولع انفجارات متكررة لنجم ضخم جداً وغير مستقر تايه في أعماق الكون الواسع.",
+      "summary": "مرصد شاندرا يكشف محفز الانفجارات النجمية",
+      "keyword": "أشعة سينية",
+      "template": "cause",
+      "labels": [
+        "مرصد شاندرا",
+        "أشعة سينية",
+        "فلك"
+      ],
+      "values": [],
+      "claim": "استخدم العلماء مرصد شاندرا الفضائي للأشعة السينية لكشف محفز الانفجارات",
+      "sourceId": "e714212c4694",
+      "evidence": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star",
+      "kind": "fact",
+      "expression": 1,
+      "action": "walk",
+      "duration": 15.08,
+      "words": []
+    },
+    {
+      "title": "صورة ناسا للمجرة",
+      "text": "الصورة اللي نشرتها وكالة ناسا يوم تسعة نوفمبر سنة ألفين وستة وعشرين وضحت المجرة اللي عايش فيها النجم الغريب ده، وخلت الباحثين يدققوا في طبيعة السلوك المتقلب بتاعه.",
+      "summary": "صورة ناسا المنشورة في نوفمبر 2026",
+      "keyword": "صورة ناسا",
+      "template": "journey",
+      "labels": [
+        "ناسا",
+        "صورة فلكية",
+        "مجرة"
+      ],
+      "values": [],
+      "claim": "نشرت ناسا صورة المجرة التي تحتوي على النجم في 9 نوفمبر 2026",
+      "sourceId": "e714212c4694",
+      "evidence": "located in the galaxy shown in this image released on Nov. 9, 2026.",
+      "kind": "fact",
+      "expression": 2,
+      "action": "turn",
+      "duration": 12.12,
+      "words": []
+    },
+    {
+      "title": "هوية النجم المتقلب",
+      "text": "النجم المتقلب والمثير للجدل ده اتعرف رسمياً بين العلماء باسم مميز جداً هو إيه تي ألفين وستاشر بي إل يو، وده اسم بيحدد هويته وسط نجوم الفضاء السحيق.",
+      "summary": "تسمية النجم رسمياً AT 2016blu",
+      "keyword": "AT 2016blu",
+      "template": "phenomenon",
+      "labels": [
+        "AT 2016blu",
+        "نجم متقلب",
+        "تسمية فلكية"
+      ],
+      "values": [],
+      "claim": "النجم المتقلب معروف باسم AT 2016blu",
+      "sourceId": "e714212c4694",
+      "evidence": "The volatile star, known as AT 2016blu, is in the spiral galaxy NGC 4559",
+      "kind": "fact",
+      "expression": 0,
+      "action": "point",
+      "duration": 14.32,
+      "words": []
+    },
+    {
+      "title": "المجرة الحلزونية NGC 4559",
+      "text": "النجم العملاق ده موجود جوة مجرة حلزونية معروفة في الكتالوجات الفلكية باسم إن جي سي أربعة خمسة خمسة تسعة، وبتعتبر بيئة خصبة لظواهر كونية في منتهى الغرابة والغموض.",
+      "summary": "موقع النجم داخل مجرة NGC 4559 الحلزونية",
+      "keyword": "NGC 4559",
+      "template": "map",
+      "labels": [
+        "NGC 4559",
+        "مجرة حلزونية",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "يقع النجم في المجرة الحلزونية NGC 4559",
+      "sourceId": "e714212c4694",
+      "evidence": "The volatile star, known as AT 2016blu, is in the spiral galaxy NGC 4559",
+      "kind": "fact",
+      "expression": 1,
+      "action": "walk",
+      "duration": 15.36,
+      "words": []
+    },
+    {
+      "title": "المسافة الشاسعة عن الأرض",
+      "text": "المجرة الحلزونية دي بتبعد عن كوكب الأرض مسافة مرعبة بتتقدر بحوالي تلاتين مليون سنة ضوئية، وده بيخلي رصد تفاصيل النجم من خلال التلسكوبات إنجاز علمي كبير ومهم للجميع.",
+      "summary": "المجرة تبعد 30 مليون سنة ضوئية عن الأرض",
+      "keyword": "مسافة فلكية",
+      "template": "journey",
+      "labels": [
+        "الأرض",
+        "سنة ضوئية",
+        "مسافات كونية"
+      ],
+      "values": [],
+      "claim": "تبعد المجرة حوالي 30 مليون سنة ضوئية عن كوكب الأرض",
+      "sourceId": "e714212c4694",
+      "evidence": "located about 30 million light-years from Earth.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "turn",
+      "duration": 15.76,
+      "words": []
+    },
+    {
+      "title": "كتلة تفوق الشمس",
+      "text": "العلماء لما حسبوا كتلة هذا النجم المشتعل اكتشفوا إنها ضخمة بشكل لا يصدق، لإن تقديراتهم أكدت إن كتلته بتعادل على الأقل تلاتة وتلاتين مرة قد كتلة شمسنا اللي بنعرفها.",
+      "summary": "كتلة النجم تعادل 33 ضعف كتلة الشمس على الأقل",
+      "keyword": "كتلة النجم",
+      "template": "comparison",
+      "labels": [
+        "كتلة النجم",
+        "الشمس",
+        "مقارنة"
+      ],
+      "values": [],
+      "claim": "كتلة النجم تعادل على الأقل 33 مرة كتلة الشمس",
+      "sourceId": "e714212c4694",
+      "evidence": "Astronomers estimate the mass of this star is at least 33 times that of the Sun.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "jump",
+      "duration": 14.36,
+      "words": []
+    },
+    {
+      "title": "فهم سلوك العمالقة",
+      "text": "الرصد الدقيق باستخدام مرصد شاندرا بالأشعة السينية فتح الباب لفهم الديناميكية المعقدة اللي بتسبب الانفجارات المتكررة داخل النجم المتقلب ده، ووضح إزاي النجوم العملاقة بتعيش أطوارها الأخيرة بقوة.",
+      "summary": "تحليل أسباب الانفجارات المتكررة للنجوم العملاقة",
+      "keyword": "أطوار النجوم",
+      "template": "cause",
+      "labels": [
+        "ديناميكية النجوم",
+        "شاندرا",
+        "انفجارات"
+      ],
+      "values": [],
+      "claim": "بيانات شاندرا ساعدت العلماء في معرفة ما يثير الانفجارات المتكررة",
+      "sourceId": "e714212c4694",
+      "evidence": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star",
+      "kind": "fact",
+      "expression": 1,
+      "action": "point",
+      "duration": 16.36,
+      "words": []
+    },
+    {
+      "title": "شاركنا رأيك",
+      "text": "تابع معانا الحلقات الجاية علشان تفهم أسرار جديدة عن أعماق الفضاء ونشاركك كل الاكتشافات الفلكية أول بأول بطريقة سهلة وممتعة، واكتب لنا رأيك في التعليقات عشان نفهمها سوا دايماً.",
+      "summary": "دعوة للمتابعة والمشاركة في التعليقات",
+      "keyword": "متابعة",
+      "template": "steps",
+      "labels": [
+        "نفهمها",
+        "متابعة",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "الدعوة لقراءة المزيد ومتابعة الاكتشافات الفلكية",
+      "sourceId": "e714212c4694",
+      "evidence": "Read more about the discovery.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "jump",
+      "duration": 14.32,
+      "words": []
+    }
+  ],
+  "durationInFrames": 3920,
+  "audio": "generated/2026-11-15T22-21-04-406Z/audio.wav",
+  "incompleteMode": "unaligned_narration",
+  "preview": true,
+  "incomplete": true
+}
