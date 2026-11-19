@@ -1,9 +1,9 @@
 [
   {
     "file": "audio/scene-0.wav",
-    "duration": 16,
+    "duration": 14.52,
     "text": "ناسا بتعمل اختبارات قوية جداً لمحركات الصواريخ في مركز ستينيس للفضاء، الهدف هو التأكد من كفاءة المحركات قبل ما تطلع في رحلات حقيقية، وده بيضمن سلامة الرواد اللي هيسافروا للقمر في المهمات الجاية.",
-    "sha256": "83d3dd6830c55cc252e505ac1842055c29e24d3c1c9e4c183c34c0d119d38b3e",
+    "sha256": "3e549b397289faf44af426a691c8117eae0a46499d57bcf3bbc1b2754ef31a7c",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -12,21 +12,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "866b86c3049c70ecf8dbe7f53e94134ba61632694638292a6c85f5bb31df5a75",
-        "sha256": "83d3dd6830c55cc252e505ac1842055c29e24d3c1c9e4c183c34c0d119d38b3e",
+        "sha256": "3e549b397289faf44af426a691c8117eae0a46499d57bcf3bbc1b2754ef31a7c",
         "text_sha256": "0b47182a78ab2caf81096f395bbdb4cda910a1dad427dd006791d2630dc46dd8",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 768078,
-        "reused": true
+        "bytes": 697038,
+        "reused": false
       }
     ]
   },
   {
     "file": "audio/scene-1.wav",
-    "duration": 16.6,
+    "duration": 17.92,
     "text": "الاختبار الأخير للمحرك استمر لمدة ثلاث دقائق وعشرين ثانية، وده وقت كافي جداً للمهندسين عشان يجمعوا بيانات مهمة عن أداء المحرك وقدرته على التحمل، البيانات دي بتساعد في تحسين الموثوقية للرحلات الفضائية الكبيرة.",
-    "sha256": "3d2afd7ac2913c4b9479e0c3549b8058e7873a102e510f54f1aa319cf017e51f",
+    "sha256": "3c5d3bb744bbf6ae233ac58e0f407ab6be14f629ff8371b251f889672228d7d6",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -35,21 +35,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "b092a5a95cf5a6df1fb992ec30aab04a1726cdf8fd457714d7c2a539b6e00eaf",
-        "sha256": "3d2afd7ac2913c4b9479e0c3549b8058e7873a102e510f54f1aa319cf017e51f",
+        "sha256": "3c5d3bb744bbf6ae233ac58e0f407ab6be14f629ff8371b251f889672228d7d6",
         "text_sha256": "57eec186717f3e972f32d6c1d4173f673b4b3f0b40879453faf08f3c13cc8536",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 796878,
-        "reused": true
+        "bytes": 860238,
+        "reused": false
       }
     ]
   },
   {
     "file": "audio/scene-2.wav",
-    "duration": 16.92,
+    "duration": 16.730958,
     "text": "عشان الصاروخ يقدر يخرج من جاذبية الأرض، بيحتاج قوة دفع خرافية، الأربع محركات اللي بيستخدموا في مهمات أرتميس بيقدروا ينتجوا قوة دفع بتوصل لاتنين مليون رطل، وده رقم ضخم جداً ومحتاج هندسة دقيقة.",
-    "sha256": "248da66f969f9b5fb9a287ae143bdd477be6157ab9eb538e47c74d487ca5b17e",
+    "sha256": "202669ad2c8622674a65a41dd1eb6589de90f9e22f2e1105f7e785fdc2d9bc0f",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -58,21 +58,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "68d8fd84080c32feed57ef940efc254e8f58a40bfa3d55cfa59807faaba7bcca",
-        "sha256": "248da66f969f9b5fb9a287ae143bdd477be6157ab9eb538e47c74d487ca5b17e",
+        "sha256": "202669ad2c8622674a65a41dd1eb6589de90f9e22f2e1105f7e785fdc2d9bc0f",
         "text_sha256": "a2184b6ae036075230eabb4ed600fdaf47be3c54145e6d98d563275f9bab0a3c",
         "voice": "Charon",
         "provider": "Gemini",
-        "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 812238,
-        "reused": true
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 803164,
+        "reused": false
       }
     ]
   },
   {
     "file": "audio/scene-3.wav",
-    "duration": 15.52,
+    "duration": 16.410958,
     "text": "مهمة أرتميس الرابعة المخطط ليها في سنة ألفين وثمانية وعشرين، هتكون خطوة أساسية في استكشاف القطب الجنوبي للقمر، ناسا بتخطط لبناء وجود بشري مستدام على سطح القمر، وده تمهيد لأول رحلة مأهولة للمريخ.",
-    "sha256": "23898dd0a0a917b140b510ed55614c0805bb645df70b942bf30ef4afa9c33786",
+    "sha256": "d77d42433b1eaef77d8452f0398b0a8a573595d02857e90add1e59e60fbb43a9",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -81,21 +81,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "0ed01f08931705f26a577776424db28af0932e3560e609f6438ef4304a6c7479",
-        "sha256": "23898dd0a0a917b140b510ed55614c0805bb645df70b942bf30ef4afa9c33786",
+        "sha256": "d77d42433b1eaef77d8452f0398b0a8a573595d02857e90add1e59e60fbb43a9",
         "text_sha256": "69762e09ddbeb829f2a75aafd21445a3c53c4dd8c6eb98d9b199ee13a408cb40",
         "voice": "Charon",
         "provider": "Gemini",
-        "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 745038,
-        "reused": true
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 787804,
+        "reused": false
       }
     ]
   },
   {
     "file": "audio/scene-4.wav",
-    "duration": 14.850958,
+    "duration": 14.050958,
     "text": "رغم إن المحرك اللي اتختبر مش هيطلع في رحلة طيران، لكنه بيوفر بيانات حيوية لشركة إل ثري هاريس، البيانات دي بتساعد في تحسين أداء المحركات وموثوقيتها، عشان تكون جاهزة تماماً للمهمات الحقيقية اللي جاية.",
-    "sha256": "f3646c1a1a8c4aa3e029eb6f18e45aef9433028d609ae44d55f0855545a0c997",
+    "sha256": "0ae1c02a3872e7ee25cf156fb4cea9dda7df18834bfa420f4bd6242d8f0f4f44",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -104,21 +104,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "d532a0ef30972a24a6936032d134f9df49839df8570cb7582034075f7b33e9b7",
-        "sha256": "f3646c1a1a8c4aa3e029eb6f18e45aef9433028d609ae44d55f0855545a0c997",
+        "sha256": "0ae1c02a3872e7ee25cf156fb4cea9dda7df18834bfa420f4bd6242d8f0f4f44",
         "text_sha256": "067a4399068658dc606583da254e5fd81299c2afa98759e215a2bee093f0d4e2",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-2.5-flash-preview-tts",
-        "bytes": 712924,
-        "reused": true
+        "bytes": 674524,
+        "reused": false
       }
     ]
   },
   {
     "file": "audio/scene-5.wav",
-    "duration": 16.76,
+    "duration": 15.970958,
     "text": "الاختبارات دي مش بيعملها شخص واحد، ده فريق عمل متكامل من ناسا وشركة إل ثري هاريس وشركة نوفا سبيس سوليوشنز، الكل بيشتغل مع بعض عشان يضمنوا إن كل محرك يكون جاهز ومثبت كفاءته قبل الإطلاق.",
-    "sha256": "663eb01010253a600a4a4b48de54cfc90162965f844efabf05b1f7f30f15c38c",
+    "sha256": "3708dbda46ec2bbc15dea5ce8b7393be7841e4a6af313f79349757f3af5dc3cb",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -127,21 +127,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "bdc4fe6a3aa9869fbacd69363346ff74076d11774a42e9f4d27846247b63ab7c",
-        "sha256": "663eb01010253a600a4a4b48de54cfc90162965f844efabf05b1f7f30f15c38c",
+        "sha256": "3708dbda46ec2bbc15dea5ce8b7393be7841e4a6af313f79349757f3af5dc3cb",
         "text_sha256": "2f14e2a7e9ad38282828cad1ebdb59002c26845975efdfc8e1bdad7a288a264e",
         "voice": "Charon",
         "provider": "Gemini",
-        "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 804558,
-        "reused": true
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 766684,
+        "reused": false
       }
     ]
   },
   {
     "file": "audio/scene-6.wav",
-    "duration": 13.930958,
+    "duration": 14.530958,
     "text": "كل محرك من نوع أر إس خمسة وعشرين بيتم اختباره بدقة في مركز ستينيس، لازم يتأكدوا إنه صالح للطيران قبل ما يركبوه في الصاروخ، دي إجراءات صارمة عشان يضمنوا نجاح المهمة وسلامة الرواد في الفضاء.",
-    "sha256": "61771630e558266cb0eaa3158d88b1ff743ff7a34e99554b3b6bb1125ceb49fa",
+    "sha256": "5f2831150678abbb6dda3872778425d8aa3a311478c77b818ae6711168b00dee",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -150,21 +150,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "5dce2b26423e1ad8649cd7bb4bf7c35519855ebbb8ce6042b2bd1e8dca56d978",
-        "sha256": "61771630e558266cb0eaa3158d88b1ff743ff7a34e99554b3b6bb1125ceb49fa",
+        "sha256": "5f2831150678abbb6dda3872778425d8aa3a311478c77b818ae6711168b00dee",
         "text_sha256": "f9104fab08019aed7069d4f10074be5b402a55573ff069b71c02f768834e9602",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-2.5-flash-preview-tts",
-        "bytes": 668764,
-        "reused": true
+        "bytes": 697564,
+        "reused": false
       }
     ]
   },
   {
     "file": "audio/scene-7.wav",
-    "duration": 16.56,
+    "duration": 16.530958,
     "text": "الرحلة للقمر مش مجرد حلم، دي خطط حقيقية بتتبني بجهد كبير واختبارات دقيقة، كل ثانية في الاختبار ده بتقربنا أكتر من هدفنا في استكشاف الفضاء، شكراً لمتابعتكم معانا النهاردة في نفهمها، استنونا في الحلقة الجاية.",
-    "sha256": "6a77cc40c5ba6044afb5cad05d0ab208b2ba2d89182fbc528cb2291175895b54",
+    "sha256": "5e7d36f4a32ad3207335fe94c96956ec5991c8d4ae444cc73d40c95fdbc40937",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -173,13 +173,13 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "8b59a6478d66ebd2ac410203feb3a1a8cc7e35eccffae5ba4b729f4f65163929",
-        "sha256": "6a77cc40c5ba6044afb5cad05d0ab208b2ba2d89182fbc528cb2291175895b54",
+        "sha256": "5e7d36f4a32ad3207335fe94c96956ec5991c8d4ae444cc73d40c95fdbc40937",
         "text_sha256": "83ad1bc806ba8c44eb23d5b71891223aebf05dae1f80bc2b9998e5c6141cf5e5",
         "voice": "Charon",
         "provider": "Gemini",
-        "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 794958,
-        "reused": true
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 793564,
+        "reused": false
       }
     ]
   }

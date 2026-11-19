@@ -1,0 +1,5 @@
+{
+  "code": "DRAWPLAN_SCHEMA_INVALID",
+  "attempt": 1,
+  "detail": "DRAWPLAN_SCHEMA_INVALID: scene 7 label 0: anchor (540,1600) outside drawing box | scene 7 label 1: anchor (540,1650) outside drawing box | scene 7 label 2: anchor (540,1700) outside drawing box"
+}

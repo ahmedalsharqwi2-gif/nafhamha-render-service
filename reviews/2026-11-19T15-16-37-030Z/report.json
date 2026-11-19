@@ -1,6 +1,6 @@
 {
   "id": "2026-11-19T15-16-37-030Z",
-  "attemptId": "2026-11-19T16-22-03-860Z",
+  "attemptId": "2026-11-19T16-38-25-790Z",
   "mode": "review",
   "published": false,
   "status": "failed",
@@ -9,7 +9,7 @@
     {
       "name": "preflight",
       "status": "pass",
-      "seconds": 0.384
+      "seconds": 0.251
     },
     {
       "name": "topics",
@@ -22,21 +22,44 @@
     {
       "name": "voice",
       "status": "pass",
-      "seconds": 0.926
+      "seconds": 1001.593
     },
     {
-      "name": "voice-repair-1",
+      "name": "align",
       "status": "pass",
-      "seconds": 1.499
+      "seconds": 248.739
+    },
+    {
+      "name": "assets",
+      "status": "pass",
+      "seconds": 0.001
+    },
+    {
+      "name": "drawplan",
+      "status": "pass",
+      "seconds": 158.438
+    },
+    {
+      "name": "mix",
+      "status": "pass",
+      "seconds": 3.415
+    },
+    {
+      "name": "layout-qa",
+      "status": "pass",
+      "seconds": 27.754
+    },
+    {
+      "name": "render",
+      "status": "pass",
+      "seconds": 180.072
     }
   ],
   "limitations": [
-    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate.",
-    "align failed (ALIGNMENT_SPEECH_MISMATCH); re-narrating once with fresh synthesis",
-    "align repair failed (ALIGNMENT_SPEECH_MISMATCH); repair budget exhausted"
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
   ],
-  "failedStage": "align-repair-1",
-  "errorCode": "ALIGNMENT_SPEECH_MISMATCH",
+  "failedStage": "qa",
+  "errorCode": "STAGE_FAILED_SEE_RUNBOOK",
   "partial": {
     "status": "rendered",
     "path": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/out/2026-11-19T15-16-37-030Z/incomplete-with-voice/review-with-voice-INCOMPLETE.mp4",
