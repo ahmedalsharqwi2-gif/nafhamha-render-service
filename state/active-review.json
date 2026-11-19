@@ -509,6 +509,6 @@
   "lastFailure": {
     "stage": "qa",
     "code": "STAGE_FAILED_SEE_RUNBOOK",
-    "repeat": 0
+    "repeat": 1
   }
 }

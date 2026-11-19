@@ -1,6 +1,6 @@
 {
   "id": "2026-11-19T15-16-37-030Z",
-  "attemptId": "2026-11-19T16-38-25-790Z",
+  "attemptId": "2026-11-19T17-17-11-672Z",
   "mode": "review",
   "published": false,
   "status": "failed",
@@ -9,7 +9,7 @@
     {
       "name": "preflight",
       "status": "pass",
-      "seconds": 0.251
+      "seconds": 0.208
     },
     {
       "name": "topics",
@@ -22,12 +22,12 @@
     {
       "name": "voice",
       "status": "pass",
-      "seconds": 1001.593
+      "seconds": 0.572
     },
     {
       "name": "align",
       "status": "pass",
-      "seconds": 248.739
+      "seconds": 158.519
     },
     {
       "name": "assets",
@@ -37,22 +37,22 @@
     {
       "name": "drawplan",
       "status": "pass",
-      "seconds": 158.438
+      "seconds": 135.426
     },
     {
       "name": "mix",
       "status": "pass",
-      "seconds": 3.415
+      "seconds": 2.672
     },
     {
       "name": "layout-qa",
       "status": "pass",
-      "seconds": 27.754
+      "seconds": 26.94
     },
     {
       "name": "render",
       "status": "pass",
-      "seconds": 180.072
+      "seconds": 164.754
     }
   ],
   "limitations": [
