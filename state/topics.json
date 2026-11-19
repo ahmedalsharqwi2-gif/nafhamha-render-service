@@ -28,5 +28,17 @@
     "value": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
     "status": "review",
     "run": "2026-11-19T13-39-05-359Z"
+  },
+  {
+    "value": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+    "status": "retired",
+    "reason": "UNSUPPORTED_CLAIM",
+    "run": "2026-11-19T14-32-22-158Z"
+  },
+  {
+    "topicKey": "nasa-moon-base-lunar-outpost",
+    "value": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-moon-base/",
+    "status": "reserved",
+    "run": "2026-11-19T14-34-01-995Z"
   }
 ]

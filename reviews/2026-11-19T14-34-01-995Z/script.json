@@ -1,0 +1,172 @@
+{
+  "topicKey": "nasa-moon-base-lunar-outpost",
+  "title": "إزاي هنعيش على القمر؟",
+  "hook": "إزاي هنعيش على القمر؟ ناسا بتخطط تبني قاعدة قمرية كاملة، ودي هتكون أول محطة بشرية بعيدة عن كوكب الأرض، مكان يقدر فيه رواد الفضاء يعيشوا ويشتغلوا ويستكشفوا سطح القمر لفترات طويلة جداً.",
+  "cta": "لو عايز تعرف أكتر عن رحلات الفضاء ومستقبل البشر على القمر، تابعنا واشترك في القناة عشان يوصلك كل جديد عن استكشاف الفضاء.",
+  "scenes": [
+    {
+      "title": "القاعدة القمرية",
+      "text": "القاعدة القمرية هي أول محطة بشرية دائمة خارج كوكبنا. ناسا بتجهز لبناء بنية تحتية متكاملة تشمل مساكن وأنظمة طاقة ومركبات عشان رواد الفضاء يقدروا يعيشوا ويستكشفوا سطح القمر براحتهم وبأمان تام.",
+      "summary": "ناسا تبني أول قاعدة بشرية دائمة على سطح القمر.",
+      "keyword": "القمر",
+      "template": "phenomenon",
+      "labels": [
+        "ناسا",
+        "القمر",
+        "استكشاف"
+      ],
+      "values": [],
+      "claim": "The Moon Base is humanity’s first lunar outpost.",
+      "sourceId": "413bc2a06dfb",
+      "evidence": "The Moon Base is humanity’s first lunar outpost .",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "brollQuery": "moon lunar base"
+    },
+    {
+      "title": "ليه القطب الجنوبي؟",
+      "text": "ناسا اختارت القطب الجنوبي للقمر عشان ظروف الإضاءة الفريدة هناك. الشمس بتفضل منخفضة، ففي مناطق بتاخد ضوء شمس مستمر للطاقة، ومناطق تانية في ضل دائم، وده مكان مثالي عشان ندور على مياه متجمدة.",
+      "summary": "اختيار القطب الجنوبي بسبب الإضاءة والمياه المتجمدة.",
+      "keyword": "القطب",
+      "template": "map",
+      "labels": [
+        "القطب الجنوبي",
+        "شمس",
+        "مياه"
+      ],
+      "values": [],
+      "claim": "This area was selected for its unique lighting conditions and potential for scientific discovery.",
+      "sourceId": "413bc2a06dfb",
+      "evidence": "This area was selected for its unique lighting conditions and potential for scientific discovery.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "walk",
+      "brollQuery": "lunar south pole"
+    },
+    {
+      "title": "خطة البناء",
+      "text": "البناء هيتم على تلات مراحل. المرحلة الأولى شغالة دلوقتي باستكشاف الروبوتات. المرحلة التانية من سنة ألفين وتسعة وعشرين لحد ألفين واثنين وتلاتين، هنبدأ نجهز البنية التحتية الأساسية زي أنظمة الطاقة والاتصالات.",
+      "summary": "خطة بناء القاعدة القمرية تتم على ثلاث مراحل زمنية.",
+      "keyword": "مراحل",
+      "template": "steps",
+      "labels": [
+        "روبوتات",
+        "بنية تحتية",
+        "طاقة"
+      ],
+      "values": [],
+      "claim": "The Moon Base will be constructed in three phases.",
+      "sourceId": "413bc2a06dfb",
+      "evidence": "The Moon Base will be constructed in three phases.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "run",
+      "brollQuery": "lunar construction"
+    },
+    {
+      "title": "المرحلة الثالثة",
+      "text": "في المرحلة التالتة، هنبدأ نجمع المحطة عشان تكون جاهزة لاستقبال البشر. الرواد هيقدروا يعيشوا ويشتغلوا هناك لفترات طويلة، وهتتجمع المساكن وأنظمة النقل عشان القاعدة تكبر وتتوسع بشكل دائم على سطح القمر.",
+      "summary": "المرحلة الثالثة تهدف لإقامة دائمة للبشر على القمر.",
+      "keyword": "مساكن",
+      "template": "journey",
+      "labels": [
+        "رواد فضاء",
+        "مساكن",
+        "استدامة"
+      ],
+      "values": [],
+      "claim": "During Phase Three, NASA will begin assembling a permanent lunar outpost.",
+      "sourceId": "413bc2a06dfb",
+      "evidence": "During Phase Three, NASA will begin assembling a permanent lunar outpost.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "jump",
+      "brollQuery": "lunar habitat"
+    },
+    {
+      "title": "روبوتات الاستكشاف",
+      "text": "الروبوتات زي مركبة فايبر هتلعب دور مهم. فايبر هتدور على الموارد والمياه في الفوهات المظلمة، وهتسافر أكتر من خمسة عشر ميل عشان تجمع بيانات عن التربة القمرية وتساعدنا نفهم طبيعة الأرض هناك.",
+      "summary": "الروبوتات تستكشف الموارد وتجمع بيانات عن التربة.",
+      "keyword": "روبوتات",
+      "template": "phenomenon",
+      "labels": [
+        "فايبر",
+        "استكشاف",
+        "بيانات"
+      ],
+      "values": [],
+      "claim": "It will travel more than 15 miles, collecting data and analyzing the lunar soil.",
+      "sourceId": "413bc2a06dfb",
+      "evidence": "It will travel more than 15 miles, collecting data and analyzing the lunar soil.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "turn",
+      "brollQuery": "lunar rover"
+    },
+    {
+      "title": "تحديات البيئة",
+      "text": "البيئة هناك قاسية جداً. الحرارة ممكن توصل لأكتر من مائة وثلاثين درجة فهرنهايت في الشمس، وتنزل لسالب ثلاثمائة وأربعة وثلاثين درجة في الضل. ده تحدي كبير لتصميم الأجهزة والمعدات اللي هتتحمل الظروف دي.",
+      "summary": "البيئة القمرية قاسية جداً وتتطلب معدات خاصة.",
+      "keyword": "حرارة",
+      "template": "comparison",
+      "labels": [
+        "حرارة",
+        "برودة",
+        "تحديات"
+      ],
+      "values": [],
+      "claim": "This means temperatures can reach more than 130°F (54°C) in sunlit areas.",
+      "sourceId": "413bc2a06dfb",
+      "evidence": "This means temperatures can reach more than 130°F (54°C) in sunlit areas.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "fall",
+      "brollQuery": "extreme lunar temperature"
+    },
+    {
+      "title": "خطر الغبار",
+      "text": "سطح القمر متغطي بطبقة من الغبار الصخري الحاد اللي اسمه ريجوليث. الغبار ده ممكن يبوظ بدلات الفضاء والمعدات بسرعة، وممكن يكون خطر لو حد استنشقه، فبناخد احتياطات عشان نحمي الرواد من الغبار ده.",
+      "summary": "غبار الريجوليث الحاد يمثل خطراً على المعدات والبشر.",
+      "keyword": "غبار",
+      "template": "phenomenon",
+      "labels": [
+        "ريجوليث",
+        "سلامة",
+        "معدات"
+      ],
+      "values": [],
+      "claim": "Since there is no wind or rain to cause erosion on the lunar surface, regolith particles have sharp edges.",
+      "sourceId": "413bc2a06dfb",
+      "evidence": "Since there is no wind or rain to cause erosion on the lunar surface, regolith particles have sharp edges.",
+      "kind": "fact",
+      "expression": 3,
+      "action": "hang",
+      "brollQuery": "lunar regolith"
+    },
+    {
+      "title": "الطريق للمريخ",
+      "text": "القاعدة القمرية هي خطوة مهمة عشان نتعلم إزاي نعيش ونشتغل في عالم تاني. كل اللي هنتعلمه من تقنيات البناء والاستكشاف على القمر هيساعدنا نجهز لرحلات البشر المستقبلية لكوكب المريخ البعيد.",
+      "summary": "القاعدة القمرية تمهد الطريق لرحلات المريخ.",
+      "keyword": "المريخ",
+      "template": "journey",
+      "labels": [
+        "مستقبل",
+        "مريخ",
+        "تكنولوجيا"
+      ],
+      "values": [],
+      "claim": "What we learn on the lunar surface by testing new landing techniques, construction methods, and exploration technologies will help prepare for human missions to Mars.",
+      "sourceId": "413bc2a06dfb",
+      "evidence": "What we learn on the lunar surface by testing new landing techniques, construction methods, and exploration technologies will help prepare for human missions to Mars.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "sleep",
+      "brollQuery": "mars mission"
+    }
+  ],
+  "seriesLabel": "علوم الفضاء",
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}
