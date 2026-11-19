@@ -246,7 +246,7 @@ export const PaperEpisode = (props: any) => {
               {laid.labels.map((l: Op, i: number) => <Callout key={'l' + i} l={l} frame={frame} />)}
             </g>
           ) : null)}
-          <Mascot frame={frame} x={280} y={1290} scale={0.6} enterFrame={55} beats={beats} />
+          {props.mascot !== false && <Mascot frame={frame} x={280} y={1290} scale={0.6} enterFrame={55} beats={beats} />}
         </svg>
       </div>
       <svg width="1080" height="1920" style={{position: 'absolute', pointerEvents: 'none', opacity: 0.05}}>
