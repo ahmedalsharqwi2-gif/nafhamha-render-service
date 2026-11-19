@@ -22,5 +22,11 @@
     "value": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
     "status": "review",
     "run": "2026-11-19T08-34-52-118Z"
+  },
+  {
+    "topicKey": "nasa-crs-25-mission",
+    "value": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
+    "status": "review",
+    "run": "2026-11-19T13-39-05-359Z"
   }
 ]

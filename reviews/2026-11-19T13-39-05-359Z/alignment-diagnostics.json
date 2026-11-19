@@ -1,0 +1,87 @@
+{
+  "method": "stable-ts attention forced alignment; independent unprompted faster-whisper ASR",
+  "estimatedTiming": false,
+  "scenes": [
+    {
+      "scene": 0,
+      "passed": true,
+      "words": 30,
+      "characterSimilarity": 0.9230769230769231,
+      "wordCoverage": 0.8,
+      "sourceWords": 30,
+      "recognizedWords": 26,
+      "missingNumerals": []
+    },
+    {
+      "scene": 1,
+      "passed": true,
+      "words": 31,
+      "characterSimilarity": 0.9512195121951219,
+      "wordCoverage": 0.8709677419354839,
+      "sourceWords": 31,
+      "recognizedWords": 30,
+      "missingNumerals": []
+    },
+    {
+      "scene": 2,
+      "passed": true,
+      "words": 30,
+      "characterSimilarity": 0.9969418960244648,
+      "wordCoverage": 0.9666666666666667,
+      "sourceWords": 30,
+      "recognizedWords": 30,
+      "missingNumerals": []
+    },
+    {
+      "scene": 3,
+      "passed": true,
+      "words": 32,
+      "characterSimilarity": 0.9250814332247557,
+      "wordCoverage": 0.78125,
+      "sourceWords": 32,
+      "recognizedWords": 31,
+      "missingNumerals": []
+    },
+    {
+      "scene": 4,
+      "passed": true,
+      "words": 31,
+      "characterSimilarity": 0.96875,
+      "wordCoverage": 0.8709677419354839,
+      "sourceWords": 31,
+      "recognizedWords": 31,
+      "missingNumerals": []
+    },
+    {
+      "scene": 5,
+      "passed": true,
+      "words": 30,
+      "characterSimilarity": 0.993103448275862,
+      "wordCoverage": 0.9,
+      "sourceWords": 30,
+      "recognizedWords": 29,
+      "missingNumerals": []
+    },
+    {
+      "scene": 6,
+      "passed": true,
+      "words": 29,
+      "characterSimilarity": 0.9257950530035336,
+      "wordCoverage": 0.8620689655172413,
+      "sourceWords": 29,
+      "recognizedWords": 27,
+      "missingNumerals": []
+    },
+    {
+      "scene": 7,
+      "passed": true,
+      "words": 30,
+      "characterSimilarity": 1.0,
+      "wordCoverage": 1.0,
+      "sourceWords": 30,
+      "recognizedWords": 30,
+      "missingNumerals": []
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,172 @@
+{
+  "topicKey": "nasa-crs-25-mission",
+  "title": "إزاي الصاروخ بيوصل أكل ومعدات للفضاء؟",
+  "hook": "إزاي الصاروخ بيوصل أكل ومعدات للفضاء؟ تخيل إننا بنشحن طرد وزنه أحد عشر ألف رطل لمحطة الفضاء الدولية، والرحلة دي مش مجرد توصيلة عادية، دي رحلة علمية بتغير مستقبلنا في الفضاء.",
+  "cta": "لو حابب تعرف أكتر عن رحلات الفضاء ومهمات ناسا، تابعنا واشترك في القناة عشان يوصلك كل جديد عن استكشاف الكون وأسرار الفضاء اللي بنكتشفها كل يوم.",
+  "scenes": [
+    {
+      "title": "مهمة شحن فضائية",
+      "text": "ناسا بتستعد لإطلاق مهمة جديدة اسمها نورثروب جرومان سي آر إس خمسة وعشرين، والمهمة دي هدفها الأساسي توصيل إمدادات ومعدات علمية لمحطة الفضاء الدولية عشان تساعد رواد الفضاء في أبحاثهم.",
+      "summary": "ناسا تجهز مهمة شحن فضائية جديدة.",
+      "keyword": "صاروخ",
+      "template": "phenomenon",
+      "labels": [
+        "ناسا",
+        "فضاء",
+        "شحن"
+      ],
+      "values": [],
+      "claim": "The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 25, or Northrop Grumman CRS-25.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 25, or Northrop Grumman CRS-25.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "brollQuery": "rocket launch"
+    },
+    {
+      "title": "حجم الشحنة الضخم",
+      "text": "الصاروخ مش طالع فاضي، ده شايل حوالي أحد عشر ألف رطل من البضائع، ودي كمية ضخمة جداً بتشمل أكل ومعدات وتجارب علمية مهمة جداً عشان الأبحاث اللي بتتم فوق في المدار.",
+      "summary": "الصاروخ يحمل أحد عشر ألف رطل من الشحنات.",
+      "keyword": "شحنة",
+      "template": "comparison",
+      "labels": [
+        "وزن",
+        "إمدادات",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus XL spacecraft, aboard a SpaceX Falcon 9 rocket, will launch from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus XL spacecraft, aboard a SpaceX Falcon 9 rocket, will launch from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "walk",
+      "brollQuery": "cargo space"
+    },
+    {
+      "title": "أهداف علمية طموحة",
+      "text": "الأبحاث اللي رايحة المحطة متنوعة جداً، منها تجارب لتحسين علاج السرطان وهشاشة العظام، وكمان دراسات عن فقدان العضلات، ومحاولات متطورة لإنتاج الغذاء عشان الرحلات الفضائية الطويلة اللي جاية في المستقبل.",
+      "summary": "تجارب علمية متنوعة لدعم صحة البشر.",
+      "keyword": "أبحاث",
+      "template": "steps",
+      "labels": [
+        "طب",
+        "علوم",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "Highlights of space station research and technology demonstrations being delivered aboard this Cygnus XL spacecraft include experiments to improve drug delivery for cancer and osteoarthritis, predict cancer spread, and advance treatments for muscle loss, as well as improve radiation sensing and advance food production for future long-duration missions.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "Highlights of space station research and technology demonstrations being delivered aboard this Cygnus XL spacecraft include experiments to improve drug delivery for cancer and osteoarthritis, predict cancer spread, and advance treatments for muscle loss, as well as improve radiation sensing and advance food production for future long-duration missions.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "turn",
+      "brollQuery": "science experiment"
+    },
+    {
+      "title": "تكريم رائد فضاء",
+      "text": "المركبة الفضائية اللي هتشيل الشحنة اتسمت باسم جيمس لوفيل، تكريماً لرائد الفضاء السابق اللي شارك في مهمات تاريخية زي أبولو ثمانية وأبولو ثلاثة عشر، وده تقدير كبير لمسيرته العظيمة في استكشاف القمر.",
+      "summary": "تسمية المركبة باسم رائد الفضاء جيمس لوفيل.",
+      "keyword": "مركبة",
+      "template": "journey",
+      "labels": [
+        "تاريخ",
+        "فضاء",
+        "تكريم"
+      ],
+      "values": [],
+      "claim": "Northrop Grumman named the spacecraft the S.S. James Jim A. Lovell in honor of the former NASA astronaut.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "Northrop Grumman named the spacecraft the S.S. James Jim A. Lovell in honor of the former NASA astronaut.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "point",
+      "brollQuery": "spacecraft"
+    },
+    {
+      "title": "عملية الالتحام",
+      "text": "لما المركبة توصل للمحطة، رواد الفضاء جيسيكا واتكينز ولوك ديلاني هيستخدموا ذراع روبوتية اسمها كانادارم اثنين عشان يمسكوا المركبة، وبعدها يتم تثبيتها في وحدة يونيتي عشان يبدأ تفريغ الشحنة المهمة دي.",
+      "summary": "استخدام الذراع الروبوتية لالتقاط المركبة.",
+      "keyword": "ذراع",
+      "template": "steps",
+      "labels": [
+        "روبوت",
+        "محطة",
+        "التحام"
+      ],
+      "values": [],
+      "claim": "After arriving at the International Space Station, NASA astronauts Jessica Watkins and Luke Delaney, who are living and working aboard the space station, will use the Canadarm2 robotic arm to capture the Cygnus XL on Tuesday, Dec. 1.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "After arriving at the International Space Station, NASA astronauts Jessica Watkins and Luke Delaney, who are living and working aboard the space station, will use the Canadarm2 robotic arm to capture the Cygnus XL on Tuesday, Dec. 1.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "run",
+      "brollQuery": "robotic arm"
+    },
+    {
+      "title": "مشاركة الجمهور",
+      "text": "ناسا بتسمح للجمهور إنهم يحضروا الإطلاق ده افتراضياً، وده بيشمل موارد تعليمية وإشعارات عن المهمة، وحتى ختم خاص في جواز السفر الافتراضي لناسا بعد ما الصاروخ يوصل للفضاء بنجاح كبير.",
+      "summary": "دعوة الجمهور للمشاركة في الإطلاق افتراضياً.",
+      "keyword": "جمهور",
+      "template": "map",
+      "labels": [
+        "مشاركة",
+        "تعليم",
+        "ناسا"
+      ],
+      "values": [],
+      "claim": "Members of the public can register to attend this launch virtually. NASA’s virtual guest program for this mission also includes curated launch resources, notifications about related opportunities or changes, and a stamp for the NASA virtual guest passport following launch.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "Members of the public can register to attend this launch virtually. NASA’s virtual guest program for this mission also includes curated launch resources, notifications about related opportunities or changes, and a stamp for the NASA virtual guest passport following launch.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "jump",
+      "brollQuery": "virtual event"
+    },
+    {
+      "title": "نهاية المهمة",
+      "text": "المركبة هتفضل في المختبر المداري لحد شهر مايو سنة ألفين وسبعة وعشرين، وبعدها هتغادر ومعاها آلاف الأرطال من النفايات، وهتحترق بأمان في الغلاف الجوي للأرض بعد انتهاء مهمتها بالكامل.",
+      "summary": "المركبة تحترق بأمان بعد انتهاء مهمتها.",
+      "keyword": "غلاف",
+      "template": "cause",
+      "labels": [
+        "نهاية",
+        "أمان",
+        "غلاف جوي"
+      ],
+      "values": [],
+      "claim": "The spacecraft is scheduled to remain at the orbiting laboratory until May 2027, then depart with several thousand pounds of disposal items and other unneeded cargo, burning up harmlessly during re-entry.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "The spacecraft is scheduled to remain at the orbiting laboratory until May 2027, then depart with several thousand pounds of disposal items and other unneeded cargo, burning up harmlessly during re-entry.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "fall",
+      "brollQuery": "atmosphere"
+    },
+    {
+      "title": "تابعونا للمزيد",
+      "text": "لو حابب تعرف أكتر عن رحلات الفضاء ومهمات ناسا، تابعنا واشترك في القناة عشان يوصلك كل جديد عن استكشاف الكون وأسرار الفضاء اللي بنكتشفها كل يوم في رحلتنا المستمرة للمعرفة.",
+      "summary": "دعوة للمتابعة والاشتراك في القناة.",
+      "keyword": "قناة",
+      "template": "phenomenon",
+      "labels": [
+        "اشتراك",
+        "معرفة",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "Learn more about this commercial resupply services mission at: https://www.nasa.gov/mission/nasas-northrop-grumman-crs-25/",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "Learn more about this commercial resupply services mission at: https://www.nasa.gov/mission/nasas-northrop-grumman-crs-25/",
+      "kind": "fact",
+      "expression": 11,
+      "action": "point",
+      "brollQuery": "space exploration"
+    }
+  ],
+  "seriesLabel": "علوم الفضاء",
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}

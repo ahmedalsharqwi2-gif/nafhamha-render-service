@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-19T13-39-05-359Z",
+  "attemptId": "2026-11-19T13-39-05-359Z",
+  "mode": "review",
+  "published": false,
+  "status": "review_ready",
+  "resumed": false,
+  "stages": [
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.344
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 1.217
+    },
+    {
+      "name": "script",
+      "status": "pass",
+      "seconds": 75.767
+    },
+    {
+      "name": "voice",
+      "status": "pass",
+      "seconds": 380.794
+    },
+    {
+      "name": "align",
+      "status": "pass",
+      "seconds": 245.793
+    },
+    {
+      "name": "assets",
+      "status": "pass",
+      "seconds": 0
+    },
+    {
+      "name": "mix",
+      "status": "pass",
+      "seconds": 3.904
+    },
+    {
+      "name": "layout-qa",
+      "status": "pass",
+      "seconds": 26.648
+    },
+    {
+      "name": "render",
+      "status": "pass",
+      "seconds": 177.942
+    },
+    {
+      "name": "qa",
+      "status": "pass",
+      "seconds": 6.025
+    },
+    {
+      "name": "package",
+      "status": "pass",
+      "seconds": 0.003
+    }
+  ],
+  "limitations": [
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
+  ]
+}
