@@ -1,5 +1,5 @@
 {
-  "model": "turbo",
+  "model": "large-v3",
   "language": "ar",
   "cpuThreads": 4,
   "beamSize": 5,
