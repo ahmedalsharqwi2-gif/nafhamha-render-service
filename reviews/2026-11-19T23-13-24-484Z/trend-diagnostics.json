@@ -1,0 +1,110 @@
+{
+  "sources": [
+    {
+      "source": "trends",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 0
+    }
+  ],
+  "degraded": false,
+  "decisions": [
+    {
+      "id": "58a8acf48ab8",
+      "title": "Challenge: Public Input on Life and the World in 2075",
+      "demand": 20,
+      "recency": 0.951,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "fast",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "صرف مرتبات شهر نوفمبر",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "alexander zverev",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "كامل العدد",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "hunger games",
+          "weight": 4
+        }
+      ],
+      "score": 20.47525947528188
+    },
+    {
+      "id": "72ab3b40ae04",
+      "title": "Lake Pelku",
+      "demand": 14,
+      "recency": 0.899,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "fast",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "alexander zverev",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "hunger games",
+          "weight": 4
+        }
+      ],
+      "score": 14.449401052872464
+    }
+  ]
+}

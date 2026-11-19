@@ -1,0 +1,186 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 16,
+    "text": "وكالة ناسا أطلقت تحدي جديد ومثير بيطلب من الناس يشاركوا تصوراتهم عن شكل الحياة في العالم سنة 2075، وده بيشمل مجالات كتير زي الطيران وأنظمة الفضاء اللي ممكن نستخدمها في حياتنا اليومية.",
+    "sha256": "6199250cffd8831e6fd770472ae81a022e84561921177dcfe1e6b8940a3ee15d",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "eeb964f2b8557d1976e584259c9360f3164d747d1fcea54fb27f2fe7ee12833f",
+        "sha256": "6199250cffd8831e6fd770472ae81a022e84561921177dcfe1e6b8940a3ee15d",
+        "text_sha256": "b4d6f9af75c08ea294f4d33b03e8915b51fae3afe8811e3346e79b8261de3bc0",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 768078,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 15.6,
+    "text": "التحدي مش مجرد كلام، ده بيهدف لتحسين كفاءة الأنظمة وإدارة الموارد بشكل أفضل، وتقليل التكاليف، وكمان تقوية الثقة والشفافية بين الناس والمؤسسات عشان نضمن مستقبل أفضل لكل المجتمعات في كل مكان.",
+    "sha256": "18eb81ed28526a0261e615e1ba88c13c01c0c3e067b3d03e300d2f3a13ca2cd8",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "7c7ca1447fc4d801140e8f51914ee6d33727fd30b32018ae565b271ab77a9ed3",
+        "sha256": "18eb81ed28526a0261e615e1ba88c13c01c0c3e067b3d03e300d2f3a13ca2cd8",
+        "text_sha256": "6b27d502f1068d8f33ad822c618db32f4fd8918dc322eaea766d2081ad67e62e",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 748878,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 16.04,
+    "text": "المشاركين يقدروا يقدموا أفكارهم في أربعة مجالات رئيسية، والهدف الأساسي هو ربط المجتمعات ببعضها وتحسين الوصول للخدمات الأساسية، ودعم الأولويات الوطنية اللي بتهمنا كلنا في رحلتنا نحو المستقبل البعيد ده.",
+    "sha256": "3fbaab21dc793dec0189134530d58ca2e9bd8596ba9c6db51b79cfb88af295c6",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "c32928f50cf9589fb00ef7bfe1a342e3bd317afeb9099219814ac12e6b5a9d32",
+        "sha256": "3fbaab21dc793dec0189134530d58ca2e9bd8596ba9c6db51b79cfb88af295c6",
+        "text_sha256": "3b39c6bfb4427ab90f48dd7b64d649ecc594e32b4a597eccc329935198512b78",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 769998,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 16.56,
+    "text": "ناسا بتدور على أفكار إبداعية وتصورات مفاهيمية، يعني مش لازم تكون أفكار تقنية معقدة أو مهندسين متخصصين، المهم هو الخيال والقدرة على رؤية حلول مبتكرة للمشاكل اللي ممكن تواجهنا في المستقبل.",
+    "sha256": "cd691bf8018315ade3f36b3e4552981c07fd2a12f7c677e6cd07fc0f00315a61",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "dc247ab60691f9fe3bd3ead0b784a00a83ea53331796512d9da4453b418073a2",
+        "sha256": "cd691bf8018315ade3f36b3e4552981c07fd2a12f7c677e6cd07fc0f00315a61",
+        "text_sha256": "c9cbecb6c26159238c1648434b0fc9f9f66ab8cbdac27ff2c01afb0daf403fee",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 794958,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 14.56,
+    "text": "عشان يشجعوا الناس على المشاركة، ناسا رصدت جوائز مالية بتوصل لعشرين ألف دولار في المجموع، ودي فرصة كبيرة لأي حد عنده فكرة مميزة يقدر يشارك بيها وينافس على الجوائز دي بكل سهولة.",
+    "sha256": "dff0f2abf960b921100c6d162859cea0025aea82e4774b6ce19e4624c4afc9b4",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "4824d3b824b318a6edc894e7967cbf114c7e3f1f745f9bdc87420c01b6f64335",
+        "sha256": "dff0f2abf960b921100c6d162859cea0025aea82e4774b6ce19e4624c4afc9b4",
+        "text_sha256": "a8cfae99a739c7f576e7d402f245a122d45ac3ea877c7716538f4c75d00102f9",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 698958,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 16.88,
+    "text": "سجل المواعيد عندك، التسجيل مفتوح من نوفمبر الماضي، والموعد النهائي لتقديم الأفكار هو يناير سنة 2027، فلو عندك فكرة، لازم تلحق تجهزها وتقدمها قبل ما الوقت يخلص وتضيع الفرصة منك.",
+    "sha256": "7f536277e9cd9baaf73a160e444da5339a1ac3649c5c9197ba400a0a812c1f9c",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "ffaea10fa2473f6684106ef7281471842358031d7d936a3e4d2b0736d5f337c7",
+        "sha256": "7f536277e9cd9baaf73a160e444da5339a1ac3649c5c9197ba400a0a812c1f9c",
+        "text_sha256": "24f23243fb83362e099f68ac201b402ea6cb01eef008d7746294134b4591a824",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 810318,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 15.92,
+    "text": "عشان تعرف كل التفاصيل عن القواعد وشروط الأهلية، تقدر تدخل على الموقع الرسمي اللي ناسا حددته، هناك هتلاقي كل المعلومات اللي محتاجها عشان تبدأ رحلتك في تقديم فكرتك للمستقبل بكل ثقة.",
+    "sha256": "e6dc595401891e30dce9edcc534e5bdc61216fedd7563c0a8394d36266eb59f5",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "5cba244cc8386bde60bd40013af8d113b1ad98801af7f2867ed8ac3ebd3a0cd5",
+        "sha256": "e6dc595401891e30dce9edcc534e5bdc61216fedd7563c0a8394d36266eb59f5",
+        "text_sha256": "787bb270d0c69f4beb675d2009254d5968b6eb9f964c0204eea90932497ca8ad",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 764238,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 14.76,
+    "text": "المستقبل مش حاجة بتحصل لينا، ده حاجة بنصنعها بإيدينا، ومشاركتك في تحدي ناسا هي خطوة صغيرة ممكن تفرق كتير في شكل العالم اللي هنعيش فيه بعد سنين طويلة من دلوقتي، شارك وكن جزء.",
+    "sha256": "10f7888cfcf5ee969ff58480c67c06a68cec9169bac425de5022815c6ec23bc6",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "d98589cc8062db24b2c6c51dbe5925320451869f68c9f5eb931d6cc79ed922ab",
+        "sha256": "10f7888cfcf5ee969ff58480c67c06a68cec9169bac425de5022815c6ec23bc6",
+        "text_sha256": "fd2c834ac5450f0ea1e389faac5550390a4b8cdd547dcd068ce4e61f10e336b6",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 708558,
+        "reused": false
+      }
+    ]
+  }
+]

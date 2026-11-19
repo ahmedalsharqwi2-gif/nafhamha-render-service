@@ -1,0 +1,172 @@
+{
+  "topicKey": "nasa-future-life-challenge-2075",
+  "title": "إيه اللي هيحصل في المستقبل في العالم سنة 2075؟",
+  "hook": "إيه اللي هيحصل في المستقبل في العالم سنة 2075؟ سؤال بيشغل بال ناس كتير، والنهارده وكالة ناسا قررت تفتح الباب للجمهور عشان يشاركوا بأفكارهم وتصوراتهم عن شكل الحياة في المستقبل البعيد ده.",
+  "cta": "لو عندك فكرة إبداعية عن شكل الحياة في المستقبل، ادخل على موقع ناسا وشارك في التحدي قبل الموعد النهائي، يمكن فكرتك تكون هي اللي ترسم ملامح العالم الجديد وتكسب الجائزة.",
+  "scenes": [
+    {
+      "title": "تحدي ناسا الجديد",
+      "text": "وكالة ناسا أطلقت تحدي جديد ومثير بيطلب من الناس يشاركوا تصوراتهم عن شكل الحياة في العالم سنة 2075، وده بيشمل مجالات كتير زي الطيران وأنظمة الفضاء اللي ممكن نستخدمها في حياتنا اليومية.",
+      "summary": "ناسا تطلب أفكار الجمهور عن الحياة في 2075",
+      "keyword": "ناسا",
+      "template": "phenomenon",
+      "labels": [
+        "ناسا",
+        "مستقبل",
+        "تحدي"
+      ],
+      "values": [],
+      "claim": "ناسا تطلب أفكار الجمهور عن الحياة في 2075",
+      "sourceId": "58a8acf48ab8",
+      "evidence": "NASA’s Transformational Tools and Technologies (TTT) is gathering public perspectives on life today and how the world may change by 2075.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "brollQuery": "NASA logo"
+    },
+    {
+      "title": "أهداف التحدي",
+      "text": "التحدي مش مجرد كلام، ده بيهدف لتحسين كفاءة الأنظمة وإدارة الموارد بشكل أفضل، وتقليل التكاليف، وكمان تقوية الثقة والشفافية بين الناس والمؤسسات عشان نضمن مستقبل أفضل لكل المجتمعات في كل مكان.",
+      "summary": "أهداف التحدي تحسين الكفاءة والموارد",
+      "keyword": "أهداف",
+      "template": "steps",
+      "labels": [
+        "كفاءة",
+        "موارد",
+        "شفافية"
+      ],
+      "values": [],
+      "claim": "التحدي يهدف لتحسين الكفاءة وإدارة الموارد",
+      "sourceId": "58a8acf48ab8",
+      "evidence": "Improve efficiency Help manage resources better Reduce costs Strengthen trust and transparency",
+      "kind": "fact",
+      "expression": 6,
+      "action": "walk",
+      "brollQuery": "futuristic city"
+    },
+    {
+      "title": "مجالات المشاركة",
+      "text": "المشاركين يقدروا يقدموا أفكارهم في أربعة مجالات رئيسية، والهدف الأساسي هو ربط المجتمعات ببعضها وتحسين الوصول للخدمات الأساسية، ودعم الأولويات الوطنية اللي بتهمنا كلنا في رحلتنا نحو المستقبل البعيد ده.",
+      "summary": "أربعة مجالات رئيسية للمشاركة",
+      "keyword": "مجالات",
+      "template": "map",
+      "labels": [
+        "خدمات",
+        "مجتمعات",
+        "أولويات"
+      ],
+      "values": [],
+      "claim": "التحدي يغطي أربعة مجالات رئيسية",
+      "sourceId": "58a8acf48ab8",
+      "evidence": "This challenge asks for conceptual ideas about life in 2075 across four challenge topics.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "turn",
+      "brollQuery": "global network"
+    },
+    {
+      "title": "طبيعة الأفكار",
+      "text": "ناسا بتدور على أفكار إبداعية وتصورات مفاهيمية، يعني مش لازم تكون أفكار تقنية معقدة أو مهندسين متخصصين، المهم هو الخيال والقدرة على رؤية حلول مبتكرة للمشاكل اللي ممكن تواجهنا في المستقبل.",
+      "summary": "الأفكار المطلوبة مفاهيمية وليست تقنية",
+      "keyword": "أفكار",
+      "template": "comparison",
+      "labels": [
+        "إبداع",
+        "خيال",
+        "حلول"
+      ],
+      "values": [],
+      "claim": "الأفكار المطلوبة مفاهيمية وليست تقنية",
+      "sourceId": "58a8acf48ab8",
+      "evidence": "Ideas should be conceptual rather than technical.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "jump",
+      "brollQuery": "creative thinking"
+    },
+    {
+      "title": "الجائزة المالية",
+      "text": "عشان يشجعوا الناس على المشاركة، ناسا رصدت جوائز مالية بتوصل لعشرين ألف دولار في المجموع، ودي فرصة كبيرة لأي حد عنده فكرة مميزة يقدر يشارك بيها وينافس على الجوائز دي بكل سهولة.",
+      "summary": "إجمالي الجوائز عشرين ألف دولار",
+      "keyword": "جائزة",
+      "template": "chart",
+      "labels": [
+        "جوائز",
+        "مال",
+        "تشجيع"
+      ],
+      "values": [],
+      "claim": "إجمالي الجوائز عشرين ألف دولار",
+      "sourceId": "58a8acf48ab8",
+      "evidence": "Award: $20,000 in total prizes",
+      "kind": "fact",
+      "expression": 9,
+      "action": "point",
+      "brollQuery": "money prize"
+    },
+    {
+      "title": "مواعيد هامة",
+      "text": "سجل المواعيد عندك، التسجيل مفتوح من نوفمبر الماضي، والموعد النهائي لتقديم الأفكار هو يناير سنة 2027، فلو عندك فكرة، لازم تلحق تجهزها وتقدمها قبل ما الوقت يخلص وتضيع الفرصة منك.",
+      "summary": "الموعد النهائي يناير 2027",
+      "keyword": "مواعيد",
+      "template": "journey",
+      "labels": [
+        "تسجيل",
+        "موعد",
+        "فرصة"
+      ],
+      "values": [],
+      "claim": "الموعد النهائي لتقديم الأفكار هو يناير 2027",
+      "sourceId": "58a8acf48ab8",
+      "evidence": "Submission Deadline: January 18, 2027",
+      "kind": "fact",
+      "expression": 10,
+      "action": "run",
+      "brollQuery": "calendar"
+    },
+    {
+      "title": "كيفية المشاركة",
+      "text": "عشان تعرف كل التفاصيل عن القواعد وشروط الأهلية، تقدر تدخل على الموقع الرسمي اللي ناسا حددته، هناك هتلاقي كل المعلومات اللي محتاجها عشان تبدأ رحلتك في تقديم فكرتك للمستقبل بكل ثقة.",
+      "summary": "زيارة موقع التحدي لمعرفة القواعد",
+      "keyword": "موقع",
+      "template": "steps",
+      "labels": [
+        "قواعد",
+        "شروط",
+        "معلومات"
+      ],
+      "values": [],
+      "claim": "زيارة موقع التحدي لمعرفة القواعد",
+      "sourceId": "58a8acf48ab8",
+      "evidence": "For more information including registration , rules, and eligibility, visit: https://work.crowdplat.com/challenge/life-2075",
+      "kind": "fact",
+      "expression": 11,
+      "action": "walk",
+      "brollQuery": "website interface"
+    },
+    {
+      "title": "مستقبلنا سوا",
+      "text": "المستقبل مش حاجة بتحصل لينا، ده حاجة بنصنعها بإيدينا، ومشاركتك في تحدي ناسا هي خطوة صغيرة ممكن تفرق كتير في شكل العالم اللي هنعيش فيه بعد سنين طويلة من دلوقتي، شارك وكن جزء.",
+      "summary": "المشاركة تصنع المستقبل",
+      "keyword": "مستقبل",
+      "template": "phenomenon",
+      "labels": [
+        "مشاركة",
+        "تغيير",
+        "عالم"
+      ],
+      "values": [],
+      "claim": "المشاركة تصنع المستقبل",
+      "sourceId": "58a8acf48ab8",
+      "evidence": "how the world may change by 2075",
+      "kind": "fact",
+      "expression": 10,
+      "action": "point",
+      "brollQuery": "future technology"
+    }
+  ],
+  "seriesLabel": "أخبار الفضاء",
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}
