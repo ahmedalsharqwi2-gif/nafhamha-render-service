@@ -6,8 +6,8 @@
       "scene": 0,
       "passed": true,
       "words": 30,
-      "characterSimilarity": 0.9495798319327731,
-      "wordCoverage": 0.7666666666666667,
+      "characterSimilarity": 0.9874476987447699,
+      "wordCoverage": 0.8666666666666667,
       "sourceWords": 30,
       "recognizedWords": 30,
       "missingNumerals": []
@@ -16,8 +16,8 @@
       "scene": 1,
       "passed": true,
       "words": 28,
-      "characterSimilarity": 0.975609756097561,
-      "wordCoverage": 0.8571428571428571,
+      "characterSimilarity": 1.0,
+      "wordCoverage": 1.0,
       "sourceWords": 28,
       "recognizedWords": 28,
       "missingNumerals": []
@@ -26,8 +26,8 @@
       "scene": 2,
       "passed": true,
       "words": 28,
-      "characterSimilarity": 0.8853754940711462,
-      "wordCoverage": 0.7857142857142857,
+      "characterSimilarity": 0.905511811023622,
+      "wordCoverage": 0.8571428571428571,
       "sourceWords": 28,
       "recognizedWords": 26,
       "missingNumerals": []
@@ -42,7 +42,7 @@
     "characterSimilarity": 0.8493150684931506,
     "wordCoverage": 0.7142857142857143,
     "sourceWords": 28,
-    "recognizedWords": 24,
+    "recognizedWords": 22,
     "missingNumerals": []
   }
 }
