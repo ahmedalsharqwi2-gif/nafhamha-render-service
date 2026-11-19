@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-19T12-34-23-944Z",
+  "attemptId": "2026-11-19T12-34-23-944Z",
+  "mode": "review",
+  "published": false,
+  "status": "failed",
+  "resumed": false,
+  "stages": [
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 2.994
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 0.304
+    }
+  ],
+  "limitations": [
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
+  ],
+  "failedStage": "script",
+  "errorCode": "GEMINI_HTTP_429_EXHAUSTED",
+  "partial": {
+    "status": "rendered",
+    "path": "/home/runner/work/nafhamha-render-service/nafhamha-render-service/out/2026-11-19T12-34-23-944Z/incomplete/visual-preview-incomplete.mp4",
+    "incomplete": true
+  }
+}
