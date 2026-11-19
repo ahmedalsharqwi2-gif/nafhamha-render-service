@@ -1,0 +1,14 @@
+{
+  "mode": "paper",
+  "wordmark_ink_pixels": 467,
+  "threshold": 100,
+  "passed": true,
+  "region": [
+    780,
+    15,
+    1040,
+    75
+  ],
+  "source_sha256": "bbcbca077ed53e6472939a51be6f3d20a5818ee39860e894fef740500e5d1bcd",
+  "note": "Paper mode renders the brand as a text wordmark top-right; pixel-exact logo compare applies to classic mode only. Exact source bytes are separately hash-verified."
+}

@@ -58,5 +58,11 @@
     "status": "retired",
     "reason": "SCRIPT_LINT",
     "run": "2026-11-19T18-09-55-277Z"
+  },
+  {
+    "topicKey": "holiday-stress-management",
+    "value": "https://www.nasa.gov/centers-and-facilities/michoud/maf-eap/maf-eap-holidays-how-to-manage-the-bah-humbug-that-tries-to-sneak-in/",
+    "status": "review",
+    "run": "2026-11-19T22-54-29-274Z"
   }
 ]

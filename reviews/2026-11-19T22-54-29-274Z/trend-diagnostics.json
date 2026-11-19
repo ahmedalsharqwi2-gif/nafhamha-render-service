@@ -1,0 +1,144 @@
+{
+  "sources": [
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "source": "trends",
+      "status": "ok",
+      "items": 10
+    }
+  ],
+  "degraded": false,
+  "decisions": [
+    {
+      "id": "58a8acf48ab8",
+      "title": "Challenge: Public Input on Life and the World in 2075",
+      "demand": 28,
+      "recency": 0.955,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "fast",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "صرف مرتبات شهر نوفمبر",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "alexander zverev",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "كامل العدد",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "شبيبة القبائل ضد اتحاد الجزائر",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "hunger games",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "جامعة",
+          "weight": 2
+        }
+      ],
+      "score": 28.47735957607432
+    },
+    {
+      "id": "72ab3b40ae04",
+      "title": "Lake Pelku",
+      "demand": 14,
+      "recency": 0.903,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "fast",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "alexander zverev",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "hunger games",
+          "weight": 4
+        }
+      ],
+      "score": 14.451386889150006
+    },
+    {
+      "id": "9d57f4dbe2e3",
+      "title": "MAF EAP Holidays – How to manage the BAH HUMBUG that tries to sneak in",
+      "demand": 34,
+      "recency": 0.678,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "fast",
+          "weight": 14
+        },
+        {
+          "kind": "google_trend",
+          "label": "alexander zverev",
+          "weight": 8
+        },
+        {
+          "kind": "google_trend",
+          "label": "hunger games",
+          "weight": 12
+        }
+      ],
+      "score": 34.33921372795246
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 14.56,
+    "text": "الأعياد المفروض تكون وقت للراحة، بس أحياناً بتتحول لضغط كبير ومسؤوليات زيادة. ناس كتير بتحس بتوتر من كتر التجهيزات والالتزامات اللي بتيجي مع الموسم ده، وده شيء طبيعي جداً ومفهوم.",
+    "sha256": "b92307c4b53fdb1c3cd4e7756ec9708e98cf2c9a212647bab598d63ac2167b3d",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "2f5fc0f2ac99f35b22116a94b7987db45300d3b1feb49e5ad2746116e4f073f1",
+        "sha256": "b92307c4b53fdb1c3cd4e7756ec9708e98cf2c9a212647bab598d63ac2167b3d",
+        "text_sha256": "81c3b03a57cd3080909b0746cd9cbf369a173be36a68a8a9813812fde1082366",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 698958,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 13.92,
+    "text": "أول خطوة هي إنك تعترف بمشاعرك بوضوح. مش لازم تحب كل تفاصيل العيد أو تشارك في كل حاجة. من حقك تختار اللي يريحك وتدي لنفسك مساحة تكون فيها على طبيعتك.",
+    "sha256": "b5247a455bbf93bb3dd03826174ee290223edf310829b2ac6e07f5536e21223c",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "51e144db314aa88915c972df2a2cdec66f79360c9229b7f6e94a7473754ccdad",
+        "sha256": "27d97e73f061048a452aa2e7e6877c572f5e189aaf2fc0ccd13bfc9e9aede829",
+        "text_sha256": "2ecf343580355399ee8da02ee8dfb90b2fa8cae177286a3862c475b90c159142",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 387918,
+        "reused": false
+      },
+      {
+        "scene": 1,
+        "chunk": 1,
+        "schema": 1,
+        "cacheKey": "ae407e762b2df259a8e1e6abc96c51ca63af14efc06255c53709c4ad05de7089",
+        "sha256": "d93ee672f2d0b521b96e91029683e6115b50a7e01d7852e834dff7b1a08698ba",
+        "text_sha256": "f768f35763fd3950e958a78e7a11ae35d42246bcfdebdbeeb9886717ed93446e",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 280398,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 13.84,
+    "text": "اكتب كل التزاماتك في جدول واحد، من العزومات للشغل. لما تشوف كل حاجة مكتوبة قدامك، هيكون أسهل عليك ترفض اللي مش مناسب وتخطط لميزانيتك ووقتك من غير ما تضغط نفسك.",
+    "sha256": "2232545cb224ecfa71641ccd1d8fc9b62b88f61d176ba899eefd3139ac932da2",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "3db5347dbabd42e4cda68775c282092ea4b7640896eb34ebaa569cdff8e39c87",
+        "sha256": "2232545cb224ecfa71641ccd1d8fc9b62b88f61d176ba899eefd3139ac932da2",
+        "text_sha256": "0a62e063169a982954ce98119d5cb7e7ade0cd59be8a441afd71f75093fdd9f7",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 664398,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 13.48,
+    "text": "ما تنساش تحسب مصاريف الأكل والهدايا والسفر. اكتب كل المصاريف وتابعها أول بأول عشان ما تتفاجئش بمصاريف زيادة. التخطيط المالي بيشيل جزء كبير من القلق اللي بنحس بيه.",
+    "sha256": "ac50ba6b9915b4997f2ce5e44b823cd6836be2bd3fee95486705e0a6fe034753",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "706e25ca79543f3c7b37baa9091a7e3fcc2f297930b32fa5f1362c390ac4a29d",
+        "sha256": "b1edeaef4733ea7cc219112687fcfbaaa8cb3bc7d921b887126449e40d03d999",
+        "text_sha256": "afc9872995a98a0a7805175a2484a50e8168451489ae2a3b93f9026c862703ab",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 441678,
+        "reused": false
+      },
+      {
+        "scene": 3,
+        "chunk": 1,
+        "schema": 1,
+        "cacheKey": "2e1ed14e61a1743db03f3f0a04aef8e81ed744fc0cb27c2141417f1db63f606c",
+        "sha256": "7353637d3237ef87ed5190acd7d0d21e3aaf841978e6323211b19b956001af1c",
+        "text_sha256": "12967e759f665e7c015cf10c92d0c9bcf7927a5d4f22de7bca8696eacd6d0bdb",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 205518,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 13.52,
+    "text": "مش لازم كل حاجة تكون مثالية. التوتر البسيط في العيلة شيء طبيعي. ركز على الحاجات اللي بجد بتهمك، وما تحاولش تعمل كل حاجة لوحدك، اطلب المساعدة لو حسيت إنك محتاج.",
+    "sha256": "50e69f3c97721c4aac7c0c1adcace92405469a39dff67dce01ad648bd6d254c5",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "7b533537705ea1fb4d761f1753a8763703f990510458f747a9f116bc5f1d2b2d",
+        "sha256": "3a3c2fcb7d53c3bb46330391fed801234d68472c6ccc748a9bc78de42ec19f23",
+        "text_sha256": "6ca3f36ec1ca9f407c9251d370f210d2fcd5f52d61420b5d3b5c7fd0b076d290",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 276558,
+        "reused": false
+      },
+      {
+        "scene": 4,
+        "chunk": 1,
+        "schema": 1,
+        "cacheKey": "1776ec77c2b823ab8a4ab60f4d9cce0ba7f40d34092ea00fe19e138af0968bb0",
+        "sha256": "cae802957f70f202139dc9945f910cc368f9ed2a905c0ca58e1dbf8b5cfc6905",
+        "text_sha256": "4683003f5443a16cc85b57b492769be61760ced28fd35ada84ed88de914c86c3",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 372558,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 16.48,
+    "text": "لازم تخصص وقت لنفسك وسط الزحمة. حافظ على نومك، كل أكل صحي، وخد بريك عشان تتنفس هواء نقي. الاهتمام بصحتك الجسدية والنفسية هو اللي بيخليك تقدر تكمل وتستمتع.",
+    "sha256": "7c7d5d3e5894fce6c80b42313be20398162ff66479a917a6c72d51c639532bc8",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "116485cf6bb8ba416383ab83949e1f65fa54984791cbc0baf5a3dc804cfb68de",
+        "sha256": "e919a21b8a27551cdb8aebe04eb7d06a8df0ff86864351a2dbd298c4b1ab7a63",
+        "text_sha256": "1ccf875eea5945a8e390136ce1c071bcfb97f145bc539f09b522f4e7201346f3",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 474318,
+        "reused": false
+      },
+      {
+        "scene": 5,
+        "chunk": 1,
+        "schema": 1,
+        "cacheKey": "f2b00c8ce54da338d6e9bc690dc2ec6d4234a3ebe37a2ad56fb990069b3deb23",
+        "sha256": "a400b909ad29d0e66d0d2f4a2fe5c11c584dbcc148f3901a45080a24ec67730c",
+        "text_sha256": "e23c068acaeb74b7627fd61ce058b2513c8ee6f41c825c5996373be54ba002d2",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 316878,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 14.92,
+    "text": "دور على اللحظات الحلوة، حتى لو كانت بسيطة. الذكريات اللي بتخليك تبتسم بتغير حالتك المزاجية. ركز في الحاضر وما تشغلش بالك بالماضي أو المستقبل عشان تقدر تعيش اللحظة بسلام.",
+    "sha256": "5d27c5441573ffd354829d205108a56b52e5583ed623c4f744c70d66c4e54d5d",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "a28eb713d56dcffb677f5186cce749882d2a5f1e43e35249d654f671b60e5289",
+        "sha256": "be82d56a50d6ee436a0f527ede33244291e46e5e51dcc98d109270cf19a8bf09",
+        "text_sha256": "b6c512cc7f719f02534164771d9d535e0294fb9b639be9c33c5b49f68604c20c",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 385998,
+        "reused": false
+      },
+      {
+        "scene": 6,
+        "chunk": 1,
+        "schema": 1,
+        "cacheKey": "cf6b622a88bfb6a7e1eaf847962278a8daa5e4111ec10c12aeca171013845c56",
+        "sha256": "7b1ae8aad913e82663e5eef2448a3a1cdd871f5a3a65f0e9bf4c49c5c067a914",
+        "text_sha256": "6e867b1f015169f3c63deb035373be5a82c18201d3d808dd0fa6a8c8147df4c6",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 330318,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 14.96,
+    "text": "لو حسيت إنك مش قادر تتحمل، ما تترددش تطلب مساعدة من صديق أو متخصص. فيه خطوط مساعدة متاحة لو وصلت لمرحلة صعبة. أنت مش لوحدك، وطلب المساعدة قوة مش ضعف.",
+    "sha256": "0eced1c81f7c82c3b842101b167922bf1e1b868c68692e314ef5a557dbc60192",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "cd7c01b3fecca0369ce2d976d5cc89ef051b860e9f3a252c1d7781446a403780",
+        "sha256": "efa45996baefc1d835f424c15f155f91a744f6d46debd8b951190360e15b91c1",
+        "text_sha256": "74fb06247ba130cc172359d8e78f051ab70a930a43c7a6375c8f77802eeb4456",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 468558,
+        "reused": false
+      },
+      {
+        "scene": 7,
+        "chunk": 1,
+        "schema": 1,
+        "cacheKey": "96ce3f78628d1e79fbf7ea4dc0162b7866b04a9713b191aba30d8f304590b75a",
+        "sha256": "3997c678831f95e52a440e24f1c51d28aea7f34e4df102b79f56f3868fe3163d",
+        "text_sha256": "d7d81eb82f3da3a628cba5983e377eb41c3f315f9e4fd1da4760dc2a81f218f7",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 249678,
+        "reused": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "topicKey": "holiday-stress-management",
+  "title": "إزاي نتخلص من ضغط الأعياد؟",
+  "hook": "إزاي نتخلص من ضغط الأعياد اللي بيحسسنا إننا مخنوقين طول الوقت؟",
+  "cta": "جربوا الخطوات دي وشاركونا في التعليقات، إيه أكتر حاجة بتساعدكم تسترخوا في الأعياد؟",
+  "scenes": [
+    {
+      "title": "موسم الأعياد والضغط",
+      "text": "الأعياد المفروض تكون وقت للراحة، بس أحياناً بتتحول لضغط كبير ومسؤوليات زيادة. ناس كتير بتحس بتوتر من كتر التجهيزات والالتزامات اللي بتيجي مع الموسم ده، وده شيء طبيعي جداً ومفهوم.",
+      "summary": "الأعياد قد تسبب ضغطاً نفسياً بدلاً من الراحة.",
+      "keyword": "الأعياد",
+      "template": "phenomenon",
+      "labels": [
+        "توتر",
+        "أعياد",
+        "ضغط"
+      ],
+      "values": [],
+      "claim": "Everyone has stress about something – some people love the holidays, and some people are holiday-avoidant",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "Everyone has stress about something – some people love the holidays, and some people are holiday-avoidant",
+      "kind": "fact",
+      "expression": 5,
+      "action": "walk",
+      "brollQuery": "holiday lights"
+    },
+    {
+      "title": "اعرف مشاعرك",
+      "text": "أول خطوة هي إنك تعترف بمشاعرك بوضوح. مش لازم تحب كل تفاصيل العيد أو تشارك في كل حاجة. من حقك تختار اللي يريحك وتدي لنفسك مساحة تكون فيها على طبيعتك.",
+      "summary": "الاعتراف بالمشاعر هو أول خطوة للراحة.",
+      "keyword": "مشاعرك",
+      "template": "steps",
+      "labels": [
+        "مشاعر",
+        "راحة",
+        "وعي"
+      ],
+      "values": [],
+      "claim": "The first step is to acknowledge what your feelings and emotions are",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "The first step is to acknowledge what your feelings and emotions are",
+      "kind": "fact",
+      "expression": 2,
+      "action": "point",
+      "brollQuery": "person thinking"
+    },
+    {
+      "title": "نظم وقتك",
+      "text": "اكتب كل التزاماتك في جدول واحد، من العزومات للشغل. لما تشوف كل حاجة مكتوبة قدامك، هيكون أسهل عليك ترفض اللي مش مناسب وتخطط لميزانيتك ووقتك من غير ما تضغط نفسك.",
+      "summary": "التنظيم يقلل من التوتر والارتباك.",
+      "keyword": "جدول",
+      "template": "map",
+      "labels": [
+        "تنظيم",
+        "وقت",
+        "تخطيط"
+      ],
+      "values": [],
+      "claim": "Having the majority of activities written down will help you not overbook, help you plan ahead",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "Having the majority of activities written down will help you not overbook, help you plan ahead",
+      "kind": "fact",
+      "expression": 8,
+      "action": "turn",
+      "brollQuery": "calendar"
+    },
+    {
+      "title": "ميزانية الأعياد",
+      "text": "ما تنساش تحسب مصاريف الأكل والهدايا والسفر. اكتب كل المصاريف وتابعها أول بأول عشان ما تتفاجئش بمصاريف زيادة. التخطيط المالي بيشيل جزء كبير من القلق اللي بنحس بيه.",
+      "summary": "التخطيط المالي يقلل من قلق الأعياد.",
+      "keyword": "ميزانية",
+      "template": "chart",
+      "labels": [
+        "مال",
+        "ميزانية",
+        "مصاريف"
+      ],
+      "values": [],
+      "claim": "Prepare your budget – We often budget for gifts but forget that we will be buying more groceries",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "Prepare your budget – We often budget for gifts but forget that we will be buying more groceries",
+      "kind": "fact",
+      "expression": 4,
+      "action": "point",
+      "brollQuery": "money budget"
+    },
+    {
+      "title": "توقعات واقعية",
+      "text": "مش لازم كل حاجة تكون مثالية. التوتر البسيط في العيلة شيء طبيعي. ركز على الحاجات اللي بجد بتهمك، وما تحاولش تعمل كل حاجة لوحدك، اطلب المساعدة لو حسيت إنك محتاج.",
+      "summary": "لا تسعَ للمثالية في الأعياد.",
+      "keyword": "توقعات",
+      "template": "comparison",
+      "labels": [
+        "واقعية",
+        "توقعات",
+        "عائلة"
+      ],
+      "values": [],
+      "claim": "set realistic expectations for your holiday experience",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "set realistic expectations for your holiday experience",
+      "kind": "fact",
+      "expression": 6,
+      "action": "walk",
+      "brollQuery": "family dinner"
+    },
+    {
+      "title": "اهتم بنفسك",
+      "text": "لازم تخصص وقت لنفسك وسط الزحمة. حافظ على نومك، كل أكل صحي، وخد بريك عشان تتنفس هواء نقي. الاهتمام بصحتك الجسدية والنفسية هو اللي بيخليك تقدر تكمل وتستمتع.",
+      "summary": "الاهتمام بالذات ضروري للاستمرار.",
+      "keyword": "نفسك",
+      "template": "steps",
+      "labels": [
+        "صحة",
+        "راحة",
+        "نفس"
+      ],
+      "values": [],
+      "claim": "remember to prioritize time for yourself",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "remember to prioritize time for yourself",
+      "kind": "fact",
+      "expression": 10,
+      "action": "sleep",
+      "brollQuery": "relaxing"
+    },
+    {
+      "title": "لحظات السعادة",
+      "text": "دور على اللحظات الحلوة، حتى لو كانت بسيطة. الذكريات اللي بتخليك تبتسم بتغير حالتك المزاجية. ركز في الحاضر وما تشغلش بالك بالماضي أو المستقبل عشان تقدر تعيش اللحظة بسلام.",
+      "summary": "التركيز على اللحظات السعيدة يحسن المزاج.",
+      "keyword": "سعادة",
+      "template": "phenomenon",
+      "labels": [
+        "سعادة",
+        "حاضر",
+        "ابتسامة"
+      ],
+      "values": [],
+      "claim": "Look for the glimmers – find a happy moment (no matter how brief)",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "Look for the glimmers – find a happy moment (no matter how brief)",
+      "kind": "fact",
+      "expression": 11,
+      "action": "jump",
+      "brollQuery": "happy memories"
+    },
+    {
+      "title": "اطلب المساعدة",
+      "text": "لو حسيت إنك مش قادر تتحمل، ما تترددش تطلب مساعدة من صديق أو متخصص. فيه خطوط مساعدة متاحة لو وصلت لمرحلة صعبة. أنت مش لوحدك، وطلب المساعدة قوة مش ضعف.",
+      "summary": "طلب المساعدة علامة قوة.",
+      "keyword": "مساعدة",
+      "template": "journey",
+      "labels": [
+        "دعم",
+        "مساعدة",
+        "قوة"
+      ],
+      "values": [],
+      "claim": "please call 988 if you feel overwhelmed to an extreme",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "please call 988 if you feel overwhelmed to an extreme",
+      "kind": "fact",
+      "expression": 3,
+      "action": "point",
+      "brollQuery": "support"
+    }
+  ],
+  "seriesLabel": "صحة نفسية",
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}
