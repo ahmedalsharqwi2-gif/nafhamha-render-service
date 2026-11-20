@@ -1,0 +1,180 @@
+{
+  "topicKey": "cyclone-xavier-pacific-2026",
+  "title": "إزاي الإعصار بيتحول لوحش مدمر؟",
+  "hook": "إزاي الإعصار بيتحول لوحش مدمر؟ في شهر نوفمبر من سنة 2026، المحيط الهادي شهد إعصار قوي جداً اسمه كزافييه، فاجئ الكل بسرعة تكوينه وقوته اللي وصلت لمستويات قياسية في المنطقة دي من العالم.",
+  "cta": "لو عايز تعرف أكتر عن ظواهر الطبيعة الغريبة اللي بتحصل حوالينا، تابعنا واشترك في القناة عشان يوصلك كل جديد عن كوكبنا المذهل، واستنانا في الحلقة الجاية من نفهمها، سلام.",
+  "scenes": [
+    {
+      "title": "بداية العاصفة",
+      "text": "في نص شهر نوفمبر، بدأت الأرصاد الجوية في فيجي تتابع اضطراب مداري كان بيتحرك ببطء شمال شرق جزر كوك. الحالة دي بدأت تتحول بسرعة لواحدة من أقوى العواصف المدارية اللي شافتها المنطقة من عقود.",
+      "summary": "بداية رصد اضطراب مداري في المحيط الهادي",
+      "keyword": "إعصار",
+      "template": "phenomenon",
+      "labels": [
+        "إعصار",
+        "فيجي",
+        "نوفمبر"
+      ],
+      "values": [],
+      "claim": "بدأت الأرصاد الجوية في فيجي تتابع اضطراب مداري",
+      "sourceId": "0b5bf03985b7",
+      "evidence": "the Fiji Meteorological Service began issuing updates about a slow-moving tropical disturbance",
+      "kind": "fact",
+      "expression": 5,
+      "action": "walk",
+      "brollQuery": "tropical cyclone"
+    },
+    {
+      "title": "ظروف مثالية",
+      "text": "الإعصار ده لقى بيئة مثالية عشان يكبر، مع درجات حرارة سطح ميه وصلت لتسعة وعشرين درجة مئوية. الظروف دي كانت أعلى بكتير من الحد الأدنى المطلوب عشان العواصف المدارية تتكون وتزيد في قوتها بشكل كبير.",
+      "summary": "درجات حرارة المياه تغذي الإعصار",
+      "keyword": "حرارة",
+      "template": "cause",
+      "labels": [
+        "حرارة",
+        "مياه",
+        "طاقة"
+      ],
+      "values": [
+        29
+      ],
+      "claim": "درجات حرارة سطح ميه وصلت لتسعة وعشرين درجة مئوية",
+      "sourceId": "0b5bf03985b7",
+      "evidence": "sea surface temperatures of 29 degrees Celsius",
+      "kind": "fact",
+      "expression": 6,
+      "action": "point",
+      "brollQuery": "ocean waves"
+    },
+    {
+      "title": "تأثير النينيو",
+      "text": "بيانات الأقمار الصناعية من وكالة ناسا وضحت إن الإعصار كان بيتحرك على حافة لسان ضخم من الميه الدافية، وده علامة واضحة على ظاهرة النينيو اللي كانت موجودة في المنطقة دي من شهر يونيو اللي فات.",
+      "summary": "ظاهرة النينيو تؤثر على مسار الإعصار",
+      "keyword": "النينيو",
+      "template": "phenomenon",
+      "labels": [
+        "ناسا",
+        "النينيو",
+        "محيط"
+      ],
+      "values": [],
+      "claim": "تأثير ظاهرة النينيو على حركة الإعصار",
+      "sourceId": "0b5bf03985b7",
+      "evidence": "a telltale sign of the El Niño that has been present in the region since June",
+      "kind": "fact",
+      "expression": 4,
+      "action": "turn",
+      "brollQuery": "satellite earth"
+    },
+    {
+      "title": "سرعة الرياح",
+      "text": "لما الأقمار الصناعية صورت الإعصار، قدر الخبراء إن سرعة الرياح القصوى وصلت لمية وخمسة وتسعين كيلومتر في الساعة. ومع الوقت، زادت القوة دي ووصلت لميتين وعشرين كيلومتر في الساعة، وده رقم مرعب بكل المقاييس.",
+      "summary": "قياس سرعة رياح الإعصار",
+      "keyword": "رياح",
+      "template": "chart",
+      "labels": [
+        "رياح",
+        "سرعة",
+        "قياس"
+      ],
+      "values": [],
+      "claim": "سرعة الرياح القصوى وصلت لمية وخمسة وتسعين كيلومتر في الساعة",
+      "sourceId": "0b5bf03985b7",
+      "evidence": "forecasters estimated Xavier had maximum winds of about 195 kilometers (120 miles) per hour",
+      "kind": "fact",
+      "expression": 8,
+      "action": "run",
+      "brollQuery": "storm wind"
+    },
+    {
+      "title": "تصنيف العاصفة",
+      "text": "الإعصار ده اتصنف كعاصفة من الفئة الخامسة على مقياس شدة الأعاصير في المنطقة، أو الفئة الرابعة على مقياس سافير-سيمبسون العالمي، وده بيأكد إنه كان واحد من أقوى الأعاصير اللي سجلتها المنطقة في شهر نوفمبر.",
+      "summary": "تصنيف قوة الإعصار",
+      "keyword": "فئة",
+      "template": "comparison",
+      "labels": [
+        "تصنيف",
+        "قوة",
+        "إعصار"
+      ],
+      "values": [
+        5,
+        4
+      ],
+      "claim": "الإعصار ده اتصنف كعاصفة من الفئة الخامسة",
+      "sourceId": "0b5bf03985b7",
+      "evidence": "a Category 5 storm on the cyclone intensity scale used in the region or a Category 4 on the Saffir-Simpson scale",
+      "kind": "fact",
+      "expression": 9,
+      "action": "jump",
+      "brollQuery": "cyclone intensity"
+    },
+    {
+      "title": "رقم قياسي",
+      "text": "خبراء الأعاصير أكدوا إن كزافييه هو أقوى إعصار مداري بيحصل في شهر نوفمبر شرق خط التاريخ الدولي على الإطلاق. ده بيخلي الحدث ده استثنائي ومهم جداً في سجلات الأرصاد الجوية العالمية والمحلية.",
+      "summary": "الإعصار يسجل رقماً قياسياً",
+      "keyword": "رقم",
+      "template": "phenomenon",
+      "labels": [
+        "رقم قياسي",
+        "تاريخ",
+        "أرصاد"
+      ],
+      "values": [],
+      "claim": "كزافييه هو أقوى إعصار مداري بيحصل في شهر نوفمبر شرق خط التاريخ الدولي",
+      "sourceId": "0b5bf03985b7",
+      "evidence": "The storm ranks as the strongest November tropical cyclone east of the international date line on record",
+      "kind": "fact",
+      "expression": 10,
+      "action": "point",
+      "brollQuery": "weather map"
+    },
+    {
+      "title": "الأضرار والضعف",
+      "text": "التقارير الإخبارية قالت إن الإعصار تسبب في تدمير بيوت وقطع الكهرباء في جزر كوك الشمالية. بعد كده، واجه الإعصار هواء جاف وظروف جوية أقل ملاءمة، فبدأ يضعف تدريجياً وهو بيتحرك ناحية الغرب بعيد عن ساموا.",
+      "summary": "الأضرار الناتجة عن الإعصار",
+      "keyword": "أضرار",
+      "template": "journey",
+      "labels": [
+        "أضرار",
+        "كهرباء",
+        "بيوت"
+      ],
+      "values": [],
+      "claim": "تسبب في تدمير بيوت وقطع الكهرباء في جزر كوك الشمالية",
+      "sourceId": "0b5bf03985b7",
+      "evidence": "Xavier damaged homes and caused power disruptions as it passed the northern Cook Islands",
+      "kind": "fact",
+      "expression": 3,
+      "action": "fall",
+      "brollQuery": "storm damage"
+    },
+    {
+      "title": "توقعات المستقبل",
+      "text": "الأرصاد الجوية في فيجي بتتوقع إن المنطقة ممكن تشوف من حداشر لخمسطاشر إعصار مداري خلال الموسم ده. ده بيخلينا نفضل حذرين ومتابعين لأي تغيرات جديدة ممكن تحصل في المحيط خلال الشهور اللي جاية.",
+      "summary": "توقعات موسم الأعاصير",
+      "keyword": "موسم",
+      "template": "map",
+      "labels": [
+        "توقعات",
+        "موسم",
+        "أعاصير"
+      ],
+      "values": [
+        11,
+        15
+      ],
+      "claim": "المنطقة ممكن تشوف من حداشر لخمسطاشر إعصار مداري خلال الموسم ده",
+      "sourceId": "0b5bf03985b7",
+      "evidence": "the region could see between 11 and 15 named tropical cyclones this season",
+      "kind": "fact",
+      "expression": 7,
+      "action": "sleep",
+      "brollQuery": "weather forecast"
+    }
+  ],
+  "seriesLabel": "علوم الطبيعة",
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}

@@ -76,5 +76,17 @@
     "value": "https://www.nasa.gov/image-article/lake-pelku/",
     "status": "review",
     "run": "2026-11-19T23-32-48-877Z"
+  },
+  {
+    "topicKey": "cyclone-xavier-pacific-2026",
+    "value": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/",
+    "status": "retired",
+    "run": "2026-11-20T08-22-43-504Z"
+  },
+  {
+    "value": "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/",
+    "status": "retired",
+    "reason": "SCRIPT_SCHEMA_INVALID",
+    "run": "2026-11-20T08-35-30-304Z"
   }
 ]
