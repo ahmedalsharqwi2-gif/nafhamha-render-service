@@ -26,5 +26,9 @@
       "reddit.com",
       "youtube.com"
     ]
-  }
+  },
+  "paperTheme": "nafhamha",
+  "paperCitations": false,
+  "paperTopBar": true,
+  "paperLogo": "brand/logo/logo.png"
 }
