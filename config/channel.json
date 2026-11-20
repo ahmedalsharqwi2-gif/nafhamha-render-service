@@ -1,0 +1,34 @@
+{
+  "profile": "nafhamha",
+  "name": "نفهمها",
+  "accent": "#63edc2",
+  "counter": "رحلة الفكرة",
+  "maxAgeHours": 168,
+  "feeds": [
+    {
+      "url": "https://www.nasa.gov/feed/",
+      "official": true
+    }
+  ],
+  "logo": "brand/logo/logo.png",
+  "paper": true,
+  "mascot": false,
+  "grounding": {
+    "enabled": true,
+    "useWhen": "fallback",
+    "mode": "strict",
+    "maxCandidates": 6,
+    "blockedDomains": [
+      "facebook.com",
+      "tiktok.com",
+      "pinterest.com",
+      "quora.com",
+      "reddit.com",
+      "youtube.com"
+    ]
+  },
+  "paperTheme": "nafhamha",
+  "paperCitations": false,
+  "paperTopBar": true,
+  "paperLogo": "brand/logo/logo.png"
+}

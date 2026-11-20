@@ -1,0 +1,58 @@
+npm test
+
+> review-video-pipeline@2.0.0 test
+> node --test tests/*.test.mjs
+
+✔ installed logo bytes match the recorded original SHA256 and the public source resolves to it (37.365402ms)
+✔ logo verification rejects altered bytes (59.863333ms)
+✔ missing Gemini reports required secret names only (0.910451ms)
+✔ claims require an exact excerpt from an attached source (34.175943ms)
+✔ a science script cannot relabel a legend as a verified source (2.824877ms)
+✔ RSS fetch sends a clear User-Agent, reuses fresh cache and enforces delay (178.856407ms)
+✔ expired RSS cache is not used after a protected response (103.862514ms)
+✔ a generic channel update does not make an undated archived item fresh (3.927366ms)
+✔ 429 Retry-After is honored and successful response is reused without another request (278.987304ms)
+✔ 503 retries use exponential backoff plus jitter and stop at the configured attempts (6.327447ms)
+✔ fallback model still respects Retry-After set by the previous model (8.216068ms)
+✔ 404 falls back in configured order; authorization errors never cycle through models (8.359839ms)
+✔ Retry-After beyond total deadline stops rather than sending too early (84.586974ms)
+✔ limiter serializes starts and enforces the per-minute quota (0.988842ms)
+✔ resume keeps successful voice chunk after a later 503 and after a fresh client instance (84.18501ms)
+✔ changing voice settings invalidates cache and long narration is split without losing words (17.162574ms)
+✔ parallel requests for the same response share one request (3.743795ms)
+✔ model-discovery Retry-After also delays the following generation call (4.150444ms)
+✔ publish blocked even if config edited (1.181631ms)
+✔ Cairo 17:00 covers winter and summer offset (68.323777ms)
+✔ original words and measured monotonic times required (5.505789ms)
+✔ canonical identity and source prevent changed-title duplicates (0.796875ms)
+✔ reject silent media or wrong output format (0.532633ms)
+✔ service health independent of provider and uploads closed (176.894868ms)
+✔ galaxy references cannot become Earth despite mentioning distance from Earth (42.551233ms)
+✔ a generic company map is a concept graph, never a planet (5.099301ms)
+✔ NGC206 is a star cluster and incidental host galaxy does not replace scene focus (0.221621ms)
+✔ distance from Earth is a light path, not a map of Earth (0.226631ms)
+✔ 72-hour news window includes a verified 70-hour announcement (2.904015ms)
+✔ weekly fallback is explicitly labeled and never admits older than a week (0.658736ms)
+✔ one secondary publisher cannot confirm a story; independent publishers must cite the same primary reference (0.767047ms)
+✔ missing dates and future posts are excluded instead of given the current time (2.192559ms)
+✔ previous source URLs remain excluded when article headlines change (0.377447ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10182.668142
+npm run typecheck
+
+> review-video-pipeline@2.0.0 typecheck
+> tsc --noEmit
+
+python -m unittest discover -s tests -p 'test_alignment.py'
+
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.044s
+
+OK

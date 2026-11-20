@@ -1,0 +1,9 @@
+{
+  "conclusion": "failure",
+  "databaseId": 43767342258,
+  "status": "completed",
+  "errors": [
+    "preflight: MISSING_GEMINI_BINDING"
+  ],
+  "repo": "nafhamha-render-service"
+}
